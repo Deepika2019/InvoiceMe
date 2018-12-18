@@ -1,0 +1,57 @@
+
+=======================================================================================
+2018-10-12 12:08:33:5060
+-------------------------------
+StackTrace:   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at manageExpense.saveToPurchaseMaster(Dictionary`2 filters) in e:\Projects\dotnet\invoiceMe\InvoiceMeRebuild\working\web\incomExpense\manageExpense.aspx.cs:line 130
+
+-------------------------------
+Message:The given key was not present in the dictionary.
+
+-------------------------------
+InnerException:
+
+-------------------------------
+Source:mscorlib
+
+-------------------------------
+
+=======================================================================================
+
+=======================================================================================
+2018-10-12 12:10:41:5853
+-------------------------------
+StackTrace:   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at manageExpense.saveToPurchaseMaster(Dictionary`2 filters) in e:\Projects\dotnet\invoiceMe\InvoiceMeRebuild\working\web\incomExpense\manageExpense.aspx.cs:line 130
+
+-------------------------------
+Message:The given key was not present in the dictionary.
+
+-------------------------------
+InnerException:
+
+-------------------------------
+Source:mscorlib
+
+-------------------------------
+
+=======================================================================================
+
+=======================================================================================
+2018-10-12 12:41:34:7893
+-------------------------------
+StackTrace:   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at manageExpense.saveToPurchaseMaster(Dictionary`2 filters) in e:\Projects\dotnet\invoiceMe\InvoiceMeRebuild\working\web\incomExpense\manageExpense.aspx.cs:line 130
+
+-------------------------------
+Message:The given key was not present in the dictionary.
+
+-------------------------------
+InnerException:
+
+-------------------------------
+Source:mscorlib
+
+-------------------------------
+
+=======================================================================================

@@ -1,0 +1,1379 @@
+
+=======================================================================================
+2017-07-11 11:40:54:6609
+-------------------------------
+StackTrace:   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at purchase_purchaseentry.savePurchaseEntry(Dictionary`2 filters, String tableString) in d:\deepika\lifelinebilling\web\purchase\purchaseentry.aspx.cs:line 194
+
+-------------------------------
+Message:The given key was not present in the dictionary.
+
+-------------------------------
+InnerException:
+
+-------------------------------
+Source:mscorlib
+
+-------------------------------
+
+=======================================================================================
+
+=======================================================================================
+2017-07-11 11:46:48:4619
+-------------------------------
+StackTrace:   at commonfunction.mySqlConnection.ExecuteQueryForTransaction(String strQuery) in i:\binu\change\bootstrap\lifelinebilling\commonfunction\mySqlConnection.cs:line 223
+   at purchase_purchaseentry.savePurchaseEntry(Dictionary`2 filters, String tableString) in d:\deepika\lifelinebilling\web\purchase\purchaseentry.aspx.cs:line 203
+
+-------------------------------
+Message:Unknown column 'pm_refno' in 'field list'
+
+-------------------------------
+InnerException:
+
+-------------------------------
+Source:commonfunction
+
+-------------------------------
+
+=======================================================================================
+
+=======================================================================================
+2017-07-11 11:50:26:1711
+-------------------------------
+StackTrace:   at commonfunction.mySqlConnection.ExecuteQueryForTransaction(String strQuery) in i:\binu\change\bootstrap\lifelinebilling\commonfunction\mySqlConnection.cs:line 223
+   at purchase_purchaseentry.savePurchaseEntry(Dictionary`2 filters, String tableString) in d:\deepika\lifelinebilling\web\purchase\purchaseentry.aspx.cs:line 212
+
+-------------------------------
+Message:Column 'pi_carton_count' specified twice
+
+-------------------------------
+InnerException:
+
+-------------------------------
+Source:commonfunction
+
+-------------------------------
+
+=======================================================================================
+
+=======================================================================================
+2017-07-11 11:53:05:8405
+-------------------------------
+StackTrace:   at commonfunction.mySqlConnection.SelectScalarForTransaction(String strQuery) in i:\binu\change\bootstrap\lifelinebilling\commonfunction\mySqlConnection.cs:line 249
+   at System.Dynamic.UpdateDelegates.UpdateAndExecute2[T0,T1,TRet](CallSite site, T0 arg0, T1 arg1)
+   at purchase_purchaseentry.savePurchaseEntry(Dictionary`2 filters, String tableString) in d:\deepika\lifelinebilling\web\purchase\purchaseentry.aspx.cs:line 215
+
+-------------------------------
+Message:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''1' at line 1
+
+-------------------------------
+InnerException:
+
+-------------------------------
+Source:commonfunction
+
+-------------------------------
+
+=======================================================================================
+
+=======================================================================================
+2017-07-11 11:54:45:3472
+-------------------------------
+StackTrace:   at commonfunction.mySqlConnection.SelectScalarForTransaction(String strQuery) in i:\binu\change\bootstrap\lifelinebilling\commonfunction\mySqlConnection.cs:line 249
+   at purchase_purchaseentry.savePurchaseEntry(Dictionary`2 filters, String tableString) in d:\deepika\lifelinebilling\web\purchase\purchaseentry.aspx.cs:line 216
+
+-------------------------------
+Message:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''1' at line 1
+
+-------------------------------
+InnerException:
+
+-------------------------------
+Source:commonfunction
+
+-------------------------------
+
+=======================================================================================
+
+=======================================================================================
+2017-07-11 12:03:53:3238
+-------------------------------
+StackTrace:   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at purchase_purchaseentry.savePurchaseEntry(Dictionary`2 filters, String tableString) in d:\deepika\lifelinebilling\web\purchase\purchaseentry.aspx.cs:line 204
+
+-------------------------------
+Message:The given key was not present in the dictionary.
+
+-------------------------------
+InnerException:
+
+-------------------------------
+Source:mscorlib
+
+-------------------------------
+
+=======================================================================================
+
+=======================================================================================
+2017-07-11 12:04:19:4373
+-------------------------------
+StackTrace:   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at purchase_purchaseentry.savePurchaseEntry(Dictionary`2 filters, String tableString) in d:\deepika\lifelinebilling\web\purchase\purchaseentry.aspx.cs:line 204
+
+-------------------------------
+Message:The given key was not present in the dictionary.
+
+-------------------------------
+InnerException:
+
+-------------------------------
+Source:mscorlib
+
+-------------------------------
+
+=======================================================================================
+
+=======================================================================================
+2017-07-11 12:05:39:9541
+-------------------------------
+StackTrace:   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at purchase_purchaseentry.savePurchaseEntry(Dictionary`2 filters, String tableString) in d:\deepika\lifelinebilling\web\purchase\purchaseentry.aspx.cs:line 204
+
+-------------------------------
+Message:The given key was not present in the dictionary.
+
+-------------------------------
+InnerException:
+
+-------------------------------
+Source:mscorlib
+
+-------------------------------
+
+=======================================================================================
+
+=======================================================================================
+2017-07-11 12:07:25:1548
+-------------------------------
+StackTrace:   at commonfunction.mySqlConnection.ExecuteQueryForTransaction(String strQuery) in i:\binu\change\bootstrap\lifelinebilling\commonfunction\mySqlConnection.cs:line 223
+   at purchase_purchaseentry.savePurchaseEntry(Dictionary`2 filters, String tableString) in d:\deepika\lifelinebilling\web\purchase\purchaseentry.aspx.cs:line 205
+
+-------------------------------
+Message:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+=4.00,vn_wallet_balance+=0' at line 1
+
+-------------------------------
+InnerException:
+
+-------------------------------
+Source:commonfunction
+
+-------------------------------
+
+=======================================================================================
+
+=======================================================================================
+2017-07-11 12:20:25:9853
+-------------------------------
+StackTrace:   at commonfunction.mySqlConnection.ExecuteQueryForTransaction(String strQuery) in i:\binu\change\bootstrap\lifelinebilling\commonfunction\mySqlConnection.cs:line 223
+   at purchase_purchaseentry.savePurchaseEntry(Dictionary`2 filters, String tableString) in d:\deepika\lifelinebilling\web\purchase\purchaseentry.aspx.cs:line 205
+
+-------------------------------
+Message:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'vn_wallet_balance=vn_wallet_balance+0' at line 1
+
+-------------------------------
+InnerException:
+
+-------------------------------
+Source:commonfunction
+
+-------------------------------
+
+=======================================================================================
+
+=======================================================================================
+2017-07-11 12:25:39:0764
+-------------------------------
+StackTrace:   at commonfunction.mySqlConnection.ExecuteQueryForTransaction(String strQuery) in i:\binu\change\bootstrap\lifelinebilling\commonfunction\mySqlConnection.cs:line 223
+   at purchase_purchaseentry.savePurchaseEntry(Dictionary`2 filters, String tableString) in d:\deepika\lifelinebilling\web\purchase\purchaseentry.aspx.cs:line 205
+
+-------------------------------
+Message:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'vn_wallet_balance=vn_wallet_balance+0' at line 1
+
+-------------------------------
+InnerException:
+
+-------------------------------
+Source:commonfunction
+
+-------------------------------
+
+=======================================================================================
+
+=======================================================================================
+2017-07-17 14:58:09:7413
+-------------------------------
+StackTrace:   at commonfunction.mySqlConnection.SelectScalarForTransaction(String strQuery) in i:\binu\change\bootstrap\lifelinebilling\commonfunction\mySqlConnection.cs:line 249
+   at System.Dynamic.UpdateDelegates.UpdateAndExecute2[T0,T1,TRet](CallSite site, T0 arg0, T1 arg1)
+   at purchase_purchaseentry.savePurchaseEntry(Dictionary`2 filters, String tableString) in d:\deepika\lifelinebilling\web\purchase\purchaseentry.aspx.cs:line 216
+
+-------------------------------
+Message:Unknown column 'ps_id' in 'field list'
+
+-------------------------------
+InnerException:
+
+-------------------------------
+Source:commonfunction
+
+-------------------------------
+
+=======================================================================================
+
+=======================================================================================
+2017-07-17 15:00:58:0570
+-------------------------------
+StackTrace:   at commonfunction.mySqlConnection.SelectScalarForTransaction(String strQuery) in i:\binu\change\bootstrap\lifelinebilling\commonfunction\mySqlConnection.cs:line 249
+   at System.Dynamic.UpdateDelegates.UpdateAndExecute2[T0,T1,TRet](CallSite site, T0 arg0, T1 arg1)
+   at purchase_purchaseentry.savePurchaseEntry(Dictionary`2 filters, String tableString) in d:\deepika\lifelinebilling\web\purchase\purchaseentry.aspx.cs:line 216
+
+-------------------------------
+Message:Unknown column 'ps_id' in 'field list'
+
+-------------------------------
+InnerException:
+
+-------------------------------
+Source:commonfunction
+
+-------------------------------
+
+=======================================================================================
+
+=======================================================================================
+2017-07-18 14:41:54:0578
+-------------------------------
+StackTrace:   at commonfunction.mySqlConnection.ExecuteQueryForTransaction(String strQuery) in i:\binu\change\bootstrap\lifelinebilling\commonfunction\mySqlConnection.cs:line 223
+   at purchase_purchaseentry.savePurchaseEntry(Dictionary`2 filters, String tableString) in d:\deepika\lifelinebilling\web\purchase\purchaseentry.aspx.cs:line 213
+
+-------------------------------
+Message:Unknown column 'row_no' in 'field list'
+
+-------------------------------
+InnerException:
+
+-------------------------------
+Source:commonfunction
+
+-------------------------------
+
+=======================================================================================
+
+=======================================================================================
+2017-07-18 14:44:56:9943
+-------------------------------
+StackTrace:   at commonfunction.mySqlConnection.ExecuteQueryForTransaction(String strQuery) in i:\binu\change\bootstrap\lifelinebilling\commonfunction\mySqlConnection.cs:line 223
+   at purchase_purchaseentry.savePurchaseEntry(Dictionary`2 filters, String tableString) in d:\deepika\lifelinebilling\web\purchase\purchaseentry.aspx.cs:line 213
+
+-------------------------------
+Message:Unknown column 'row_no' in 'field list'
+
+-------------------------------
+InnerException:
+
+-------------------------------
+Source:commonfunction
+
+-------------------------------
+
+=======================================================================================
+
+=======================================================================================
+2017-07-25 17:25:20:5545
+-------------------------------
+StackTrace:   at commonfunction.mySqlConnection.CommitTransaction() in c:\Users\neo\Desktop\lifelinebilling\commonfunction\mySqlConnection.cs:line 183
+   at purchase_editPurchase.updatePurchaseEntry(Dictionary`2 filters, String tableString) in e:\lucidplus\lifelinebilling\web\purchase\editPurchase.aspx.cs:line 244
+
+-------------------------------
+Message:Object reference not set to an instance of an object.
+
+-------------------------------
+InnerException:
+
+-------------------------------
+Source:commonfunction
+
+-------------------------------
+
+=======================================================================================
+
+=======================================================================================
+2017-07-25 17:27:22:3565
+-------------------------------
+StackTrace:   at commonfunction.mySqlConnection.CommitTransaction() in c:\Users\neo\Desktop\lifelinebilling\commonfunction\mySqlConnection.cs:line 183
+   at purchase_editPurchase.updatePurchaseEntry(Dictionary`2 filters, String tableString) in e:\lucidplus\lifelinebilling\web\purchase\editPurchase.aspx.cs:line 244
+
+-------------------------------
+Message:Object reference not set to an instance of an object.
+
+-------------------------------
+InnerException:
+
+-------------------------------
+Source:commonfunction
+
+-------------------------------
+
+=======================================================================================
+
+=======================================================================================
+2017-07-25 18:09:35:9914
+-------------------------------
+StackTrace:   at System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   at System.Data.DataRowCollection.get_Item(Int32 index)
+   at purchase_editPurchase.updatePurchaseEntry(Dictionary`2 filters, String tableString) in e:\lucidplus\lifelinebilling\web\purchase\editPurchase.aspx.cs:line 233
+
+-------------------------------
+Message:There is no row at position 9.
+
+-------------------------------
+InnerException:
+
+-------------------------------
+Source:System.Data
+
+-------------------------------
+
+=======================================================================================
+
+=======================================================================================
+2017-07-25 18:11:14:1150
+-------------------------------
+StackTrace:   at System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   at System.Data.DataRowCollection.get_Item(Int32 index)
+   at purchase_editPurchase.updatePurchaseEntry(Dictionary`2 filters, String tableString) in e:\lucidplus\lifelinebilling\web\purchase\editPurchase.aspx.cs:line 233
+
+-------------------------------
+Message:There is no row at position 9.
+
+-------------------------------
+InnerException:
+
+-------------------------------
+Source:System.Data
+
+-------------------------------
+
+=======================================================================================
+
+=======================================================================================
+2017-07-25 19:20:53:8711
+-------------------------------
+StackTrace:   at commonfunction.mySqlConnection.ExecuteQueryForTransaction(String strQuery) in c:\Users\neo\Desktop\lifelinebilling\commonfunction\mySqlConnection.cs:line 223
+   at purchase_editPurchase.updatePurchaseEntry(Dictionary`2 filters, String tableString) in e:\lucidplus\lifelinebilling\web\purchase\editPurchase.aspx.cs:line 189
+
+-------------------------------
+Message:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '* from tbl_purchase_items where pm_id=1' at line 1
+
+-------------------------------
+InnerException:
+
+-------------------------------
+Source:commonfunction
+
+-------------------------------
+
+=======================================================================================
+
+=======================================================================================
+2017-07-25 19:24:33:7097
+-------------------------------
+StackTrace:   at commonfunction.mySqlConnection.ExecuteQueryForTransaction(String strQuery) in c:\Users\neo\Desktop\lifelinebilling\commonfunction\mySqlConnection.cs:line 223
+   at purchase_editPurchase.updatePurchaseEntry(Dictionary`2 filters, String tableString) in e:\lucidplus\lifelinebilling\web\purchase\editPurchase.aspx.cs:line 189
+
+-------------------------------
+Message:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '* from tbl_purchase_items where pm_id=1' at line 1
+
+-------------------------------
+InnerException:
+
+-------------------------------
+Source:commonfunction
+
+-------------------------------
+
+=======================================================================================
+
+=======================================================================================
+2017-07-25 19:28:49:5263
+-------------------------------
+StackTrace:   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at purchase_editPurchase.updatePurchaseEntry(Dictionary`2 filters, String tableString) in e:\lucidplus\lifelinebilling\web\purchase\editPurchase.aspx.cs:line 201
+
+-------------------------------
+Message:The given key was not present in the dictionary.
+
+-------------------------------
+InnerException:
+
+-------------------------------
+Source:mscorlib
+
+-------------------------------
+
+=======================================================================================
+
+=======================================================================================
+2017-07-25 19:38:13:2255
+-------------------------------
+StackTrace:   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at purchase_editPurchase.updatePurchaseEntry(Dictionary`2 filters, String tableString) in e:\lucidplus\lifelinebilling\web\purchase\editPurchase.aspx.cs:line 201
+
+-------------------------------
+Message:The given key was not present in the dictionary.
+
+-------------------------------
+InnerException:
+
+-------------------------------
+Source:mscorlib
+
+-------------------------------
+
+=======================================================================================
+
+=======================================================================================
+2017-07-25 19:43:24:4303
+-------------------------------
+StackTrace:   at commonfunction.mySqlConnection.ExecuteQueryForTransaction(String strQuery) in c:\Users\neo\Desktop\lifelinebilling\commonfunction\mySqlConnection.cs:line 223
+   at purchase_editPurchase.updatePurchaseEntry(Dictionary`2 filters, String tableString) in e:\lucidplus\lifelinebilling\web\purchase\editPurchase.aspx.cs:line 202
+
+-------------------------------
+Message:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+
+-------------------------------
+InnerException:
+
+-------------------------------
+Source:commonfunction
+
+-------------------------------
+
+=======================================================================================
+
+=======================================================================================
+2017-07-25 19:49:59:6509
+-------------------------------
+StackTrace:   at commonfunction.mySqlConnection.ExecuteQueryForTransaction(String strQuery) in c:\Users\neo\Desktop\lifelinebilling\commonfunction\mySqlConnection.cs:line 223
+   at purchase_editPurchase.updatePurchaseEntry(Dictionary`2 filters, String tableString) in e:\lucidplus\lifelinebilling\web\purchase\editPurchase.aspx.cs:line 202
+
+-------------------------------
+Message:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+
+-------------------------------
+InnerException:
+
+-------------------------------
+Source:commonfunction
+
+-------------------------------
+
+=======================================================================================
+
+=======================================================================================
+2017-07-25 20:06:08:8574
+-------------------------------
+StackTrace:   at commonfunction.mySqlConnection.ExecuteQueryForTransaction(String strQuery) in c:\Users\neo\Desktop\lifelinebilling\commonfunction\mySqlConnection.cs:line 223
+   at purchase_editPurchase.updatePurchaseEntry(Dictionary`2 filters, String tableString) in e:\lucidplus\lifelinebilling\web\purchase\editPurchase.aspx.cs:line 183
+
+-------------------------------
+Message:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-140.00 where vn_id=1' at line 1
+
+-------------------------------
+InnerException:
+
+-------------------------------
+Source:commonfunction
+
+-------------------------------
+
+=======================================================================================
+
+=======================================================================================
+2017-07-25 20:08:33:1166
+-------------------------------
+StackTrace:   at commonfunction.mySqlConnection.ExecuteQueryForTransaction(String strQuery) in c:\Users\neo\Desktop\lifelinebilling\commonfunction\mySqlConnection.cs:line 223
+   at purchase_editPurchase.updatePurchaseEntry(Dictionary`2 filters, String tableString) in e:\lucidplus\lifelinebilling\web\purchase\editPurchase.aspx.cs:line 184
+
+-------------------------------
+Message:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-140.00 where vn_id=1' at line 1
+
+-------------------------------
+InnerException:
+
+-------------------------------
+Source:commonfunction
+
+-------------------------------
+
+=======================================================================================
+
+=======================================================================================
+2018-02-09 17:55:24:0901
+-------------------------------
+StackTrace:   at commonfunction.mySqlConnection.ExecuteQueryForTransaction(String strQuery) in e:\Projects\dotnet\hn\commonfunction\mySqlConnection.cs:line 223
+   at purchase_purchaseentry.savePurchaseEntry(Dictionary`2 filters, String tableString) in d:\deepika\projects\invoiceMe\changedHnTransaction\Working\web\purchase\purchaseentry.aspx.cs:line 259
+
+-------------------------------
+Message:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'Purchased 10', (select itm_name from tbl_itembranch_stock where itbs_id=''),' in' at line 1
+
+-------------------------------
+InnerException:
+
+-------------------------------
+Source:commonfunction
+
+-------------------------------
+
+=======================================================================================
+
+=======================================================================================
+2018-02-09 17:57:29:9133
+-------------------------------
+StackTrace:   at commonfunction.mySqlConnection.ExecuteQueryForTransaction(String strQuery) in e:\Projects\dotnet\hn\commonfunction\mySqlConnection.cs:line 223
+   at purchase_purchaseentry.savePurchaseEntry(Dictionary`2 filters, String tableString) in d:\deepika\projects\invoiceMe\changedHnTransaction\Working\web\purchase\purchaseentry.aspx.cs:line 259
+
+-------------------------------
+Message:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'Purchased 10', (select itm_name from tbl_itembranch_stock where itbs_id=''),' in' at line 1
+
+-------------------------------
+InnerException:
+
+-------------------------------
+Source:commonfunction
+
+-------------------------------
+
+=======================================================================================
+
+=======================================================================================
+2018-02-09 17:58:21:5263
+-------------------------------
+StackTrace:   at commonfunction.mySqlConnection.ExecuteQueryForTransaction(String strQuery) in e:\Projects\dotnet\hn\commonfunction\mySqlConnection.cs:line 223
+   at purchase_purchaseentry.savePurchaseEntry(Dictionary`2 filters, String tableString) in d:\deepika\projects\invoiceMe\changedHnTransaction\Working\web\purchase\purchaseentry.aspx.cs:line 259
+
+-------------------------------
+Message:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+
+-------------------------------
+InnerException:
+
+-------------------------------
+Source:commonfunction
+
+-------------------------------
+
+=======================================================================================
+
+=======================================================================================
+2018-02-12 12:49:32:9975
+-------------------------------
+StackTrace:   at commonfunction.mySqlConnection.SelectScalarForTransaction(String strQuery) in e:\Projects\dotnet\hn\commonfunction\mySqlConnection.cs:line 278
+   at purchase_purchaseentry.savePurchaseEntry(Dictionary`2 filters, String tableString) in f:\Projects\dotnet\changedHnTransaction\Working\web\purchase\purchaseentry.aspx.cs:line 223
+
+-------------------------------
+Message:Unknown column 'branch_id' in 'field list'
+
+-------------------------------
+InnerException:
+
+-------------------------------
+Source:commonfunction
+
+-------------------------------
+
+=======================================================================================
+
+=======================================================================================
+2018-02-12 12:50:06:4117
+-------------------------------
+StackTrace:   at commonfunction.mySqlConnection.SelectScalarForTransaction(String strQuery) in e:\Projects\dotnet\hn\commonfunction\mySqlConnection.cs:line 278
+   at purchase_purchaseentry.savePurchaseEntry(Dictionary`2 filters, String tableString) in f:\Projects\dotnet\changedHnTransaction\Working\web\purchase\purchaseentry.aspx.cs:line 223
+
+-------------------------------
+Message:Unknown column 'branch_id' in 'field list'
+
+-------------------------------
+InnerException:
+
+-------------------------------
+Source:commonfunction
+
+-------------------------------
+
+=======================================================================================
+
+=======================================================================================
+2018-02-12 12:52:58:0841
+-------------------------------
+StackTrace:   at commonfunction.mySqlConnection.SelectScalarForTransaction(String strQuery) in e:\Projects\dotnet\hn\commonfunction\mySqlConnection.cs:line 278
+   at purchase_purchaseentry.savePurchaseEntry(Dictionary`2 filters, String tableString) in f:\Projects\dotnet\changedHnTransaction\Working\web\purchase\purchaseentry.aspx.cs:line 223
+
+-------------------------------
+Message:Field 'pm_card_no' doesn't have a default value
+
+-------------------------------
+InnerException:
+
+-------------------------------
+Source:commonfunction
+
+-------------------------------
+
+=======================================================================================
+
+=======================================================================================
+2018-02-12 12:57:11:5894
+-------------------------------
+StackTrace:   at commonfunction.mySqlConnection.SelectScalarForTransaction(String strQuery) in e:\Projects\dotnet\hn\commonfunction\mySqlConnection.cs:line 278
+   at purchase_purchaseentry.savePurchaseEntry(Dictionary`2 filters, String tableString) in f:\Projects\dotnet\changedHnTransaction\Working\web\purchase\purchaseentry.aspx.cs:line 223
+
+-------------------------------
+Message:Field 'pm_card_no' doesn't have a default value
+
+-------------------------------
+InnerException:
+
+-------------------------------
+Source:commonfunction
+
+-------------------------------
+
+=======================================================================================
+
+=======================================================================================
+2018-02-12 13:53:07:3880
+-------------------------------
+StackTrace:   at commonfunction.mySqlConnection.SelectScalarForTransaction(String strQuery) in e:\Projects\dotnet\hn\commonfunction\mySqlConnection.cs:line 278
+   at purchase_purchaseentry.savePurchaseEntry(Dictionary`2 filters, String tableString) in f:\Projects\dotnet\changedHnTransaction\Working\web\purchase\purchaseentry.aspx.cs:line 223
+
+-------------------------------
+Message:Field 'pm_card_type' doesn't have a default value
+
+-------------------------------
+InnerException:
+
+-------------------------------
+Source:commonfunction
+
+-------------------------------
+
+=======================================================================================
+
+=======================================================================================
+2018-02-12 17:04:11:7638
+-------------------------------
+StackTrace:   at commonfunction.mySqlConnection.ExecuteQueryForTransaction(String strQuery) in e:\Projects\dotnet\hn\commonfunction\mySqlConnection.cs:line 223
+   at purchase_editPurchase.updatePurchaseEntry(Dictionary`2 filters, String tableString) in e:\Projects\dotnet\changedHnTransaction\Working\web\purchase\editPurchase.aspx.cs:line 232
+
+-------------------------------
+Message:Unknown column 'itm_id' in 'field list'
+
+-------------------------------
+InnerException:
+
+-------------------------------
+Source:commonfunction
+
+-------------------------------
+
+=======================================================================================
+
+=======================================================================================
+2018-02-12 17:05:07:1030
+-------------------------------
+StackTrace:   at commonfunction.mySqlConnection.ExecuteQueryForTransaction(String strQuery) in e:\Projects\dotnet\hn\commonfunction\mySqlConnection.cs:line 223
+   at purchase_editPurchase.updatePurchaseEntry(Dictionary`2 filters, String tableString) in e:\Projects\dotnet\changedHnTransaction\Working\web\purchase\editPurchase.aspx.cs:line 232
+
+-------------------------------
+Message:Unknown column 'itm_id' in 'field list'
+
+-------------------------------
+InnerException:
+
+-------------------------------
+Source:commonfunction
+
+-------------------------------
+
+=======================================================================================
+
+=======================================================================================
+2018-02-12 17:08:29:3275
+-------------------------------
+StackTrace:   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at purchase_editPurchase.updatePurchaseEntry(Dictionary`2 filters, String tableString) in e:\Projects\dotnet\changedHnTransaction\Working\web\purchase\editPurchase.aspx.cs:line 261
+
+-------------------------------
+Message:The given key was not present in the dictionary.
+
+-------------------------------
+InnerException:
+
+-------------------------------
+Source:mscorlib
+
+-------------------------------
+
+=======================================================================================
+
+=======================================================================================
+2018-02-12 17:21:09:3340
+-------------------------------
+StackTrace:   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at purchase_editPurchase.updatePurchaseEntry(Dictionary`2 filters, String tableString) in e:\Projects\dotnet\changedHnTransaction\Working\web\purchase\editPurchase.aspx.cs:line 261
+
+-------------------------------
+Message:The given key was not present in the dictionary.
+
+-------------------------------
+InnerException:
+
+-------------------------------
+Source:mscorlib
+
+-------------------------------
+
+=======================================================================================
+
+=======================================================================================
+2018-02-12 17:22:03:8451
+-------------------------------
+StackTrace:   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at purchase_editPurchase.updatePurchaseEntry(Dictionary`2 filters, String tableString) in e:\Projects\dotnet\changedHnTransaction\Working\web\purchase\editPurchase.aspx.cs:line 261
+
+-------------------------------
+Message:The given key was not present in the dictionary.
+
+-------------------------------
+InnerException:
+
+-------------------------------
+Source:mscorlib
+
+-------------------------------
+
+=======================================================================================
+
+=======================================================================================
+2018-02-12 17:25:06:8856
+-------------------------------
+StackTrace:   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at purchase_editPurchase.updatePurchaseEntry(Dictionary`2 filters, String tableString) in e:\Projects\dotnet\changedHnTransaction\Working\web\purchase\editPurchase.aspx.cs:line 261
+
+-------------------------------
+Message:The given key was not present in the dictionary.
+
+-------------------------------
+InnerException:
+
+-------------------------------
+Source:mscorlib
+
+-------------------------------
+
+=======================================================================================
+
+=======================================================================================
+2018-02-12 18:08:42:5742
+-------------------------------
+StackTrace:   at commonfunction.mySqlConnection.ExecuteQueryForTransaction(String strQuery) in e:\Projects\dotnet\hn\commonfunction\mySqlConnection.cs:line 223
+   at purchase_editPurchase.updatePurchaseEntry(Dictionary`2 filters, String tableString) in e:\Projects\dotnet\changedHnTransaction\Working\web\purchase\editPurchase.aspx.cs:line 295
+
+-------------------------------
+Message:Column count doesn't match value count at row 2
+
+-------------------------------
+InnerException:
+
+-------------------------------
+Source:commonfunction
+
+-------------------------------
+
+=======================================================================================
+
+=======================================================================================
+2018-02-12 18:10:41:7680
+-------------------------------
+StackTrace:   at commonfunction.mySqlConnection.ExecuteQueryForTransaction(String strQuery) in e:\Projects\dotnet\hn\commonfunction\mySqlConnection.cs:line 223
+   at purchase_editPurchase.updatePurchaseEntry(Dictionary`2 filters, String tableString) in e:\Projects\dotnet\changedHnTransaction\Working\web\purchase\editPurchase.aspx.cs:line 295
+
+-------------------------------
+Message:Column count doesn't match value count at row 2
+
+-------------------------------
+InnerException:
+
+-------------------------------
+Source:commonfunction
+
+-------------------------------
+
+=======================================================================================
+
+=======================================================================================
+2018-02-12 18:11:09:4086
+-------------------------------
+StackTrace:   at commonfunction.mySqlConnection.ExecuteQueryForTransaction(String strQuery) in e:\Projects\dotnet\hn\commonfunction\mySqlConnection.cs:line 223
+   at purchase_editPurchase.updatePurchaseEntry(Dictionary`2 filters, String tableString) in e:\Projects\dotnet\changedHnTransaction\Working\web\purchase\editPurchase.aspx.cs:line 298
+
+-------------------------------
+Message:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''16' at line 1
+
+-------------------------------
+InnerException:
+
+-------------------------------
+Source:commonfunction
+
+-------------------------------
+
+=======================================================================================
+
+=======================================================================================
+2018-02-12 18:12:02:7997
+-------------------------------
+StackTrace:   at commonfunction.mySqlConnection.ExecuteQueryForTransaction(String strQuery) in e:\Projects\dotnet\hn\commonfunction\mySqlConnection.cs:line 223
+   at purchase_editPurchase.updatePurchaseEntry(Dictionary`2 filters, String tableString) in e:\Projects\dotnet\changedHnTransaction\Working\web\purchase\editPurchase.aspx.cs:line 298
+
+-------------------------------
+Message:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''16' at line 1
+
+-------------------------------
+InnerException:
+
+-------------------------------
+Source:commonfunction
+
+-------------------------------
+
+=======================================================================================
+
+=======================================================================================
+2018-08-21 16:05:39:1325
+-------------------------------
+StackTrace:   at commonfunction.mySqlConnection.ExecuteQueryForTransaction(String strQuery) in E:\Projects\dotnet\invoiceMe\InvoiceMeRebuild\working\commonfunction\mySqlConnection.cs:line 223
+   at purchase_editPurchase.updatePurchaseEntry(Dictionary`2 filters, String tableString) in e:\Projects\dotnet\invoiceMe\InvoiceMeRebuild\working\web\purchase\editPurchase.aspx.cs:line 234
+
+-------------------------------
+Message:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '67) where itbs_id='260'' at line 1
+
+-------------------------------
+InnerException:
+
+-------------------------------
+Source:commonfunction
+
+-------------------------------
+
+=======================================================================================
+
+=======================================================================================
+2018-10-09 11:23:11:8867
+-------------------------------
+StackTrace:   at commonfunction.mySqlConnection.SelectScalarForTransaction(MySqlCommand cmd) in E:\Projects\dotnet\invoiceMe\InvoiceMeRebuild\working\commonfunction\mySqlConnection.cs:line 307
+   at expense.saveExpenseEntry(Dictionary`2 filters, String tableString)
+
+-------------------------------
+Message:Unknown column 'ext_user_id' in 'field list'
+
+-------------------------------
+InnerException:
+
+-------------------------------
+Source:commonfunction
+
+-------------------------------
+
+=======================================================================================
+
+=======================================================================================
+2018-10-09 11:24:01:5355
+-------------------------------
+StackTrace:   at commonfunction.mySqlConnection.SelectScalarForTransaction(MySqlCommand cmd) in E:\Projects\dotnet\invoiceMe\InvoiceMeRebuild\working\commonfunction\mySqlConnection.cs:line 307
+   at expense.saveExpenseEntry(Dictionary`2 filters, String tableString)
+
+-------------------------------
+Message:Unknown column 'ext_user_id' in 'field list'
+
+-------------------------------
+InnerException:
+
+-------------------------------
+Source:commonfunction
+
+-------------------------------
+
+=======================================================================================
+
+=======================================================================================
+2018-10-09 12:13:13:4914
+-------------------------------
+StackTrace:   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at income.saveIncomeEntry(Dictionary`2 filters, String tableString) in e:\Projects\dotnet\invoiceMe\InvoiceMeRebuild\working\web\incomExpense\income.aspx.cs:line 129
+
+-------------------------------
+Message:The given key was not present in the dictionary.
+
+-------------------------------
+InnerException:
+
+-------------------------------
+Source:mscorlib
+
+-------------------------------
+
+=======================================================================================
+
+=======================================================================================
+2018-10-09 12:57:44:6501
+-------------------------------
+StackTrace:   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at income.saveIncomeEntry(Dictionary`2 filters, String tableString) in e:\Projects\dotnet\invoiceMe\InvoiceMeRebuild\working\web\incomExpense\income.aspx.cs:line 129
+
+-------------------------------
+Message:The given key was not present in the dictionary.
+
+-------------------------------
+InnerException:
+
+-------------------------------
+Source:mscorlib
+
+-------------------------------
+
+=======================================================================================
+
+=======================================================================================
+2018-10-09 13:02:48:9165
+-------------------------------
+StackTrace:   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at income.saveIncomeEntry(Dictionary`2 filters, String tableString) in e:\Projects\dotnet\invoiceMe\InvoiceMeRebuild\working\web\incomExpense\income.aspx.cs:line 129
+
+-------------------------------
+Message:The given key was not present in the dictionary.
+
+-------------------------------
+InnerException:
+
+-------------------------------
+Source:mscorlib
+
+-------------------------------
+
+=======================================================================================
+
+=======================================================================================
+2018-10-09 13:07:42:9444
+-------------------------------
+StackTrace:   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at income.saveIncomeEntry(Dictionary`2 filters, String tableString) in e:\Projects\dotnet\invoiceMe\InvoiceMeRebuild\working\web\incomExpense\income.aspx.cs:line 129
+
+-------------------------------
+Message:The given key was not present in the dictionary.
+
+-------------------------------
+InnerException:
+
+-------------------------------
+Source:mscorlib
+
+-------------------------------
+
+=======================================================================================
+
+=======================================================================================
+2018-10-09 15:29:24:1226
+-------------------------------
+StackTrace:   at commonfunction.mySqlConnection.SelectScalarForTransaction(MySqlCommand cmd) in E:\Projects\dotnet\invoiceMe\InvoiceMeRebuild\working\commonfunction\mySqlConnection.cs:line 307
+   at expense.saveExpenseEntry(Dictionary`2 filters, String tableString) in e:\Projects\dotnet\invoiceMe\InvoiceMeRebuild\working\web\incomExpense\expense.aspx.cs:line 185
+
+-------------------------------
+Message:Unknown column 'ext_user_id' in 'field list'
+
+-------------------------------
+InnerException:
+
+-------------------------------
+Source:commonfunction
+
+-------------------------------
+
+=======================================================================================
+
+=======================================================================================
+2018-10-09 15:34:37:5235
+-------------------------------
+StackTrace:   at commonfunction.mySqlConnection.SelectScalarForTransaction(MySqlCommand cmd) in E:\Projects\dotnet\invoiceMe\InvoiceMeRebuild\working\commonfunction\mySqlConnection.cs:line 307
+   at expense.saveExpenseEntry(Dictionary`2 filters, String tableString) in e:\Projects\dotnet\invoiceMe\InvoiceMeRebuild\working\web\incomExpense\expense.aspx.cs:line 170
+
+-------------------------------
+Message:Unknown column 'ext_user_id' in 'field list'
+
+-------------------------------
+InnerException:
+
+-------------------------------
+Source:commonfunction
+
+-------------------------------
+
+=======================================================================================
+
+=======================================================================================
+2018-10-09 15:38:29:3238
+-------------------------------
+StackTrace:   at commonfunction.mySqlConnection.SelectScalarForTransaction(MySqlCommand cmd) in E:\Projects\dotnet\invoiceMe\InvoiceMeRebuild\working\commonfunction\mySqlConnection.cs:line 307
+   at expense.saveExpenseEntry(Dictionary`2 filters, String tableString) in e:\Projects\dotnet\invoiceMe\InvoiceMeRebuild\working\web\incomExpense\expense.aspx.cs:line 170
+
+-------------------------------
+Message:Unknown column 'ext_user_id' in 'field list'
+
+-------------------------------
+InnerException:
+
+-------------------------------
+Source:commonfunction
+
+-------------------------------
+
+=======================================================================================
+
+=======================================================================================
+2018-10-09 15:43:21:0855
+-------------------------------
+StackTrace:   at commonfunction.mySqlConnection.SelectScalarForTransaction(MySqlCommand cmd) in E:\Projects\dotnet\invoiceMe\InvoiceMeRebuild\working\commonfunction\mySqlConnection.cs:line 307
+   at expense.saveExpenseEntry(Dictionary`2 filters, String tableString) in e:\Projects\dotnet\invoiceMe\InvoiceMeRebuild\working\web\incomExpense\expense.aspx.cs:line 170
+
+-------------------------------
+Message:Unknown column 'user_type' in 'field list'
+
+-------------------------------
+InnerException:
+
+-------------------------------
+Source:commonfunction
+
+-------------------------------
+
+=======================================================================================
+
+=======================================================================================
+2018-10-09 16:53:52:7815
+-------------------------------
+StackTrace:   at System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   at System.Data.DataRowCollection.get_Item(Int32 index)
+   at incomExpense_editIncome.updatePurchaseEntry(Dictionary`2 filters, String tableString) in e:\Projects\dotnet\invoiceMe\InvoiceMeRebuild\working\web\incomExpense\editIncome.aspx.cs:line 213
+
+-------------------------------
+Message:There is no row at position 0.
+
+-------------------------------
+InnerException:
+
+-------------------------------
+Source:System.Data
+
+-------------------------------
+
+=======================================================================================
+
+=======================================================================================
+2018-10-24 10:01:33:7506
+-------------------------------
+StackTrace:   at commonfunction.mySqlConnection.ExecuteQueryForTransaction(String strQuery) in e:\Projects\dotnet\invoiceMe\InvoiceMeRebuild\working\commonfunction\mySqlConnection.cs:line 223
+   at income.saveIncomeEntry(Dictionary`2 filters, String tableString) in e:\Projects\dotnet\invoiceMe\InvoiceMeRebuild\working\web\incomExpense\income.aspx.cs:line 212
+
+-------------------------------
+Message:Unknown column 'user_balance' in 'field list'
+
+-------------------------------
+InnerException:
+
+-------------------------------
+Source:commonfunction
+
+-------------------------------
+
+=======================================================================================
+
+=======================================================================================
+2018-10-24 10:01:51:8287
+-------------------------------
+StackTrace:   at commonfunction.mySqlConnection.ExecuteQueryForTransaction(String strQuery) in e:\Projects\dotnet\invoiceMe\InvoiceMeRebuild\working\commonfunction\mySqlConnection.cs:line 223
+   at income.saveIncomeEntry(Dictionary`2 filters, String tableString) in e:\Projects\dotnet\invoiceMe\InvoiceMeRebuild\working\web\incomExpense\income.aspx.cs:line 212
+
+-------------------------------
+Message:Unknown column 'user_balance' in 'field list'
+
+-------------------------------
+InnerException:
+
+-------------------------------
+Source:commonfunction
+
+-------------------------------
+
+=======================================================================================
+
+=======================================================================================
+2018-10-24 10:03:22:8779
+-------------------------------
+StackTrace:   at commonfunction.mySqlConnection.ExecuteQueryForTransaction(String strQuery) in e:\Projects\dotnet\invoiceMe\InvoiceMeRebuild\working\commonfunction\mySqlConnection.cs:line 223
+   at income.saveIncomeEntry(Dictionary`2 filters, String tableString) in e:\Projects\dotnet\invoiceMe\InvoiceMeRebuild\working\web\incomExpense\income.aspx.cs:line 212
+
+-------------------------------
+Message:Unknown column 'user_balance' in 'field list'
+
+-------------------------------
+InnerException:
+
+-------------------------------
+Source:commonfunction
+
+-------------------------------
+
+=======================================================================================
+
+=======================================================================================
+2018-10-25 15:47:51:9891
+-------------------------------
+StackTrace:   at System.Linq.Enumerable.SingleOrDefault[TSource](IEnumerable`1 source)
+   at purchase_editPurchase.updatePurchaseEntry(Dictionary`2 filters, String tableString) in e:\Projects\dotnet\invoiceMe\InvoiceMeRebuild\working\web\purchase\editPurchase.aspx.cs:line 249
+
+-------------------------------
+Message:Sequence contains more than one element
+
+-------------------------------
+InnerException:
+
+-------------------------------
+Source:System.Core
+
+-------------------------------
+
+=======================================================================================
+DATA:"[{'itemcode':'202','itemname':'A-One Floor Cleaner 1ltr','purchasePrice':'15.6','quantity':'4200 ','amount':'65520','dispercent':'0','disamount':'0','taxamt':'11793.6','netamount':'77313.6','itbs_id':'1032',},{'itemcode':'223','itemname':'A-One S Vinegar 500ml','purchasePrice':'8.05','quantity':'1200 ','amount':'9660','dispercent':'0','disamount':'0','taxamt':'1738.8','netamount':'11398.8','itbs_id':'1038',},{'itemcode':'218','itemname':'X-All Floor Cleaner Concentrate 1ltr','purchasePrice':'26.75','quantity':'360 ','amount':'9630','dispercent':'0','disamount':'0','taxamt':'1733','netamount':'11363','itbs_id':'1040',},{'itemcode':'123','itemname':'Lemon Grass Oil 30ml MRP 55','purchasePrice':'30','quantity':'600 ','amount':'18000','dispercent':'0','disamount':'0','taxamt':'3240','netamount':'21240','itbs_id':'283',},{'itemcode':'109','itemname':'Xall Soda Ash 200gm MRP 20','purchasePrice':'8','quantity':'250 ','amount':'2000','dispercent':'0','disamount':'0','taxamt':'360','netamount':'2360','itbs_id':'313',},{'itemcode':'200','itemname':'Glizol Floor Cleaner(C) 1ltr','purchasePrice':'16','quantity':'360 ','amount':'5760','dispercent':'0','disamount':'0','taxamt':'1036.8','netamount':'6796.8','itbs_id':'1035',},{'itemcode':'195','itemname':'Dew Floor Cleaner 1ltr','purchasePrice':'11.77','quantity':'360 ','amount':'4237.2','dispercent':'0','disamount':'0','taxamt':'762.66','netamount':'4999.86','itbs_id':'1034',},{'itemcode':'142','itemname':'Boyas-27 Rat Jail (Rat Pad) MRP 60','purchasePrice':'29','quantity':'500 ','amount':'14500','dispercent':'0','disamount':'0','taxamt':'2610','netamount':'17110','itbs_id':'243',},{'itemcode':'107','itemname':'Hygenic Clorin Liquid Bleach 250ml MRP 32','purchasePrice':'16.93','quantity':'240 ','amount':'4063.2','dispercent':'0','disamount':'0','taxamt':'731.34','netamount':'4794.54','itbs_id':'264',},{'itemcode':'108','itemname':'Hygenic Clorin Liquid Bleach 500ml MRP 60','purchasePrice':'26.36','quantity':'24 ','amount':'632.64','dispercent':'0','disamount':'0','taxamt':'113.87','netamount':'746.51','itbs_id':'265',},{'itemcode':'104','itemname':'Hy-genic disinfectant (WHITE)1ltr MRP.39/-','purchasePrice':'16.93','quantity':'600 ','amount':'10158','dispercent':'0','disamount':'0','taxamt':'1828.44','netamount':'11986.44','itbs_id':'253',},{'itemcode':'101','itemname':'Hy-genic extreme disinfectant 1ltr MRP 51/-','purchasePrice':'24.66','quantity':'600 ','amount':'14796','dispercent':'0','disamount':'0','taxamt':'2663.28','netamount':'17459.28','itbs_id':'254',},{'itemcode':'237','itemname':'Liquid Soap (H) 5ltr','purchasePrice':'190','quantity':'5 ','amount':'950','dispercent':'0','disamount':'0','taxamt':'171','netamount':'1121','itbs_id':'2773',},{'itemcode':'204','itemname':'A-One Floor Cleaner (Bulk)','purchasePrice':'11','quantity':'125 ','amount':'1375','dispercent':'0','disamount':'0','taxamt':'247.5','netamount':'1622.5','itbs_id':'1046',},{'itemcode':'183','itemname':'A-One Bleaching Powder 500g','purchasePrice':'11.9','quantity':'1250 ','amount':'14875','dispercent':'0','disamount':'0','taxamt':'2677.5','netamount':'17552.5','itbs_id':'1031',},{'itemcode':'105','itemname':'Hygenic Bleaching Powder 250g MRP 21','purchasePrice':'16.1','quantity':'625 ','amount':'10062.5','dispercent':'0','disamount':'0','taxamt':'1811.16','netamount':'11873.66','itbs_id':'259',},{'itemcode':'105','itemname':'Hygenic Bleaching Powder 250g MRP 21','purchasePrice':'9.14','quantity':'1250 ','amount':'11425','dispercent':'0','disamount':'0','taxamt':'2056.5','netamount':'13481.5','itbs_id':'259',},{'itemcode':'213','itemname':'X-All Black Phenyle 500ml MRP46','purchasePrice':'19','quantity':'600 ','amount':'11400','dispercent':'0','disamount':'0','taxamt':'2052','netamount':'13452','itbs_id':'2772',},{'itemcode':'182','itemname':'A-One Bleaching Powder 250g','purchasePrice':'6.9','quantity':'1250 ','amount':'8625','dispercent':'0','disamount':'0','taxamt':'3802.5','netamount':'12427.5','itbs_id':'1030',},{'itemcode':'201','itemname':'A-One Floor Cleaner 500ml','purchasePrice':'10.75','quantity':'600 ','amount':'6450','dispercent':'0','disamount':'0','taxamt':'1161','netamount':'7611','itbs_id':'1033',},{'itemcode':'210','itemname':'X-All Floor Cleaner (C) 1ltr','purchasePrice':'22','quantity':'600 ','amount':'13200','dispercent':'0','disamount':'0','taxamt':'2376','netamount':'15576','itbs_id':'1084',},{'itemcode':'102','itemname':'Hy-genic extreme disinfectant 500ml  MRP 29/-','purchasePrice':'5','quantity':'1','amount':'5.00','dispercent':'0','disamount':'0','taxamt':'0','netamount':'5','itbs_id':'255',}]"
+
+=======================================================================================
+
+=======================================================================================
+2018-10-25 15:48:32:2474
+-------------------------------
+StackTrace:   at System.Linq.Enumerable.SingleOrDefault[TSource](IEnumerable`1 source)
+   at purchase_editPurchase.updatePurchaseEntry(Dictionary`2 filters, String tableString) in e:\Projects\dotnet\invoiceMe\InvoiceMeRebuild\working\web\purchase\editPurchase.aspx.cs:line 249
+
+-------------------------------
+Message:Sequence contains more than one element
+
+-------------------------------
+InnerException:
+
+-------------------------------
+Source:System.Core
+
+-------------------------------
+
+=======================================================================================
+DATA:"[{'itemcode':'202','itemname':'A-One Floor Cleaner 1ltr','purchasePrice':'15.6','quantity':'4200 ','amount':'65520','dispercent':'0','disamount':'0','taxamt':'11793.6','netamount':'77313.6','itbs_id':'1032',},{'itemcode':'223','itemname':'A-One S Vinegar 500ml','purchasePrice':'8.05','quantity':'1200 ','amount':'9660','dispercent':'0','disamount':'0','taxamt':'1738.8','netamount':'11398.8','itbs_id':'1038',},{'itemcode':'218','itemname':'X-All Floor Cleaner Concentrate 1ltr','purchasePrice':'26.75','quantity':'360 ','amount':'9630','dispercent':'0','disamount':'0','taxamt':'1733','netamount':'11363','itbs_id':'1040',},{'itemcode':'123','itemname':'Lemon Grass Oil 30ml MRP 55','purchasePrice':'30','quantity':'600 ','amount':'18000','dispercent':'0','disamount':'0','taxamt':'3240','netamount':'21240','itbs_id':'283',},{'itemcode':'109','itemname':'Xall Soda Ash 200gm MRP 20','purchasePrice':'8','quantity':'250 ','amount':'2000','dispercent':'0','disamount':'0','taxamt':'360','netamount':'2360','itbs_id':'313',},{'itemcode':'200','itemname':'Glizol Floor Cleaner(C) 1ltr','purchasePrice':'16','quantity':'360 ','amount':'5760','dispercent':'0','disamount':'0','taxamt':'1036.8','netamount':'6796.8','itbs_id':'1035',},{'itemcode':'195','itemname':'Dew Floor Cleaner 1ltr','purchasePrice':'11.77','quantity':'360 ','amount':'4237.2','dispercent':'0','disamount':'0','taxamt':'762.66','netamount':'4999.86','itbs_id':'1034',},{'itemcode':'142','itemname':'Boyas-27 Rat Jail (Rat Pad) MRP 60','purchasePrice':'29','quantity':'500 ','amount':'14500','dispercent':'0','disamount':'0','taxamt':'2610','netamount':'17110','itbs_id':'243',},{'itemcode':'107','itemname':'Hygenic Clorin Liquid Bleach 250ml MRP 32','purchasePrice':'16.93','quantity':'240 ','amount':'4063.2','dispercent':'0','disamount':'0','taxamt':'731.34','netamount':'4794.54','itbs_id':'264',},{'itemcode':'108','itemname':'Hygenic Clorin Liquid Bleach 500ml MRP 60','purchasePrice':'26.36','quantity':'24 ','amount':'632.64','dispercent':'0','disamount':'0','taxamt':'113.87','netamount':'746.51','itbs_id':'265',},{'itemcode':'104','itemname':'Hy-genic disinfectant (WHITE)1ltr MRP.39/-','purchasePrice':'16.93','quantity':'600 ','amount':'10158','dispercent':'0','disamount':'0','taxamt':'1828.44','netamount':'11986.44','itbs_id':'253',},{'itemcode':'101','itemname':'Hy-genic extreme disinfectant 1ltr MRP 51/-','purchasePrice':'24.66','quantity':'600 ','amount':'14796','dispercent':'0','disamount':'0','taxamt':'2663.28','netamount':'17459.28','itbs_id':'254',},{'itemcode':'237','itemname':'Liquid Soap (H) 5ltr','purchasePrice':'190','quantity':'5 ','amount':'950','dispercent':'0','disamount':'0','taxamt':'171','netamount':'1121','itbs_id':'2773',},{'itemcode':'204','itemname':'A-One Floor Cleaner (Bulk)','purchasePrice':'11','quantity':'125 ','amount':'1375','dispercent':'0','disamount':'0','taxamt':'247.5','netamount':'1622.5','itbs_id':'1046',},{'itemcode':'183','itemname':'A-One Bleaching Powder 500g','purchasePrice':'11.9','quantity':'1250 ','amount':'14875','dispercent':'0','disamount':'0','taxamt':'2677.5','netamount':'17552.5','itbs_id':'1031',},{'itemcode':'105','itemname':'Hygenic Bleaching Powder 250g MRP 21','purchasePrice':'16.1','quantity':'625 ','amount':'10062.5','dispercent':'0','disamount':'0','taxamt':'1811.16','netamount':'11873.66','itbs_id':'259',},{'itemcode':'105','itemname':'Hygenic Bleaching Powder 250g MRP 21','purchasePrice':'9.14','quantity':'1250 ','amount':'11425','dispercent':'0','disamount':'0','taxamt':'2056.5','netamount':'13481.5','itbs_id':'259',},{'itemcode':'213','itemname':'X-All Black Phenyle 500ml MRP46','purchasePrice':'19','quantity':'600 ','amount':'11400','dispercent':'0','disamount':'0','taxamt':'2052','netamount':'13452','itbs_id':'2772',},{'itemcode':'182','itemname':'A-One Bleaching Powder 250g','purchasePrice':'6.9','quantity':'1250 ','amount':'8625','dispercent':'0','disamount':'0','taxamt':'3802.5','netamount':'12427.5','itbs_id':'1030',},{'itemcode':'201','itemname':'A-One Floor Cleaner 500ml','purchasePrice':'10.75','quantity':'600 ','amount':'6450','dispercent':'0','disamount':'0','taxamt':'1161','netamount':'7611','itbs_id':'1033',},{'itemcode':'210','itemname':'X-All Floor Cleaner (C) 1ltr','purchasePrice':'22','quantity':'600 ','amount':'13200','dispercent':'0','disamount':'0','taxamt':'2376','netamount':'15576','itbs_id':'1084',},{'itemcode':'102','itemname':'Hy-genic extreme disinfectant 500ml  MRP 29/-','purchasePrice':'5','quantity':'1','amount':'5.00','dispercent':'0','disamount':'0','taxamt':'0','netamount':'5','itbs_id':'255',}]"
+
+=======================================================================================
+
+=======================================================================================
+2018-10-25 15:48:49:8825
+-------------------------------
+StackTrace:   at System.Linq.Enumerable.SingleOrDefault[TSource](IEnumerable`1 source)
+   at purchase_editPurchase.updatePurchaseEntry(Dictionary`2 filters, String tableString) in e:\Projects\dotnet\invoiceMe\InvoiceMeRebuild\working\web\purchase\editPurchase.aspx.cs:line 249
+
+-------------------------------
+Message:Sequence contains more than one element
+
+-------------------------------
+InnerException:
+
+-------------------------------
+Source:System.Core
+
+-------------------------------
+
+=======================================================================================
+DATA:"[{'itemcode':'202','itemname':'A-One Floor Cleaner 1ltr','purchasePrice':'15.6','quantity':'4200 ','amount':'65520','dispercent':'0','disamount':'0','taxamt':'11793.6','netamount':'77313.6','itbs_id':'1032',},{'itemcode':'223','itemname':'A-One S Vinegar 500ml','purchasePrice':'8.05','quantity':'1200 ','amount':'9660','dispercent':'0','disamount':'0','taxamt':'1738.8','netamount':'11398.8','itbs_id':'1038',},{'itemcode':'218','itemname':'X-All Floor Cleaner Concentrate 1ltr','purchasePrice':'26.75','quantity':'360 ','amount':'9630','dispercent':'0','disamount':'0','taxamt':'1733','netamount':'11363','itbs_id':'1040',},{'itemcode':'123','itemname':'Lemon Grass Oil 30ml MRP 55','purchasePrice':'30','quantity':'600 ','amount':'18000','dispercent':'0','disamount':'0','taxamt':'3240','netamount':'21240','itbs_id':'283',},{'itemcode':'109','itemname':'Xall Soda Ash 200gm MRP 20','purchasePrice':'8','quantity':'250 ','amount':'2000','dispercent':'0','disamount':'0','taxamt':'360','netamount':'2360','itbs_id':'313',},{'itemcode':'200','itemname':'Glizol Floor Cleaner(C) 1ltr','purchasePrice':'16','quantity':'360 ','amount':'5760','dispercent':'0','disamount':'0','taxamt':'1036.8','netamount':'6796.8','itbs_id':'1035',},{'itemcode':'195','itemname':'Dew Floor Cleaner 1ltr','purchasePrice':'11.77','quantity':'360 ','amount':'4237.2','dispercent':'0','disamount':'0','taxamt':'762.66','netamount':'4999.86','itbs_id':'1034',},{'itemcode':'142','itemname':'Boyas-27 Rat Jail (Rat Pad) MRP 60','purchasePrice':'29','quantity':'500 ','amount':'14500','dispercent':'0','disamount':'0','taxamt':'2610','netamount':'17110','itbs_id':'243',},{'itemcode':'107','itemname':'Hygenic Clorin Liquid Bleach 250ml MRP 32','purchasePrice':'16.93','quantity':'240 ','amount':'4063.2','dispercent':'0','disamount':'0','taxamt':'731.34','netamount':'4794.54','itbs_id':'264',},{'itemcode':'108','itemname':'Hygenic Clorin Liquid Bleach 500ml MRP 60','purchasePrice':'26.36','quantity':'24 ','amount':'632.64','dispercent':'0','disamount':'0','taxamt':'113.87','netamount':'746.51','itbs_id':'265',},{'itemcode':'104','itemname':'Hy-genic disinfectant (WHITE)1ltr MRP.39/-','purchasePrice':'16.93','quantity':'600 ','amount':'10158','dispercent':'0','disamount':'0','taxamt':'1828.44','netamount':'11986.44','itbs_id':'253',},{'itemcode':'101','itemname':'Hy-genic extreme disinfectant 1ltr MRP 51/-','purchasePrice':'24.66','quantity':'600 ','amount':'14796','dispercent':'0','disamount':'0','taxamt':'2663.28','netamount':'17459.28','itbs_id':'254',},{'itemcode':'237','itemname':'Liquid Soap (H) 5ltr','purchasePrice':'190','quantity':'5 ','amount':'950','dispercent':'0','disamount':'0','taxamt':'171','netamount':'1121','itbs_id':'2773',},{'itemcode':'204','itemname':'A-One Floor Cleaner (Bulk)','purchasePrice':'11','quantity':'125 ','amount':'1375','dispercent':'0','disamount':'0','taxamt':'247.5','netamount':'1622.5','itbs_id':'1046',},{'itemcode':'183','itemname':'A-One Bleaching Powder 500g','purchasePrice':'11.9','quantity':'1250 ','amount':'14875','dispercent':'0','disamount':'0','taxamt':'2677.5','netamount':'17552.5','itbs_id':'1031',},{'itemcode':'105','itemname':'Hygenic Bleaching Powder 250g MRP 21','purchasePrice':'16.1','quantity':'625 ','amount':'10062.5','dispercent':'0','disamount':'0','taxamt':'1811.16','netamount':'11873.66','itbs_id':'259',},{'itemcode':'105','itemname':'Hygenic Bleaching Powder 250g MRP 21','purchasePrice':'9.14','quantity':'1250 ','amount':'11425','dispercent':'0','disamount':'0','taxamt':'2056.5','netamount':'13481.5','itbs_id':'259',},{'itemcode':'213','itemname':'X-All Black Phenyle 500ml MRP46','purchasePrice':'19','quantity':'600 ','amount':'11400','dispercent':'0','disamount':'0','taxamt':'2052','netamount':'13452','itbs_id':'2772',},{'itemcode':'182','itemname':'A-One Bleaching Powder 250g','purchasePrice':'6.9','quantity':'1250 ','amount':'8625','dispercent':'0','disamount':'0','taxamt':'3802.5','netamount':'12427.5','itbs_id':'1030',},{'itemcode':'201','itemname':'A-One Floor Cleaner 500ml','purchasePrice':'10.75','quantity':'600 ','amount':'6450','dispercent':'0','disamount':'0','taxamt':'1161','netamount':'7611','itbs_id':'1033',},{'itemcode':'210','itemname':'X-All Floor Cleaner (C) 1ltr','purchasePrice':'22','quantity':'600 ','amount':'13200','dispercent':'0','disamount':'0','taxamt':'2376','netamount':'15576','itbs_id':'1084',},{'itemcode':'102','itemname':'Hy-genic extreme disinfectant 500ml  MRP 29/-','purchasePrice':'5','quantity':'1','amount':'5.00','dispercent':'0','disamount':'0','taxamt':'0','netamount':'5','itbs_id':'255',}]"
+
+=======================================================================================
+
+=======================================================================================
+2018-10-25 15:51:38:5701
+-------------------------------
+StackTrace:   at System.Linq.Enumerable.SingleOrDefault[TSource](IEnumerable`1 source)
+   at purchase_editPurchase.updatePurchaseEntry(Dictionary`2 filters, String tableString) in e:\Projects\dotnet\invoiceMe\InvoiceMeRebuild\working\web\purchase\editPurchase.aspx.cs:line 249
+
+-------------------------------
+Message:Sequence contains more than one element
+
+-------------------------------
+InnerException:
+
+-------------------------------
+Source:System.Core
+
+-------------------------------
+
+=======================================================================================
+DATA:"[{'itemcode':'202','itemname':'A-One Floor Cleaner 1ltr','purchasePrice':'15.6','quantity':'4200 ','amount':'65520','dispercent':'0','disamount':'0','taxamt':'11793.6','netamount':'77313.6','itbs_id':'1032',},{'itemcode':'223','itemname':'A-One S Vinegar 500ml','purchasePrice':'8.05','quantity':'1200 ','amount':'9660','dispercent':'0','disamount':'0','taxamt':'1738.8','netamount':'11398.8','itbs_id':'1038',},{'itemcode':'218','itemname':'X-All Floor Cleaner Concentrate 1ltr','purchasePrice':'26.75','quantity':'360 ','amount':'9630','dispercent':'0','disamount':'0','taxamt':'1733','netamount':'11363','itbs_id':'1040',},{'itemcode':'123','itemname':'Lemon Grass Oil 30ml MRP 55','purchasePrice':'30','quantity':'600 ','amount':'18000','dispercent':'0','disamount':'0','taxamt':'3240','netamount':'21240','itbs_id':'283',},{'itemcode':'109','itemname':'Xall Soda Ash 200gm MRP 20','purchasePrice':'8','quantity':'250 ','amount':'2000','dispercent':'0','disamount':'0','taxamt':'360','netamount':'2360','itbs_id':'313',},{'itemcode':'200','itemname':'Glizol Floor Cleaner(C) 1ltr','purchasePrice':'16','quantity':'360 ','amount':'5760','dispercent':'0','disamount':'0','taxamt':'1036.8','netamount':'6796.8','itbs_id':'1035',},{'itemcode':'195','itemname':'Dew Floor Cleaner 1ltr','purchasePrice':'11.77','quantity':'360 ','amount':'4237.2','dispercent':'0','disamount':'0','taxamt':'762.66','netamount':'4999.86','itbs_id':'1034',},{'itemcode':'142','itemname':'Boyas-27 Rat Jail (Rat Pad) MRP 60','purchasePrice':'29','quantity':'500 ','amount':'14500','dispercent':'0','disamount':'0','taxamt':'2610','netamount':'17110','itbs_id':'243',},{'itemcode':'107','itemname':'Hygenic Clorin Liquid Bleach 250ml MRP 32','purchasePrice':'16.93','quantity':'240 ','amount':'4063.2','dispercent':'0','disamount':'0','taxamt':'731.34','netamount':'4794.54','itbs_id':'264',},{'itemcode':'108','itemname':'Hygenic Clorin Liquid Bleach 500ml MRP 60','purchasePrice':'26.36','quantity':'24 ','amount':'632.64','dispercent':'0','disamount':'0','taxamt':'113.87','netamount':'746.51','itbs_id':'265',},{'itemcode':'104','itemname':'Hy-genic disinfectant (WHITE)1ltr MRP.39/-','purchasePrice':'16.93','quantity':'600 ','amount':'10158','dispercent':'0','disamount':'0','taxamt':'1828.44','netamount':'11986.44','itbs_id':'253',},{'itemcode':'101','itemname':'Hy-genic extreme disinfectant 1ltr MRP 51/-','purchasePrice':'24.66','quantity':'600 ','amount':'14796','dispercent':'0','disamount':'0','taxamt':'2663.28','netamount':'17459.28','itbs_id':'254',},{'itemcode':'237','itemname':'Liquid Soap (H) 5ltr','purchasePrice':'190','quantity':'5 ','amount':'950','dispercent':'0','disamount':'0','taxamt':'171','netamount':'1121','itbs_id':'2773',},{'itemcode':'204','itemname':'A-One Floor Cleaner (Bulk)','purchasePrice':'11','quantity':'125 ','amount':'1375','dispercent':'0','disamount':'0','taxamt':'247.5','netamount':'1622.5','itbs_id':'1046',},{'itemcode':'183','itemname':'A-One Bleaching Powder 500g','purchasePrice':'11.9','quantity':'1250 ','amount':'14875','dispercent':'0','disamount':'0','taxamt':'2677.5','netamount':'17552.5','itbs_id':'1031',},{'itemcode':'105','itemname':'Hygenic Bleaching Powder 250g MRP 21','purchasePrice':'16.1','quantity':'625 ','amount':'10062.5','dispercent':'0','disamount':'0','taxamt':'1811.16','netamount':'11873.66','itbs_id':'259',},{'itemcode':'105','itemname':'Hygenic Bleaching Powder 250g MRP 21','purchasePrice':'9.14','quantity':'1250 ','amount':'11425','dispercent':'0','disamount':'0','taxamt':'2056.5','netamount':'13481.5','itbs_id':'259',},{'itemcode':'213','itemname':'X-All Black Phenyle 500ml MRP46','purchasePrice':'19','quantity':'600 ','amount':'11400','dispercent':'0','disamount':'0','taxamt':'2052','netamount':'13452','itbs_id':'2772',},{'itemcode':'182','itemname':'A-One Bleaching Powder 250g','purchasePrice':'6.9','quantity':'1250 ','amount':'8625','dispercent':'0','disamount':'0','taxamt':'3802.5','netamount':'12427.5','itbs_id':'1030',},{'itemcode':'201','itemname':'A-One Floor Cleaner 500ml','purchasePrice':'10.75','quantity':'600 ','amount':'6450','dispercent':'0','disamount':'0','taxamt':'1161','netamount':'7611','itbs_id':'1033',},{'itemcode':'210','itemname':'X-All Floor Cleaner (C) 1ltr','purchasePrice':'22','quantity':'600 ','amount':'13200','dispercent':'0','disamount':'0','taxamt':'2376','netamount':'15576','itbs_id':'1084',},{'itemcode':'102','itemname':'Hy-genic extreme disinfectant 500ml  MRP 29/-','purchasePrice':'5','quantity':'1','amount':'5.00','dispercent':'0','disamount':'0','taxamt':'0','netamount':'5','itbs_id':'255',}]"
+
+=======================================================================================
+
+=======================================================================================
+2018-10-25 15:52:19:8875
+-------------------------------
+StackTrace:   at System.Linq.Enumerable.SingleOrDefault[TSource](IEnumerable`1 source)
+   at purchase_editPurchase.updatePurchaseEntry(Dictionary`2 filters, String tableString) in e:\Projects\dotnet\invoiceMe\InvoiceMeRebuild\working\web\purchase\editPurchase.aspx.cs:line 249
+
+-------------------------------
+Message:Sequence contains more than one element
+
+-------------------------------
+InnerException:
+
+-------------------------------
+Source:System.Core
+
+-------------------------------
+
+=======================================================================================
+DATA:"[{'itemcode':'202','itemname':'A-One Floor Cleaner 1ltr','purchasePrice':'15.6','quantity':'4200 ','amount':'65520','dispercent':'0','disamount':'0','taxamt':'11793.6','netamount':'77313.6','itbs_id':'1032',},{'itemcode':'223','itemname':'A-One S Vinegar 500ml','purchasePrice':'8.05','quantity':'1200 ','amount':'9660','dispercent':'0','disamount':'0','taxamt':'1738.8','netamount':'11398.8','itbs_id':'1038',},{'itemcode':'218','itemname':'X-All Floor Cleaner Concentrate 1ltr','purchasePrice':'26.75','quantity':'360 ','amount':'9630','dispercent':'0','disamount':'0','taxamt':'1733','netamount':'11363','itbs_id':'1040',},{'itemcode':'123','itemname':'Lemon Grass Oil 30ml MRP 55','purchasePrice':'30','quantity':'600 ','amount':'18000','dispercent':'0','disamount':'0','taxamt':'3240','netamount':'21240','itbs_id':'283',},{'itemcode':'109','itemname':'Xall Soda Ash 200gm MRP 20','purchasePrice':'8','quantity':'250 ','amount':'2000','dispercent':'0','disamount':'0','taxamt':'360','netamount':'2360','itbs_id':'313',},{'itemcode':'200','itemname':'Glizol Floor Cleaner(C) 1ltr','purchasePrice':'16','quantity':'360 ','amount':'5760','dispercent':'0','disamount':'0','taxamt':'1036.8','netamount':'6796.8','itbs_id':'1035',},{'itemcode':'195','itemname':'Dew Floor Cleaner 1ltr','purchasePrice':'11.77','quantity':'360 ','amount':'4237.2','dispercent':'0','disamount':'0','taxamt':'762.66','netamount':'4999.86','itbs_id':'1034',},{'itemcode':'142','itemname':'Boyas-27 Rat Jail (Rat Pad) MRP 60','purchasePrice':'29','quantity':'500 ','amount':'14500','dispercent':'0','disamount':'0','taxamt':'2610','netamount':'17110','itbs_id':'243',},{'itemcode':'107','itemname':'Hygenic Clorin Liquid Bleach 250ml MRP 32','purchasePrice':'16.93','quantity':'240 ','amount':'4063.2','dispercent':'0','disamount':'0','taxamt':'731.34','netamount':'4794.54','itbs_id':'264',},{'itemcode':'108','itemname':'Hygenic Clorin Liquid Bleach 500ml MRP 60','purchasePrice':'26.36','quantity':'24 ','amount':'632.64','dispercent':'0','disamount':'0','taxamt':'113.87','netamount':'746.51','itbs_id':'265',},{'itemcode':'104','itemname':'Hy-genic disinfectant (WHITE)1ltr MRP.39/-','purchasePrice':'16.93','quantity':'600 ','amount':'10158','dispercent':'0','disamount':'0','taxamt':'1828.44','netamount':'11986.44','itbs_id':'253',},{'itemcode':'101','itemname':'Hy-genic extreme disinfectant 1ltr MRP 51/-','purchasePrice':'24.66','quantity':'600 ','amount':'14796','dispercent':'0','disamount':'0','taxamt':'2663.28','netamount':'17459.28','itbs_id':'254',},{'itemcode':'237','itemname':'Liquid Soap (H) 5ltr','purchasePrice':'190','quantity':'5 ','amount':'950','dispercent':'0','disamount':'0','taxamt':'171','netamount':'1121','itbs_id':'2773',},{'itemcode':'204','itemname':'A-One Floor Cleaner (Bulk)','purchasePrice':'11','quantity':'125 ','amount':'1375','dispercent':'0','disamount':'0','taxamt':'247.5','netamount':'1622.5','itbs_id':'1046',},{'itemcode':'183','itemname':'A-One Bleaching Powder 500g','purchasePrice':'11.9','quantity':'1250 ','amount':'14875','dispercent':'0','disamount':'0','taxamt':'2677.5','netamount':'17552.5','itbs_id':'1031',},{'itemcode':'105','itemname':'Hygenic Bleaching Powder 250g MRP 21','purchasePrice':'16.1','quantity':'625 ','amount':'10062.5','dispercent':'0','disamount':'0','taxamt':'1811.16','netamount':'11873.66','itbs_id':'259',},{'itemcode':'105','itemname':'Hygenic Bleaching Powder 250g MRP 21','purchasePrice':'9.14','quantity':'1250 ','amount':'11425','dispercent':'0','disamount':'0','taxamt':'2056.5','netamount':'13481.5','itbs_id':'259',},{'itemcode':'213','itemname':'X-All Black Phenyle 500ml MRP46','purchasePrice':'19','quantity':'600 ','amount':'11400','dispercent':'0','disamount':'0','taxamt':'2052','netamount':'13452','itbs_id':'2772',},{'itemcode':'182','itemname':'A-One Bleaching Powder 250g','purchasePrice':'6.9','quantity':'1250 ','amount':'8625','dispercent':'0','disamount':'0','taxamt':'3802.5','netamount':'12427.5','itbs_id':'1030',},{'itemcode':'201','itemname':'A-One Floor Cleaner 500ml','purchasePrice':'10.75','quantity':'600 ','amount':'6450','dispercent':'0','disamount':'0','taxamt':'1161','netamount':'7611','itbs_id':'1033',},{'itemcode':'210','itemname':'X-All Floor Cleaner (C) 1ltr','purchasePrice':'22','quantity':'600 ','amount':'13200','dispercent':'0','disamount':'0','taxamt':'2376','netamount':'15576','itbs_id':'1084',},{'itemcode':'102','itemname':'Hy-genic extreme disinfectant 500ml  MRP 29/-','purchasePrice':'5','quantity':'1','amount':'5.00','dispercent':'0','disamount':'0','taxamt':'0','netamount':'5','itbs_id':'255',}]"
+
+=======================================================================================
+
+=======================================================================================
+2018-10-25 15:53:10:8694
+-------------------------------
+StackTrace:   at System.Linq.Enumerable.SingleOrDefault[TSource](IEnumerable`1 source)
+   at purchase_editPurchase.updatePurchaseEntry(Dictionary`2 filters, String tableString) in e:\Projects\dotnet\invoiceMe\InvoiceMeRebuild\working\web\purchase\editPurchase.aspx.cs:line 249
+
+-------------------------------
+Message:Sequence contains more than one element
+
+-------------------------------
+InnerException:
+
+-------------------------------
+Source:System.Core
+
+-------------------------------
+
+=======================================================================================
+DATA:"[{'itemcode':'202','itemname':'A-One Floor Cleaner 1ltr','purchasePrice':'15.6','quantity':'4200 ','amount':'65520','dispercent':'0','disamount':'0','taxamt':'11793.6','netamount':'77313.6','itbs_id':'1032',},{'itemcode':'223','itemname':'A-One S Vinegar 500ml','purchasePrice':'8.05','quantity':'1200 ','amount':'9660','dispercent':'0','disamount':'0','taxamt':'1738.8','netamount':'11398.8','itbs_id':'1038',},{'itemcode':'218','itemname':'X-All Floor Cleaner Concentrate 1ltr','purchasePrice':'26.75','quantity':'360 ','amount':'9630','dispercent':'0','disamount':'0','taxamt':'1733','netamount':'11363','itbs_id':'1040',},{'itemcode':'123','itemname':'Lemon Grass Oil 30ml MRP 55','purchasePrice':'30','quantity':'600 ','amount':'18000','dispercent':'0','disamount':'0','taxamt':'3240','netamount':'21240','itbs_id':'283',},{'itemcode':'109','itemname':'Xall Soda Ash 200gm MRP 20','purchasePrice':'8','quantity':'250 ','amount':'2000','dispercent':'0','disamount':'0','taxamt':'360','netamount':'2360','itbs_id':'313',},{'itemcode':'200','itemname':'Glizol Floor Cleaner(C) 1ltr','purchasePrice':'16','quantity':'360 ','amount':'5760','dispercent':'0','disamount':'0','taxamt':'1036.8','netamount':'6796.8','itbs_id':'1035',},{'itemcode':'195','itemname':'Dew Floor Cleaner 1ltr','purchasePrice':'11.77','quantity':'360 ','amount':'4237.2','dispercent':'0','disamount':'0','taxamt':'762.66','netamount':'4999.86','itbs_id':'1034',},{'itemcode':'142','itemname':'Boyas-27 Rat Jail (Rat Pad) MRP 60','purchasePrice':'29','quantity':'500 ','amount':'14500','dispercent':'0','disamount':'0','taxamt':'2610','netamount':'17110','itbs_id':'243',},{'itemcode':'107','itemname':'Hygenic Clorin Liquid Bleach 250ml MRP 32','purchasePrice':'16.93','quantity':'240 ','amount':'4063.2','dispercent':'0','disamount':'0','taxamt':'731.34','netamount':'4794.54','itbs_id':'264',},{'itemcode':'108','itemname':'Hygenic Clorin Liquid Bleach 500ml MRP 60','purchasePrice':'26.36','quantity':'24 ','amount':'632.64','dispercent':'0','disamount':'0','taxamt':'113.87','netamount':'746.51','itbs_id':'265',},{'itemcode':'104','itemname':'Hy-genic disinfectant (WHITE)1ltr MRP.39/-','purchasePrice':'16.93','quantity':'600 ','amount':'10158','dispercent':'0','disamount':'0','taxamt':'1828.44','netamount':'11986.44','itbs_id':'253',},{'itemcode':'101','itemname':'Hy-genic extreme disinfectant 1ltr MRP 51/-','purchasePrice':'24.66','quantity':'600 ','amount':'14796','dispercent':'0','disamount':'0','taxamt':'2663.28','netamount':'17459.28','itbs_id':'254',},{'itemcode':'237','itemname':'Liquid Soap (H) 5ltr','purchasePrice':'190','quantity':'5 ','amount':'950','dispercent':'0','disamount':'0','taxamt':'171','netamount':'1121','itbs_id':'2773',},{'itemcode':'204','itemname':'A-One Floor Cleaner (Bulk)','purchasePrice':'11','quantity':'125 ','amount':'1375','dispercent':'0','disamount':'0','taxamt':'247.5','netamount':'1622.5','itbs_id':'1046',},{'itemcode':'183','itemname':'A-One Bleaching Powder 500g','purchasePrice':'11.9','quantity':'1250 ','amount':'14875','dispercent':'0','disamount':'0','taxamt':'2677.5','netamount':'17552.5','itbs_id':'1031',},{'itemcode':'105','itemname':'Hygenic Bleaching Powder 250g MRP 21','purchasePrice':'16.1','quantity':'625 ','amount':'10062.5','dispercent':'0','disamount':'0','taxamt':'1811.16','netamount':'11873.66','itbs_id':'259',},{'itemcode':'105','itemname':'Hygenic Bleaching Powder 250g MRP 21','purchasePrice':'9.14','quantity':'1250 ','amount':'11425','dispercent':'0','disamount':'0','taxamt':'2056.5','netamount':'13481.5','itbs_id':'259',},{'itemcode':'213','itemname':'X-All Black Phenyle 500ml MRP46','purchasePrice':'19','quantity':'600 ','amount':'11400','dispercent':'0','disamount':'0','taxamt':'2052','netamount':'13452','itbs_id':'2772',},{'itemcode':'182','itemname':'A-One Bleaching Powder 250g','purchasePrice':'6.9','quantity':'1250 ','amount':'8625','dispercent':'0','disamount':'0','taxamt':'3802.5','netamount':'12427.5','itbs_id':'1030',},{'itemcode':'201','itemname':'A-One Floor Cleaner 500ml','purchasePrice':'10.75','quantity':'600 ','amount':'6450','dispercent':'0','disamount':'0','taxamt':'1161','netamount':'7611','itbs_id':'1033',},{'itemcode':'210','itemname':'X-All Floor Cleaner (C) 1ltr','purchasePrice':'22','quantity':'600 ','amount':'13200','dispercent':'0','disamount':'0','taxamt':'2376','netamount':'15576','itbs_id':'1084',},{'itemcode':'102','itemname':'Hy-genic extreme disinfectant 500ml  MRP 29/-','purchasePrice':'5','quantity':'1','amount':'5.00','dispercent':'0','disamount':'0','taxamt':'0','netamount':'5','itbs_id':'255',}]"
+
+=======================================================================================
+
+=======================================================================================
+2018-10-25 15:53:26:7443
+-------------------------------
+StackTrace:   at System.Linq.Enumerable.SingleOrDefault[TSource](IEnumerable`1 source)
+   at purchase_editPurchase.updatePurchaseEntry(Dictionary`2 filters, String tableString) in e:\Projects\dotnet\invoiceMe\InvoiceMeRebuild\working\web\purchase\editPurchase.aspx.cs:line 249
+
+-------------------------------
+Message:Sequence contains more than one element
+
+-------------------------------
+InnerException:
+
+-------------------------------
+Source:System.Core
+
+-------------------------------
+
+=======================================================================================
+DATA:"[{'itemcode':'202','itemname':'A-One Floor Cleaner 1ltr','purchasePrice':'15.6','quantity':'4200 ','amount':'65520','dispercent':'0','disamount':'0','taxamt':'11793.6','netamount':'77313.6','itbs_id':'1032',},{'itemcode':'223','itemname':'A-One S Vinegar 500ml','purchasePrice':'8.05','quantity':'1200 ','amount':'9660','dispercent':'0','disamount':'0','taxamt':'1738.8','netamount':'11398.8','itbs_id':'1038',},{'itemcode':'218','itemname':'X-All Floor Cleaner Concentrate 1ltr','purchasePrice':'26.75','quantity':'360 ','amount':'9630','dispercent':'0','disamount':'0','taxamt':'1733','netamount':'11363','itbs_id':'1040',},{'itemcode':'123','itemname':'Lemon Grass Oil 30ml MRP 55','purchasePrice':'30','quantity':'600 ','amount':'18000','dispercent':'0','disamount':'0','taxamt':'3240','netamount':'21240','itbs_id':'283',},{'itemcode':'109','itemname':'Xall Soda Ash 200gm MRP 20','purchasePrice':'8','quantity':'250 ','amount':'2000','dispercent':'0','disamount':'0','taxamt':'360','netamount':'2360','itbs_id':'313',},{'itemcode':'200','itemname':'Glizol Floor Cleaner(C) 1ltr','purchasePrice':'16','quantity':'360 ','amount':'5760','dispercent':'0','disamount':'0','taxamt':'1036.8','netamount':'6796.8','itbs_id':'1035',},{'itemcode':'195','itemname':'Dew Floor Cleaner 1ltr','purchasePrice':'11.77','quantity':'360 ','amount':'4237.2','dispercent':'0','disamount':'0','taxamt':'762.66','netamount':'4999.86','itbs_id':'1034',},{'itemcode':'142','itemname':'Boyas-27 Rat Jail (Rat Pad) MRP 60','purchasePrice':'29','quantity':'500 ','amount':'14500','dispercent':'0','disamount':'0','taxamt':'2610','netamount':'17110','itbs_id':'243',},{'itemcode':'107','itemname':'Hygenic Clorin Liquid Bleach 250ml MRP 32','purchasePrice':'16.93','quantity':'240 ','amount':'4063.2','dispercent':'0','disamount':'0','taxamt':'731.34','netamount':'4794.54','itbs_id':'264',},{'itemcode':'108','itemname':'Hygenic Clorin Liquid Bleach 500ml MRP 60','purchasePrice':'26.36','quantity':'24 ','amount':'632.64','dispercent':'0','disamount':'0','taxamt':'113.87','netamount':'746.51','itbs_id':'265',},{'itemcode':'104','itemname':'Hy-genic disinfectant (WHITE)1ltr MRP.39/-','purchasePrice':'16.93','quantity':'600 ','amount':'10158','dispercent':'0','disamount':'0','taxamt':'1828.44','netamount':'11986.44','itbs_id':'253',},{'itemcode':'101','itemname':'Hy-genic extreme disinfectant 1ltr MRP 51/-','purchasePrice':'24.66','quantity':'600 ','amount':'14796','dispercent':'0','disamount':'0','taxamt':'2663.28','netamount':'17459.28','itbs_id':'254',},{'itemcode':'237','itemname':'Liquid Soap (H) 5ltr','purchasePrice':'190','quantity':'5 ','amount':'950','dispercent':'0','disamount':'0','taxamt':'171','netamount':'1121','itbs_id':'2773',},{'itemcode':'204','itemname':'A-One Floor Cleaner (Bulk)','purchasePrice':'11','quantity':'125 ','amount':'1375','dispercent':'0','disamount':'0','taxamt':'247.5','netamount':'1622.5','itbs_id':'1046',},{'itemcode':'183','itemname':'A-One Bleaching Powder 500g','purchasePrice':'11.9','quantity':'1250 ','amount':'14875','dispercent':'0','disamount':'0','taxamt':'2677.5','netamount':'17552.5','itbs_id':'1031',},{'itemcode':'105','itemname':'Hygenic Bleaching Powder 250g MRP 21','purchasePrice':'16.1','quantity':'625 ','amount':'10062.5','dispercent':'0','disamount':'0','taxamt':'1811.16','netamount':'11873.66','itbs_id':'259',},{'itemcode':'105','itemname':'Hygenic Bleaching Powder 250g MRP 21','purchasePrice':'9.14','quantity':'1250 ','amount':'11425','dispercent':'0','disamount':'0','taxamt':'2056.5','netamount':'13481.5','itbs_id':'259',},{'itemcode':'213','itemname':'X-All Black Phenyle 500ml MRP46','purchasePrice':'19','quantity':'600 ','amount':'11400','dispercent':'0','disamount':'0','taxamt':'2052','netamount':'13452','itbs_id':'2772',},{'itemcode':'182','itemname':'A-One Bleaching Powder 250g','purchasePrice':'6.9','quantity':'1250 ','amount':'8625','dispercent':'0','disamount':'0','taxamt':'3802.5','netamount':'12427.5','itbs_id':'1030',},{'itemcode':'201','itemname':'A-One Floor Cleaner 500ml','purchasePrice':'10.75','quantity':'600 ','amount':'6450','dispercent':'0','disamount':'0','taxamt':'1161','netamount':'7611','itbs_id':'1033',},{'itemcode':'210','itemname':'X-All Floor Cleaner (C) 1ltr','purchasePrice':'22','quantity':'600 ','amount':'13200','dispercent':'0','disamount':'0','taxamt':'2376','netamount':'15576','itbs_id':'1084',},{'itemcode':'102','itemname':'Hy-genic extreme disinfectant 500ml  MRP 29/-','purchasePrice':'5','quantity':'1','amount':'5.00','dispercent':'0','disamount':'0','taxamt':'0','netamount':'5','itbs_id':'255',}]"
+
+=======================================================================================
+
+=======================================================================================
+2018-10-25 15:55:21:8759
+-------------------------------
+StackTrace:   at System.Linq.Enumerable.SingleOrDefault[TSource](IEnumerable`1 source)
+   at purchase_editPurchase.updatePurchaseEntry(Dictionary`2 filters, String tableString) in e:\Projects\dotnet\invoiceMe\InvoiceMeRebuild\working\web\purchase\editPurchase.aspx.cs:line 249
+
+-------------------------------
+Message:Sequence contains more than one element
+
+-------------------------------
+InnerException:
+
+-------------------------------
+Source:System.Core
+
+-------------------------------
+
+=======================================================================================
+DATA:"[{'itemcode':'202','itemname':'A-One Floor Cleaner 1ltr','purchasePrice':'15.6','quantity':'4200 ','amount':'65520','dispercent':'0','disamount':'0','taxamt':'11793.6','netamount':'77313.6','itbs_id':'1032',},{'itemcode':'223','itemname':'A-One S Vinegar 500ml','purchasePrice':'8.05','quantity':'1200 ','amount':'9660','dispercent':'0','disamount':'0','taxamt':'1738.8','netamount':'11398.8','itbs_id':'1038',},{'itemcode':'218','itemname':'X-All Floor Cleaner Concentrate 1ltr','purchasePrice':'26.75','quantity':'360 ','amount':'9630','dispercent':'0','disamount':'0','taxamt':'1733','netamount':'11363','itbs_id':'1040',},{'itemcode':'123','itemname':'Lemon Grass Oil 30ml MRP 55','purchasePrice':'30','quantity':'600 ','amount':'18000','dispercent':'0','disamount':'0','taxamt':'3240','netamount':'21240','itbs_id':'283',},{'itemcode':'109','itemname':'Xall Soda Ash 200gm MRP 20','purchasePrice':'8','quantity':'250 ','amount':'2000','dispercent':'0','disamount':'0','taxamt':'360','netamount':'2360','itbs_id':'313',},{'itemcode':'200','itemname':'Glizol Floor Cleaner(C) 1ltr','purchasePrice':'16','quantity':'360 ','amount':'5760','dispercent':'0','disamount':'0','taxamt':'1036.8','netamount':'6796.8','itbs_id':'1035',},{'itemcode':'195','itemname':'Dew Floor Cleaner 1ltr','purchasePrice':'11.77','quantity':'360 ','amount':'4237.2','dispercent':'0','disamount':'0','taxamt':'762.66','netamount':'4999.86','itbs_id':'1034',},{'itemcode':'142','itemname':'Boyas-27 Rat Jail (Rat Pad) MRP 60','purchasePrice':'29','quantity':'500 ','amount':'14500','dispercent':'0','disamount':'0','taxamt':'2610','netamount':'17110','itbs_id':'243',},{'itemcode':'107','itemname':'Hygenic Clorin Liquid Bleach 250ml MRP 32','purchasePrice':'16.93','quantity':'240 ','amount':'4063.2','dispercent':'0','disamount':'0','taxamt':'731.34','netamount':'4794.54','itbs_id':'264',},{'itemcode':'108','itemname':'Hygenic Clorin Liquid Bleach 500ml MRP 60','purchasePrice':'26.36','quantity':'24 ','amount':'632.64','dispercent':'0','disamount':'0','taxamt':'113.87','netamount':'746.51','itbs_id':'265',},{'itemcode':'104','itemname':'Hy-genic disinfectant (WHITE)1ltr MRP.39/-','purchasePrice':'16.93','quantity':'600 ','amount':'10158','dispercent':'0','disamount':'0','taxamt':'1828.44','netamount':'11986.44','itbs_id':'253',},{'itemcode':'101','itemname':'Hy-genic extreme disinfectant 1ltr MRP 51/-','purchasePrice':'24.66','quantity':'600 ','amount':'14796','dispercent':'0','disamount':'0','taxamt':'2663.28','netamount':'17459.28','itbs_id':'254',},{'itemcode':'237','itemname':'Liquid Soap (H) 5ltr','purchasePrice':'190','quantity':'5 ','amount':'950','dispercent':'0','disamount':'0','taxamt':'171','netamount':'1121','itbs_id':'2773',},{'itemcode':'204','itemname':'A-One Floor Cleaner (Bulk)','purchasePrice':'11','quantity':'125 ','amount':'1375','dispercent':'0','disamount':'0','taxamt':'247.5','netamount':'1622.5','itbs_id':'1046',},{'itemcode':'183','itemname':'A-One Bleaching Powder 500g','purchasePrice':'11.9','quantity':'1250 ','amount':'14875','dispercent':'0','disamount':'0','taxamt':'2677.5','netamount':'17552.5','itbs_id':'1031',},{'itemcode':'105','itemname':'Hygenic Bleaching Powder 250g MRP 21','purchasePrice':'16.1','quantity':'625 ','amount':'10062.5','dispercent':'0','disamount':'0','taxamt':'1811.16','netamount':'11873.66','itbs_id':'259',},{'itemcode':'105','itemname':'Hygenic Bleaching Powder 250g MRP 21','purchasePrice':'9.14','quantity':'1250 ','amount':'11425','dispercent':'0','disamount':'0','taxamt':'2056.5','netamount':'13481.5','itbs_id':'259',},{'itemcode':'213','itemname':'X-All Black Phenyle 500ml MRP46','purchasePrice':'19','quantity':'600 ','amount':'11400','dispercent':'0','disamount':'0','taxamt':'2052','netamount':'13452','itbs_id':'2772',},{'itemcode':'182','itemname':'A-One Bleaching Powder 250g','purchasePrice':'6.9','quantity':'1250 ','amount':'8625','dispercent':'0','disamount':'0','taxamt':'3802.5','netamount':'12427.5','itbs_id':'1030',},{'itemcode':'201','itemname':'A-One Floor Cleaner 500ml','purchasePrice':'10.75','quantity':'600 ','amount':'6450','dispercent':'0','disamount':'0','taxamt':'1161','netamount':'7611','itbs_id':'1033',},{'itemcode':'210','itemname':'X-All Floor Cleaner (C) 1ltr','purchasePrice':'22','quantity':'600 ','amount':'13200','dispercent':'0','disamount':'0','taxamt':'2376','netamount':'15576','itbs_id':'1084',},{'itemcode':'102','itemname':'Hy-genic extreme disinfectant 500ml  MRP 29/-','purchasePrice':'5','quantity':'1','amount':'5.00','dispercent':'0','disamount':'0','taxamt':'0','netamount':'5','itbs_id':'255',}]"
+
+=======================================================================================
+
+=======================================================================================
+2018-10-31 12:19:41:2233
+-------------------------------
+StackTrace:   at commonfunction.mySqlConnection.ExecuteQueryForTransaction(String strQuery) in e:\Projects\dotnet\invoiceMe\InvoiceMeRebuild\working\commonfunction\mySqlConnection.cs:line 223
+   at income.saveIncomeEntry(Dictionary`2 filters, String tableString) in e:\deepika\ideal\web\incomExpense\income.aspx.cs:line 212
+
+-------------------------------
+Message:Unknown column 'user_balance' in 'field list'
+
+-------------------------------
+InnerException:
+
+-------------------------------
+Source:commonfunction
+
+-------------------------------
+
+=======================================================================================
+
+=======================================================================================
+2018-10-31 12:21:30:5095
+-------------------------------
+StackTrace:   at commonfunction.mySqlConnection.ExecuteQueryForTransaction(String strQuery) in e:\Projects\dotnet\invoiceMe\InvoiceMeRebuild\working\commonfunction\mySqlConnection.cs:line 223
+   at income.saveIncomeEntry(Dictionary`2 filters, String tableString) in e:\deepika\ideal\web\incomExpense\income.aspx.cs:line 212
+
+-------------------------------
+Message:Unknown column 'user_balance' in 'field list'
+
+-------------------------------
+InnerException:
+
+-------------------------------
+Source:commonfunction
+
+-------------------------------
+
+=======================================================================================
+
+=======================================================================================
+2018-11-01 10:59:05:5959
+-------------------------------
+StackTrace:   at commonfunction.mySqlConnection.ExecuteQueryForTransaction(String strQuery) in e:\Projects\dotnet\invoiceMe\InvoiceMeRebuild\working\commonfunction\mySqlConnection.cs:line 223
+   at income.saveIncomeEntry(Dictionary`2 filters, String tableString) in e:\Projects\dotnet\invoiceMe\InvoiceMeRebuild\working\web\incomExpense\income.aspx.cs:line 212
+
+-------------------------------
+Message:Unknown column 'user_balance' in 'field list'
+
+-------------------------------
+InnerException:
+
+-------------------------------
+Source:commonfunction
+
+-------------------------------
+
+=======================================================================================

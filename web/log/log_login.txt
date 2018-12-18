@@ -1,0 +1,57 @@
+
+=======================================================================================
+2018-11-16 12:45:57:5735
+-------------------------------
+StackTrace:   at commonfunction.mySqlConnection.SelectQueryForTransaction(MySqlCommand cmd) in d:\deepika\projects\ideal\commonfunction\mySqlConnection.cs:line 368
+   at login.mainLogin(String username, String password) in d:\deepika\projects\ideal\web\login.aspx.cs:line 40
+
+-------------------------------
+Message:Unknown column 'tu.branch_id' in 'field list'
+
+-------------------------------
+InnerException:
+
+-------------------------------
+Source:commonfunction
+
+-------------------------------
+
+=======================================================================================
+
+=======================================================================================
+2018-11-16 12:52:13:4740
+-------------------------------
+StackTrace:   at commonfunction.mySqlConnection.SelectQueryForTransaction(MySqlCommand cmd) in d:\deepika\projects\ideal\commonfunction\mySqlConnection.cs:line 368
+   at login.mainLogin(String username, String password) in d:\deepika\projects\ideal\web\login.aspx.cs:line 40
+
+-------------------------------
+Message:Unknown column 'tu.branch_id' in 'field list'
+
+-------------------------------
+InnerException:
+
+-------------------------------
+Source:commonfunction
+
+-------------------------------
+
+=======================================================================================
+
+=======================================================================================
+2018-11-16 12:57:48:9091
+-------------------------------
+StackTrace:   at commonfunction.mySqlConnection.SelectQueryForTransaction(MySqlCommand cmd) in d:\deepika\projects\ideal\commonfunction\mySqlConnection.cs:line 368
+   at login.mainLogin(String username, String password) in d:\deepika\projects\ideal\web\login.aspx.cs:line 40
+
+-------------------------------
+Message:Unknown column 'tu.branch_id' in 'field list'
+
+-------------------------------
+InnerException:
+
+-------------------------------
+Source:commonfunction
+
+-------------------------------
+
+=======================================================================================

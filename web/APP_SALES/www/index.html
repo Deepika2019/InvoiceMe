@@ -1,0 +1,3734 @@
+﻿<!doctype html>
+<html lang="en">
+    
+<head>
+	<meta charset="utf-8" />
+	<link rel="apple-touch-icon" sizes="76x76" href="assets/img/apple-icon.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="assets/img/favicon.png">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+	<title>Invoice Me</title>
+
+	<meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
+	<meta name="viewport" content="width=device-width" />
+	<!-- Bootstrap core CSS -->
+	<link href="assets/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="assets/css/font-awesome.min.css" rel="stylesheet" />
+	<!-- Animation library for notifications   -->
+	<link href="assets/css/animate.min.css" rel="stylesheet" />
+	<!--  Paper Dashboard core CSS    -->
+	<link href="assets/css/paper-dashboard.css" rel="stylesheet" />
+	<!--  CSS for Demo Purpose, don't include it in your project     -->
+	<!--<link href="assets/css/demo.css" rel="stylesheet" />-->
+	<!--  Fonts and icons -->
+	<link href="assets/mobiscroll/css/mobiscroll-2.0rc3.full.min.css" rel="stylesheet">
+	<link href="assets/mobiscroll/dev/css/mobiscroll.android.css" rel="stylesheet">
+	<link href="assets/css/themify-icons.css" rel="stylesheet">
+
+	<style>
+		body {
+			-webkit-user-select: none;
+			-moz-user-select: -moz-none;
+			-ms-user-select: none;
+			user-select: none;
+		}
+
+		.sticky {
+			position: fixed;
+			width: 100%;
+			left: 0;
+			top: 0;
+			z-index: 100;
+			border-top: 0;
+		}
+		/*new*/
+
+        .overview .panel-body {
+			padding: 1px;
+		}
+
+		.overview .panel-body>.table {
+			margin-bottom: 0px;
+		}
+
+		.overview .panel-body>.table td,
+		th {
+			padding: 5px;
+		}
+
+		.overview .panel-footer {
+			text-align: center;
+		}
+
+		.table>tbody>tr:first-child>td {
+			border: none;
+		}
+
+		.card .content {
+			padding: 5px;
+		}
+        
+		#divTotalOverview .panel-body {
+			padding: 5px;
+		}
+
+		#divTotalOverview .panel-body>.table {
+			margin-bottom: 0px;
+		}
+
+		#divTotalOverview .panel-body>.table td,
+		th {
+			padding: 5px;
+		}
+
+		#divTotalOverview .panel-footer {
+			text-align: center;
+		}
+	</style>
+
+</head>
+
+<body style="background-color:#fff">
+
+    <input type="hidden" id="ss_user_password" value="0" />
+    <input type="hidden" id="ss_user_deviceid" value="0" />
+    <!-- settings -->
+    <input type="hidden" id="ss_price_change" value="0" />
+    <input type="hidden" id="ss_discount_change" value="0" />
+    <input type="hidden" id="ss_foc_change" value="0" />
+    <input type="hidden" id="ss_class_change" value="0" />
+    <input type="hidden" id="ss_max_period_credit" value="0" />
+    <input type="hidden" id="ss_new_registration" value="0" />
+    <input type="hidden" id="ss_sales_return" value="0" />
+    <input type="hidden" id="ss_due_amount" value="0" />
+    <input type="hidden" id="ss_new_item" value="0" />
+    <input type="hidden" id="ss_location_on_order" value="0" />
+    <input type="hidden" id="ss_validation_email" value="0" />
+    <input type="hidden" id="ss_phone_email" value="0" />
+    <input type="hidden" id="ss_reg_id_required" value="0" />
+    <input type="hidden" id="ss_trn_gst_required" value="0" />
+    <input type="hidden" id="ss_currency" value="0" />
+    <input type="hidden" id="ss_decimal_accuracy" value="0" />
+    <input type="hidden" id="ss_multidevice_block" value="0" />
+    <input type="hidden" id="ss_default_time_zone" value="India Standard Time" />
+    <input type="hidden" id="ss_default_max_period" value="0" />
+    <input type="hidden" id="ss_default_max_credit" value="0" />
+    <input type="hidden" id="ss_payment_type" value="0" />
+    <input type="hidden" id="ss_direct_delivery" value="0" />
+
+    <input type="hidden" id="br_tax_method" value="0" />
+    <input type="hidden" id="br_time_zone" value="0" />
+    <input type="hidden" id="br_tax_inclusive" value="0" />
+    
+    <input type="hidden" id="hdnCurrentDiv" value="divlogin" />
+    <input type="hidden" id="appuserid" value="0" />
+    <input type="hidden" id="loginval" value="0" />
+    <input type="hidden" id="selected_branch_id" value="0" />
+    <input type="hidden" id="db_last_updated_date" value="0" />
+    <input type="hidden" id="customer_id" value="0" />
+    <input type="hidden" id="order_load_type" value="0" />
+    <input type="hidden" id="cust_class_for_order" value="0" />
+    <input type="hidden" id="cust_current_outstanding" value="0" />
+    <input type="hidden" id="cust_max_credit_allowed" value="0" />
+    <input type="hidden" id="gg_map_lat" value="0" />
+    <input type="hidden" id="gg_map_lon" value="0" />
+
+    <input type="hidden" id="item_cal_original_price" value="0" />
+    <input type="hidden" id="item_cal_tax_percent" value="0" />
+    <input type="hidden" id="item_cal_cess" value="0" />
+    <input type="hidden" id="item_cal_commision" value="0" />
+
+    <input type="hidden" id="itm_calc_real_total" value="0" />
+    <input type="hidden" id="itm_calc_net_total" value="0" />
+    <input type="hidden" id="itm_calc_dics_amount" value="0" />
+    <input type="hidden" id="itm_calc_tax_amount" value="0" />
+    <input type="hidden" id="itm_calc_commision_amount" value="0" />
+    <input type="hidden" id="itm_calc_cess_amount" value="0" />
+
+    <input type="hidden" id="order_total" value="0" />
+    <input type="hidden" id="order_balance" value="0" />
+    <input type="hidden" id="order_total_tax" value="0" />
+    <input type="hidden" id="order_is_to_be_confirm" value="0" />
+    <input type="hidden" id="sm_price_class" value="0" />
+
+    <input type="hidden" id="order_id" value="0" />
+    <input type="hidden" id="order_branch_id" value="0" />
+    <input type="hidden" id="order_current_status" value="0" />
+    <input type="hidden" id="is_online_action" value="0" />
+    <input type="hidden" id="is_new_registration" value="0" />
+    <input type="hidden" id="is_image_exist" value="0" />
+    <input type="hidden" id="current_sm_type" value="0" />
+    <input type="hidden" id="cust_wallet_amount" value="0" />
+    <input type="hidden" id="return_max_qty" value="0" />
+    <input type="hidden" id="total_outstanding_payment" value="0" />
+    <input type="hidden" id="cust_wallet_used_amount" value="0" />
+    
+
+    <div class="wrapper" style="background-color:#fff">
+
+        <div class="sidebar" data-background-color="white" data-active-color="info">
+
+            <!--
+                Tip 1: you can change the color of the sidebar's background using: data-background-color="white | black"
+                Tip 2: you can change the color of the active button using the data-active-color="primary | info | success | warning | danger"
+            -->
+
+            <div class="sidebar-wrapper">
+                <div class="logo">
+                    <a href="#" class="simple-text" style="color:#337ab7">
+                        Invoice Me
+                    </a>
+
+                    <div align="center">
+                        <img src="assets/img/gg.png" style="width:25%;margin-bottom:0px;" />
+                        <!--<h5 id="theSelle" style="color:#000;margin-top:0px;"><small style="color:#3091B2;font-size:large" id="Snamedisplay"></small><br /><small id="theSellerBranch"></small></h5>-->
+                    </div>
+                </div>
+
+                <ul class="nav">
+
+                    <li class="btnhandle" onclick="javascript:Check_in_Common();">
+                        <a href="#">
+                            <i class="ti-location-pin"></i>
+                            <p style="color:#337ab7">Check In</p>
+                        </a>
+                    </li>
+
+                    <li class="btnhandle" onclick="javascript:showpage('homepage');">
+                        <a href="#">
+                            <i class="ti-home"></i>
+                            <p style="color:#337ab7">Home</p>
+                        </a>
+                    </li>
+
+
+                    <li class="btnhandle" onclick="javascript:showMyOrders(1);">
+                        <a href="#">
+                            <i class="ti-eye"></i>
+                            <p style="color:#337ab7">View Orders</p>
+                        </a>
+                    </li>
+
+
+                    <li class="btnhandle" onclick="javascript:showSettings()">
+                        <a href="#">
+                            <i class="ti-settings"></i>
+                            <p style="color:#337ab7">Settings</p>
+                        </a>
+                    </li>
+
+                    <li class="btnhandle" onclick="javascript:show_Offline_Contents_from_sidemenu()">
+                        <a href="#">
+                            <i class="ti-reload"></i>
+                            <p style="color:#337ab7">Sync Data</p>
+                        </a>
+                    </li>
+
+                   <!-- <li class="btnhandle" onclick="javascript:showdivMyNotes()">
+                        <a href="#">
+                            <i class="ti-pencil-alt"></i>
+                            <p style="color:#337ab7">My Notes</p>
+                        </a>
+                    </li>-->
+                    
+
+                    <li class="btnhandle">
+                        <a href="#">
+                            <i style="color: red" class="ti-close"></i>
+                            <p style="color: red">Close</p>
+                        </a>
+                    </li>
+
+                </ul>
+
+
+            </div>
+        </div>
+
+        <div class="main-panel" style="width:100%;height:100%;background-color:#fff">
+
+            <nav class="navbar navbar-default sticky">
+                <div class="container-fluid">
+                    <div class="navbar-header">
+
+                        <table align="center" style="width: 100%">
+                            <tr align="center">
+                                <td>
+                                    <button type="button" class="navbar-header" style="float: left; margin-left: 7px; background-color: transparent; border-color: transparent; outline: none;">
+
+                                        <img src="assets/img/back1.png" id="divBackButton" style="float: left; width: 22px; outline: none; opacity: 1" onclick="javascript:onBackKeyDown();" />
+
+                                    </button>
+                                </td>
+                                <td>
+                                    <div align="center">
+                                        <h5 align="center" style="margin-left: 20%; margin-right: 20%; font-size: 14px; margin-top: 0px; margin-bottom: 0px;" id="mainTitle">Invoice Me</h5>
+                                    </div>
+                                </td>
+                                <td>
+                                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse" style="float: right">
+                                        <span class="sr-only">Toggle navigation</span>
+                                        <span class="icon-bar"></span>
+                                        <span class="icon-bar"></span>
+                                        <span class="icon-bar"></span>
+                                    </button>
+                                </td>
+                            </tr>
+                        </table>
+
+                    </div>
+                    <div class="collapse navbar-collapse">
+                        <ul class="nav navbar-nav navbar-right"></ul>
+
+                    </div>
+                </div>
+            </nav>
+
+            <div id="homepage" class="col-lg-4 col-md-5" style="width:100%;margin-top:58px;display:none">
+                        
+
+                <div class="card" style="width:100%">
+
+                    <div class="content" style="width:100%">
+
+                        
+                        <div align="center">
+                            <img src="assets/img/gg.png" style="width:30%" />
+
+                            <h5 style="color:#337ab7;margin:0px;padding:0px;">Invoice Me <small>Salesman</small></h5>
+                            <hr style="color:#337ab7" />
+                        </div>
+                        <ul class="list-unstyled team-members">
+
+                             <li style="background-color:#f9f9f9" onclick="javascript:show_Offline_Contents();">
+                                <div class="row">
+                                    <div class="col-xs-3">
+                                        <div class="avatar">
+                                            <img src="assets/img/offline.png" alt="Circle Image" class="img-circle img-no-padding img-responsive">
+                                        </div>
+                                    </div>
+                                    <div class="col-xs-9">
+                                        <h5 style="margin-bottom:1px;margin-top:1px;">Offline Entries <b id="off_line_count" style="color:red;"></b></h5>
+                                        <span class="text-info"><small>Items to be synced later</small></span>
+                                    </div>
+                                </div>
+                            </li>
+
+                            <li style="background-color:#fff" onclick="javascript:showCustomers();">
+                                <div class="row">
+                                    <div class="col-xs-3">
+                                        <div class="avatar">
+                                            <img src="assets/img/cart.png" alt="Circle Image" class="img-circle img-no-padding img-responsive">
+                                        </div>
+                                    </div>
+                                    <div class="col-xs-9">
+                                        <h5 style="margin-bottom:1px;margin-top:1px;">Customers</h5>
+
+                                        <span class="text-info"><small>All operations related to Customers</small></span>
+                                    </div>
+
+
+                                </div>
+                            </li>
+                            <li style="background-color:#f9f9f9" onclick="javascript:show_pending_items();">
+                                <div class="row">
+                                    <div class="col-xs-3">
+                                        <div class="avatar">
+                                            <img src="assets/img/underReview.jpg" alt="Circle Image" class="img-circle img-no-padding img-responsive">
+                                        </div>
+                                    </div>
+                                    <div class="col-xs-9">
+                                        <h5 style="margin-bottom:1px;margin-top:1px;">Pending Approvals</h5>
+
+                                        <span class="text-info"><small>Customer class changes & orders</small></span>
+                                    </div>
+
+
+                                </div>
+                            </li>
+
+                            <li style="background-color:#fff" onclick="javascript:showMyOrders(1);">
+                                <div class="row">
+                                    <div class="col-xs-3">
+                                        <div class="avatar">
+                                            <img src="assets/img/order.png" alt="Circle Image" class="img-circle img-no-padding img-responsive">
+                                        </div>
+                                    </div>
+                                    <div class="col-xs-9">
+                                        <h5 style="margin-bottom:1px;margin-top:1px;">My Orders</h5>
+
+                                        <span class="text-info"><small>Track performance , Income etc.</small></span>
+                                    </div>
+
+
+                                </div>
+                            </li>
+
+                             <li style="background-color:#fff" onclick="javascript:showClearancePage();">
+                                <div class="row">
+                                    <div class="col-xs-3">
+                                        <div class="avatar">
+                                            <img src="assets/img/billclr.png" alt="Circle Image" class="img-circle img-no-padding img-responsive">
+                                        </div>
+                                    </div>
+                                    <div class="col-xs-9">
+                                        <h5 style="margin-bottom:1px;margin-top:1px;">Pending Payment Clearance</h5>
+
+                                        <span class="text-info"><small>Clear Orders with Credit/Wallet balance</small></span>
+                                    </div>
+
+
+                                </div>
+                            </li>
+
+                             <li style="background-color:#fff" onclick="javascript:show_my_activities();">
+								<div class="row">
+									<div class="col-xs-3">
+										<div class="avatar">
+											<img src="assets/img/activity.jpg" alt="Circle Image" class="img-circle img-no-padding img-responsive">
+										</div>
+									</div>
+									<div class="col-xs-9">
+										<h5 style="margin-bottom:1px;margin-top:1px;">My Activities</h5>
+										<span class="text-info"><small>Track whole activites at one place</small></span>
+									</div>
+								</div>
+							</li>
+
+                            <li style="background-color:#f9f9f9" onclick="javascript:show_assigned_delivery_page();">
+                                <div class="row">
+                                    <div class="col-xs-3">
+                                        <div class="avatar">
+                                            <img src="assets/img/delivered.png" alt="Circle Image" class="img-circle img-no-padding img-responsive">
+                                        </div>
+                                    </div>
+                                    <div class="col-xs-9">
+                                        <h5 style="margin-bottom:1px;margin-top:1px;">Assigned Deliveries</h5>
+
+                                        <span class="text-info"><small>Orders assigned to you for delivery</small></span>
+                                    </div>
+
+
+                                </div>
+                            </li>
+
+                            <li style="background-color:#fff" onclick="javascript:show_sales_overview();">
+                                <div class="row">
+                                    <div class="col-xs-3">
+                                        <div class="avatar">
+                                            <img src="assets/img/single_user.png" alt="Circle Image" class="img-circle img-no-padding img-responsive">
+                                        </div>
+                                    </div>
+                                    <div class="col-xs-9">
+                                        <h5 style="margin-bottom:1px;margin-top:1px;">Sales Overview</h5>
+                                        <span class="text-info"><small>Analyse sales performance</small></span>
+                                    </div>
+                                </div>
+                            </li>
+
+                             <li style="background-color:#f9f9f9" onclick="javascript:show_edited_orders();">
+								<div class="row">
+									<div class="col-xs-3">
+										<div class="avatar">
+											<img src="assets/img/edit.png" alt="Circle Image" class="img-circle img-no-padding img-responsive">
+										</div>
+									</div>
+									<div class="col-xs-9">
+										<h5 style="margin-bottom:1px;margin-top:1px;">Edited Orders</h5>
+										<span class="text-info"><small>View all changes made to your orders</small></span>
+									</div>
+								</div>
+							</li>
+
+                            <li style="background-color:#fff" onclick="javascript:showDues();">
+                                <div class="row">
+                                    <div class="col-xs-3">
+                                        <div class="avatar">
+                                            <img src="assets/img/pay_due.png" alt="Circle Image" class="img-circle img-no-padding img-responsive">
+                                        </div>
+                                    </div>
+                                    <div class="col-xs-9">
+                                        <h5 style="margin-bottom:1px;margin-top:1px;">Due Payments</h5>
+
+                                        <span class="text-info"><small>Payment Dues for Delivered orders</small></span>
+                                    </div>
+
+
+                                </div>
+                            </li>
+
+                            <li style="background-color:#f9f9f9" onclick="javascript:showProductOverview();">
+                                <div class="row">
+                                    <div class="col-xs-3">
+                                        <div class="avatar">
+                                            <img src="assets/img/fast-food-icon.png" alt="Circle Image" class="img-circle img-no-padding img-responsive">
+                                        </div>
+                                    </div>
+                                    <div class="col-xs-9">
+                                        <h5 style="margin-bottom:1px;margin-top:1px;">Product Overview</h5>
+                                        <span class="text-info"><small>Analyse brandwise business</small></span>
+                                    </div>
+                                </div>
+                            </li>
+
+                            <li style="background-color:#fff" onclick="javascript:showCustFollowUps();">
+                                <div class="row">
+                                    <div class="col-xs-3">
+                                        <div class="avatar">
+                                            <img src="assets/img/quickly.png" alt="Circle Image" class="img-circle img-no-padding img-responsive">
+                                        </div>
+                                    </div>
+                                    <div class="col-xs-9">
+                                        <h5 style="margin-bottom:1px;margin-top:1px;">Scheduled Visits</h5>
+                                        <span class="text-info"><small>Follow Up date informations</small></span>
+                                    </div>
+                                </div>
+                            </li>
+
+                             
+                           
+
+
+
+                        </ul>
+
+                    </div>
+                </div>
+            </div>
+
+            <div id="divlogin" class="col-lg-4 col-md-5" style="width:100%;margin-top:58px;display:none">
+
+                <div class="card" style="width:100%">
+
+                    <div class="content" style="width:100%">
+                        <div align="center">
+                            <img src="assets/img/gg.png" style="width:35%" />
+
+                            <hr style="color:#337ab7" />
+                            <h5 style="color:#337ab7;margin:0px;padding:0px;">Invoice Me <small>Salesman</small></h5>
+                        </div>
+
+                        <div class="content">
+
+                            <form>
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <div class="form-group">
+                                            <label style="color:#808080">Username</label>
+                                            <input type="text" id="txt_user_name" class="form-control border-input" placeholder="Enter the Username">
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <div class="form-group">
+                                            <label style="color:#808080">Password</label>
+                                            <input type="password" id="txt_user_password" class="form-control border-input" placeholder="Enter the Password">
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
+
+                            <div class="row" style="margin-bottom: 10px;">
+                                <div class="col-md-6">
+                                    <button onclick="javascript:login_user();" style="background-color: #337ab7; color: white; width: 100%; border-radius: 5px; font-size: 20px; border: none; height: 50px;" class="btn btn-info"><i class="ti-user"></i> Login </button>
+
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <div id="div_edited_order_list" class="overview col-lg-4 col-md-5" style="margin-bottom: 0px; margin-top: 62px;display:none">
+                  <div class="card" style="background-color: #f9f9f9">
+                      
+                    <div class="content">
+                       
+                        <table style="width:100%">
+                            <tr>
+                                <td style="width:50%;">
+                                    <div>
+                                        <div class="form-group">
+                                            <label style="color:#337ab7">From</label>
+                                            <input type="text" id="text_edited_from" style="background-color:white;color:#000" class="form-control border-input" placeholder="Start Date">
+                                        </div>
+                                    </div>
+                                </td>
+                                <td style="width:50%">
+                                    <div>
+                                        <div class="form-group">
+                                            <label style="color:#337ab7">To</label>
+                                            <input type="text" id="text_edited_to" style="background-color:white;color:#000" class="form-control border-input" placeholder="End Date">
+                                        </div>
+
+                                    </div>
+                                </td>
+                            </tr>
+                        </table>
+
+                        
+
+                        	<div class="form-group" style="width:100%">
+											<button onclick="javascript:reset_edited_order_list();" id="Button17" style="background-color:#808080;color:#fff;border:none;border-radius:2px;width:49%;float:left;height:40px" class="btn btn-info">RESET</button>
+											<button onclick="javascript:get_edited_order_list(1)" id="Button18" style="background-color:#337ab7;color:#fff;border:none;border-radius:2px;width:49%;float:right;height:40px" class="btn btn-info">SEARCH</button>
+										</div>
+
+                        <div>
+									
+									</div>
+
+                       
+                    </div>
+                </div>
+
+
+				
+									<hr style="color:#635c5c" />
+								
+				
+                
+                <div class="card">
+					<div class="content">
+						<div id="div24" class="panel panel-info">
+							<div class="panel-heading">
+								EDITED ORDERS
+								<!--<div class="pull-right">
+									Total = <span class="" id="Span1">0</span>
+								</div>-->
+							</div>
+							<div class="panel-body" id="div25">
+								<div id="div_list_all_edited_orders"></div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+            <div id="divEditedOrderDetails" class="col-lg-4 col-md-12" style="margin-bottom: 0px; margin-top: 55px;display: none">
+			
+				<div class="card">
+					<!--<div class="header"><h6 class="title" align="center" id="H31" style="color: #337ab7;">Editing Details</h6></div>-->
+
+                    <div id="div26" class="panel panel-info" style="margin-top:10px">
+							<div class="panel-heading" style="text-align:center;margin-top:5px">
+								ITEM EDIT DETAILS
+								
+							</div>
+                        </div>
+	
+					<div  style="margin-left: 5px; margin-right: 5px;background-color:#f9f9f9">
+
+                        <div id="divListEditedOrderItemDetails"></div>
+						<div id="div21"></div>
+
+                         <button  onclick="javascript:onBackKeyDown();" style="background-color: transparent; color: black; width: 100%; border-radius: 5px; font-size: 20px; border: none; height: 50px;" class="btn btn-info card"><i class="ti-back-left"></i> Go Back </button>
+
+					</div>
+				</div>
+
+                
+
+                
+
+			</div>
+
+            <div id="divReturneditemsofOrder" class="col-lg-4 col-md-12" style="margin-bottom: 0px; margin-top: 55px;display: none">
+			
+				<div class="card">
+					
+                    <div id="div13" class="panel panel-info" style="margin-top:10px">
+							<div class="panel-heading" style="text-align:center;margin-top:5px">
+								RETURNED ITEMS
+								
+							</div>
+                        </div>
+	
+					<div  style="margin-left: 5px; margin-right: 5px;background-color:#f9f9f9">
+
+                        <div id="div_returned_items_in_this_order"></div>
+						
+                         <button  onclick="javascript:onBackKeyDown();" style="background-color: transparent; color: black; width: 100%; border-radius: 5px; font-size: 20px; border: none; height: 50px;" class="btn btn-info card"><i class="ti-back-left"></i> Go Back </button>
+
+					</div>
+				</div>
+
+                
+
+                
+
+			</div>
+
+            <div id="div_order_sales_return" class="col-lg-4 col-md-12" style="margin-bottom: 0px; margin-top: 55px;display: none">
+			
+				<div class="card">
+					
+                    <div id="div15" class="panel panel-info" style="margin-top:10px">
+							<div class="panel-heading" style="text-align:center;margin-top:5px">
+								Choose Item to Return
+								
+							</div>
+                        </div>
+
+                    <div class="row" style="margin-bottom: 10px;">
+									<div class="col-md-6">
+										<button onclick="javascript:show_return_cart_page();" style="background-color: #337ab7; color: white; width: 100%; border-radius: 5px; font-size: 20px; border: none; height: 40px;" class="btn btn-info"><i class="ti-shopping-cart"></i><i class="ti-back-left"></i> View Return Cart </button>
+
+									</div>
+								</div>
+	
+					<div  style="margin-left: 5px; margin-right: 5px;background-color:#f9f9f9">
+
+                        <div id="div_searached_order_return_items"></div>
+						
+                         <button  onclick="javascript:onBackKeyDown();" style="background-color: transparent; color: black; width: 100%; border-radius: 5px; font-size: 20px; border: none; height: 50px;" class="btn btn-info card"><i class="ti-back-left"></i> Go Back </button>
+
+					</div>
+				</div>
+
+			</div>
+
+            <div id="divCustomerList" class="col-lg-4 col-md-5" style="margin-bottom: 0px; margin-top: 64px;display:none">
+
+                <div class="row" style="margin-bottom: 10px;margin-top:10px;" onclick="javascript:showCustomerRegistraionPage();">
+                    <div class="col-md-12">
+                        <button style="background-color: #337ab7; color: #fff; width: 100%; border-radius: 5px; font-size: 20px; border: none;" class="btn btn-info"><i class="ti-plus"></i><i class="ti-user"></i> New Customer </button>
+
+                    </div>
+                </div>
+
+
+                <div class="card">
+
+                    <div id="custSearch" class="input-group input-group-sm">
+                        <input type="text" class="form-control" id="txtsearchCustomer" onkeyup="javscript:list_customers(1);" placeholder="Search for Customers" style="background-color: #fff;border:1px solid #337ab7; height: 40px; font-size: 17px;">
+                        <span class="input-group-btn">
+                            <button type="button" style="color: #808080; height: 40px; font-size: 17px;" onkeyup="javscript:list_customers(1);" class="btn btn-info"><i class="ti-search"></i></button>
+                        </span>
+                    </div>
+
+
+
+                    <h4 class="title" id="custTitle" style="color: #337ab7;">
+                        <small style="color: #337ab7;font-size:15px">SELECT CUSTOMER</small><small id="lbl_cust_toto_count_at_view"></small>
+                        <!-- map start -->
+                        <i class="ti-location-pin" style="float: right;" onclick="showCustomersOnMap()"></i>
+                        <!-- map stop -->
+                    </h4>
+                    <hr style="margin-top: 1px; margin-bottom: 1px;" />
+                    <p id="nOfClients" style="color: #808080; font-size: 12px; float: right"></p>
+
+                    <div class="content" style="margin-left: 5px; margin-right: 5px;">
+
+                        <div id="divListCustomer"></div>
+
+
+
+                    </div>
+                </div>
+            </div>
+
+            <div id="div_due_clearnce_page" class="col-lg-4 col-md-5" style="margin-bottom: 0px; margin-top: 64px;display:none">
+
+               
+                <div class="card">
+
+                   <h5 class="panel-heading" style="text-align:center;margin:0px;color:#337ab7">Bill Clearance<br /><small style="color:#635c5c">Clear Orders with Customer's Credit/Wallet Balance <small style="color:#b53131"><br />SELECT CUSTOMER TO VIEW ORDERS</small></small></h5>
+                    <hr style="margin:0px;padding:0px" />
+
+                    <p id="P5" style="color: #808080; font-size: 12px; float: right"></p>
+
+                    <div class="content" style="margin-left: 5px; margin-right: 5px;">
+
+                        <div id="divListCustomerwithBalance"></div>
+
+
+
+                    </div>
+                </div>
+            </div>
+
+            <div id="divAddNewCustomer" class="col-lg-12 col-md-12" style="margin-bottom: 0px; margin-top: 55px;display: none">
+
+
+                <div class="card card-user" style="padding-bottom:0px;margin-bottom:1px;">
+                    <div class="image" style="height:220px;">
+                        <img id="myimage" style="padding:3%;" src="assets/img/noimage.png" alt="eror loading image" />
+                    </div>
+                    <div class="content">
+                        <div class="author">
+                            <img onclick="javascript:takePhoto();" class="avatar" style="width:60px;height:60px;" src="assets/img/Capture-icon.png" alt="..." />
+                            <div id="lbl_customer_action">
+
+                            </div>
+
+                            <div class="content">
+                                <form>
+                                    <div class="row">
+
+
+                                        <div class="col-md-5">
+
+                                            <div id="Div1" class="input-group input-group-sm">
+
+                                                <input type="text" class="form-control" id="newcustomerlocation" disabled placeholder="Not Found" style="background-color: #fff;border:1px solid #337ab7; height: 40px; font-size: 13px;">
+                                                <span class="input-group-btn">
+                                                    <button type="button" style="color: #fff;background-color:#337ab7; height: 40px; font-size: 13px;" class="btn btn-info" onclick="javascript:fetchLocationforCustomer();"><i class="ti-target"></i> Get Location</button>
+                                                </span>
+                                            </div>
+
+                                        </div>
+
+                                        <div class="col-md-5">
+                                            <div class="form-group">
+                                                <label style="float:left;color:#635c5c">Customer/Store Name</label>
+                                                <input type="text" id="txtStoreName" class="form-control border-input" placeholder="Store Name">
+                                            </div>
+                                        </div>
+
+                                        <div class="col-md-5">
+                                            <div class="form-group border-input">
+                                                <label style="float:left;color:#635c5c">Customer/Store Category</label>
+                                                <select id="SelectCustomerCategory" class="form-control border-input">
+                                                    <option value="0" selected>Select Location</option>
+
+
+                                                </select>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-md-5">
+                                            <div class="form-group">
+                                                <label style="float:left;color:#635c5c">Registration ID (optional)</label>
+                                                <input type="text" id="textCustomerRegId" class="form-control border-input" placeholder="Registration ID">
+                                            </div>
+                                        </div>
+
+                                        <div class="col-md-5">
+                                            <div class="form-group">
+                                                <label style="float:left;color:#635c5c">TRN/GST No. (optional)</label>
+                                                <input type="text" id="textgst_trn_number" class="form-control border-input" placeholder="TRN/GST Number">
+                                            </div>
+                                        </div>
+
+
+
+                                    </div>
+
+
+
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            <div class="form-group">
+                                                <label style="float:left;color:#635c5c">Street Name</label>
+                                                <input type="text" id="txtstreetname" class="form-control border-input" placeholder="Street Name">
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="row">
+                                        <div class="col-md-4">
+                                            <div class="form-group">
+                                                <label style="float:left;color:#635c5c">Place</label>
+                                                <input type="text" id="txtPlace" class="form-control border-input" placeholder="Place">
+                                            </div>
+                                        </div>
+
+                                        <div class="col-md-5">
+                                            <div class="form-group border-input">
+                                                <label style="float:left;color:#635c5c">State/Province</label>
+                                                <select id="SelectStateforRegistration" class="form-control border-input" onchange="javascript:loadLocationbasedonState()">
+                                                    <option value="0" selected>Select State</option>
+                                                </select>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-md-5">
+                                            <div class="form-group border-input">
+                                                <label style="float:left;color:#635c5c">Location</label>
+                                                <select id="SelectLocationforRegistration" class="form-control border-input">
+                                                    <option value="0" selected>Select Location</option>
+
+
+                                                </select>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-md-4">
+                                            <div class="form-group">
+                                                <label for="exampleInputEmail1" style="float:left;color:#635c5c">Email address</label>
+                                                <input type="text" id="txtEmail" class="form-control border-input" placeholder="Email">
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4">
+                                            <div class="form-group">
+                                                <label style="float:left;color:#635c5c">Phone Number</label>
+                                                <input type="number" id="txtPhoneNumber" class="form-control border-input integer" placeholder="Phone Number">
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4">
+                                            <div class="form-group">
+                                                <label style="float:left;color:#635c5c">Alternative Phone No.</label>
+                                                <input type="number" id="txtPhoneNumber2" class="form-control border-input integer" placeholder="another no.">
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4">
+                                            <div class="form-group">
+                                                <label style="float:left;color:#635c5c">Comments / Note</label>
+                                                <textarea id="txtCustomerNote" class="form-control border-input" placeholder="optional note"></textarea>
+                                            </div>
+                                        </div>
+                                        <div id="section_credit_class">
+                                        <div class="col-md-5">
+                                            <div class="form-group border-input">
+                                                <label style="float:left;color:#635c5c">Class Type</label>
+                                                <select id="selCusType" class="form-control border-input">
+                                                    <option value="0" selected>choose class type</option>
+                                                    <option value="1">A - Class</option>
+                                                    <option value="2">B - Class</option>
+                                                    <option value="3">C - Class</option>
+
+                                                </select>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-md-4">
+                                            <div class="form-group">
+                                                <label style="float:left;color:#635c5c">Max. Credit Amount</label>
+                                                <input type="number" id="txtMaxCredit" class="form-control border-input float" placeholder=" max credit amount">
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4">
+                                            <div class="form-group">
+                                                <label style="float:left;color:#635c5c">Max. Credit Period Days</label>
+                                                <input type="number" id="txtMaxPeriod" class="form-control border-input integer" placeholder=" max credit period">
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    </div>
+
+
+
+
+
+                                </form>
+
+                                <div class="row" style="margin-bottom: 10px;">
+                                    <div class="col-md-6">
+
+                                        <button id="btn_customer_reg" onclick="javascript:validateAndSave(1);" style="background-color: #337ab7; color: white; width: 100%; border-radius: 5px; font-size: 20px; border: none; height: 50px;" class="btn btn-info"><i class="ti-user"></i><i class="ti-plus"></i> Add Customer </button>
+                                        <button id="btn_customer_update" onclick="javascript:validateAndSave(2);" style="background-color: #337ab7; color: white; width: 100%; border-radius: 5px; font-size: 20px; border: none; height: 50px;" class="btn btn-info"><i class="ti-user"></i> Update Customer Details</button>
+
+                                    </div>
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+
+                </div>
+
+
+            </div>
+
+            <div id="divclasscreditpage" class="col-lg-12 col-md-12" style="margin-bottom: 0px; margin-top: 55px;display: none">
+
+
+                <div class="card card-user" style="padding-bottom:0px;margin-bottom:1px;">
+                    
+                    <div class="content">
+                        <div class="author">
+                           
+
+                            <div class="content" style="background-color:#f9f9f9">
+                                <form>
+                                   
+
+
+                                    <div class="row" >
+                                       
+                                        <div style="margin-top:75px">
+                                            <h5 style="text-align:center;color:#337ab7">Update Customer Class / Credits</h5>
+                                             <hr />
+                                            <p id="lbl_cls_chng_customer_name">customer name</p>
+                                        </div>
+                                         <hr />
+                                        <div class="col-md-12">
+                                            <div class="form-group border-input">
+                                                <label style="float:left;color:#635c5c">Price Group / Class Type</label>
+                                                <select id="Select_cls_type_for_edit" class="form-control border-input">
+                                                    <option value="0" selected>choose class type</option>
+                                                    <option value="1">A - Class</option>
+                                                    <option value="2">B - Class</option>
+                                                    <option value="3">C - Class</option>
+
+                                                </select>
+                                                <label style="float:left;color:#b53131;font-size:12px" id="lbl_cls_old">OLD CLASS VALUE</label><br />
+                                            </div>
+                                        </div>
+                                         <hr />
+                                    </div>
+                                   
+                                    <div class="row">      
+                                                                          
+                                        <div id="Div5">                                      
+                                        <div class="col-md-4">
+                                            <div class="form-group">
+                                                <label style="float:left;color:#635c5c">Max. Credit Amount</label>
+                                                <input type="number" id="txt_edit_credit" class="form-control border-input float" placeholder=" max credit amount">
+                                                <label style="float:left;color:#b53131;font-size:12px" id="lbl_old_credit">OLD CREDIT AMOUNT</label><br />
+                                            </div>
+                                            
+                                             
+                                        </div>
+                                            <hr />
+                                        <div class="col-md-4">
+                                            <div class="form-group">
+                                                <label style="float:left;color:#635c5c">Max. Credit Period Days</label>
+                                                <input type="number" id="txt_edit_mxperiod" class="form-control border-input integer" placeholder=" max credit period">
+                                                <label style="float:left;color:#b53131;font-size:12px" id="lbl_old_period">OLD CREDIT PERIOD</label>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    </div>
+
+
+
+
+
+                                </form>
+
+                                <div class="row" style="margin-bottom: 10px;">
+                                    <div class="col-md-6">
+
+                                        <button id="Button1" onclick="javascript:update_customer_class_credits();" style="background-color: #337ab7; color: white; width: 100%; border-radius: 5px; font-size: 20px; border: none; height: 50px;" class="btn btn-info"><i class="ti-save"></i> UPDATE DETAILS </button>
+                                        
+                                    </div>
+
+									<div class="col-md-6">
+										<button style="background-color:transparent; color: black; width: 100%; border-radius: 5px; font-size: 20px; border: none;margin-top:10px;" onclick="javascript:onBackKeyDown();" class="btn btn-info"><i class="ti-back-left"></i> Go Back </button>
+
+									</div>
+								
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+
+                </div>
+
+
+            </div>
+
+            <div id="divCustomerDetail" class="col-lg-12 col-md-5" style="width:100%;margin-top:58px;display:none;overflow-x: hidden;">
+
+                <!--<button onclick="javascript:checkIn_at_customer_Location();" style="background-color: #337ab7;margin-top:8px;margin-bottom:3px; color: white; width: 100%; border-radius: 5px; font-size: 20px; border: none;" class="btn btn-info"><i class="ti-location-pin"></i> Check In</button>-->
+                <table style="width:100%">
+                    <tr>
+                        <td style="width:49%"><button onclick="javascript:checkIn_at_customer_Location();" style="background-color: #337ab7;margin-top:8px;margin-bottom:3px; color: white; width: 100%; border-radius: 5px; font-size: 20px; border: none;" class="btn btn-info"><i class="ti-location-pin"></i> Check In</button></td>
+                        <td style="width:2%"></td>
+                        <td style="width:49%"><button onclick="javascript:view_cust_location_in_google_map();" style="background-color: #337ab7;margin-top:8px;margin-bottom:3px; color: white; width: 100%; border-radius: 5px; font-size: 20px; border: none;" class="btn btn-info"><i class="ti-map-alt"></i> Navigate</button></td>
+                    </tr>
+                </table>
+
+                <div class="card card-user" style="padding-bottom:0px;margin-bottom:1px;">
+                    <div class="image" style="height:220px;">
+                        <img id="custdefaultimage" src="assets/img/noimage.png" alt="assets/img/background.jpg" onerror="javascript:reset_cust_image();" />
+                    </div>
+                    <div class="content">
+                        <div class="author">
+                            <img class="" style="width:10px;height:1px;" src="assets/img/shoop.png" alt="..." />
+                            <h4 class="title" id="txt_lbl_customer_name" style="margin-top:40px;">
+                                Customer Name<br />
+
+                            </h4>
+                            <h5 class="title" id="exclassname" style="color:#5c84f3"></h5>
+                            <h5 class="title" id="lbl_cst_reg_id" style="color:#5c84f3;display:none"></h5>
+                            <h5 class="title" id="lbl_cust_trngst_no" style="color:#5c84f3;display:none"></h5>
+                            <h5 class="title" id="excurrentdue" style="color:#5c84f3"></h5>
+
+
+
+
+                        </div>
+                        <div class="description text-center" style="margin-bottom:1px;padding-bottom:1px;table-layout:fixed">
+                            <table style="width:100%;margin-bottom:1px;padding-bottom:1px;">
+                                <tr style="padding-bottom:0px;margin-bottom:1px;width:100%">
+
+                                    <td style="border:solid 0.5px #dcd4d4;width:33.33%;">
+                                        <div class="col-md-4 col-md-offset-1">
+                                            <h5 id="exwallet" style="font-size:17px"><small style="color:#337ab7">Wallet Amt.<br /></small>0 <small>INR</small></h5>
+                                        </div>
+                                    </td>
+
+                                    <td style="border:solid 0.5px #dcd4d4;width:33.33%;">
+                                        <div class="col-md-4 col-md-offset-1">
+                                            <h5 id="excredit" style="font-size:17px"><small style="color:#337ab7">Max Credit<br /></small>0 <small>INR</small></h5>
+                                        </div>
+                                    </td>
+
+                                    <td style="border:solid 0.5px #dcd4d4;width:33.33%;">
+                                        <div class="col-md-4 col-md-offset-1">
+                                            <h5 id="excreditperiod" style="font-size:17px"><small style="color:#337ab7">Credit Period<br /></small>0 <small>days</small></h5>
+                                        </div>
+                                    </td>
+
+                                </tr>
+
+                            </table>
+
+                            
+                            <table style="width:100%;margin-bottom:1px;padding-bottom:1px;margin-top:10px;table-layout:fixed">
+                                <tr style="padding-bottom:0px;margin-bottom:1px;width:100%">
+                                    
+                                    <td>
+                                        <div class="col-xs-12">
+                                           
+                                            <div class="col-xs-8" onclick="javascript:showfollDatepic();">
+                                                <span style="color: #337ab7;font-size: 15px;height: 20px;line-height: 24px;"><p>follow up : <small style="color:gray">[Tap to edit]</small></p></span>
+                                            </div>
+                                            <div class="col-xs-4">
+                                                <span><input type="text" id="txtcustExpandFollowup_date" onchange="javascript:updateCustFollowUpDay();" style="border:none;font-weight:bold" /></span>
+                                            </div>
+                                            
+                                        </div>
+
+                                    </td>
+
+
+
+
+                                </tr>
+
+                            </table>
+
+
+                        </div>
+
+
+
+                    </div>
+
+
+                </div>
+
+                
+                                            <div class="form-group border-input">
+                                                <!--<div style="text-align:center"><label style="color:#635c5c">choose branch/warehouse</label></div>-->
+                                                <select id="Select_Access_Branch" class="form-control border-input" onchange="fetch_branch_details()">
+                                                    <option value="0" selected>SELECT BRANCH / WAREHOUSE</option>
+                                                    
+
+                                                </select>
+                                                
+                                            </div>
+                                      
+                <table style="width:100%;margin-bottom:1px;padding-bottom:1px;text-align:center;table-layout: fixed;">
+                    <p style="text-align:center;font-size:10px">CHOOSE AN ACTION</p>
+                                <tr style="padding-bottom:0px;margin-bottom:1px;width:100%">
+
+                                    <td style="border:solid 4px #fff;width:33.33%;background-color:#337ab7" onclick="javascript:show_product_list_page();">
+                                        <div class="col-md-4 col-md-offset-1">
+                                            <h6 id="H1" style="font-size:17px"><i class="ti-shopping-cart" style="color:#fff"></i><br /><small style="color:#fff">CREATE NEW ORDER</small></h6>
+                                        </div>
+                                    </td>
+                                    <td style="border:solid 4px #fff;width:33.33%;background-color:#337ab7" onclick="javascript:showMyOrders(2);">
+                                        <div class="col-md-4 col-md-offset-1">
+                                            <h6 id="H2" style="font-size:17px"><i class="ti-files" style="color:#fff"></i><br /><small style="color:#fff">ORDER HISTORY</small></h6>
+                                        </div>
+                                    </td>
+                                    <td style="border:solid 4px #fff;width:33.33%;background-color:#337ab7" onclick="javascript:show_Class_Credit_page();">
+                                        <div class="col-md-4 col-md-offset-1">
+                                            <h6 id="H8" style="font-size:17px"><i class="ti-settings" style="color:#fff"></i><br /><small style="color:#fff">CLASS/CREDIT SETTINGS</small></h6>
+                                        </div>
+                                    </td>
+                                    
+                                </tr>
+
+                    <tr style="padding-bottom:0px;margin-bottom:1px;width:100%">
+
+                                    <td style="border:solid 4px #fff;width:33.33%;background-color:#808080" onclick="show_credit_note_page();">
+                                        <div class="col-md-4 col-md-offset-1">
+                                            <h6 id="H4" style="font-size:17px"><i class="ti-wallet" style="color:#fff"></i><br /><small style="color:#fff">ADD CREDIT TO WALLET</small></h6>
+                                        </div>
+                                    </td>
+                                    <td style="border:solid 4px #fff;width:33.33%;background-color:#808080" onclick="javascript:check_for_offline_contents_before_return();">
+                                        <div class="col-md-4 col-md-offset-1">
+                                            <h6 id="H5" style="font-size:17px"><i class="ti-back-left" style="color:#fff"></i><br /><small style="color:#fff">SALES RETURN</small></h6>
+                                        </div>
+                                    </td>
+                                    <td style="border:solid 4px #fff;width:33.33%;background-color:#808080" onclick="check_for_offline_contents_before_oldbill();">
+                                        <div class="col-md-4 col-md-offset-1">
+                                            <h6 id="H6" style="font-size:17px"><i class="ti-receipt" style="color:#fff"></i><br /><small style="color:#fff">OLD BILL ENTRY</small></h6>
+                                        </div>
+                                    </td>
+                                </tr>
+
+                    <tr style="padding-bottom:0px;margin-bottom:1px;width:100%">
+
+                                    <td style="border:solid 4px #fff;width:33.33%;background-color:#337ab7" onclick="show_debit_note_page();">
+                                        <div class="col-md-4 col-md-offset-1">
+                                            <h6 id="H7" style="font-size:17px"><i class="ti-angle-double-up" style="color:#fff"></i><br /><small style="color:#fff">ADD DEBIT NOTE</small></h6>
+                                        </div>
+                                    </td>
+                        <td style="border:solid 4px #fff;width:33.33%;background-color:#337ab7" onclick="javascript:show_customer_edit_page();">
+                                        <div class="col-md-4 col-md-offset-1" >
+                                            <h6 id="H3" style="font-size:17px"><i class="ti-pencil" style="color:#fff"></i><br /><small style="color:#fff">EDIT CUSTOMER</small></h6>
+                                        </div>
+                                    </td>
+                                    
+                                    <td style="border:solid 4px #fff;width:33.33%;background-color:#337ab7" onclick="javascript:show_customer_transactions()">
+                                        <div class="col-md-4 col-md-offset-1">
+                                            <h6 id="H9" style="font-size:17px"><i class="ti-timer" style="color:#fff"></i><br /><small style="color:#fff">VIEW ALL ACTIVITIES</small></h6>
+                                        </div>
+                                    </td>
+                                </tr>
+
+                            </table>
+
+               
+
+            </div>
+
+            <div class="col-lg-4 col-md-5" id="divProducts" style="margin-bottom: 0px; margin-top: 62px;display:none">
+       
+                                                <select id="Selectitmtypes" class="form-control border-input" style="border:1px solid #337ab7" onchange="javascript:resetProductSearch();">
+                                                    <!--<option value="0">All Items</option>-->
+                                                    <option value="1">Normal Items</option>
+                                                    <option value="2">Services</option>
+                                                    <option value="3">Coupons</option>
+
+                                                </select>
+
+                <table style="width:100%;margin-top:5px">
+							<tr>
+								<td style="width:50%;">
+									<div>
+										<div class="form-group">
+											
+											<select  id="selectBrands" onchange="javascript:clrSearchBoxandSearch();" style="background-color:white;color:#000" class="form-control border-input" ><option value="x">Brand</option></select>
+										</div>
+									</div>
+								</td>
+								<td style="width:50%">
+									<div>
+										<div class="form-group">
+											
+											<select  id="selectCategory" onchange="javascript:list_items_for_sale(1);" style="background-color:white;color:#000" class="form-control border-input"><option value="x">Category</option></select>
+										</div>
+
+									</div>
+								</td>
+								<td style="width:50%">
+									<div>
+										<div class="form-group">
+											
+											<button onclick="javascript:resetProductSearch();" style="background-color:#337ab7;border-radius:0px" class="btn btn-info"><i class="ti-reload" style="color:#fff"></i></button>
+										</div>
+
+									</div>
+								</td>
+							</tr>
+						</table>
+
+                <div class="input-group input-group-sm" style="margin-bottom: 7px;margin-top:0px">
+					<input type="text" class="form-control" id="txtsearchProducts" onkeyup="javascript:list_items_for_sale(1);" placeholder="Search for Products" style="background-color: #fff; height: 40px; font-size: 17px;border:1px solid #337ab7">
+					<span class="input-group-btn">
+                                    <button type="button" style="height: 40px; font-size: 17px;" class="btn btn-info"><i class="ti-search"></i></button>
+                                </span>
+
+
+				</div>
+
+				<button type="button" style="color: #fff; font-size: 17px; width: 100%; border-radius: 5px; margin-bottom: 7px; margin-top: 0px; background-color: #337ab7; border: 0.5px medium #fff;" onclick="javascript:show_cart_page();" class="btn btn-info"><i class="ti-shopping-cart"></i>  View Cart <small id="lbl_itm_cart_cnt_in_pdlst" style="font-size:15px"></small></button>
+
+				<div class="header">
+
+						<h6 id="newitemheader" onclick="javascript:loadNewItemPopup();" align="right" style="color:#337ab7;font-size:15px;margin-top:1px;display:none"><i class="ti-plus"></i> <b>REQUEST NEW ITEM</b></h6>
+
+						<hr style="margin-top: 1px; margin-bottom: 1px;" /> 
+						<p id="nOfItems" style="color: #808080; font-size: 12px; float: right"></p>
+					</div>
+
+				<div class="card" style="background-color: #fff">
+					
+					<div class="content" style="margin-left: 5px; margin-right: 5px;">
+
+						<div id="dListProduct"></div>
+
+					</div>
+				</div>
+			</div>
+
+            <div class="col-lg-4 col-md-5" id="divProducts_for_add" style="margin-bottom: 0px; margin-top: 62px;display:none">
+       
+                                                <select id="Selectitmtypes_for_add" class="form-control border-input" style="border:1px solid #337ab7" onchange="javascript:resetProductSearch_for_add_product();">
+                                                    <!--<option value="0">All Items</option>-->
+                                                    <option value="1">Normal Items</option>
+                                                    <option value="2">Services</option>
+                                                    <option value="3">Coupons</option>
+
+                                                </select>
+
+                <table style="width:100%;margin-top:5px">
+							<tr>
+								<td style="width:50%;">
+									<div>
+										<div class="form-group">
+											
+											<select  id="selectBrands_for_add" onchange="javascript:clrSearchBoxandSearch_for_add_product();" style="background-color:white;color:#000" class="form-control border-input" ><option value="x">Brand</option></select>
+										</div>
+									</div>
+								</td>
+								<td style="width:50%">
+									<div>
+										<div class="form-group">
+											
+											<select  id="selectCategory_for_add" onchange="javascript:list_items_for_sale_for_add_product(1);" style="background-color:white;color:#000" class="form-control border-input"><option value="x">Category</option></select>
+										</div>
+
+									</div>
+								</td>
+								<td style="width:50%">
+									<div>
+										<div class="form-group">
+											
+											<button onclick="javascript:resetProductSearch_for_add_product();" style="background-color:#337ab7;border-radius:0px" class="btn btn-info"><i class="ti-reload" style="color:#fff"></i></button>
+										</div>
+
+									</div>
+								</td>
+							</tr>
+						</table>
+
+                <div class="input-group input-group-sm" style="margin-bottom: 7px;margin-top:0px">
+					<input type="text" class="form-control" id="txtsearchProducts_for_add" onkeyup="javascript:list_items_for_sale_for_add_product(1);" placeholder="Search for Products" style="background-color: #fff; height: 40px; font-size: 17px;border:1px solid #337ab7">
+					<span class="input-group-btn">
+                                    <button type="button" style="height: 40px; font-size: 17px;" class="btn btn-info"><i class="ti-search"></i></button>
+                                </span>
+
+
+				</div>
+
+				<button type="button" style="color: #fff; font-size: 17px; width: 100%; border-radius: 5px; margin-bottom: 7px; margin-top: 0px; background-color: #337ab7; border: 0.5px medium #fff;" onclick="javascript:show_editcart_with_reload();" class="btn btn-info"><i class="ti-shopping-cart"></i>  View Edit Cart </button>
+
+				<div class="header">
+
+						<h6 id="H18" onclick="javascript:loadNewItemPopup();" align="right" style="color:#337ab7;font-size:15px;margin-top:1px;display:none"><i class="ti-plus"></i> <b>REQUEST NEW ITEM</b></h6>
+
+						<hr style="margin-top: 1px; margin-bottom: 1px;" /> 
+						<p id="P4" style="color: #808080; font-size: 12px; float: right"></p>
+					</div>
+
+				<div class="card" style="background-color: #fff">
+					
+					<div class="content" style="margin-left: 5px; margin-right: 5px;">
+
+						<div id="dListProduct_for_add"></div>
+
+					</div>
+				</div>
+			</div>
+
+            <div id="div_item_cart" class="col-lg-3 col-sm-12" style="margin-bottom: 0px; margin-top: 55px;display: none;" >
+
+
+				<div class="" style="margin-bottom: 4px;" >
+                    <div class="content">
+                            
+                     <div class="card" >
+                         <div class="content" style="padding:4%">
+                         <div class="row">
+                             <h5 style="text-align:center">ITEM CART <small id="lbl_cart_item_count" style="color:#337ab7"></small></h5>
+                                
+                        <button style="background-color: #337ab7; color: #fff; width: 100%; border-radius: 5px; font-size: 20px; border: none;margin-bottom:5px;height:50px;" class="btn btn-info" onclick="javascript:onBackKeyDown();"> Add more items </button>
+
+                             	
+                         </div>
+                         <div class="row" id="cart_serach_box">
+                             <div class="input-group input-group-sm ">
+                             <input type="text" class="form-control" id="txtsearch_in_cart"  placeholder="Search for items" onkeyup="javscript:list_items_Cart(1);" style="background-color: #fff;border:1px solid #337ab7; height: 40px; font-size: 17px;">
+						<span class="input-group-btn">
+                                    <button type="button" style="color: #fff;background-color:#337ab7; height: 40px; font-size: 17px;" onclick="javscript:list_items_Cart(1);" class="btn btn-info"><i class="ti-search"></i></button>
+                                </span>
+                         </div>
+                         </div>
+
+                             <div id="cartList"></div>
+
+                             <div style="text-align:center">
+                             <h5 style="color:#337ab7" id="lbl_total_values"></h5>
+                         </div>
+
+                             <div class="row">
+                              
+                        <button id="btn_continue_to_last_step" style="background-color: #25a21c; color: #fff; width: 100%; border-radius: 5px; font-size: 20px; border: none;margin-bottom:5px;height:50px;" class="btn btn-info" onclick="javascript:show_complete_orderpage();"> Continue </button>
+
+                             	
+                         </div>
+
+						 </div>
+                         
+                         </div>
+                        </div>
+
+					
+
+				</div>
+			</div>
+
+            <div id="divEditCart" class="col-lg-3 col-sm-12" style="margin-bottom: 0px; margin-top: 55px;display: none;" >
+
+
+				<div class="" style="margin-bottom: 4px;" >
+                    <div class="content">
+                            
+                     <div class="card" >
+                         <div class="content" style="padding:4%">
+                         <div class="row">
+                             <h5 style="text-align:center">EDIT CART <small id="lbl_total_editcart_values" style="color:#337ab7"></small></h5>
+                                
+                        <button style="background-color: #337ab7; color: #fff; width: 100%; border-radius: 5px; font-size: 20px; border: none;margin-bottom:5px;height:50px;" class="btn btn-info" onclick="javascript:show_product_list_page_for_add_product();"> Add more items </button>
+
+                             	
+                         </div>
+                         <div class="row" id="div_edit_cart_search">
+                             <div class="input-group input-group-sm ">
+                             <input type="text" class="form-control" id="txtsearch_in_edit_cart"  placeholder="Search for items" onkeyup="javscript:list_Edit_cart(1);" style="background-color: #fff;border:1px solid #337ab7; height: 40px; font-size: 17px;">
+						<span class="input-group-btn">
+                                    <button type="button" style="color: #fff;background-color:#337ab7; height: 40px; font-size: 17px;" onclick="javscript:list_Edit_cart(1);" class="btn btn-info"><i class="ti-search"></i></button>
+                                </span>
+                         </div>
+                         </div>
+
+                             <div id="div_edited_cart_list"></div>
+
+                             <div style="text-align:center">
+                             <h5 style="color:#337ab7" id="lbl_edited_cart_amount"></h5>
+                         </div>
+
+                             <div class="row">
+                              
+                        <button id="Button6" style="background-color: #25a21c; color: #fff; width: 100%; border-radius: 5px; font-size: 20px; border: none;margin-bottom:5px;height:50px;" class="btn btn-info" onclick="javascript:complete_editing();"> Complete Editing </button>
+
+                             	
+                         </div>
+
+						 </div>
+                         
+                         </div>
+                        </div>
+
+					
+
+				</div>
+			</div>
+
+            <div id="div_return_cart" class="col-lg-3 col-sm-12" style="margin-bottom: 0px; margin-top: 55px;display: none;" >
+
+
+				<div class="" style="margin-bottom: 4px;" >
+                    <div class="content">
+                            
+                     <div class="card" >
+                         <div class="content" style="padding:4%">
+                         <div class="row">
+                             <h5 style="text-align:center">RETURN CART <small id="lbl_total_return_values" style="color:#337ab7"></small></h5>
+                                
+                        <button style="background-color: #337ab7; color: #fff; width: 100%; border-radius: 5px; font-size: 20px; border: none;margin-bottom:5px;height:50px;" class="btn btn-info" onclick="javascript:onBackKeyDown();"> Add more items </button>
+
+                             	
+                         </div>
+                         <div class="row" id="rt_cart_serach_box">
+                             <div class="input-group input-group-sm ">
+                             <input type="text" class="form-control" id="txtsearch_in_return_cart"  placeholder="Search for items" onkeyup="javscript:list_items_in_return_cart(1);" style="background-color: #fff;border:1px solid #337ab7; height: 40px; font-size: 17px;">
+						<span class="input-group-btn">
+                                    <button type="button" style="color: #fff;background-color:#337ab7; height: 40px; font-size: 17px;" onclick="javscript:list_items_in_return_cart(1);" class="btn btn-info"><i class="ti-search"></i></button>
+                                </span>
+                         </div>
+                         </div>
+
+                             <div id="return_cartList" ></div>
+
+                             <div style="text-align:center">
+                             <h6 style="color:#337ab7" id="lbl_return_amount"></h6>
+                         </div>
+
+                             <div class="row">
+                              
+                        <button id="btnrtn_continue_to_last_step" style="background-color: #25a21c; color: #fff; width: 100%; border-radius: 5px; font-size: 20px; border: none;margin-bottom:5px;height:50px;margin-top:7px" class="btn btn-info" onclick="javascript:complete_sales_return();"> Complete Return </button>
+
+                             	
+                         </div>
+
+						 </div>
+                         
+                         </div>
+                        </div>
+
+					
+
+				</div>
+			</div>
+
+            <div id="div_outstanding_payments" class="col-lg-3 col-sm-12" style="margin-bottom: 0px; margin-top: 62px;display: none">
+
+				<div class="card" style="margin-bottom: 4px;background-color:#f9f9f9">
+					
+								<div class="box-header" align="left">
+									<div style="display: inline-block;margin-bottom:2px;">
+										<div style="color: #337ab7;font-size:16px;" class="box-title" id="out_orderid"></div>
+										<span style="color:#909090" id="out_orderdate"></span><span style="color:#337ab7" id="out_ordertype"></span>
+                                        <br /><span style="color:#337ab7" id="out_PayType"></span>
+                                        <br /><span style="color:#b53131;text-align:center" id="Span10"><b id="lbl_cust_tot_bal_at_payment"></b></span>
+									</div>
+                               
+
+									<div style="display: inline-block;float: right;">
+										<div id="out_image">
+
+										</div>
+									</div>
+								</div>
+
+								<div style="width:100%;border-bottom:1px solid #c1c0c0;"></div>
+
+                    <form>                                   
+                                    <div class="row" style="text-align:center" >
+                                        <h6 style="margin-top:7px;margin-bottom:7px;">PREVIOUS PAYMENT DETAILS</h6>
+							<div class="col-md-12">
+                                            <div class="form-group border-input">
+                                        <table style="width:100%;margin-bottom:1px;padding-bottom:1px;">
+                                <tr style="padding-bottom:0px;margin-bottom:1px;width:100%">
+
+                                    <td style="border:solid 0.5px #dcd4d4;width:50%;">
+                                        <div class="col-md-4 col-md-offset-1">
+                                            <h5 id="lbl_ord_out_netamt" style="font-size:17px"><small style="color:#337ab7">NET AMOUNT<br /></small>0 <small>INR</small></h5>
+                                        </div>
+                                    </td>
+
+                                    <td style="border:solid 0.5px #dcd4d4;width:50%;">
+                                        <div class="col-md-4 col-md-offset-1">
+                                            <h5 id="lbl_ord_out_balance" style="font-size:17px"><small style="color:#b53131">BALANCE<br /></small>0 <small>INR</small></h5>
+                                        </div>
+                                    </td>
+
+                                    
+
+                                </tr>
+
+                            </table>
+                                                </div>
+                                            </div>
+                                        </div>
+                        </form>
+
+                    <form>                                   
+                                    <div class="row" style="text-align:center" >
+                                        <h6 style="margin-top:7px;margin-bottom:7px;">CURRENT PAYMENT DETAILS</h6>
+							<div class="col-md-12">
+                                            <div class="form-group border-input">
+                                        <table style="width:100%;margin-bottom:1px;padding-bottom:1px;">
+                                <tr style="padding-bottom:0px;margin-bottom:1px;width:100%">
+
+                                    <td style="border:solid 0.5px #dcd4d4;width:50%;">
+                                        <div class="col-md-4 col-md-offset-1">
+                                            <h5 id="lbl_ord_out_cr_netamt" style="font-size:17px"><small style="color:#337ab7">CURRENT PAYMENT<br /></small>0 <small>INR</small></h5>
+                                        </div>
+                                    </td>
+
+                                    <td style="border:solid 0.5px #dcd4d4;width:50%;">
+                                        <div class="col-md-4 col-md-offset-1">
+                                            <h5 id="lbl_ord_out_cr_balance" style="font-size:17px"><small style="color:#b53131">NEW BALANCE<br /></small>0 <small>INR</small></h5>
+                                        </div>
+                                    </td>
+
+                                    
+
+                                </tr>
+
+                            </table>
+                                                </div>
+                                            </div>
+                                        </div>
+                        </form>
+                    
+                     <div class="row" id="div_wallet_payment">
+                         <div class="col-md-4">
+                                            <div class="form-group">
+                                                <label style="float:right;color:#337ab7"><b><small id="">USE WALLET : </small></b>
+                                               <input type="checkbox" id="is_wallet_using" checked="checked" onchange="calculate_outstanding_balance()">
+                                                    <span class="checkmark"></span>
+                                                </label>
+                                                <label style="float:left;color:#25a21c"><b><small id="lbl_wallet_show">WALLET BALANCE : </small></b>
+                                               
+                                                </label>
+
+                                                
+                                            </div>                                                                                        
+                                        </div>
+                    </div>
+                    <hr style="margin-top:0px;margin-bottom:10px;" />
+
+                                    <div class="row">   
+
+                                          <div class="col-md-4">
+                                            <div class="form-group">
+                                                <label style="float:left;color:#337ab7">PAYMENT METHOD</label>
+                                                <select id="Select_out_pay_method" class="form-control border-input" onchange="swap_outstanding_Payment_typeDivs();">
+                                                    <option value="1" selected>BY CASH</option>
+                                                    <option value="2">BY CHEQUE</option>
+
+                                                </select>
+                                                
+                                            </div>                                                                                        
+                                        </div>
+                                           
+                                                                          
+                                                                   
+                                        <div class="col-md-4">
+                                            <div class="form-group">
+                                                <label style="float:left;color:#337ab7">CURRENT PAYMENT</label>
+                                                <input type="number" id="txt_out_payment_amount" onkeyup="calculate_outstanding_balance();" class="form-control border-input float" placeholder=" Enter the amount">
+                                                
+                                            </div>                                                                                        
+                                        </div>
+                                            <div id="Div_out_pay_cheque_part" style="display:none">
+
+                                         <div class="col-md-4">
+                                            <div class="form-group">
+                                                <label style="float:left;color:#337ab7">CHEQUE NUMBER</label>
+                                                <input type="text" id="txt_out_chk_num" class="form-control border-input" placeholder=" Enter the cheque nummber">
+                                                
+                                            </div>                                                                                        
+                                        </div>
+
+                                                <div class="col-md-4">
+                                            <div class="form-group">
+                                                <label style="float:left;color:#337ab7">CHEQUE DATE</label>
+                                                <input type="text" id="txt_out_chk_date" class="form-control border-input" style="background-color:#fff" placeholder="">
+                                                
+                                            </div>                                                                                        
+                                        </div>
+
+                                                <div class="col-md-4">
+                                            <div class="form-group">
+                                                <label style="float:left;color:#337ab7">BANK NAME</label>
+                                                <input type="text" id="txtt_out_chk_bank" class="form-control border-input" placeholder=" Enter the bank name">
+                                                
+                                            </div>                                                                                        
+                                        </div>
+
+                                            </div>
+
+                                            <hr />
+                                        <div class="col-md-4">
+                                            <div class="form-group">
+                                                <label style="float:left;color:#337ab7">NOTES AGAINST PAYMENT (optional)</label>
+                                                <textarea id="txt_out_pay_note" class="form-control border-input" placeholder="Enter optional notes here">
+                                                </textarea>
+                                            </div>
+                                        </div>
+                                  
+
+                                    </div>
+
+                  <div class="row" style="margin-bottom: 10px;" onclick="javascript:make_payment_online();">
+									<div class="col-md-6">
+										<button style="background-color:#337ab7; color:#fff; width: 100%; border-radius: 5px; font-size: 20px; border: none;height:50px; " class="btn btn-info"><i class="ti-money"></i> Make Payment </button>
+
+									</div>
+								</div>
+
+								
+								<div class="row" style="margin-bottom: 10px;" onclick="javascript:onBackKeyDown();">
+									<div class="col-md-6">
+										<button style="background-color:transparent; color: black; width: 100%; border-radius: 5px; font-size: 20px; border: none; " class="btn btn-info"><i class="ti-back-left"></i> Go Back </button>
+
+									</div>
+								</div>
+
+
+
+					
+
+				</div>
+			</div>
+
+            <div id="div_finalize_order" class="col-lg-12 col-md-12" style="margin-bottom: 0px; margin-top: 55px;display: none">
+
+
+                <div class="card card-user" style="padding-bottom:0px;margin-bottom:1px;">
+                    
+                    
+                        <div class="author">
+                           
+
+                            <div class="content" style="background-color:#f9f9f9">
+                                <form>
+                                   
+
+
+                                    <div class="row" >
+                                       
+                                        <div style="margin-top:75px">
+                                            <h5 style="text-align:center;color:#337ab7">COMPLETE ORDER</h5>
+                                             <hr />
+                                            <h5 id="lbl_ord_cust_name" style="font-size:18px">customer name</h5>
+
+                                            <h5 style="color:#b53131" id="lbl_cust_tot_out_at_pay_page">Total Oustanding : 0 Rs</h5>
+                                                
+
+                                        </div>
+                                         <hr />
+                                        <div class="col-md-12">
+                                            <div class="form-group border-input">
+                                                <label style="float:left;color:#337ab7">Order Type</label>
+                                                <select id="Select_order_type" class="form-control border-input">
+                                                    <option value="1" selected>DIRECT VISIT</option>
+                                                    <option value="2">TELEPHONIC</option>
+                                                    <option value="3">E-MAIL</option>
+
+                                                </select>
+                                                
+                                            </div>
+                                        </div>
+                                        <div class="col-md-12">
+                                            <div class="form-group border-input">
+                                                <label style="float:left;color:#337ab7">Customer's Payment Type</label>
+                                                <select id="Select_customer_pay_types" class="form-control border-input">
+                                                    <option value="0" selected>select</option>
+                                                    <option value="1">CASH</option>
+                                                    <option value="2">CREDIT</option>
+                                                    <option value="3">BILL-TO-BILL</option>
+
+                                                </select>
+                                                
+                                            </div>
+                                        </div>
+                                        <div class="col-md-12">
+                                            <div class="form-group border-input">
+                                        <table style="width:100%;margin-bottom:1px;padding-bottom:1px;">
+                                <tr style="padding-bottom:0px;margin-bottom:1px;width:100%">
+
+                                    <td style="border:solid 0.5px #dcd4d4;width:50%;">
+                                        <div class="col-md-4 col-md-offset-1">
+                                            <h5 id="lbl_ord_nt_amt" style="font-size:17px"><small style="color:#337ab7">NET AMOUNT<br /></small>0 <small>INR</small></h5>
+                                        </div>
+                                    </td>
+
+                                    <td style="border:solid 0.5px #dcd4d4;width:50%;">
+                                        <div class="col-md-4 col-md-offset-1">
+                                            <h5 id="lbl_ord_balance" style="font-size:17px"><small style="color:#b53131">BALANCE<br /></small>0 <small>INR</small></h5>
+                                        </div>
+                                    </td>
+
+                                    
+
+                                </tr>
+
+                            </table>
+                                                </div>
+                                            </div>
+                                        <div class="col-md-12">
+                                            <div class="form-group border-input">
+                                                <label style="float:left;color:#337ab7">Order Status</label>
+                                                <select id="Select_order_status" class="form-control border-input">
+                                                    <option value="0" selected>NEW ORDER</option>
+                                                    <option value="2">DELIVERED</option>
+                                                    <!--<option value="3">TO BE CONFIRMED</option>-->
+
+                                                </select>
+                                                
+                                            </div>
+                                        </div>
+                                        
+                                         <hr />
+                                        <div class="col-md-12">
+                                            <div class="form-group border-input">
+                                                <label style="float:left;color:#337ab7">Payment Method</label>
+                                                <select id="SelectOrderPayMethod" class="form-control border-input" onchange="swapPayment_typeDivs();">
+                                                    <option value="0" selected>BY CASH</option>
+                                                    <option value="1">BY CHEQUE</option>
+
+                                                </select>
+                                                
+                                            </div>
+                                        </div>
+                                    </div>
+                                   
+                                    <div class="row">      
+                                                                          
+                                        <div id="Div3">                                      
+                                        <div class="col-md-4">
+                                            <div class="form-group">
+                                                <label style="float:left;color:#337ab7">Current Payment</label>
+                                                <input type="number" id="txt_current_payment_with_order" onkeyup="calculate_order_balance();" class="form-control border-input float" placeholder=" Enter the amount">
+                                                
+                                            </div>                                                                                        
+                                        </div>
+                                            <div id="dv_cheque_details_at_order" style="display:none">
+
+                                         <div class="col-md-4">
+                                            <div class="form-group">
+                                                <label style="float:left;color:#337ab7">Cheque Number</label>
+                                                <input type="text" id="txt_ord_cheque_number" class="form-control border-input" placeholder=" Enter the cheque nummber">
+                                                
+                                            </div>                                                                                        
+                                        </div>
+
+                                                <div class="col-md-4">
+                                            <div class="form-group">
+                                                <label style="float:left;color:#337ab7">Cheque Date</label>
+                                                <input type="text" id="txt_ord_cheque_date" class="form-control border-input" style="background-color:#fff" placeholder="">
+                                                
+                                            </div>                                                                                        
+                                        </div>
+
+                                                <div class="col-md-4">
+                                            <div class="form-group">
+                                                <label style="float:left;color:#337ab7">Bank Name</label>
+                                                <input type="text" id="txt_ord_cheque_bank" class="form-control border-input" placeholder=" Enter the bank name">
+                                                
+                                            </div>                                                                                        
+                                        </div>
+
+                                            </div>
+
+                                            <hr />
+                                        <div class="col-md-4">
+                                            <div class="form-group">
+                                                <label style="float:left;color:#337ab7">Optional Notes against Order</label>
+                                                <textarea id="txt_ord_note" class="form-control border-input" placeholder="Enter optional notes here">
+                                                </textarea>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    </div>
+
+
+
+
+
+                                </form>
+
+                                <div class="row" style="margin-bottom: 10px;">
+                                    <div class="col-md-6">
+
+                                        <button id="Button2" onclick="javascript:onBackKeyDown();" style="background-color: #337ab7; color: white; width: 100%; border-radius: 5px; font-size: 20px; border: none; height: 50px;" class="btn btn-info"><i class="ti-shopping-cart"></i> Go to cart </button>
+                                        
+                                    </div>
+                                </div>
+
+                                <div class="row" style="margin-bottom: 10px;">
+                                    <div class="col-md-6">
+
+                                        <button id="Button3" onclick="javascript:save_order_offline();" style="background-color: #25a21c; color: white; width: 100%; border-radius: 5px; font-size: 20px; border: none; height: 50px;" class="btn btn-info"><i class="ti-save"></i> Place Order </button>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+
+                </div>
+
+
+            </div>
+                   
+
+            <div id="divMapContainer" class="col-lg-4 col-md-5" style="margin-bottom: 0px; margin-top: 62px;display:none">
+				<div id="divMap" style="width: 100%;">
+
+				</div>
+			</div>
+
+            <div id="divMyOrders" class="col-lg-4 col-md-12" style="margin-bottom: 0px; margin-top: 55px;display: none">
+
+                <div class="card" style="background-color: #f9f9f9">
+                    <div class="content">
+
+                        <label style="float:left;color:#337ab7">Show:</label>
+                                                <select id="SelectshowMyOrders" class="form-control border-input" onchange="swap_online_offline_orders();">
+
+                                                    <option value="1" selected>ONLINE ORDERS</option>
+                                                    <option value="2">OFFLINE ORDERS</option>
+
+                                                </select>
+
+                        <div id="div_online_order_part">
+                        <table style="width:100%">
+                            <tr>
+                                <td style="width:50%;">
+                                    <div>
+                                        <div class="form-group">
+                                            <label style="color:#337ab7">From</label>
+                                            <input type="text" id="txt_date_orders_from" style="background-color:white;color:#000" class="form-control border-input" placeholder="Start Date">
+                                        </div>
+                                    </div>
+                                </td>
+                                <td style="width:50%">
+                                    <div>
+                                        <div class="form-group">
+                                            <label style="color:#337ab7">To</label>
+                                            <input type="text" id="txt_date_orders_to" style="background-color:white;color:#000" class="form-control border-input" placeholder="End Date">
+                                        </div>
+
+                                    </div>
+                                </td>
+                            </tr>
+                        </table>
+
+                        <table style="width:100%">
+                            <tr>
+                                <td style="width:50%;">
+                                    <div>
+                                        <div class="form-group">
+                                            <label style="color:#337ab7">Order Status</label>
+                                            <select id="Select_Order_Status" style="background-color:white;color:#000" class="form-control border-input">
+                                                <option value="x">All Orders</option>
+                                                <option value="0">New Orders</option>
+                                                <option value="1">Processed Orders</option>
+                                                <option value="2">Delivered Orders</option>
+                                                <option value="3">Pending Approval</option>
+                                                <option value="4">Cancelled Orders</option>
+                                                <option value="5">Rejected Orders</option>
+                                                <option value="6">Pending Orders</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td style="width:50%">
+                                    <div>
+                                        <div class="form-group">
+                                            <label style="color:#337ab7">Payment Status</label>
+                                            <select id="Select_Payment_Status" style="background-color:white;color:#000" class="form-control border-input">
+                                                <option value="x">All Orders</option>
+                                                <option value="1">Outstanding bills</option>
+                                                <option value="2">Fully paid</option>
+                                            </select>
+                                        </div>
+
+                                    </div>
+                                </td>
+
+                            </tr>
+                        </table>
+
+
+
+                        <div class="row" style="margin-bottom: 10px;">
+                            <div class="col-md-12">
+                                <button onclick="javascript:get_Orders(1);" style="background-color: #337ab7; color: #f8f8f8; width: 100%; border-radius: 5px; font-size: 20px; border: none; -webkit-box-shadow: 0 6px 10px -6px #222; -moz-box-shadow: 0 6px 10px -6px #222; box-shadow: 0 6px 10px -6px #222;"
+                                        class="btn btn-info">
+                                    <i class="ti-eye"></i> Get Orders
+                                </button>
+
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="card">
+                    <!--<div class="header">
+                    <h5 class="title" align="center" id="delspecific" style="color: #337ab7;">Orders</h5>
+                    <hr style="margin-top: 1px; margin-bottom: 1px;" />-->
+                    <p id="P1" style="color: #808080; font-size: 12px; float: right"></p>
+                    <!--</div>-->
+
+
+
+                    <div class="content" style="margin-left: 5px; margin-right: 5px;">
+
+                        <div id="div_List_Orders"></div>
+
+                    </div>
+                </div>
+            </div>
+
+            <div id="divAssignedDelivery" class="col-lg-4 col-md-12" style="margin-bottom: 0px; margin-top: 55px;display: none">
+
+                <div class="card" style="background-color: #f9f9f9">
+                    <div class="content">
+                        <h5 style="text-align:center;margin-top:10px;color:#337ab7">Assigned Orders for Delivery <i onclick="javascript:showCustomersOnMap();" style="float:right" class="ti-location-pin"></i></h5>
+                    </div>
+                </div>
+
+
+                <div class="card">
+                    <!--<div class="header">
+                    <h5 class="title" align="center" id="delspecific" style="color: #337ab7;">Orders</h5>
+                    <hr style="margin-top: 1px; margin-bottom: 1px;" />-->
+                    <p id="P2" style="color: #808080; font-size: 12px; float: right"></p>
+                    <!--</div>-->
+
+
+
+                    <div class="content" style="margin-left: 5px; margin-right: 5px;">
+
+                        <div id="divOrderstobeDelivered"></div>
+
+                    </div>
+                </div>
+            </div>
+
+            <div id="div_show_order_clrnce" class="col-lg-4 col-md-12" style="margin-bottom: 0px; margin-top: 55px;display: none">
+
+                <div class="card" style="background-color: #f9f9f9">
+                    <div class="content">
+                        <h5 style="text-align:center;margin-top:10px;color:#337ab7">Orders to be Cleared </h5>
+                    </div>
+                </div>
+
+
+                <div class="card">
+                    
+
+                    <div class="content" style="margin-left: 5px; margin-right: 5px;">
+
+                        <div id="div_list_orders_to_be_cleared"></div>
+
+                    </div>
+                </div>
+            </div>
+
+            <div id="divPendingItems" class="col-lg-4 col-md-12" style="margin-bottom: 0px; margin-top: 55px;display: none">
+
+                <div class="card" style="background-color: #f9f9f9">
+                    <div class="content">
+                        <h5 style="text-align:center;margin-top:10px;color:#337ab7">Pending Approvals</h5>
+                        <label style="float:left;color:#635c5c">choose type</label>
+                                                <select id="Select_pending_item" class="form-control border-input" onchange="get_pending_approvals();">
+
+                                                    <option value="1" selected>PENDING ORDERS</option>
+                                                    <option value="2">REGISTRATIONS</option>
+                                                    <option value="3">CLASS / CREDIT CHANGES</option>
+
+                                                </select>
+                    </div>
+                </div>
+
+
+                <div class="card">
+                    
+                    
+                    <div class="content" style="margin-left: 5px; margin-right: 5px;">
+
+                        <div id="div_list_approvals"></div>
+
+                    </div>
+                </div>
+            </div>
+
+            <div id="divFollowUps" class="col-lg-4 col-md-12" style="margin-bottom: 0px; margin-top: 55px;display: none">
+
+				<div class="card" style="background-color: #fff">
+					<div class="content">
+						<h5 style="text-align:center;color:#337ab7">Scheduled Visits</h5>
+                        	<table style="width:100%">
+							<tr>
+								<td style="width:50%;">
+									<div>
+										<div class="form-group">
+											<label style="color:#337ab7">From</label>
+											<input type="text" id="TextCustFollowUpFrom" style="background-color:white;color:#000" class="form-control border-input" placeholder="Start Date">
+										</div>
+									</div>
+								</td>
+								<td style="width:50%">
+									<div>
+										<div class="form-group">
+											<label style="color:#337ab7">To</label>
+											<input type="text" id="TextCustFollowUpTo" style="background-color:white;color:#000" class="form-control border-input" placeholder="End Date">
+										</div>
+
+									</div>
+								</td>
+								<td style="width:50%">
+									<div>
+										<div class="form-group">
+											<label style="color:#337ab7;opacity:0">To</label>
+											<button onclick="javascript:getCustFollowUps();" style="background-color:#337ab7;border-radius:1px" class="btn btn-info"><i class="ti-search" style="color:#fff"></i></button>
+										</div>
+
+									</div>
+								</td>
+							</tr>
+						</table>
+
+                        <label style="color:#337ab7">Select Location</label>
+
+                        <select onchange="javascript:getCustFollowUps()" id="SelectfollowupLocations" class=" form-control border-input" style="background-color: #fff;font-size: 17px;color:#808080;margin-bottom:5px">
+<option value="0">All Locations</option>
+
+</select>                      
+						
+					</div>
+				</div>
+
+				<div class="card card-user">
+
+					<div id=""></div>
+
+
+
+				</div>
+
+
+
+
+				<div class="card">
+					<div class="header"><h6 class="title" align="center" id="H10" style="color: #337ab7;">Customer List</h6></div>
+	
+					<div class="content" style="margin-left: 5px; margin-right: 5px;">
+
+						<div id="divCustFollowList"></div>
+
+					</div>
+				</div>
+			</div>
+
+            <div id="div_cust_transactions" class="col-lg-4 col-md-12" style="margin-bottom: 0px; margin-top: 55px;display: none">
+
+				<div class="card" style="background-color: #fff">
+					<div class="content">
+						<h5 style="text-align:center;color:#337ab7">Customer Activities</h5>
+
+                         <label style="float:left;color:#337ab7">Show:</label>
+                                                <select id="select_cust_show_activity_type" class="form-control border-input" onchange="swap_cust_activities();">
+
+                                                    <option value="0">Offline Activities</option>
+                                                    <option value="1">Online Activities</option>
+
+                                                </select>
+
+                        	<table style="width:100%" id="div_cust_online_transactions">
+							<tr>
+								<td style="width:50%;">
+									<div>
+										<div class="form-group">
+											<label style="color:#337ab7">From</label>
+											<input type="text" id="Text_trans_from" style="background-color:white;color:#000" class="form-control border-input" placeholder="Start Date">
+										</div>
+									</div>
+								</td>
+								<td style="width:50%">
+									<div>
+										<div class="form-group">
+											<label style="color:#337ab7">To</label>
+											<input type="text" id="Text_trans_to" style="background-color:white;color:#000" class="form-control border-input" placeholder="End Date">
+										</div>
+
+									</div>
+								</td>
+								<td style="width:50%">
+									<div>
+										<div class="form-group">
+											<label style="color:#337ab7;opacity:0">To</label>
+											<button onclick="javascript:get_customer_transactions(1);" style="background-color:#337ab7;border-radius:1px" class="btn btn-info"><i class="ti-search" style="color:#fff"></i></button>
+										</div>
+
+									</div>
+								</td>
+							</tr>
+						</table>
+
+                      
+						
+					</div>
+				</div>
+
+				
+
+				<div class="card">
+					<div class="header"><h6 class="title" align="center" id="H17" style="color: #337ab7;"><b>Activity List</b></h6></div>
+	
+					<div class="content" style="margin-left: 5px; margin-right: 5px;">
+
+                        <div id="view_div_online_cust_action">
+						<div id="div_list_all_cust_transactions"></div>
+                            </div>
+
+                        <div id="view_div_offline_cust_action">
+                        <div id="div_off_cust_ord"></div>
+                        <div id="div_off_cust_checkin"></div>
+                        <div id="div_off_cust_creditdebit"></div>
+                        </div>
+                        
+					</div>
+				</div>
+
+                <div class="row" style="margin-bottom: 10px;" onclick="javascript:onBackKeyDown();">
+									<div class="col-md-6">
+										<button style="background-color:transparent; color: black; width: 100%; border-radius: 5px; font-size: 20px; border: none; " class="btn btn-info"><i class="ti-back-left"></i> Go Back </button>
+
+									</div>
+								</div>
+
+			</div>
+
+            <div id="div_order_transactions" class="col-lg-4 col-md-12" style="margin-bottom: 0px; margin-top: 55px;display: none">
+
+				<div class="card" style="background-color: #fff">
+					<div class="content">
+						<h5 style="text-align:center;color:#337ab7">Order Activities</h5>                                      
+						
+					</div>
+				</div>
+
+				<div class="card">
+					<div class="header"><h6 class="title" align="center" id="H24" style="color: #337ab7;"><b>Transaction List</b></h6></div>
+	
+					<div class="content" style="margin-left: 5px; margin-right: 5px;">
+
+						<div id="div_list_order_activities"></div>
+
+					</div>
+				</div>
+
+                <div class="row" style="margin-bottom: 10px;" onclick="javascript:onBackKeyDown();">
+									<div class="col-md-6">
+										<button style="background-color:transparent; color: black; width: 100%; border-radius: 5px; font-size: 20px; border: none; " class="btn btn-info"><i class="ti-back-left"></i> Go Back </button>
+
+									</div>
+								</div>
+			</div>
+
+            <div id="divDueView" class="col-lg-4 col-md-5" style="margin-bottom: 0px; margin-top: 62px;display:none">
+
+                 
+
+				<div class="card">
+					<div class="header" align="center">
+						<h5 class="title" id="H23" style="color: #337ab7;"><i class="ti-time"></i>  Customer Dues</h5>
+						<hr style="margin-top: 1px; margin-bottom: 1px;" />
+						<p id="P3" style="color: #808080; font-size: 12px; float: right"></p>
+					</div>
+
+                    <p style="font-size:12px">This report has generated based on the customer's maximum credit period and the date of order placed for the delivered orders only</p>
+                    
+                    <div >
+						<div>
+							<div id="dueheader"></div>
+							
+						</div>
+					</div>
+                    
+					<div class="content" style="margin-left: 5px; margin-right: 5px;">
+
+						<div id="divListofDueCustomers"></div>
+
+
+
+					</div>
+				</div>
+			</div>
+
+            <div id="div_offline_contents" class="col-lg-4 col-md-5" style="margin-bottom: 0px; margin-top: 62px;display:none">
+
+                 
+
+				<div class="card">
+					
+                 
+
+                    <!--<div id="div_pending_sync_data"></div>-->
+
+                     <div class="row" style="margin-bottom: 10px;">
+									<div class="col-md-6">
+										<button onclick="javascript:sync_data_to_server();" style="background-color: #25a21c; color: white; width: 100%; border-radius: 5px; font-size: 25px; border: none; height: 75px;margin-top:10px" class="btn btn-info"><i class="ti-exchange-vertical blink-image"></i><i class="ti-mobile blink-image"></i> Sync Now </button>
+
+									</div>
+								</div>
+
+                   <h5 class="panel-heading" style="text-align:center;margin:0px">Offline Contents</h5>
+					<div class="content" style="margin-left: 5px; margin-right: 5px;">
+
+						
+                        <div id="div_pending_sync_orders"></div>
+                        <div id="div_pending_sync_registrations"></div>
+                        <div id="div_pending_sync_checkins"></div>
+                        <div id="div_pending_sync_creditndebits"></div>
+                        <div id="div_pending_sync_data"></div>
+
+
+					</div>
+
+                   <!-- <button class="btn-info btn" style="width:99%;text-align:center;margin-bottom:5px;" onclick="sync_data_to_server();">click to sync</button>-->
+                   
+				</div>
+			</div>
+
+            <div id="div_my_activites" class="col-lg-4 col-md-5" style="margin-bottom: 0px; margin-top: 62px;display:none">
+
+				<div class="card">
+					
+                     <div class="row" style="margin-bottom: 10px;">
+                         									
+								</div>
+
+                      <div class="row" style="margin-bottom: 10px;" onclick="javascript:show_Offline_Contents();">
+									<div class="col-md-6">
+										<button  style="background-color: #337ab7; color: white; width: 100%; border-radius: 5px; font-size: 20px; border: none; height: 75px;" class="btn btn-info"><i class="ti-reload"></i> View Offline Activities >></button>
+
+									</div>
+								</div>
+
+                   <h5 class="panel-heading" style="text-align:center;margin:0px">My Activities<br /><small>Track Date vise activities (Offline entries not included)</small></h5>
+
+                    <div id="Div4" class="input-group input-group-sm">
+                        <input type="text" class="form-control" id="txt_date_for_activity"  placeholder="select a date" style="background-color: #fff;border:1px solid #337ab7; height: 40px; font-size: 17px;">
+                        <span class="input-group-btn">
+                            <button type="button" style="color: #fff;background-color:#337ab7; height: 40px; font-size: 17px;" onclick="javscript:get_all_my_activities();" class="btn btn-info"><i class="ti-search"></i> Get Activities</button>
+                        </span>
+                    </div>
+
+                    
+					
+						<div id="div7" class="panel panel-primary" >
+							<div class="panel-heading">
+								Activity Overview
+								<div class="pull-right">
+									 <span class="" id="Span1"></span>
+								</div>
+							</div>
+							<div class="panel-body" id="div11">
+								<table class="table" id="Table_my_acts">
+									<tbody>
+
+									</tbody>
+								</table>
+							</div>
+						</div>
+					
+				
+
+					<div class="content" style="margin-left: 10px; margin-right: 10px;">
+
+						
+                        <div id="div_list_all_my_actitities"></div>
+                        
+
+
+					</div>
+
+				</div>
+			</div>
+
+            <div id="div_sales_overview" class="col-lg-4 col-md-5" style="margin-bottom: 0px; margin-top: 62px;display:none">
+
+				<div class="card">
+					
+                     
+
+                      
+
+                        
+                    <div class="row" style="margin-bottom: 10px;text-align:center">
+                         				<label style="color:#337ab7;font-size:13px">SELECTED BRANCH / WAREHOUSE</label>		
+                        	
+								</div>
+                    <select onchange="javascript:getOverview()" id="select_over_view_branch_id" class=" form-control border-input" style="background-color: #fff;color:#000;font-size: 17px;color:#808080;margin-bottom:5px">
+<option value="0">All Warehouses</option>
+
+</select>		
+                    
+                          
+
+                   <h5 class="panel-heading" style="text-align:center;margin:0px;color:#337ab7">Sales Overview<br /><small style="color:#635c5c">Track activities within Date-Range <small style="color:#b53131"><br />(Offline entries not included)</small></small></h5>
+                    <hr style="margin:0px;padding:0px" />
+                    <div id="" class="input-group input-group-sm">
+                        <table>
+                            <tr>
+                                <td>
+                                    <label style="color:#337ab7;font-size:12px">Overview From</label>
+                                </td>
+                                <td>
+                                    <label style="color:#337ab7;font-size:12px">Overview Upto</label>
+                                </td>
+                                 <td>
+                                    <label style="color:#fff;">TO</label>
+                                </td>
+                            </tr>
+                            <tr>
+                                
+                                <td><input type="text" class="form-control" id="txt_date_overview_from"  placeholder=" overview from" style="background-color: #fff;border:1px solid #337ab7;color:#000; height: 40px; font-size: 17px;"></td>
+                                
+                                <td><input type="text" class="form-control" id="txt_date_overview_to"  placeholder="overview upto" style="background-color: #fff;border:1px solid #337ab7;color:#000; height: 40px; font-size: 17px;"></td>
+                            <td> <span class="input-group-btn">
+                            
+                            <button type="button" style="color: #fff;background-color:#337ab7; height: 40px; font-size: 17px;" onclick="javscript:get_sales_overview();" class="btn btn-info"><i class="ti-search"></i> </button>
+                        </span>
+                                </td>
+                            </tr>
+                        </table>
+                        
+                       
+                    </div>
+
+                    <div id="div17" class="panel panel-primary" >
+							<div class="panel-heading" style="background-color:#337ab7">
+								OVERVIEW  :
+                                <small id="Small1"></small>
+								<div class="pull-right">
+									 <span class="" id="Span2"></span>
+								</div>
+							</div>
+							<div class="panel-body" id="div18">
+								<table class="table" id="Table1">
+									<tbody>
+                                         
+                                        <tr>
+                                            <td>Total Visits (Check Ins):</td><td><div id="lbl_main_over_total_visit" class="pull-right">0</div></td>
+                                        </tr>
+                                        <tr>
+                                            <td>Total Sales:</td><td><div id="lbl_main_over_total_sales" class="pull-right">0</div></td>
+                                        </tr>
+                                         <tr>
+                                            <td>Amount Collected from Customer: <br /><small>( Cash & Cheque Included )</small></td><td><div id="lbl_main_over_total_collection" class="pull-right">0</div></td>
+                                            
+                                        </tr>
+                                        <tr>
+                                            <td><small id="lbl_ovr_in_totcash"></small><small id="lbl_ovr_in_totcheque"></small></td><td><div id="Div37" class="pull-right"></div></td>
+                                        </tr>
+                                        
+									</tbody>
+								</table>
+							</div>
+						</div>
+					
+						<!--<div id="div17" class="panel panel-primary" >
+							<div class="panel-heading" style="background-color:#808080">
+								SALES SUMMARY :
+                                <small>( Including Cancelled & Rejected )</small>
+								<div class="pull-right">
+									 <span class="" id="Span2"></span>
+								</div>
+							</div>
+							<div class="panel-body" id="div18">
+								<table class="table" id="Table1">
+									<tbody>
+                                        <tr>
+                                            <td>Total Orders:</td><td><div id="lbl_slover_totordercount" class="pull-right">0</div></td>
+                                            
+                                        </tr>
+                                        <tr>
+                                            <td>Total Net Amount:</td><td><div id="lbl_slover_tot_netamt" class="pull-right">0</div></td>
+                                        </tr>
+                                        <tr>
+                                            <td>Total Payment Collected:</td><td><div id="lbl_slover_tot_pay_collected" class="pull-right">0</div></td>
+                                        </tr>
+                                         <tr>
+                                            <td style="color:#337ab7">Orders With Balance:</td><td><div id="lbl_slover_totorder_with_bal" class="pull-right">0</div></td>
+                                            
+                                        </tr>
+                                        <tr>
+                                            <td style="color:#337ab7">Total Balance Amount:</td><td><div id="lbl_slover_tot_bal_amt" class="pull-right">0</div></td>
+                                        </tr>
+                                       <tr>
+                                            <td style="color:#b53131">Due Orders:</td><td><div id="lbl_slover_active_exceeded_outstanding_count" class="pull-right">0</div></td>
+                                        </tr>
+                                         <tr>
+                                            <td style="color:#b53131">Total Due Amount:</td><td><div id="lbl_slover_active_exceeded_outstanding" class="pull-right">0</div></td>
+                                            
+                                        </tr>
+                                        
+
+                                        
+
+
+
+									</tbody>
+								</table>
+							</div>
+						</div>-->
+
+                    <div id="div12" class="panel panel-primary" >
+							<div class="panel-heading" style="background-color:#337ab7">
+								ACTIVE SALES SUMMARY :
+                                <small id="lbl_main_sl_ovr_hdr"></small><small>( Cancelled & Rejected Orders Excluded )</small>
+								<div class="pull-right">
+									 <span class="" id="Span3"></span>
+								</div>
+							</div>
+							<div class="panel-body" id="div16">
+								<table class="table" id="Table2">
+									<tbody>
+                                         <tr>
+                                            <td>Total Active Orders:</td><td><div id="lbl_slover_active_order_count" class="pull-right">0</div></td>
+                                            
+                                        </tr>
+                                        <tr>
+                                            <td>Total Net Amount:</td><td><div id="lbl_slover_active_total_sale" class="pull-right">0</div></td>
+                                        </tr>
+                                        <tr>
+                                            <td>Payment Collected:</td><td><div id="lbl_slover_active_active_total_receipt" class="pull-right">0</div></td>
+                                        </tr>
+                                         <tr>
+                                            <td style="color:#b53131">Orders With Balance:</td><td><div id="lbl_slover_active_outstanding_count" class="pull-right">0</div></td>
+                                            
+                                        </tr>
+                                        <tr>
+                                            <td style="color:#b53131">Total Balance Amount:</td><td><div id="lbl_slover_active_total_outstanding" class="pull-right">0</div></td>
+                                        </tr>
+
+                                        <tr>
+                                            <td>Credit Note Entries:</td><td><div id="lbl_sloverview_credit_count" class="pull-right">0</div></td>
+                                            
+                                        </tr>
+                                        <tr>
+                                            <td>Credit Note Amount:</td><td><div id="lbl_sloverview_credit_amt" class="pull-right">0</div></td>
+                                        </tr>
+                                         <tr>
+                                            <td>Debit Note Entries:</td><td><div id="lbl_sloverview_debit_count" class="pull-right">0</div></td>
+                                            
+                                        </tr>
+                                        <tr>
+                                            <td>Debit Note Amount:</td><td><div id="lbl_sloverview_debit_amount" class="pull-right">0</div></td>
+                                        </tr>
+
+                                        <tr>
+                                            <td style="color:#337ab7">Old Bill Entries:</td><td><div id="lbl_old_bill_entry" class="pull-right">0</div></td>
+                                            
+                                        </tr>
+                                        
+									</tbody>
+								</table>
+							</div>
+						</div>
+
+                    <div id="div35" class="panel panel-primary" >
+							<div class="panel-heading" style="background-color:#337ab7">
+								OTHER PAYMENTS  :
+                                <small id="lbl_pay_info_lbl"></small>
+								<div class="pull-right">
+									 <span class="" id="Span9"></span>
+								</div>
+							</div>
+							<div class="panel-body" id="div36">
+								<table class="table" id="Table8">
+									<tbody>
+                                         
+                                        <tr>
+                                            <td>Payment Entries:</td><td><div id="lbl_sl_ovr_old_paycnt" class="pull-right">0</div></td>
+                                        </tr>
+                                         <tr>
+                                            <td>Amount Recieved:</td><td><div id="lbl_sl_ovr_old_payamt" class="pull-right">0</div></td>
+                                            
+                                        </tr>
+                                        
+									</tbody>
+								</table>
+							</div>
+						</div>
+
+                    <div id="div20" class="panel panel-primary" >
+							<div class="panel-heading" style="background-color:#808080">
+								WALLET USAGE :
+                                <small></small>
+								<div class="pull-right">
+									 <span class="" id="Span4"></span>
+								</div>
+							</div>
+							<div class="panel-body" id="div22">
+								<table class="table" id="Table3">
+									<tbody>
+                                         
+                                        <tr>
+                                            <td>Wallet Withdrawals:</td><td><div id="lbl_sloverview_wallet_count" class="pull-right">0</div></td>
+                                        </tr>
+                                         <tr>
+                                            <td>Amount Withdrawn:</td><td><div id="lbl_sloverview_wallet_used" class="pull-right">0</div></td>
+                                            
+                                        </tr>
+                                        
+									</tbody>
+								</table>
+							</div>
+						</div>
+
+                    <div id="div28" class="panel panel-primary" >
+							<div class="panel-heading" style="background-color:#337ab7">
+								SALES RETURNS :
+                                <small></small>
+								<div class="pull-right">
+									 <span class="" id="Span6"></span>
+								</div>
+							</div>
+							<div class="panel-body" id="div29">
+								<table class="table" id="Table5">
+									<tbody>
+                                        <tr>
+                                            <td>Sales Return Entries:</td><td><div id="lbl_slover_return_count" class="pull-right">0</div></td>
+                                            
+                                        </tr>
+                                        <tr>
+                                            <td>Items Worth:</td><td><div id="lbl_slover_return_amount" class="pull-right">0</div></td>
+                                        </tr>
+									</tbody>
+								</table>
+							</div>
+						</div>
+
+                    <div id="div23" class="panel panel-primary" >
+							<div class="panel-heading" style="background-color:#808080;">
+								REGISTRATION INFO :
+                                <small></small>
+								<div class="pull-right">
+									 <span class="" id="Span5"></span>
+								</div>
+							</div>
+							<div class="panel-body" id="div27">
+								<table class="table" id="Table4">
+									<tbody>
+                                        <!--<tr>
+                                            <td >Total Check- Ins :</td><td><div id="lbl_ovr_total_checkin" class="pull-right"></div></td>
+                                        </tr>-->
+                                        <tr>
+                                            <td style="color:#337ab7">Total Registrations :</td><td><div id="lbl_sl_ovrview_new_reg_total" class="pull-right"></div></td>
+                                        </tr>
+                                         <tr>
+                                            <td style="color:#b53131">Pending Approvals :</td><td><div id="lbl_sl_ovrview_new_reg_pend" class="pull-right"></div></td>
+                                        </tr>
+                                         <tr>
+                                            <td style="color:#25a21c">Approved Registrations :</td><td><div id="lbl_sl_ovrview_new_reg_approved" class="pull-right"></div></td>
+                                        </tr>
+                                        <tr>
+                                            <td style="color:red">Rejected Registrations :</td><td><div id="lbl_sl_ovrview_new_reg_rejected" class="pull-right"></div></td>
+                                        </tr>
+									</tbody>
+								</table>
+							</div>
+						</div>
+
+                    <div id="div30" class="panel panel-primary" >
+							<div class="panel-heading" style="background-color:#337ab7;">
+								SALES COMMISSION INFO :
+                                <small></small>
+								<div class="pull-right">
+									 <span class="" id="Span7"></span>
+								</div>
+							</div>
+							<div class="panel-body" id="div31">
+								<table class="table" id="Table6">
+									<tbody>
+                                        
+                                        <tr>
+                                            <td style="color:#25a21c">Commission for Delivered Orders :</td><td><div id="lbl_txt_ovr_delivered_commision" class="pull-right">0</div></td>
+                                            
+                                        </tr>
+                                        <tr>
+                                            <td style="color:#b53131">Commission for Orders under Review:</td><td><div id="lbl_txt_ovr_review_commision" class="pull-right">0</div></td>
+                                        </tr>
+                                        <tr>
+                                            <td style="color:#337ab7">Commission for other orders:</td><td><div class="pull-right" id="lbl_txt_ovr_other_commision">0</div></td>                                            
+                                        </tr>
+									</tbody>
+								</table>
+							</div>
+						</div>
+
+                    <h5 class="panel-heading" style="text-align:center;margin:0px;color:#337ab7">Orders & Payments In Detail</h5>
+                    <hr style="margin:0px;padding:0px" />
+					
+				<div id="div32" class="panel panel-primary" >
+							<div class="panel-heading" style="background-color:#808080;">
+								ORDERS & PAYMENT SUMMARY AGAINST ORDER STATUS :
+                                <small></small>
+								<div class="pull-right">
+									 <span class="" id="Span8"></span>
+								</div>
+							</div>
+							<div class="panel-body" id="div33">
+								<table class="table" id="Table7">
+									<tbody>
+
+                                        <!--new order-->
+                                         <tr>
+                                            <td style="color:#b53131"><b>TO BE CONFIRMED ORDERS</b></td><td><div id="Div34" class="pull-right"></div></td>
+                                        </tr>
+                                        <tr>
+                                            <td style="color:#b53131">Total Orders:</td><td><div id="lbl_sl_ovr_rev_cnt" class="pull-right">0</div></td>
+                                            
+                                        </tr>
+                                        <tr>
+                                            <td style="color:#b53131">Total Net Amount:</td><td><div id="lbl_sl_ovr_rev_amt" class="pull-right">0</div></td>
+                                        </tr>
+                                        
+
+                                        <tr>
+                                            <td style="color:#e17605"><b>NEW ORDERS</b></td><td><div id="Div57" class="pull-right"></div></td>
+                                        </tr>
+                                        <tr>
+                                            <td style="color:#e17605">Total New Orders:</td><td><div id="lbl_sl_ovr_new_cnt" class="pull-right">0</div></td>
+                                            
+                                        </tr>
+                                        <tr>
+                                            <td style="color:#e17605">Total Net Amount:</td><td><div id="lbl_sl_ovr_new_amt" class="pull-right">0</div></td>
+                                        </tr>
+                                        <tr>
+                                            <td style="color:#e17605">Total Payment Collected:</td><td><div id="lbl_sl_ovr_new_paid" class="pull-right">0</div></td>
+                                        </tr>
+                                         
+                                        <tr>
+                                            <td style="color:#e17605">Total Balance Amount:</td><td><div id="lbl_sl_ovr_new_bal" class="pull-right">0</div></td>
+                                        </tr>
+
+                                        <!--packed order-->
+                                        <tr>
+                                            <td style="color:#808080"><b>PACKED ORDERS</b></td><td><div id="" class="pull-right"></div></td>
+                                        </tr>
+                                        <tr>
+                                            <td style="color:#808080">Packed Only Orders:</td><td><div id="lbl_sl_ovr_pak_cnt" class="pull-right">0</div></td>
+                                            
+                                        </tr>
+                                        <tr>
+                                            <td style="color:#808080">Total Net Amount:</td><td><div id="lbl_sl_ovr_pak_amt" class="pull-right">0</div></td>
+                                        </tr>
+                                        <tr>
+                                            <td style="color:#808080">Total Payment Collected:</td><td><div id="lbl_sl_ovr_pak_paid" class="pull-right">0</div></td>
+                                        </tr>
+                                         
+                                        <tr>
+                                            <td style="color:#808080">Total Balance Amount:</td><td><div id="lbl_sl_ovr_pak_bal" class="pull-right">0</div></td>
+                                        </tr>
+
+                                        <!--processed order-->
+                                         <tr>
+                                            <td style="color:#5c84f3"><b>PROCESSED ORDERS</b></td><td><div id="Div62" class="pull-right"></div></td>
+                                        </tr>
+                                        <tr>
+                                            <td style="color:#5c84f3">Total Processed Orders:</td><td><div id="lbl_sl_ovr_pro_cnt" class="pull-right">0</div></td>
+                                            
+                                        </tr>
+                                        <tr>
+                                            <td style="color:#5c84f3">Total Net Amount:</td><td><div id="lbl_sl_ovr_pro_amt" class="pull-right">0</div></td>
+                                        </tr>
+                                        <tr>
+                                            <td style="color:#5c84f3">Total Payment Collected:</td><td><div id="lbl_sl_ovr_pro_paid" class="pull-right">0</div></td>
+                                        </tr>
+                                         
+                                        <tr>
+                                            <td style="color:#5c84f3">Total Balance Amount:</td><td><div id="lbl_sl_ovr_pro_bal" class="pull-right">0</div></td>
+                                        </tr>
+
+                                        <!--delivered order-->
+                                         <tr>
+                                            <td style="color:#25a21c"><b>DELIVERED ORDERS</b></td><td><div id="" class="pull-right"></div></td>
+                                        </tr>
+                                        <tr>
+                                            <td style="color:#25a21c">Total Delivered Orders:</td><td><div id="lbl_sl_ovr_del_cnt" class="pull-right">0</div></td>
+                                            
+                                        </tr>
+                                        <tr>
+                                            <td style="color:#25a21c">Total Net Amount:</td><td><div id="lbl_sl_ovr_del_amt" class="pull-right">0</div></td>
+                                        </tr>
+                                        <tr>
+                                            <td style="color:#25a21c">Total Payment Collected:</td><td><div id="lbl_sl_ovr_del_paid" class="pull-right">0</div></td>
+                                        </tr>
+                                         
+                                        <tr>
+                                            <td style="color:#25a21c">Total Balance Amount:</td><td><div id="lbl_sl_ovr_del_bal" class="pull-right">0</div></td>
+                                        </tr>
+
+                                        <!--pending order-->
+                                         <tr>
+                                            <td style="color:#337ab7"><b>PENDING ORDERS</b></td><td><div id="" class="pull-right"></div></td>
+                                        </tr>
+                                        <tr>
+                                            <td style="color:#337ab7">Total Pending Orders:</td><td><div id="lbl_sl_ovr_pen_cnt" class="pull-right">0</div></td>
+                                            
+                                        </tr>
+                                        <tr>
+                                            <td style="color:#337ab7">Total Net Amount:</td><td><div id="lbl_sl_ovr_pen_amt" class="pull-right">0</div></td>
+                                        </tr>
+                                        <tr>
+                                            <td style="color:#337ab7">Total Payment Collected:</td><td><div id="lbl_sl_ovr_pen_paid" class="pull-right">0</div></td>
+                                        </tr>
+                                         
+                                        <tr>
+                                            <td style="color:#337ab7">Total Balance Amount:</td><td><div id="lbl_sl_ovr_pen_bal" class="pull-right">0</div></td>
+                                        </tr>
+
+                                        <!--cancelled order-->
+                                         <tr>
+                                            <td style="color:#b53131"><b>CANCELLED ORDERS</b></td><td><div id="" class="pull-right"></div></td>
+                                        </tr>
+                                        <tr>
+                                            <td style="color:#b53131">Total Cancelled Orders:</td><td><div id="lbl_sl_ovr_can_cnt" class="pull-right">0</div></td>
+                                            
+                                        </tr>
+                                        <tr>
+                                            <td style="color:#b53131">Total Net Amount:</td><td><div id="lbl_sl_ovr_can_amt" class="pull-right">0</div></td>
+                                        </tr>
+                                        <!--<tr>
+                                            <td style="color:#b53131">Total Payment Collected:</td><td><div id="lbl_sl_ovr_can_paid" class="pull-right">0</div></td>
+                                        </tr>-->
+                                         
+                                        
+
+                                        <!--rejected order-->
+                                        <tr>
+                                            <td style="color:red"><b>REJECTED ORDERS</b></td><td><div id="" class="pull-right"></div></td>
+                                        </tr>
+                                        <tr>
+                                            <td style="color:red">Total Rejected Orders:</td><td><div id="lbl_sl_ovr_rej_cnt" class="pull-right">0</div></td>
+                                            
+                                        </tr>
+                                        <tr>
+                                            <td style="color:red">Total Net Amount:</td><td><div id="lbl_sl_ovr_rej_amt" class="pull-right">0</div></td>
+                                        </tr>
+                                       <!-- <tr>
+                                            <td style="color:red">Total Payment Collected:</td><td><div id="lbl_sl_ovr_rej_paid" class="pull-right">0</div></td>
+                                        </tr>-->
+                                         
+                                        
+
+									</tbody>
+								</table>
+							</div>
+						</div>
+
+					<div class="content" style="margin-left: 10px; margin-right: 10px;">
+
+						
+                        <div id="div19"></div>
+                        
+
+
+					</div>
+
+				</div>
+			</div>
+
+
+            <div id="divOutstanding" class="col-lg-12 col-md-12" style="margin-bottom: 0px; margin-top: 62px;display: none">
+
+
+				<div class="card card-user" style="padding-bottom:0px;margin-bottom:1px;">
+
+					<div class="content">
+						<div class="author">
+							<img class="avatar" style="width:60px;height:60px;opacity:0" src="assets/img/Capture-icon.png" alt="..." />
+							<h5 class="title" id="H12" style="color:#337ab7">Add Old Order Details
+
+
+                                  </h5>
+
+							<div class="header">
+								<h6 class="title" id="txtOutStorename"></h6>
+							</div>
+							<div class="content">
+								<form>
+									<div class="row">
+
+
+
+										<div class="col-md-4">
+											<div class="form-group">
+												<label for="exampleInputEmail1" style="float:left;color:#635c5c">Order Date</label>
+												<input type="text" id="textOrderDate" style="background-color:#fff" class="form-control border-input" placeholder=" choose order date">
+											</div>
+										</div>
+									</div>
+
+
+
+									<div class="row">
+										<div class="col-md-12">
+											<div class="form-group">
+												<label style="float:left;color:#635c5c">Invoice ID</label>
+												<input type="number" id="txtinvoiceno" class="form-control border-input" placeholder="Enter the Invoice ID">
+											</div>
+										</div>
+									</div>
+
+									<div class="row">
+										<div class="col-md-4">
+											<div class="form-group">
+												<label style="float:left;color:#635c5c">Net amount</label>
+												<input type="number" id="textNetamt" class="form-control border-input float" placeholder="Net amount">
+											</div>
+										</div>
+										<div class="col-md-4">
+											<div class="form-group">
+												<label style="float:left;color:#635c5c">Due Amount</label>
+												<input type="number" id="txtBalanceamt" class="form-control border-input  float" placeholder="Due Amount">
+											</div>
+										</div>
+
+										<div class="col-md-4">
+											<div class="form-group">
+												<label style="float:left;color:#635c5c">Special Note</label>
+												<textarea id="txtspecialnote" class="form-control border-input" placeholder="enter optional note"></textarea>
+											</div>
+										</div>
+
+									</div>
+
+								</form>
+
+								<div class="row" style="margin-bottom: 10px;">
+									<div class="col-md-6">
+										<button onclick="javascript:save_old_oustanding_order_offline();" style="background-color: #337ab7; color: white; width: 100%; border-radius: 5px; font-size: 20px; border: none; height: 50px;" class="btn btn-info"><i class="ti-plus"></i> Add Old Order </button>
+
+									</div>
+								</div>
+
+							</div>
+
+						</div>
+
+					</div>
+
+
+				</div>
+
+
+			</div>
+
+            <div id="div_Credit_Note" class="col-lg-12 col-md-12" style="margin-bottom: 0px; margin-top: 62px;display: none">
+
+
+				<div class="card card-user" style="padding-bottom:0px;margin-bottom:1px;">
+
+					<div class="content">
+						<div class="author">
+							<img class="avatar" style="width:60px;height:60px;opacity:0" src="assets/img/Capture-icon.png" alt="..." />
+							<h5 class="title" id="H11" style="color:#337ab7"> Credit Note
+
+
+                                  </h5>
+
+							<div class="header">
+								<h6 class="title" id="txtOutReturnStorename"></h6>
+							</div>
+							<div class="content" style="background-color:#f9f9f9">
+								
+								
+
+									<div class="row">
+                                        <div class="col-md-5">
+											<div class="form-group border-input">
+												<label style="float:left;color:#635c5c">Payment Method</label>
+												<select id="SelectCreditNotePayment" onchange="swapCrediPaymentMethods()" class="form-control border-input">
+                                                         <option value="0" selected>Cash</option>
+                                                    <option value="1" selected>Cheque</option>
+                                                        
+
+                                                    </select>
+											</div>
+										</div>
+
+										<div class="col-md-4">
+											<div class="form-group">
+												<label style="float:left;color:#635c5c">Amount</label>
+												<input type="number" id="txt_credit_amt" class="form-control border-input float" placeholder="enter the amount">
+											</div>
+										</div>
+
+                                        <div id="creditNoteChequeDiv">
+                                        <div class="col-md-4">
+											<div class="form-group">
+												<label style="float:left;color:#635c5c">Cheque Number</label>
+												<input type="text" id="cr_note_chq_no" class="form-control border-input" placeholder="enter the Cheque number">
+											</div>
+										</div>
+
+                                        <div class="col-md-4">
+											<div class="form-group">
+												<label style="float:left;color:#635c5c">Cheque date</label>
+												<input type="text" id="cr_not_cheque_date" class="form-control border-input" style="background-color:#fff;color:#222" placeholder="enter the Cheque date">
+											</div>
+										</div>
+
+                                        <div class="col-md-4">
+											<div class="form-group">
+												<label style="float:left;color:#635c5c">Bank Name</label>
+												<input type="text" id="cr_note_bank" class="form-control border-input" placeholder="enter the bank name">
+											</div>
+										</div>
+                                        </div>
+
+										<div class="col-md-4">
+											<div class="form-group">
+												<label style="float:left;color:#635c5c">Remarks</label>
+												<textarea id="txtspecial_credit_note" class="form-control border-input" placeholder="enter optional note"></textarea>
+											</div>
+										</div>
+
+									</div>
+
+
+
+								<div class="row" style="margin-bottom: 10px;">
+									<div class="col-md-6">
+										<button onclick="javascript:save_credit_note_offline();" style="background-color: #337ab7; color: white; width: 100%; border-radius: 5px; font-size: 20px; border: none; height: 50px;" class="btn btn-info"><i class="ti-plus"></i> Add Credit Note </button>
+
+									</div>
+								</div>
+
+							</div>
+
+						</div>
+
+					</div>
+
+
+				</div>
+
+                <div class="card">
+					<!--<div class="header"><h6 class="title" align="center" id="H14" style="color: #337ab7;">Credit Note History</h6></div>-->
+	
+					<div class="content" style="margin-left: 5px; margin-right: 5px;">
+
+						<div id="divCreditNoteListofCustomer"></div>
+
+					</div>
+				</div>
+
+
+			</div>
+
+            <div id="div_debit_note" class="col-lg-12 col-md-12" style="margin-bottom: 0px; margin-top: 62px;display: none">
+
+
+				<div class="card card-user" style="padding-bottom:0px;margin-bottom:1px;">
+
+					<div class="content">
+						<div class="author">
+							<img class="avatar" style="width:60px;height:60px;opacity:0" src="assets/img/Capture-icon.png" alt="..." />
+							<h5 class="title" id="H13" style="color:#337ab7"> Debit Note
+
+
+                                  </h5>
+
+							<div class="header">
+								<h6 class="title" id="txtDebitStorename"></h6>
+							</div>
+							<div class="content" style="background-color:#f9f9f9">
+								
+								
+
+									<div class="row">
+                                        <div class="col-md-5">
+											<div class="form-group border-input">
+												<label style="float:left;color:#635c5c">Payment Method</label>
+												<select id="SelectDebitNotePayment" onchange="swapDebitPaymentMethods()" class="form-control border-input">
+                                                         <option value="0" selected>Cash</option>
+                                                    <option value="1" selected>Cheque</option>
+                                                        
+
+                                                    </select>
+											</div>
+										</div>
+
+										<div class="col-md-4">
+											<div class="form-group">
+												<label style="float:left;color:#635c5c">Amount</label>
+												<input type="number" id="txt_debit_amount" class="form-control border-input float" placeholder="enter the amount">
+											</div>
+										</div>
+
+                                        <div id="div_debit_chque">
+                                        <div class="col-md-4">
+											<div class="form-group">
+												<label style="float:left;color:#635c5c">Cheque Number</label>
+												<input type="text" id="txt_debit_cheque_num" class="form-control border-input" placeholder="enter the Cheque number">
+											</div>
+										</div>
+
+                                        <div class="col-md-4">
+											<div class="form-group">
+												<label style="float:left;color:#635c5c">Cheque date</label>
+												<input type="text" id="txt_debit_cheque_date" class="form-control border-input" style="background-color:#fff;color:#222" placeholder="enter the Cheque date">
+											</div>
+										</div>
+
+                                        <div class="col-md-4">
+											<div class="form-group">
+												<label style="float:left;color:#635c5c">Bank Name</label>
+												<input type="text" id="txt_debit_cheque_bank" class="form-control border-input" placeholder="enter the bank name">
+											</div>
+										</div>
+                                        </div>
+
+										<div class="col-md-4">
+											<div class="form-group">
+												<label style="float:left;color:#635c5c">Remarks</label>
+												<textarea id="txt_debit_spcl_note" class="form-control border-input" placeholder="enter optional note"></textarea>
+											</div>
+										</div>
+
+									</div>
+
+
+
+								<div class="row" style="margin-bottom: 10px;">
+									<div class="col-md-6">
+										<button onclick="javascript:save_debit_note_offline();" style="background-color: #337ab7; color: white; width: 100%; border-radius: 5px; font-size: 20px; border: none; height: 50px;" class="btn btn-info"><i class="ti-plus"></i> Add Debit </button>
+
+									</div>
+								</div>
+
+							</div>
+
+						</div>
+
+					</div>
+
+
+				</div>
+
+                <div class="card">
+					<!--<div class="header"><h6 class="title" align="center" id="H16" style="color: #337ab7;">Debit History</h6></div>-->
+	
+					<div class="content" style="margin-left: 5px; margin-right: 5px;">
+
+						<div id="div6"></div>
+
+					</div>
+				</div>
+
+
+			</div>
+
+            <div id="divMyNotes" class="col-lg-12 col-md-12" style="margin-bottom: 0px; margin-top: 62px;display: none">
+
+
+				<div class="card card-user" style="padding-bottom:0px;margin-bottom:1px;">
+
+					<div class="content">
+						<div class="author">
+							<img class="avatar" style="width:60px;height:60px;opacity:0" src="assets/img/Capture-icon.png" alt="..." />
+							<h5 class="title" id="H25" style="color:#337ab7"> My Notes
+
+
+                                  </h5>
+
+							<div class="header">
+								<h6 class="title" id="H26"></h6>
+							</div>
+							<div class="content" style="background-color:#f9f9f9">
+								
+								
+
+									<div class="row">
+                                        										
+                                        <div class="col-md-4">
+											<div class="form-group">
+												<label style="float:left;color:#635c5c">Subject:</label>
+												<textarea id="txt_msg_subject" class="form-control border-input" placeholder="Enter the subject for the note"></textarea>
+											</div>
+										</div>
+
+                                        
+										<div class="col-md-4">
+											<div class="form-group">
+												<label style="float:left;color:#635c5c">Notes:</label>
+												<textarea id="txt_msg_body" class="form-control border-input" style="height:200px" placeholder="enter the note"></textarea>
+											</div>
+										</div>
+
+									</div>
+
+
+
+								<div class="row" style="margin-bottom: 10px;">
+									<div class="col-md-6">
+										<button onclick="javascript:save_mynote();" style="background-color: #337ab7; color: white; width: 100%; border-radius: 5px; font-size: 20px; border: none; height: 50px;" class="btn btn-info"><i class="ti-save"></i> Save this note </button>
+
+									</div>
+								</div>
+
+							</div>
+
+						</div>
+
+					</div>
+
+
+				</div>
+
+                <div class="card">
+					
+					<div class="content" style="margin-left: 5px; margin-right: 5px;">
+
+						<div id="div9"></div>
+
+					</div>
+				</div>
+
+
+			</div>
+
+            
+
+            <div id="divListNotes" class="col-lg-4 col-md-12" style="margin-bottom: 0px; margin-top: 55px;display: none">
+
+                <div class="card" style="background-color: #f9f9f9">
+                    <div class="">
+                        
+                         <button onclick="javascript:show_new_note_page();" style="background-color: #337ab7; color: #f8f8f8;margin-top:10px; width: 100%; border-radius: 5px; font-size: 20px; border: none; height: 50px; -webkit-box-shadow: 0 6px 10px -6px #222; -moz-box-shadow: 0 6px 10px -6px #222; box-shadow: 0 6px 10px -6px #222;"
+					class="btn btn-info"><i class="ti-pencil-alt"></i> Add New Note </button>
+
+                    </div>
+                </div>
+              
+                <div class="card">
+                                        
+                    <div class="content" style="margin-left: 5px; margin-right: 5px;">
+                        <h5 style="text-align:center;margin-top:10px;color:#337ab7">My Notes</h5>
+                        <div id="divListMyNotes"></div>
+
+                    </div>
+                </div>
+            </div>
+
+            <div id="divTotalOverview" class="col-lg-4 col-md-5" style="margin-bottom: 0px; margin-top: 62px;display:none">
+
+				<div class="card" style="background-color: #f9f9f9">
+					<div class="content">
+						<table style="width:100%">
+							<tr>
+								<td style="width:50%;">
+									<div>
+										<div class="form-group">
+											<label style="color:#337ab7">From</label>
+											<input type="text" id="txtOverviewFrom" style="background-color:white;color:#000" class="form-control border-input" placeholder="Start Date">
+										</div>
+									</div>
+								</td>
+								<td style="width:50%">
+									<div>
+										<div class="form-group">
+											<label style="color:#337ab7">To</label>
+											<input type="text" id="txtOverviewTo" style="background-color:white;color:#000" class="form-control border-input" placeholder="End Date">
+										</div>
+
+									</div>
+								</td>
+								<td style="width:50%">
+									<div>
+										<div class="form-group">
+											<label style="color:#337ab7;opacity:0">To</label>
+											<button onclick="javascript:getOverview();" id="Text1" style="background-color:white;color:#000;border-radius:2px" class="btn btn-info"><i class="ti-search"></i></button>
+										</div>
+
+									</div>
+								</td>
+							</tr>
+						</table>
+
+                        <label style="color:#337ab7">Select Warehouse</label>
+
+                        <select onchange="javascript:getOverview()" id="SelectSalesOverviewBranch" class=" form-control border-input" style="background-color: #fff;font-size: 17px;color:#808080;margin-bottom:5px">
+<option value="0">All Warehouses</option>
+
+</select>
+
+					</div>
+				</div>
+
+
+				<!--<div class="card">-->
+				<div class="content">
+					<div id="divOverviewSales">
+							
+						</div>
+				</div>
+				<!--</div>-->
+			</div>
+
+            <div id="divProductOverview" class="overview col-lg-4 col-md-5" style="margin-bottom: 0px; margin-top: 62px;display:none">
+                  <div class="card" style="background-color: #f9f9f9">
+                    <div class="content">
+                        <table style="width:100%">
+                            <tr>
+                                <td style="width:50%;">
+                                    <div>
+                                        <div class="form-group">
+                                            <label style="color:#337ab7">From</label>
+                                            <input type="text" id="txtPOFrom" style="background-color:white;color:#000" class="form-control border-input" placeholder="Start Date">
+                                        </div>
+                                    </div>
+                                </td>
+                                <td style="width:50%">
+                                    <div>
+                                        <div class="form-group">
+                                            <label style="color:#337ab7">To</label>
+                                            <input type="text" id="txtPOTo" style="background-color:white;color:#000" class="form-control border-input" placeholder="End Date">
+                                        </div>
+
+                                    </div>
+                                </td>
+                            </tr>
+                        </table>
+
+                        <table style="width:100%">
+                            <tr>
+                                <td style="width:50%;">
+                                    <div>
+                                        <div class="form-group">
+                                            <!--<label style="color:#337ab7">Order Status</label>-->
+                                            <select id="selBrand" style="background-color:white;color:#000;margin-bottom:5px;" class="form-control border-input">
+											<option value="0">select Brand</option>
+										</select>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td style="width:50%">
+                                    <div>
+                                        <div class="form-group">
+                                            <!--<label style="color:#337ab7">Payment Status</label>-->
+                                            <select id="selCategory" style="background-color:white;color:#000;margin-bottom:5px;" class="form-control border-input">
+											<option value="0">select Category</option>
+										</select>
+                                        </div>
+
+                                    </div>
+                                </td>
+
+                            </tr>
+                        </table>
+
+                        	<div class="form-group" style="width:100%">
+											<button onclick="javascript:resetProductOverviewFilter();" id="Button4" style="background-color:white;color:#000;border-radius:2px;width:49%;float:left" class="btn btn-info">Reset</button>
+											<button onclick="javascript:getProductOverview()" id="Button5" style="background-color:white;color:#000;border-radius:2px;width:49%;float:right" class="btn btn-info">Search</button>
+										</div>
+
+                        <div>
+									
+									</div>
+
+                       
+                    </div>
+                </div>
+
+
+				
+									
+								
+				
+                
+                <div class="card">
+					<div class="content">
+						<div id="divPOSummery" class="panel panel-primary">
+							<div class="panel-heading">
+								Overview
+								<div class="pull-right">
+									Total = <span class="" id="lblTotalSales">0</span>
+								</div>
+							</div>
+							<div class="panel-body" id="divOverviewBrands">
+								<table class="table" id="tblPOBrands">
+									<tbody>
+
+									</tbody>
+								</table>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div id="divBrandOverview" class="overview col-lg-4 col-md-5" style="margin-bottom: 0px; margin-top: 62px;display:none">
+
+				<div class="card">
+					<div class="content">
+						<div id="div10" class="panel panel-primary">
+							<div class="panel-heading">
+								<span id="spanBrandName"></span>
+								<div class="clearFix"></div>
+								<div style="text-align:right">
+									Total = <span class="" id="lblBrandTotalSales">0</span>
+								</div>
+							</div>
+							<div class="panel-body" id="Div14">
+								<table class="table" id="tblItemsOverview">
+									<tbody>
+									</tbody>
+								</table>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+            <div id="div_Settings" class="col-lg-3 col-sm-6" style="margin-bottom: 0px; margin-top: 55px;display: none">
+
+				<div class="card" style="margin-bottom: 4px;">
+					<div class="content">
+						<div class="row">
+							<div class="col-md-6">
+								<div class="box">
+									<div class="box-header" align="center">
+									</div>
+									<div align="center">
+										<img src="assets/img/gg.png" style="width: 30%; margin-bottom: 5px;margin-top:25px" />
+                                        <h5 style="color:#337ab7">Invoice Me <small> Salesman</small></h5>
+									</div>
+                                    
+									<!-- /.box-header -->
+									<div class="box-body no-padding" style="text-align:center">
+                                        <hr />
+                                        <p style="color:#25a21c;font-size:12px">Logged In as</p>
+                                        <h5 style="color:#337ab7" id="lbl_settings_name">Vishnudas A <br /><small> Salesman</small></h5>
+									</div>
+
+								<!--	<div class="row" style="margin-bottom: 5px;margin-bottom: 5px;">
+										<div class="col-md-12">
+											<div class="form-group">
+												<label for="selPrintDevices">Choose printing device</label>
+												<select name="" id="selPrintDevices" class="form-control border-input col-xs-6 ">
+									        <option value="0">--select--</option>
+									      </select>
+												<button onclick="javascript:connectDevice();" style="margin-top:5px;background-color: #337ab7; color: #f8f8f8; width: 100%; border-radius: 5px; font-size: 20px; border: none; height: 50px; -webkit-box-shadow: 0 6px 10px -6px #222; -moz-box-shadow: 0 6px 10px -6px #222; box-shadow: 0 6px 10px -6px #222;"
+														class="btn btn-info"> Connect </button>
+											</div>
+										</div>
+									</div>-->
+									<div class="row" style="margin-bottom: 10px;">
+										<div class="col-md-12">
+											<button onclick="javascript:logout_user();" style="background-color: #337ab7; color: #f8f8f8; width: 100%; border-radius: 5px; font-size: 20px; border: none; height: 50px; -webkit-box-shadow: 0 6px 10px -6px #222; -moz-box-shadow: 0 6px 10px -6px #222; box-shadow: 0 6px 10px -6px #222;"
+											    class="btn btn-info"><i class="ti-lock"></i> Log Out </button>
+
+										</div>
+									</div>
+                                    <hr />
+                                    <div class="row" >
+                                        <div class="col-md-5" style="text-align:center">
+											<div class="form-group border-input" style="text-align:center">
+												<label style="color:#337ab7">Available Bluetooth Devices</label>
+												<select id="selPrintDevices" onchange="swapCrediPaymentMethods()" class="form-control border-input">
+                                                       
+                                                    </select>
+
+                                                <button onclick="javascript:connectDevice();" style="margin-top:15px;background-color: #337ab7; color: #f8f8f8; width: 100%; border-radius: 5px; font-size: 20px; border: none; height: 50px; -webkit-box-shadow: 0 6px 10px -6px #222; -moz-box-shadow: 0 6px 10px -6px #222; box-shadow: 0 6px 10px -6px #222;"
+														class="btn btn-info"> Connect Device</button>
+											</div>
+
+
+										</div>
+                                        </div>
+
+
+
+
+									<!-- /.box-body -->
+								</div>
+								<!-- /.box -->
+							</div>
+
+						</div>
+					</div>
+				</div>
+			</div>
+          
+            <div id="divOrderExpanded" class="col-lg-3 col-sm-12" style="margin-bottom: 0px; margin-top: 62px;display: none">
+
+				<div class="card" style="margin-bottom: 4px;">
+
+					
+
+								<div class="box-header" align="left">
+									<div style="display: inline-block;margin-bottom:2px;">
+										<div style="color: #337ab7;font-size:16px;" class="box-title" id="over_orderid"></div>
+										<span style="color:#909090" id="over_orderdate"></span><span style="color:#337ab7" id="spanordertype"></span>
+                                        <br /><span style="color:#337ab7" id="spanPayType"></span>
+                                        <span style="color:#b53131" id="spanPriceCLass"></span>
+									</div>
+
+                                    <select id="SelectspanPayType1" class="form-control border-input" style="background-color: #fff; font-size: 17px; color: #808080;margin-bottom:1%;display:none" onchange="changeOrderPaymentType()">
+                               <option value="0" selected>Choose order payment type</option>
+                               <option value="1" >Cash</option>
+                               <option value="2" >Credit</option>
+                               <option value="3" >Bill to bill</option>
+
+
+                            </select>
+
+
+									<div style="display: inline-block;float: right;">
+										<div id="over_image">
+
+										</div>
+									</div>
+								</div>
+
+								<div style="width:100%;border-bottom:1px solid #c1c0c0;"></div>
+
+								<!-- /.box-header -->
+								<div class="">
+									<div id="Div8">
+										<div align="left" style="margin-bottom:2px;margin-top:10px;">
+											<div>
+												<h5 class="title" id="over_storename" style="margin-top:1px;margin-bottom:1px;color:#337ab7"></h5></div>
+										</div>
+										<div id="divOrderHandlers">
+											
+										</div>
+										<div style="width:100%;border-bottom:1px solid #c1c0c0;"></div>
+										<div id="divBillHeader">
+											<div class="row">
+												<div class="col-xs-4">Bill Amount</div>
+												<div class="col-xs-8">: <span style="color:#337ab7;font-size:16px;font-weight:bold" id="over_billamt">0.00 </span></div>
+											</div>
+                                            <div class="row">
+												<div class="col-xs-4">Tax Amount</div>
+												<div class="col-xs-8">: <span style="color:#337ab7;font-size:16px;font-weight:bold" id="over_tax_amount">0.00 </span></div>
+											</div>
+											<div class="row">
+												<div class="col-xs-4">Balance</div>
+												<div class="col-xs-8">: <span style="color:red;font-size:16px;font-weight:bold" id="newbalanceafter">0.00 </span></div>
+											</div>
+										</div>
+
+
+									</div>
+								</div>
+
+
+								<!-- /.box-header -->
+								
+								<div class="content" style="padding:4%">
+                                    <p style="text-align:center">PARTICULARS</p>
+                                    <div class="row" id="Div2">
+                             <div class="input-group input-group-sm ">
+                             <input type="text" class="form-control" id="txt_order_item_cart_search"  placeholder="Search in order items" onkeyup="javscript:display_order_items(1);" style="background-color: #fff;border:1px solid #337ab7; height: 40px; font-size: 17px;">
+						<span class="input-group-btn">
+                                    <button type="button" style="color: #fff;background-color:#337ab7; height: 40px; font-size: 17px;" onclick="javscript:list_items_Cart(1);" class="btn btn-info"><i class="ti-search"></i></button>
+                                </span>
+                         </div>
+                         </div>
+
+                                    
+									<div id="items_in_the_order">
+									</div>
+								</div>
+
+                    <table style="width:100%;margin-bottom:1px;padding-bottom:1px;text-align:center;table-layout: fixed;">
+                    <p style="text-align:center;font-size:10px">CHOOSE AN ACTION</p>
+                                <tr style="padding-bottom:0px;margin-bottom:1px;width:100%">
+
+                                    <td style="border:solid 4px #fff;width:33.33%;background-color:#337ab7" onclick="javascript:load_popup_for_status();">
+                                        <div class="col-md-4 col-md-offset-1">
+                                            <h6 id="H14" style="font-size:17px;margin-top:5px;margin-bottom:5px;"><i class="ti-truck" style="color:#fff"></i><br /><small style="color:#fff">CHANGE STATUS</small></h6>
+                                        </div>
+                                    </td>
+                                    <td style="border:solid 4px #fff;width:33.33%;background-color:#337ab7" onclick="javascript:make_Payment_for_order();">
+                                        <div class="col-md-4 col-md-offset-1">
+                                            <h6 id="H16" style="font-size:17px;margin-top:5px;margin-bottom:5px;"><i class="ti-money" style="color:#fff"></i><br /><small style="color:#fff">MAKE PAYMENT</small></h6>
+                                        </div>
+                                    </td>
+                                    <td style="border:solid 4px #fff;width:33.33%;background-color:#337ab7" onclick="javascript:load_items_for_edit();">
+                                        <div class="col-md-4 col-md-offset-1">
+                                            <h6 id="H19" style="font-size:17px;margin-top:5px;margin-bottom:5px;"><i class="ti-pencil" style="color:#fff"></i><br /><small style="color:#fff">EDIT ORDER</small></h6>
+                                        </div>
+                                    </td>
+                                    
+                                </tr>
+
+                    <tr style="padding-bottom:0px;margin-bottom:1px;width:100%">
+
+                        <td style="border:solid 4px #fff;width:33.33%;background-color:#808080" onclick="show_order_activities();">
+                                        <div class="col-md-4 col-md-offset-1">
+                                            <h6 id="H22" style="font-size:17px;margin-top:5px;margin-bottom:5px;"><i class="ti-receipt" style="color:#fff"></i><br /><small style="color:#fff">VIEW ALL ACTIVITIES</small></h6>
+                                        </div>
+                                    </td>
+                                    <td style="border:solid 4px #fff;width:33.33%;background-color:#808080" onclick="load_print_options();">
+                                        <div class="col-md-4 col-md-offset-1">
+                                            <h6 id="H20" style="font-size:17px;margin-top:5px;margin-bottom:5px;"><i class="ti-printer" style="color:#fff"></i><br /><small style="color:#fff">PRINT ORDER</small></h6>
+                                        </div>
+                                    </td>
+                                    <td style="border:solid 4px #fff;width:33.33%;background-color:#808080" onclick="javascript:go_to_customer_page_from_order();">
+                                        <div class="col-md-4 col-md-offset-1">
+                                            <h6 id="H21" style="font-size:17px;margin-top:5px;margin-bottom:5px;"><i class="ti-user" style="color:#fff"></i><br /><small style="color:#fff">GO TO CUSTOMER</small></h6>
+                                        </div>
+                                    </td>
+                                    
+                                </tr>
+
+                        <tr id="online_access_menu" style="padding-bottom:0px;margin-bottom:1px;width:100%">
+
+                        <td style="border:solid 4px #fff;width:33.33%;background-color:#337ab7" onclick="getEditOrderHistory();">
+                                        <div class="col-md-4 col-md-offset-1">
+                                            <h6 id="H27" style="font-size:17px;margin-top:5px;margin-bottom:5px;"><i class="ti-pencil-alt" style="color:#fff"></i><br /><small style="color:#fff">VIEW EDITS</small></h6>
+                                        </div>
+                                    </td>
+                                    <td style="border:solid 4px #fff;width:33.33%;background-color:#337ab7" onclick="load_items_for_orderbased_return();">
+                                        <div class="col-md-4 col-md-offset-1">
+                                            <h6 id="H28" style="font-size:17px;margin-top:5px;margin-bottom:5px;"><i class="ti-back-left" style="color:#fff"></i><br /><small style="color:#fff">RETURN ITEMS</small></h6>
+                                        </div>
+                                    </td>
+                                    <td style="border:solid 4px #fff;width:33.33%;background-color:#337ab7" onclick="javascript:get_items_returned_in_order();">
+                                        <div class="col-md-4 col-md-offset-1">
+                                            <h6 id="H29" style="font-size:17px;margin-top:5px;margin-bottom:5px;"><i class="ti-timer" style="color:#fff"></i><br /><small style="color:#fff">RETURN HISTORY</small></h6>
+                                        </div>
+                                    </td>
+                                    
+                                </tr>
+                    
+
+                            </table>
+
+                  
+								
+								<div class="row" style="margin-bottom: 10px;" onclick="javascript:onBackKeyDown();">
+									<div class="col-md-6">
+										<button style="background-color:transparent; color: black; width: 100%; border-radius: 5px; font-size: 20px; border: none; " class="btn btn-info"><i class="ti-back-left"></i> Go Back </button>
+
+									</div>
+								</div>
+
+
+
+					
+
+				</div>
+			</div>
+
+            <div id="div_common_sales_return" class="col-lg-12 col-md-12" style="margin-bottom: 0px; margin-top: 62px;display: none">
+
+
+				<div class="card card-user" style="padding-bottom:0px;margin-bottom:1px;">
+
+					<div class="content">
+						<div class="author">
+							<img class="avatar" style="width:60px;height:60px;opacity:0" src="assets/img/Capture-icon.png" alt="..." />
+							<h5 class="title" id="H15" style="color:#337ab7"> Sales Return
+                                <small></small>
+
+                                  </h5>
+
+							
+							<div class="content" style="background-color:#f9f9f9">
+
+                                <div class="row" style="margin-bottom: 10px;">
+									<div class="col-md-6">
+										<button onclick="javascript:show_return_cart_page();" style="background-color: #337ab7; color: white; width: 100%; border-radius: 5px; font-size: 20px; border: none; height: 40px;" class="btn btn-info"><i class="ti-shopping-cart"></i><i class="ti-back-left"></i> View Return Cart </button>
+
+									</div>
+								</div>
+								
+								<table style="width:100%;margin-top:5px">
+							<tr>
+								<td style="width:50%;">
+									<div>
+										<div class="form-group">
+											
+											<select  id="select_return_brand" onchange="javascript:restore_return_categories();" style="background-color:white;color:#000" class="form-control border-input" ><option value="x">All Brands</option></select>
+										</div>
+									</div>
+								</td>
+								<td style="width:50%">
+									<div>
+										<div class="form-group">
+											
+											<select  id="select_return_category" style="background-color:white;color:#000" class="form-control border-input"><option value="x">All Categories</option></select>
+										</div>
+
+									</div>
+								</td>
+								<!--<td style="width:50%">
+									<div>
+										<div class="form-group">
+											
+											<button onclick="javascript:resetProductSearch();" style="background-color:#337ab7;border-radius:0px" class="btn btn-info"><i class="ti-reload" style="color:#fff"></i></button>
+										</div>
+
+									</div>
+								</td>-->
+							</tr>
+						</table>
+
+									<div class="row" style="padding:4%">
+                                       
+ <div class="input-group input-group-sm ">
+                             <input type="text" class="form-control" id="txt_serach_for_return_items"  placeholder="Search in order items" style="background-color: #fff;border:1px solid #337ab7; height: 40px; font-size: 17px;">
+						<span class="input-group-btn">
+                                    <button type="button" style="color: #fff;background-color:#337ab7; height: 40px;width:60px; font-size: 17px;" onclick="javscript:search_return_item(1);" class="btn btn-info"><i class="ti-search"></i></button>
+                                </span>
+                         </div>
+
+									</div>
+
+
+
+								
+
+							</div>
+
+						</div>
+
+					</div>
+
+
+				</div>
+
+                <div class="card">
+					
+					<div class="content" style="margin-left: 5px; margin-right: 5px;">
+
+						<div id="div_searached_return_items"></div>
+
+					</div>
+				</div>
+
+
+			</div>
+
+
+
+        </div>
+    </div>
+
+
+</body>
+
+<!--   Core JS Files   -->
+<script src="assets/js/jquery-1.10.2.js" type="text/javascript"></script>
+<script src="assets/js/bootstrap.min.js" type="text/javascript"></script>
+<!--  Checkbox, Radio & Switch Plugins -->
+<!--<script src="assets/js/bootstrap-checkbox-radio.js"></script>-->
+<!--  Charts Plugin -->
+<!--<script src="assets/js/chartist.min.js"></script>-->
+<!--  Notifications Plugin    -->
+<!--<script src="assets/js/bootstrap-notify.js"></script>-->
+<!--  Google Maps Plugin
+    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js"></script>    -->
+<!-- Paper Dashboard Core javascript and methods for Demo purpose -->
+<script src="assets/js/paper-dashboard.js"></script>
+
+<!-- Paper Dashboard DEMO methods, don't include it in your project! -->
+<script src="assets/js/bootbox.min.js"></script>
+<script src="assets/mobiscroll/js/mobiscroll-2.0rc3.full.min.js"></script>
+
+<script src="assets/js/seller.js"></script>
+<script type="text/javascript" src="cordova.js"></script>
+<script type="text/javascript">
+
+	$(document).ready(function() {
+
+		document.addEventListener("backbutton", onBackMove, false);
+		document.addEventListener("deviceready", onDeviceReady, false);
+	});
+
+</script>
+
+</html>

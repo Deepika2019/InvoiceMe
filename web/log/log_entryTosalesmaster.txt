@@ -1,0 +1,326 @@
+
+=======================================================================================
+2018-05-08 15:47:43:3651
+-------------------------------
+StackTrace:   at System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   at System.Data.DataRowCollection.get_Item(Int32 index)
+   at newBooking.entryTosalesmaster(Int32 app_id) in e:\Projects\dotnet\invoiceMe\PinkLine\working\web\newBooking.aspx.cs:line 124
+
+-------------------------------
+Message:There is no row at position 0.
+
+-------------------------------
+InnerException:
+
+-------------------------------
+Source:System.Data
+
+-------------------------------
+
+=======================================================================================
+
+=======================================================================================
+2018-05-08 15:51:06:2920
+-------------------------------
+StackTrace:   at System.Data.DataRow.GetDataColumn(String columnName)
+   at System.Data.DataRow.get_Item(String columnName)
+   at newBooking.entryTosalesmaster(Int32 app_id) in e:\Projects\dotnet\invoiceMe\PinkLine\working\web\newBooking.aspx.cs:line 317
+
+-------------------------------
+Message:Column ' itbs_id' does not belong to table .
+
+-------------------------------
+InnerException:
+
+-------------------------------
+Source:System.Data
+
+-------------------------------
+
+=======================================================================================
+
+=======================================================================================
+2018-05-08 15:52:18:1334
+-------------------------------
+StackTrace:   at System.Data.DataRow.GetDataColumn(String columnName)
+   at System.Data.DataRow.get_Item(String columnName)
+   at newBooking.entryTosalesmaster(Int32 app_id) in e:\Projects\dotnet\invoiceMe\PinkLine\working\web\newBooking.aspx.cs:line 317
+
+-------------------------------
+Message:Column ' itbs_id' does not belong to table .
+
+-------------------------------
+InnerException:
+
+-------------------------------
+Source:System.Data
+
+-------------------------------
+
+=======================================================================================
+
+=======================================================================================
+2018-05-09 10:32:42:7810
+-------------------------------
+StackTrace:   at commonfunction.mySqlConnection.ExecuteQueryForTransaction(MySqlCommand cmd) in E:\Projects\dotnet\invoiceMe\PinkLine\working\commonfunction\mySqlConnection.cs:line 254
+   at newBooking.entryTosalesmaster(Int32 app_id) in e:\Projects\dotnet\invoiceMe\PinkLine\working\web\newBooking.aspx.cs:line 396
+
+-------------------------------
+Message:Duplicate entry '0-84.000-0.000-1' for key 'session_id_dr_cr_UNIQUE'
+
+-------------------------------
+InnerException:
+
+-------------------------------
+Source:commonfunction
+
+-------------------------------
+
+=======================================================================================
+
+=======================================================================================
+2018-05-09 10:33:30:4047
+-------------------------------
+StackTrace:   at commonfunction.mySqlConnection.ExecuteQueryForTransaction(MySqlCommand cmd) in E:\Projects\dotnet\invoiceMe\PinkLine\working\commonfunction\mySqlConnection.cs:line 254
+   at newBooking.entryTosalesmaster(Int32 app_id) in e:\Projects\dotnet\invoiceMe\PinkLine\working\web\newBooking.aspx.cs:line 396
+
+-------------------------------
+Message:Duplicate entry '0-84.000-0.000-1' for key 'session_id_dr_cr_UNIQUE'
+
+-------------------------------
+InnerException:
+
+-------------------------------
+Source:commonfunction
+
+-------------------------------
+
+=======================================================================================
+
+=======================================================================================
+2018-05-09 13:12:24:2850
+-------------------------------
+StackTrace:   at commonfunction.mySqlConnection.ExecuteQueryForTransaction(MySqlCommand cmd) in E:\Projects\dotnet\invoiceMe\PinkLine\working\commonfunction\mySqlConnection.cs:line 254
+   at newBooking.entryTosalesmaster(Int32 app_id) in e:\Projects\dotnet\invoiceMe\PinkLine\working\web\newBooking.aspx.cs:line 396
+
+-------------------------------
+Message:Duplicate entry '0-262.500-0.000-1' for key 'session_id_dr_cr_UNIQUE'
+
+-------------------------------
+InnerException:
+
+-------------------------------
+Source:commonfunction
+
+-------------------------------
+
+=======================================================================================
+
+=======================================================================================
+2018-05-09 14:59:59:9592
+-------------------------------
+StackTrace:   at commonfunction.mySqlConnection.ExecuteQueryForTransaction(MySqlCommand cmd) in E:\Projects\dotnet\invoiceMe\PinkLine\working\commonfunction\mySqlConnection.cs:line 254
+   at newBooking.entryTosalesmaster(Int32 app_id) in e:\Projects\dotnet\invoiceMe\PinkLine\working\web\newBooking.aspx.cs:line 396
+
+-------------------------------
+Message:Duplicate entry '0-346.500-0.000-1' for key 'session_id_dr_cr_UNIQUE'
+
+-------------------------------
+InnerException:
+
+-------------------------------
+Source:commonfunction
+
+-------------------------------
+
+=======================================================================================
+
+=======================================================================================
+2018-05-09 15:04:42:5844
+-------------------------------
+StackTrace:   at commonfunction.mySqlConnection.ExecuteQueryForTransaction(MySqlCommand cmd) in E:\Projects\dotnet\invoiceMe\PinkLine\working\commonfunction\mySqlConnection.cs:line 254
+   at newBooking.entryTosalesmaster(Int32 app_id) in e:\Projects\dotnet\invoiceMe\PinkLine\working\web\newBooking.aspx.cs:line 396
+
+-------------------------------
+Message:Duplicate entry '0-157.500-0.000-1' for key 'session_id_dr_cr_UNIQUE'
+
+-------------------------------
+InnerException:
+
+-------------------------------
+Source:commonfunction
+
+-------------------------------
+
+=======================================================================================
+
+=======================================================================================
+2018-05-09 15:11:28:0376
+-------------------------------
+StackTrace:   at commonfunction.mySqlConnection.ExecuteQueryForTransaction(MySqlCommand cmd) in E:\Projects\dotnet\invoiceMe\PinkLine\working\commonfunction\mySqlConnection.cs:line 254
+   at newBooking.entryTosalesmaster(Int32 app_id) in e:\Projects\dotnet\invoiceMe\PinkLine\working\web\newBooking.aspx.cs:line 396
+
+-------------------------------
+Message:Duplicate entry '0-157.500-0.000-1' for key 'session_id_dr_cr_UNIQUE'
+
+-------------------------------
+InnerException:
+
+-------------------------------
+Source:commonfunction
+
+-------------------------------
+
+=======================================================================================
+
+=======================================================================================
+2018-05-09 15:11:28:0646
+-------------------------------
+StackTrace:   at commonfunction.mySqlConnection.ExecuteQueryForTransaction(MySqlCommand cmd) in E:\Projects\dotnet\invoiceMe\PinkLine\working\commonfunction\mySqlConnection.cs:line 254
+   at newBooking.entryTosalesmaster(Int32 app_id) in e:\Projects\dotnet\invoiceMe\PinkLine\working\web\newBooking.aspx.cs:line 396
+
+-------------------------------
+Message:Duplicate entry '0-157.500-0.000-1' for key 'session_id_dr_cr_UNIQUE'
+
+-------------------------------
+InnerException:
+
+-------------------------------
+Source:commonfunction
+
+-------------------------------
+
+=======================================================================================
+
+=======================================================================================
+2018-05-09 15:26:13:6203
+-------------------------------
+StackTrace:   at commonfunction.mySqlConnection.ExecuteQueryForTransaction(MySqlCommand cmd) in E:\Projects\dotnet\invoiceMe\PinkLine\working\commonfunction\mySqlConnection.cs:line 254
+   at newBooking.entryTosalesmaster(Int32 app_id) in e:\Projects\dotnet\invoiceMe\PinkLine\working\web\newBooking.aspx.cs:line 396
+
+-------------------------------
+Message:Duplicate entry '0-262.500-0.000-1' for key 'session_id_dr_cr_UNIQUE'
+
+-------------------------------
+InnerException:
+
+-------------------------------
+Source:commonfunction
+
+-------------------------------
+
+=======================================================================================
+
+=======================================================================================
+2018-05-09 15:48:11:8656
+-------------------------------
+StackTrace:   at commonfunction.mySqlConnection.ExecuteQueryForTransaction(MySqlCommand cmd) in E:\Projects\dotnet\invoiceMe\PinkLine\working\commonfunction\mySqlConnection.cs:line 254
+   at newBooking.entryTosalesmaster(Int32 app_id) in e:\Projects\dotnet\invoiceMe\PinkLine\working\web\newBooking.aspx.cs:line 397
+
+-------------------------------
+Message:Duplicate entry '0-262.500-0.000-1' for key 'session_id_dr_cr_UNIQUE'
+
+-------------------------------
+InnerException:
+
+-------------------------------
+Source:commonfunction
+
+-------------------------------
+
+=======================================================================================
+
+=======================================================================================
+2018-05-09 15:49:19:4515
+-------------------------------
+StackTrace:   at commonfunction.mySqlConnection.ExecuteQueryForTransaction(MySqlCommand cmd) in E:\Projects\dotnet\invoiceMe\PinkLine\working\commonfunction\mySqlConnection.cs:line 254
+   at newBooking.entryTosalesmaster(Int32 app_id) in e:\Projects\dotnet\invoiceMe\PinkLine\working\web\newBooking.aspx.cs:line 397
+
+-------------------------------
+Message:Duplicate entry '0-262.500-0.000-1' for key 'session_id_dr_cr_UNIQUE'
+
+-------------------------------
+InnerException:
+
+-------------------------------
+Source:commonfunction
+
+-------------------------------
+
+=======================================================================================
+
+=======================================================================================
+2018-05-09 15:50:42:3343
+-------------------------------
+StackTrace:   at commonfunction.mySqlConnection.ExecuteQueryForTransaction(MySqlCommand cmd) in E:\Projects\dotnet\invoiceMe\PinkLine\working\commonfunction\mySqlConnection.cs:line 254
+   at newBooking.entryTosalesmaster(Int32 app_id) in e:\Projects\dotnet\invoiceMe\PinkLine\working\web\newBooking.aspx.cs:line 397
+
+-------------------------------
+Message:Duplicate entry '0-262.500-0.000-1' for key 'session_id_dr_cr_UNIQUE'
+
+-------------------------------
+InnerException:
+
+-------------------------------
+Source:commonfunction
+
+-------------------------------
+
+=======================================================================================
+
+=======================================================================================
+2018-05-09 17:21:19:7443
+-------------------------------
+StackTrace:   at commonfunction.mySqlConnection.SelectQueryForTransaction(String strQuery) in E:\Projects\dotnet\invoiceMe\PinkLine\working\commonfunction\mySqlConnection.cs:line 334
+   at newBooking.entryTosalesmaster(Int32 app_id) in e:\Projects\dotnet\invoiceMe\PinkLine\working\web\newBooking.aspx.cs:line 134
+
+-------------------------------
+Message:Column 'cust_id' in field list is ambiguous
+
+-------------------------------
+InnerException:
+
+-------------------------------
+Source:commonfunction
+
+-------------------------------
+
+=======================================================================================
+
+=======================================================================================
+2018-05-09 17:21:40:8475
+-------------------------------
+StackTrace:   at commonfunction.mySqlConnection.SelectQueryForTransaction(String strQuery) in E:\Projects\dotnet\invoiceMe\PinkLine\working\commonfunction\mySqlConnection.cs:line 334
+   at newBooking.entryTosalesmaster(Int32 app_id) in e:\Projects\dotnet\invoiceMe\PinkLine\working\web\newBooking.aspx.cs:line 134
+
+-------------------------------
+Message:Column 'cust_id' in field list is ambiguous
+
+-------------------------------
+InnerException:
+
+-------------------------------
+Source:commonfunction
+
+-------------------------------
+
+=======================================================================================
+
+=======================================================================================
+2018-05-09 17:22:44:4281
+-------------------------------
+StackTrace:   at commonfunction.mySqlConnection.SelectQueryForTransaction(String strQuery) in E:\Projects\dotnet\invoiceMe\PinkLine\working\commonfunction\mySqlConnection.cs:line 334
+   at newBooking.entryTosalesmaster(Int32 app_id) in e:\Projects\dotnet\invoiceMe\PinkLine\working\web\newBooking.aspx.cs:line 134
+
+-------------------------------
+Message:Column 'cust_id' in field list is ambiguous
+
+-------------------------------
+InnerException:
+
+-------------------------------
+Source:commonfunction
+
+-------------------------------
+
+=======================================================================================

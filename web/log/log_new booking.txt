@@ -1,0 +1,114 @@
+
+=======================================================================================
+2018-02-28 10:43:29:5224
+-------------------------------
+StackTrace:   at commonfunction.mySqlConnection.ExecuteQueryForTransaction(String strQuery) in E:\Projects\dotnet\invoiceMe\PinkLine\working\commonfunction\mySqlConnection.cs:line 223
+   at newBooking.AddNewBooking(String branchid, String CustomerId, String CustomerName, String Phone, String startdate, String startTime, String description) in e:\Projects\dotnet\invoiceMe\PinkLine\working\web\newBooking.aspx.cs:line 60
+
+-------------------------------
+Message:Table 'jsy.tbl_Appointment_Header' doesn't exist
+
+-------------------------------
+InnerException:
+
+-------------------------------
+Source:commonfunction
+
+-------------------------------
+
+=======================================================================================
+
+=======================================================================================
+2018-02-28 10:43:49:9116
+-------------------------------
+StackTrace:   at commonfunction.mySqlConnection.ExecuteQueryForTransaction(String strQuery) in E:\Projects\dotnet\invoiceMe\PinkLine\working\commonfunction\mySqlConnection.cs:line 223
+   at newBooking.AddNewBooking(String branchid, String CustomerId, String CustomerName, String Phone, String startdate, String startTime, String description) in e:\Projects\dotnet\invoiceMe\PinkLine\working\web\newBooking.aspx.cs:line 60
+
+-------------------------------
+Message:Table 'jsy.tbl_Appointment_Header' doesn't exist
+
+-------------------------------
+InnerException:
+
+-------------------------------
+Source:commonfunction
+
+-------------------------------
+
+=======================================================================================
+
+=======================================================================================
+2018-02-28 10:44:46:8361
+-------------------------------
+StackTrace:   at commonfunction.mySqlConnection.ExecuteQueryForTransaction(String strQuery) in E:\Projects\dotnet\invoiceMe\PinkLine\working\commonfunction\mySqlConnection.cs:line 223
+   at newBooking.AddNewBooking(String branchid, String CustomerId, String CustomerName, String Phone, String startdate, String startTime, String description) in e:\Projects\dotnet\invoiceMe\PinkLine\working\web\newBooking.aspx.cs:line 60
+
+-------------------------------
+Message:Table 'jsy.tbl_Appointment_Header' doesn't exist
+
+-------------------------------
+InnerException:
+
+-------------------------------
+Source:commonfunction
+
+-------------------------------
+
+=======================================================================================
+
+=======================================================================================
+2018-02-28 10:45:07:0021
+-------------------------------
+StackTrace:   at commonfunction.mySqlConnection.ExecuteQueryForTransaction(String strQuery) in E:\Projects\dotnet\invoiceMe\PinkLine\working\commonfunction\mySqlConnection.cs:line 223
+   at newBooking.AddNewBooking(String branchid, String CustomerId, String CustomerName, String Phone, String startdate, String startTime, String description) in e:\Projects\dotnet\invoiceMe\PinkLine\working\web\newBooking.aspx.cs:line 60
+
+-------------------------------
+Message:Table 'jsy.tbl_Appointment_Header' doesn't exist
+
+-------------------------------
+InnerException:
+
+-------------------------------
+Source:commonfunction
+
+-------------------------------
+
+=======================================================================================
+
+=======================================================================================
+2018-05-08 15:45:14:9206
+-------------------------------
+StackTrace:   at commonfunction.mySqlConnection.SelectScalarForTransaction(String strQuery) in E:\Projects\dotnet\invoiceMe\PinkLine\working\commonfunction\mySqlConnection.cs:line 278
+   at newBooking.AddNewBooking(String branchid, String CustomerId, String CustomerName, String Phone, String startdate, String startTime, String description, String tableString, String status) in e:\Projects\dotnet\invoiceMe\PinkLine\working\web\newBooking.aspx.cs:line 60
+
+-------------------------------
+Message:Duplicate entry '0' for key 'PRIMARY'
+
+-------------------------------
+InnerException:
+
+-------------------------------
+Source:commonfunction
+
+-------------------------------
+
+=======================================================================================
+
+=======================================================================================
+2018-05-08 15:45:21:0769
+-------------------------------
+StackTrace:   at commonfunction.mySqlConnection.SelectScalarForTransaction(String strQuery) in E:\Projects\dotnet\invoiceMe\PinkLine\working\commonfunction\mySqlConnection.cs:line 278
+   at newBooking.AddNewBooking(String branchid, String CustomerId, String CustomerName, String Phone, String startdate, String startTime, String description, String tableString, String status) in e:\Projects\dotnet\invoiceMe\PinkLine\working\web\newBooking.aspx.cs:line 60
+
+-------------------------------
+Message:Duplicate entry '0' for key 'PRIMARY'
+
+-------------------------------
+InnerException:
+
+-------------------------------
+Source:commonfunction
+
+-------------------------------
+
+=======================================================================================

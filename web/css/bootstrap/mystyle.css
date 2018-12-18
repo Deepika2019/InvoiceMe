@@ -1,0 +1,386 @@
+/* CSS Document */
+.fl{
+float:left;
+}
+.required{
+color:#FF0D13;
+}
+
+.myorderMData
+{
+    color:#1b4f61;
+    /*font-weight:bold;*/
+    font-size:14px;
+	font-family:"Verdana",Verdana Aparajita Arial;
+}
+
+.myorderMDatafor
+{
+    color:#1b4f61;
+    /*font-weight:bold;*/
+    font-size:12px;
+	font-family:"Verdana",Verdana Aparajita Arial;
+}
+.mystatus {
+	border-radius: 2px;
+	color: #F8FCFF;
+	font-size: 10px;
+	margin-left: 5px;
+	padding: 1px 4px 2px;
+	text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.20);
+}
+
+.required
+{
+    color:#FF0D13;
+}
+
+.tableborder
+{
+    border-bottom:1px solid #525252;
+}
+
+.round {
+  /* Safari 3-4, iOS 1-3.2, Android 1.6- */
+  -webkit-border-radius: 12px; 
+
+  /* Firefox 1-3.6 */
+  -moz-border-radius: 12px; 
+  
+  /* Opera 10.5, IE 9, Safari 5, Chrome, Firefox 4, iOS 4, Android 2.1+ */
+  border-radius: 12px; 
+}
+
+.myroundDiv
+{
+    border-radius:12px;
+    background:#00c0ef;
+    color: #FFFFFF;
+    /*padding:10px;
+   */
+     margin-right:30px;
+    margin-bottom:10px;
+       padding-right: 0px;
+    padding-left: 0px;
+}
+.myroundDivtwo
+{
+    border-radius:12px;
+    background:#00a65a;
+    color: #FFFFFF;
+     /*padding:10px;
+   */
+     margin-right:30px;
+    margin-bottom:10px;
+       padding-right: 0px;
+    padding-left: 0px;
+}
+
+.mytable
+{
+    width:100%;
+    margin-bottom:5px;
+}
+
+.mytdstyle
+{
+    background: #15a3c5;
+ padding: 5px;
+
+}
+
+.mytdstyletwo
+{
+    background: #0b9053;
+  padding: 5px;
+}
+
+.myroundDivthree
+{
+    border-radius:12px;
+    background:#f56954;
+    color: #FFFFFF;
+    /*padding:10px;*/
+    margin-right:10px;
+    margin-bottom:10px;
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
+
+.mytdstylethree
+{
+    background: #ea5342;
+    padding: 5px;
+}
+
+.datelabel
+{
+    padding:5px;
+}
+.mybtnstyl {
+    font-size:12px;
+    padding:4px;
+    font-weight:bold;
+    float:left;
+}
+
+ /*13-April-2017*/
+
+#tblOrders.table > tbody > tr > td {
+    vertical-align:middle;
+    padding:5px;
+}
+#tblCustomers.table > tbody > tr > td {
+    vertical-align:middle;
+    padding:5px;
+}
+
+/*21-april-2017*/
+
+#tablecommission.table > tbody > tr > td {
+    vertical-align:middle;
+    padding:5px;
+}
+
+#tablecommission.table > tbody > tr > td .checkbox {
+    margin-bottom:0px;
+    margin-top:0px;
+}
+
+/*21-april-2017*/
+
+
+.myborderline
+{
+    border-bottom:1px solid #FFFFFF;
+    margin-bottom:2px;
+    width:100%;
+    
+  
+}
+
+.mylabelstyl
+{
+    font-size:11px;
+    padding:5px; 
+}
+
+.mylabelstyl2
+{
+    font-size:12px;
+     padding:8px; 
+}
+/*.mystatus-green {
+	background-color: #13782E;
+}
+
+.mystatus-yellow {
+	background-color: #CCA01B;
+}
+
+.mystatus-blue {
+	background-color: #3474CF;
+}
+
+.mystatus-red {
+	background-color: #DB2727;
+}
+
+.mystatus-orange {
+	background-color: #F0861D;
+}
+
+.mystatus-black {
+	background-color: #000000;
+}*/
+
+.myorderSData
+{
+    color:#525252;
+    font-size:11px;
+    text-align:left;
+}
+
+.myicons{
+font-size:18px;
+padding-right:2px;
+}
+
+
+/*.bootbox {
+    z-index: 9999 !important;
+
+}*/
+
+
+
+
+.checkbox label:after, 
+.radio label:after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.checkbox label, .radio label {
+    padding-left:0px;
+}
+.checkbox .cr,
+.radio .cr {
+    position: relative;
+    display: inline-block;
+    border: 1px solid #a9a9a9;
+    border-radius: .25em;
+    width: 1.3em;
+    height: 1.3em;
+    float: left;
+    margin-right: .5em;
+}
+
+.radio .cr {
+    border-radius: 50%;
+}
+
+.checkbox .cr .cr-icon,
+.radio .cr .cr-icon {
+    position: absolute;
+    font-size: .8em;
+    line-height: 0;
+    top: 50%;
+    left: 20%;
+}
+
+.radio .cr .cr-icon {
+    margin-left: 0.04em;
+}
+
+.checkbox label input[type="checkbox"],
+.radio label input[type="radio"] {
+    display: none;
+}
+
+.checkbox label input[type="checkbox"] + .cr > .cr-icon,
+.radio label input[type="radio"] + .cr > .cr-icon {
+    transform: scale(3) rotateZ(-20deg);
+    opacity: 0;
+    transition: all .3s ease-in;
+}
+
+.checkbox label input[type="checkbox"]:checked + .cr > .cr-icon,
+.radio label input[type="radio"]:checked + .cr > .cr-icon {
+    transform: scale(1) rotateZ(0deg);
+    opacity: 1;
+}
+
+.checkbox label input[type="checkbox"]:disabled + .cr,
+.radio label input[type="radio"]:disabled + .cr {
+    opacity: .5;
+}
+
+
+.checkbox, .radio {
+    margin-bottom:0px;
+    margin-top:5px;
+}
+
+.err
+        {
+            color: #8a6d3b;
+            background-color: #f5f5f5;
+            border: 1px solid #ff0000;
+        }
+
+/*loading css starts*/
+.loader {
+    border: 8px solid #f3f3f3;
+    border-radius: 50%;
+    border-top: 8px solid #3498db;
+    width: 50px;
+    height: 50px;
+    -webkit-animation: spin 2s linear infinite;
+    animation: spin 2s linear infinite;
+    margin: auto
+}
+
+.loader .loader-lg {
+    width: 120px;
+    height: 120px;
+    border: 16px solid
+}
+
+.loader .loader-lg {
+    width: 25px;
+    height: 25px;
+    border: 4px solid
+}
+.loader.loader-blue-grey {
+    border-top-color: #4caf50
+}
+
+.loader-overlay {
+    z-index: 11000;
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    background: #e8e8e8;
+    opacity: .5;
+    display: none
+}
+
+@-webkit-keyframes spin {
+    0% {
+        -webkit-transform: rotate(0)
+    }
+    100% {
+        -webkit-transform: rotate(360deg)
+    }
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0)
+    }
+    100% {
+        transform: rotate(360deg)
+    }
+}
+/*loading css ends*/
+
+
+/*28-05-2018*/
+
+.tabbutn{
+    border-right:2px solid #079fc9; 
+    border-left:2px solid #079fc9; 
+    border-top:2px solid #079fc9; 
+    margin-top: 5px; 
+    font-size:16px; 
+    font-weight:bold;
+    padding-top:5px;
+}
+
+
+
+@media only screen and (max-width:580px) { 
+
+.tabbutn{
+    border-right:2px solid #079fc9; 
+    border-left:2px solid #079fc9; 
+    border-top:2px solid #079fc9; 
+    margin-top: 5px; 
+    font-size:13px; 
+    font-weight:bold;
+    padding-top:5px;
+    padding-left:2px;
+    padding-right:2px;
+    width:auto;
+}
+
+
+}
+
+
+   #tblTransactions .table>tbody>tr>td {
+                                                           border-right:1px solid #ddd;
+                                                        }

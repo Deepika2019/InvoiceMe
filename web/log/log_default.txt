@@ -1,0 +1,105 @@
+201702071525469928
+-------------------------------
+   at commonfunction.mySqlConnection.ExecuteQueryForTransaction(String strQuery) in f:\Test Project\lifelinebilling\commonfunction\mySqlConnection.cs:line 222
+   at _Default.Page_Load(Object sender, EventArgs e) in f:\Test Project\lifelinebilling\web\Default.aspx.cs:line 61
+2017-02-07 15:36:42:6053
+-------------------------------
+StackTrace
+-------------------------------
+   at commonfunction.mySqlConnection.ExecuteQueryForTransaction(String strQuery) in f:\Test Project\lifelinebilling\commonfunction\mySqlConnection.cs:line 222
+   at _Default.Page_Load(Object sender, EventArgs e) in f:\Test Project\lifelinebilling\web\Default.aspx.cs:line 61
+Message
+-------------------------------
+Unknown column 'id1' in 'where clause'
+2017-02-07 15:36:52:7849
+-------------------------------
+StackTrace
+-------------------------------
+   at commonfunction.mySqlConnection.ExecuteQueryForTransaction(String strQuery) in f:\Test Project\lifelinebilling\commonfunction\mySqlConnection.cs:line 222
+   at _Default.Page_Load(Object sender, EventArgs e) in f:\Test Project\lifelinebilling\web\Default.aspx.cs:line 61
+Message
+-------------------------------
+Unknown column 'id1' in 'where clause'
+
+----------------------------------------------------------------------------
+2017-02-07 15:44:23:6407
+-------------------------------
+StackTrace   at commonfunction.mySqlConnection.ExecuteQueryForTransaction(String strQuery) in f:\Test Project\lifelinebilling\commonfunction\mySqlConnection.cs:line 222
+   at _Default.Page_Load(Object sender, EventArgs e) in f:\Test Project\lifelinebilling\web\Default.aspx.cs:line 61
+
+-------------------------------
+Message:Unknown column 'id1' in 'where clause'
+
+-------------------------------
+
+----------------------------------------------------------------------------
+
+=======================================================================================
+2017-02-07 15:46:03:9515
+-------------------------------
+StackTrace   at commonfunction.mySqlConnection.ExecuteQueryForTransaction(String strQuery) in f:\Test Project\lifelinebilling\commonfunction\mySqlConnection.cs:line 222
+   at _Default.Page_Load(Object sender, EventArgs e) in f:\Test Project\lifelinebilling\web\Default.aspx.cs:line 61
+
+-------------------------------
+Message:Unknown column 'id1' in 'where clause'
+
+-------------------------------
+
+=======================================================================================
+
+=======================================================================================
+2017-02-07 15:48:43:7896
+-------------------------------
+StackTrace:   at commonfunction.mySqlConnection.ExecuteQueryForTransaction(String strQuery) in f:\Test Project\lifelinebilling\commonfunction\mySqlConnection.cs:line 222
+   at _Default.Page_Load(Object sender, EventArgs e) in f:\Test Project\lifelinebilling\web\Default.aspx.cs:line 61
+
+-------------------------------
+Message:Unknown column 'id1' in 'where clause'
+
+-------------------------------
+InnerException:
+
+-------------------------------
+Source:commonfunction
+
+-------------------------------
+
+=======================================================================================
+
+=======================================================================================
+2017-02-07 15:51:04:3246
+-------------------------------
+StackTrace:   at commonfunction.mySqlConnection.ExecuteQueryForTransaction(String strQuery) in f:\Test Project\lifelinebilling\commonfunction\mySqlConnection.cs:line 222
+   at _Default.Page_Load(Object sender, EventArgs e) in f:\Test Project\lifelinebilling\web\Default.aspx.cs:line 61
+
+-------------------------------
+Message:Unknown column 'id1' in 'where clause'
+
+-------------------------------
+InnerException:
+
+-------------------------------
+Source:commonfunction
+
+-------------------------------
+
+=======================================================================================
+
+=======================================================================================
+2017-02-08 11:28:23:3905
+-------------------------------
+StackTrace:   at commonfunction.mySqlConnection.ExecuteQueryForTransaction(String strQuery) in f:\Test Project\lifelinebilling\commonfunction\mySqlConnection.cs:line 222
+   at _Default.Page_Load(Object sender, EventArgs e) in f:\binu\change\deepika\lifelinebilling\web\Default.aspx.cs:line 61
+
+-------------------------------
+Message:Unknown column 'id1' in 'where clause'
+
+-------------------------------
+InnerException:
+
+-------------------------------
+Source:commonfunction
+
+-------------------------------
+
+=======================================================================================

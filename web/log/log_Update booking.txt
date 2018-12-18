@@ -1,0 +1,101 @@
+
+=======================================================================================
+2018-03-28 09:59:21:9823
+-------------------------------
+StackTrace:   at commonfunction.mySqlConnection.ExecuteQueryForTransaction(String strQuery) in E:\Projects\dotnet\invoiceMe\PinkLine\working\commonfunction\mySqlConnection.cs:line 223
+   at newBooking.updateNewBooking(Int32 appoint_id, String changeDate, String changeTime, String newstatus, String tableString) in e:\Projects\dotnet\invoiceMe\PinkLine\working\web\newBooking.aspx.cs:line 138
+
+-------------------------------
+Message:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '"itbsid": "24",
+  "userId": "0",
+  "startdate": "00-00-0000 00:00",
+  "enddat' at line 2
+
+-------------------------------
+InnerException:
+
+-------------------------------
+Source:commonfunction
+
+-------------------------------
+
+=======================================================================================
+
+=======================================================================================
+2018-03-28 09:59:49:4428
+-------------------------------
+StackTrace:   at commonfunction.mySqlConnection.ExecuteQueryForTransaction(String strQuery) in E:\Projects\dotnet\invoiceMe\PinkLine\working\commonfunction\mySqlConnection.cs:line 223
+   at newBooking.updateNewBooking(Int32 appoint_id, String changeDate, String changeTime, String newstatus, String tableString) in e:\Projects\dotnet\invoiceMe\PinkLine\working\web\newBooking.aspx.cs:line 138
+
+-------------------------------
+Message:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '"itbsid": "24",
+  "userId": "0",
+  "startdate": "00-00-0000 00:00",
+  "enddat' at line 2
+
+-------------------------------
+InnerException:
+
+-------------------------------
+Source:commonfunction
+
+-------------------------------
+
+=======================================================================================
+
+=======================================================================================
+2018-05-09 10:09:48:0493
+-------------------------------
+StackTrace:   at commonfunction.mySqlConnection.ExecuteQueryForTransaction(String strQuery) in E:\Projects\dotnet\invoiceMe\PinkLine\working\commonfunction\mySqlConnection.cs:line 223
+   at newBooking.updateNewBooking(Int32 appoint_id, String changeDate, String changeTime, String newstatus, String tableString) in e:\Projects\dotnet\invoiceMe\PinkLine\working\web\newBooking.aspx.cs:line 470
+
+-------------------------------
+Message:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '* from tbl_sales_master where sm_id=1' at line 1
+
+-------------------------------
+InnerException:
+
+-------------------------------
+Source:commonfunction
+
+-------------------------------
+
+=======================================================================================
+
+=======================================================================================
+2018-05-09 10:09:57:7829
+-------------------------------
+StackTrace:   at commonfunction.mySqlConnection.ExecuteQueryForTransaction(String strQuery) in E:\Projects\dotnet\invoiceMe\PinkLine\working\commonfunction\mySqlConnection.cs:line 223
+   at newBooking.updateNewBooking(Int32 appoint_id, String changeDate, String changeTime, String newstatus, String tableString) in e:\Projects\dotnet\invoiceMe\PinkLine\working\web\newBooking.aspx.cs:line 470
+
+-------------------------------
+Message:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '* from tbl_sales_master where sm_id=1' at line 1
+
+-------------------------------
+InnerException:
+
+-------------------------------
+Source:commonfunction
+
+-------------------------------
+
+=======================================================================================
+
+=======================================================================================
+2018-05-09 10:10:36:4241
+-------------------------------
+StackTrace:   at commonfunction.mySqlConnection.ExecuteQueryForTransaction(String strQuery) in E:\Projects\dotnet\invoiceMe\PinkLine\working\commonfunction\mySqlConnection.cs:line 223
+   at newBooking.updateNewBooking(Int32 appoint_id, String changeDate, String changeTime, String newstatus, String tableString) in e:\Projects\dotnet\invoiceMe\PinkLine\working\web\newBooking.aspx.cs:line 470
+
+-------------------------------
+Message:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '* from tbl_sales_master where sm_id=1' at line 1
+
+-------------------------------
+InnerException:
+
+-------------------------------
+Source:commonfunction
+
+-------------------------------
+
+=======================================================================================

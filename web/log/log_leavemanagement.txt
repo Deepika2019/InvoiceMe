@@ -1,0 +1,76 @@
+
+=======================================================================================
+2018-03-09 12:53:18:0665
+-------------------------------
+StackTrace:   at commonfunction.mySqlConnection.ExecuteQueryForTransaction(String strQuery) in E:\Projects\dotnet\invoiceMe\PinkLine\working\commonfunction\mySqlConnection.cs:line 223
+   at opcenter_leaveManagement.addLeaveDetails(Dictionary`2 filters) in e:\Projects\dotnet\invoiceMe\PinkLine\working\web\opcenter\leaveManagement.aspx.cs:line 66
+
+-------------------------------
+Message:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'type_id='2',leave_reason='testfgffg' where leave_id=1' at line 1
+
+-------------------------------
+InnerException:
+
+-------------------------------
+Source:commonfunction
+
+-------------------------------
+
+=======================================================================================
+
+=======================================================================================
+2018-03-09 12:54:53:2820
+-------------------------------
+StackTrace:   at commonfunction.mySqlConnection.ExecuteQueryForTransaction(String strQuery) in E:\Projects\dotnet\invoiceMe\PinkLine\working\commonfunction\mySqlConnection.cs:line 223
+   at opcenter_leaveManagement.addLeaveDetails(Dictionary`2 filters) in e:\Projects\dotnet\invoiceMe\PinkLine\working\web\opcenter\leaveManagement.aspx.cs:line 66
+
+-------------------------------
+Message:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'type_id='3',leave_reason='testb' where leave_id=1' at line 1
+
+-------------------------------
+InnerException:
+
+-------------------------------
+Source:commonfunction
+
+-------------------------------
+
+=======================================================================================
+
+=======================================================================================
+2018-05-24 16:58:11:5651
+-------------------------------
+StackTrace:   at commonfunction.mySqlConnection.ExecuteQueryForTransaction(String strQuery) in E:\Projects\dotnet\invoiceMe\PinkLine\working\commonfunction\mySqlConnection.cs:line 223
+   at opcenter_leaveManagement.addWeekDays(Int32 weekDay, Int32 actionType, Int32 id) in e:\Projects\dotnet\invoiceMe\PinkLine\working\web\opcenter\leaveManagement.aspx.cs:line 247
+
+-------------------------------
+Message:Unknown column 'leave_id' in 'where clause'
+
+-------------------------------
+InnerException:
+
+-------------------------------
+Source:commonfunction
+
+-------------------------------
+
+=======================================================================================
+
+=======================================================================================
+2018-05-24 16:59:03:3841
+-------------------------------
+StackTrace:   at commonfunction.mySqlConnection.ExecuteQueryForTransaction(String strQuery) in E:\Projects\dotnet\invoiceMe\PinkLine\working\commonfunction\mySqlConnection.cs:line 223
+   at opcenter_leaveManagement.addWeekDays(Int32 weekDay, Int32 actionType, Int32 id) in e:\Projects\dotnet\invoiceMe\PinkLine\working\web\opcenter\leaveManagement.aspx.cs:line 247
+
+-------------------------------
+Message:Unknown column 'leave_id' in 'where clause'
+
+-------------------------------
+InnerException:
+
+-------------------------------
+Source:commonfunction
+
+-------------------------------
+
+=======================================================================================

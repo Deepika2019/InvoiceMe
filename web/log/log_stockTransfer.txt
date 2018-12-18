@@ -1,0 +1,82 @@
+
+=======================================================================================
+2017-07-17 12:42:27:4241
+-------------------------------
+StackTrace:   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at inventory_stockTransfer.saveTransferItems(Dictionary`2 filters, String tableString) in d:\deepika\lifelinebilling\web\inventory\stockTransfer.aspx.cs:line 167
+
+-------------------------------
+Message:The given key was not present in the dictionary.
+
+-------------------------------
+InnerException:
+
+-------------------------------
+Source:mscorlib
+
+-------------------------------
+
+=======================================================================================
+
+=======================================================================================
+2017-10-26 15:10:31:3337
+-------------------------------
+StackTrace:   at commonfunction.mySqlConnection.ExecuteQueryForTransaction(String strQuery) in c:\Users\neo\Desktop\lifelinebilling\commonfunction\mySqlConnection.cs:line 223
+   at CallSite.Target(Closure , CallSite , mySqlConnection , Object )
+   at System.Dynamic.UpdateDelegates.UpdateAndExecuteVoid2[T0,T1](CallSite site, T0 arg0, T1 arg1)
+   at inventory_stockTransfer.saveTransferItems(Dictionary`2 filters, String tableString) in d:\deepika\Projects\Jupiter\working\web\inventory\stockTransfer.aspx.cs:line 232
+
+-------------------------------
+Message:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'null,1,103,,1)' at line 1
+
+-------------------------------
+InnerException:
+
+-------------------------------
+Source:commonfunction
+
+-------------------------------
+
+=======================================================================================
+
+=======================================================================================
+2017-10-26 15:12:14:1234
+-------------------------------
+StackTrace:   at commonfunction.mySqlConnection.ExecuteQueryForTransaction(String strQuery) in c:\Users\neo\Desktop\lifelinebilling\commonfunction\mySqlConnection.cs:line 223
+   at CallSite.Target(Closure , CallSite , mySqlConnection , Object )
+   at System.Dynamic.UpdateDelegates.UpdateAndExecuteVoid2[T0,T1](CallSite site, T0 arg0, T1 arg1)
+   at inventory_stockTransfer.saveTransferItems(Dictionary`2 filters, String tableString) in d:\deepika\Projects\Jupiter\working\web\inventory\stockTransfer.aspx.cs:line 232
+
+-------------------------------
+Message:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'null,2,103,,1)' at line 1
+
+-------------------------------
+InnerException:
+
+-------------------------------
+Source:commonfunction
+
+-------------------------------
+
+=======================================================================================
+
+=======================================================================================
+2017-10-26 15:13:26:0135
+-------------------------------
+StackTrace:   at commonfunction.mySqlConnection.ExecuteQueryForTransaction(String strQuery) in c:\Users\neo\Desktop\lifelinebilling\commonfunction\mySqlConnection.cs:line 223
+   at CallSite.Target(Closure , CallSite , mySqlConnection , Object )
+   at System.Dynamic.UpdateDelegates.UpdateAndExecuteVoid2[T0,T1](CallSite site, T0 arg0, T1 arg1)
+   at inventory_stockTransfer.saveTransferItems(Dictionary`2 filters, String tableString) in d:\deepika\Projects\Jupiter\working\web\inventory\stockTransfer.aspx.cs:line 232
+
+-------------------------------
+Message:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'null,3,103,1)' at line 1
+
+-------------------------------
+InnerException:
+
+-------------------------------
+Source:commonfunction
+
+-------------------------------
+
+=======================================================================================

@@ -1,0 +1,392 @@
+
+=======================================================================================
+2018-09-04 11:38:13:5195
+-------------------------------
+StackTrace:   at commonfunction.mySqlConnection.ExecuteQueryForTransaction(String strQuery) in E:\Projects\dotnet\invoiceMe\InvoiceMeRebuild\working\commonfunction\mySqlConnection.cs:line 223
+   at sales_manageorders.updateOrderStatus(Dictionary`2 order) in e:\Projects\dotnet\invoiceMe\InvoiceMeRebuild\working\web\sales\manageorders.aspx.cs:line 462
+
+-------------------------------
+Message:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'sm_prefix=,sm_serialNo=4126,sm_suffix=,sm_invoice_no=concat(sm_prefix,sm_serialN' at line 1
+
+-------------------------------
+InnerException:
+
+-------------------------------
+Source:commonfunction
+
+-------------------------------
+
+=======================================================================================
+
+=======================================================================================
+2018-09-04 11:47:28:2332
+-------------------------------
+StackTrace:   at commonfunction.mySqlConnection.ExecuteQueryForTransaction(String strQuery) in E:\Projects\dotnet\invoiceMe\InvoiceMeRebuild\working\commonfunction\mySqlConnection.cs:line 223
+   at sales_manageorders.updateOrderStatus(Dictionary`2 order) in e:\Projects\dotnet\invoiceMe\InvoiceMeRebuild\working\web\sales\manageorders.aspx.cs:line 462
+
+-------------------------------
+Message:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'sm_prefix=,sm_serialNo=4126,sm_suffix=,sm_invoice_no=concat(sm_prefix,sm_serialN' at line 1
+
+-------------------------------
+InnerException:
+
+-------------------------------
+Source:commonfunction
+
+-------------------------------
+
+=======================================================================================
+
+=======================================================================================
+2018-09-04 11:49:04:9857
+-------------------------------
+StackTrace:   at commonfunction.mySqlConnection.ExecuteQueryForTransaction(String strQuery) in E:\Projects\dotnet\invoiceMe\InvoiceMeRebuild\working\commonfunction\mySqlConnection.cs:line 223
+   at sales_manageorders.updateOrderStatus(Dictionary`2 order) in e:\Projects\dotnet\invoiceMe\InvoiceMeRebuild\working\web\sales\manageorders.aspx.cs:line 462
+
+-------------------------------
+Message:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'sm_prefix=0,sm_serialNo=3599,sm_suffix=0,sm_invoice_no=concat(sm_prefix,sm_seria' at line 1
+
+-------------------------------
+InnerException:
+
+-------------------------------
+Source:commonfunction
+
+-------------------------------
+
+=======================================================================================
+
+=======================================================================================
+2018-09-04 11:50:16:4968
+-------------------------------
+StackTrace:   at commonfunction.mySqlConnection.ExecuteQueryForTransaction(String strQuery) in E:\Projects\dotnet\invoiceMe\InvoiceMeRebuild\working\commonfunction\mySqlConnection.cs:line 223
+   at sales_manageorders.updateOrderStatus(Dictionary`2 order) in e:\Projects\dotnet\invoiceMe\InvoiceMeRebuild\working\web\sales\manageorders.aspx.cs:line 462
+
+-------------------------------
+Message:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'sm_prefix=0,sm_serialNo=3599,sm_suffix=0,sm_invoice_no=concat(sm_prefix,sm_seria' at line 1
+
+-------------------------------
+InnerException:
+
+-------------------------------
+Source:commonfunction
+
+-------------------------------
+
+=======================================================================================
+
+=======================================================================================
+2018-09-04 11:50:42:1343
+-------------------------------
+StackTrace:   at commonfunction.mySqlConnection.ExecuteQueryForTransaction(String strQuery) in E:\Projects\dotnet\invoiceMe\InvoiceMeRebuild\working\commonfunction\mySqlConnection.cs:line 223
+   at sales_manageorders.updateOrderStatus(Dictionary`2 order) in e:\Projects\dotnet\invoiceMe\InvoiceMeRebuild\working\web\sales\manageorders.aspx.cs:line 462
+
+-------------------------------
+Message:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'sm_prefix=0,sm_serialNo=3599,sm_suffix=0,sm_invoice_no=concat(sm_prefix,sm_seria' at line 1
+
+-------------------------------
+InnerException:
+
+-------------------------------
+Source:commonfunction
+
+-------------------------------
+
+=======================================================================================
+
+=======================================================================================
+2018-09-04 11:54:09:8702
+-------------------------------
+StackTrace:   at commonfunction.mySqlConnection.ExecuteQueryForTransaction(String strQuery) in E:\Projects\dotnet\invoiceMe\InvoiceMeRebuild\working\commonfunction\mySqlConnection.cs:line 223
+   at sales_manageorders.updateOrderStatus(Dictionary`2 order) in e:\Projects\dotnet\invoiceMe\InvoiceMeRebuild\working\web\sales\manageorders.aspx.cs:line 462
+
+-------------------------------
+Message:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'sm_serialNo=4126,sm_suffix=,sm_invoice_no=concat(sm_prefix,sm_serialNo,sm_suffix' at line 1
+
+-------------------------------
+InnerException:
+
+-------------------------------
+Source:commonfunction
+
+-------------------------------
+
+=======================================================================================
+
+=======================================================================================
+2018-09-04 12:02:48:4066
+-------------------------------
+StackTrace:   at commonfunction.mySqlConnection.ExecuteQueryForTransaction(String strQuery) in E:\Projects\dotnet\invoiceMe\InvoiceMeRebuild\working\commonfunction\mySqlConnection.cs:line 223
+   at sales_manageorders.updateOrderStatus(Dictionary`2 order) in e:\Projects\dotnet\invoiceMe\InvoiceMeRebuild\working\web\sales\manageorders.aspx.cs:line 470
+
+-------------------------------
+Message:Duplicate entry '3603' for key 'sm_invoice_no'
+
+-------------------------------
+InnerException:
+
+-------------------------------
+Source:commonfunction
+
+-------------------------------
+
+=======================================================================================
+
+=======================================================================================
+2018-09-04 12:03:38:2225
+-------------------------------
+StackTrace:   at commonfunction.mySqlConnection.ExecuteQueryForTransaction(String strQuery) in E:\Projects\dotnet\invoiceMe\InvoiceMeRebuild\working\commonfunction\mySqlConnection.cs:line 223
+   at sales_manageorders.updateOrderStatus(Dictionary`2 order) in e:\Projects\dotnet\invoiceMe\InvoiceMeRebuild\working\web\sales\manageorders.aspx.cs:line 470
+
+-------------------------------
+Message:Duplicate entry '3603' for key 'sm_invoice_no'
+
+-------------------------------
+InnerException:
+
+-------------------------------
+Source:commonfunction
+
+-------------------------------
+
+=======================================================================================
+
+=======================================================================================
+2018-09-04 12:04:10:5903
+-------------------------------
+StackTrace:   at commonfunction.mySqlConnection.ExecuteQueryForTransaction(String strQuery) in E:\Projects\dotnet\invoiceMe\InvoiceMeRebuild\working\commonfunction\mySqlConnection.cs:line 223
+   at sales_manageorders.updateOrderStatus(Dictionary`2 order) in e:\Projects\dotnet\invoiceMe\InvoiceMeRebuild\working\web\sales\manageorders.aspx.cs:line 470
+
+-------------------------------
+Message:Duplicate entry '3701' for key 'sm_invoice_no'
+
+-------------------------------
+InnerException:
+
+-------------------------------
+Source:commonfunction
+
+-------------------------------
+
+=======================================================================================
+
+=======================================================================================
+2018-09-04 12:07:37:2431
+-------------------------------
+StackTrace:   at commonfunction.mySqlConnection.ExecuteQueryForTransaction(String strQuery) in E:\Projects\dotnet\invoiceMe\InvoiceMeRebuild\working\commonfunction\mySqlConnection.cs:line 223
+   at sales_manageorders.updateOrderStatus(Dictionary`2 order) in e:\Projects\dotnet\invoiceMe\InvoiceMeRebuild\working\web\sales\manageorders.aspx.cs:line 470
+
+-------------------------------
+Message:Duplicate entry '3701' for key 'sm_invoice_no'
+
+-------------------------------
+InnerException:
+
+-------------------------------
+Source:commonfunction
+
+-------------------------------
+
+=======================================================================================
+
+=======================================================================================
+2018-09-04 12:12:11:1569
+-------------------------------
+StackTrace:   at commonfunction.mySqlConnection.ExecuteQueryForTransaction(String strQuery) in E:\Projects\dotnet\invoiceMe\InvoiceMeRebuild\working\commonfunction\mySqlConnection.cs:line 223
+   at sales_manageorders.updateOrderStatus(Dictionary`2 order) in e:\Projects\dotnet\invoiceMe\InvoiceMeRebuild\working\web\sales\manageorders.aspx.cs:line 462
+
+-------------------------------
+Message:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'sm_prefix='',sm_serialNo=4126,sm_suffix='',sm_invoice_no=concat(sm_prefix,sm_ser' at line 1
+
+-------------------------------
+InnerException:
+
+-------------------------------
+Source:commonfunction
+
+-------------------------------
+
+=======================================================================================
+
+=======================================================================================
+2018-11-28 15:32:50:6775
+-------------------------------
+StackTrace:   at commonfunction.mySqlConnection.ExecuteQueryForTransaction(String strQuery) in d:\deepika\projects\ideal\commonfunction\mySqlConnection.cs:line 223
+   at sales_manageorders.updateOrderStatus(Dictionary`2 order) in e:\Projects\dotnet\invoiceMe\InvoiceMeRebuild\working\web\sales\manageorders.aspx.cs:line 445
+
+-------------------------------
+Message:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%Y-%m-%d),sm_packed='1',sm_packed_id='16',sm_packed_date='2018-11-28 15:32:50',s' at line 1
+
+-------------------------------
+InnerException:
+
+-------------------------------
+Source:commonfunction
+
+-------------------------------
+
+=======================================================================================
+
+=======================================================================================
+2018-11-28 15:33:56:1042
+-------------------------------
+StackTrace:   at commonfunction.mySqlConnection.ExecuteQueryForTransaction(String strQuery) in d:\deepika\projects\ideal\commonfunction\mySqlConnection.cs:line 223
+   at sales_manageorders.updateOrderStatus(Dictionary`2 order) in e:\Projects\dotnet\invoiceMe\InvoiceMeRebuild\working\web\sales\manageorders.aspx.cs:line 445
+
+-------------------------------
+Message:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%Y-%m-%d),sm_packed='1',sm_packed_id='16',sm_packed_date='2018-11-28 15:33:14',s' at line 1
+
+-------------------------------
+InnerException:
+
+-------------------------------
+Source:commonfunction
+
+-------------------------------
+
+=======================================================================================
+
+=======================================================================================
+2018-11-29 11:59:05:7159
+-------------------------------
+StackTrace:   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at sales_manageorders.updateOrderStatus(Dictionary`2 order) in e:\Projects\dotnet\invoiceMe\InvoiceMeRebuild\working\web\sales\manageorders.aspx.cs:line 176
+
+-------------------------------
+Message:The given key was not present in the dictionary.
+
+-------------------------------
+InnerException:
+
+-------------------------------
+Source:mscorlib
+
+-------------------------------
+
+=======================================================================================
+
+=======================================================================================
+2018-11-29 11:59:24:9360
+-------------------------------
+StackTrace:   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at sales_manageorders.updateOrderStatus(Dictionary`2 order) in e:\Projects\dotnet\invoiceMe\InvoiceMeRebuild\working\web\sales\manageorders.aspx.cs:line 176
+
+-------------------------------
+Message:The given key was not present in the dictionary.
+
+-------------------------------
+InnerException:
+
+-------------------------------
+Source:mscorlib
+
+-------------------------------
+
+=======================================================================================
+
+=======================================================================================
+2018-12-11 16:37:31:8103
+-------------------------------
+StackTrace:   at commonfunction.mySqlConnection.ExecuteQueryForTransaction(String strQuery) in e:\Projects\dotnet\invoiceMe\InvoiceMeRebuild\working\commonfunction\mySqlConnection.cs:line 223
+   at sales_manageorders.updateOrderStatus(Dictionary`2 order) in e:\Projects\dotnet\invoiceMe\InvoiceMeRebuild\working\web\sales\manageorders.aspx.cs:line 570
+
+-------------------------------
+Message:Unknown column 'last_updated_date' in 'field list'
+
+-------------------------------
+InnerException:
+
+-------------------------------
+Source:commonfunction
+
+-------------------------------
+
+=======================================================================================
+
+=======================================================================================
+2018-12-11 16:39:47:4540
+-------------------------------
+StackTrace:   at commonfunction.mySqlConnection.ExecuteQueryForTransaction(String strQuery) in e:\Projects\dotnet\invoiceMe\InvoiceMeRebuild\working\commonfunction\mySqlConnection.cs:line 223
+   at sales_manageorders.updateOrderStatus(Dictionary`2 order) in e:\Projects\dotnet\invoiceMe\InvoiceMeRebuild\working\web\sales\manageorders.aspx.cs:line 570
+
+-------------------------------
+Message:Unknown column 'last_updated_date' in 'field list'
+
+-------------------------------
+InnerException:
+
+-------------------------------
+Source:commonfunction
+
+-------------------------------
+
+=======================================================================================
+
+=======================================================================================
+2018-12-11 16:42:19:6323
+-------------------------------
+StackTrace:   at MySql.Data.MySqlClient.ExceptionInterceptor.Throw(Exception exception)
+   at MySql.Data.MySqlClient.MySqlConnection.Throw(Exception ex)
+   at MySql.Data.MySqlClient.MySqlConnection.BeginTransaction(IsolationLevel iso)
+   at MySql.Data.MySqlClient.MySqlConnection.BeginTransaction()
+   at commonfunction.mySqlConnection.BeginTransaction() in e:\Projects\dotnet\invoiceMe\InvoiceMeRebuild\working\commonfunction\mySqlConnection.cs:line 172
+   at sales_manageorders.updateOrderStatus(Dictionary`2 order) in e:\Projects\dotnet\invoiceMe\InvoiceMeRebuild\working\web\sales\manageorders.aspx.cs:line 298
+
+-------------------------------
+Message:Nested transactions are not supported.
+
+-------------------------------
+InnerException:
+
+-------------------------------
+Source:MySql.Data
+
+-------------------------------
+
+=======================================================================================
+
+=======================================================================================
+2018-12-11 17:26:16:7321
+-------------------------------
+StackTrace:   at MySql.Data.MySqlClient.ExceptionInterceptor.Throw(Exception exception)
+   at MySql.Data.MySqlClient.MySqlConnection.Throw(Exception ex)
+   at MySql.Data.MySqlClient.MySqlConnection.BeginTransaction(IsolationLevel iso)
+   at MySql.Data.MySqlClient.MySqlConnection.BeginTransaction()
+   at commonfunction.mySqlConnection.BeginTransaction() in e:\Projects\dotnet\invoiceMe\InvoiceMeRebuild\working\commonfunction\mySqlConnection.cs:line 172
+   at sales_manageorders.updateOrderStatus(Dictionary`2 order) in e:\Projects\dotnet\invoiceMe\InvoiceMeRebuild\working\web\sales\manageorders.aspx.cs:line 298
+
+-------------------------------
+Message:Nested transactions are not supported.
+
+-------------------------------
+InnerException:
+
+-------------------------------
+Source:MySql.Data
+
+-------------------------------
+
+=======================================================================================
+
+=======================================================================================
+2018-12-11 17:26:37:0612
+-------------------------------
+StackTrace:   at MySql.Data.MySqlClient.ExceptionInterceptor.Throw(Exception exception)
+   at MySql.Data.MySqlClient.MySqlConnection.Throw(Exception ex)
+   at MySql.Data.MySqlClient.MySqlConnection.BeginTransaction(IsolationLevel iso)
+   at MySql.Data.MySqlClient.MySqlConnection.BeginTransaction()
+   at commonfunction.mySqlConnection.BeginTransaction() in e:\Projects\dotnet\invoiceMe\InvoiceMeRebuild\working\commonfunction\mySqlConnection.cs:line 172
+   at sales_manageorders.updateOrderStatus(Dictionary`2 order) in e:\Projects\dotnet\invoiceMe\InvoiceMeRebuild\working\web\sales\manageorders.aspx.cs:line 298
+
+-------------------------------
+Message:Nested transactions are not supported.
+
+-------------------------------
+InnerException:
+
+-------------------------------
+Source:MySql.Data
+
+-------------------------------
+
+=======================================================================================

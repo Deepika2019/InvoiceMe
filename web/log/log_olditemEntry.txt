@@ -1,0 +1,493 @@
+
+=======================================================================================
+2017-02-28 16:46:50:6349
+-------------------------------
+StackTrace:   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt64(String value, NumberStyles options, NumberFormatInfo numfmt)
+   at System.Convert.ToInt64(String value)
+   at sales_oldorderentry.saveOldEntryToSalesMaster(String customerid, String customername, String date, String oldinvoiceid, String netamout, String TotalBalanceAmount, String BranchId, String TimeZone, String userid, String SpecialNote) in f:\binu\change\deepika\lifelinebilling\web\sales\oldorderentry.aspx.cs:line 187
+
+-------------------------------
+Message:Input string was not in a correct format.
+
+-------------------------------
+InnerException:
+
+-------------------------------
+Source:mscorlib
+
+-------------------------------
+
+=======================================================================================
+
+=======================================================================================
+2017-02-28 16:50:18:2362
+-------------------------------
+StackTrace:   at commonfunction.mySqlConnection.ExecuteQueryForTransaction(String strQuery) in f:\binu\change\deepika\lifelinebilling\commonfunction\mySqlConnection.cs:line 222
+   at sales_oldorderentry.saveOldEntryToSalesMaster(String customerid, String customername, String date, String oldinvoiceid, String netamout, String TotalBalanceAmount, String BranchId, String TimeZone, String userid, String SpecialNote) in f:\binu\change\deepika\lifelinebilling\web\sales\oldorderentry.aspx.cs:line 203
+
+-------------------------------
+Message:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '=cust_amt'4' where cust_id=1321' at line 1
+
+-------------------------------
+InnerException:
+
+-------------------------------
+Source:commonfunction
+
+-------------------------------
+
+=======================================================================================
+
+=======================================================================================
+2017-02-28 16:50:24:9290
+-------------------------------
+StackTrace:   at commonfunction.mySqlConnection.ExecuteQueryForTransaction(String strQuery) in f:\binu\change\deepika\lifelinebilling\commonfunction\mySqlConnection.cs:line 222
+   at sales_oldorderentry.saveOldEntryToSalesMaster(String customerid, String customername, String date, String oldinvoiceid, String netamout, String TotalBalanceAmount, String BranchId, String TimeZone, String userid, String SpecialNote) in f:\binu\change\deepika\lifelinebilling\web\sales\oldorderentry.aspx.cs:line 203
+
+-------------------------------
+Message:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '=cust_amt'4' where cust_id=1321' at line 1
+
+-------------------------------
+InnerException:
+
+-------------------------------
+Source:commonfunction
+
+-------------------------------
+
+=======================================================================================
+
+=======================================================================================
+2017-02-28 16:52:21:6319
+-------------------------------
+StackTrace:   at commonfunction.mySqlConnection.ExecuteQueryForTransaction(String strQuery) in f:\binu\change\deepika\lifelinebilling\commonfunction\mySqlConnection.cs:line 222
+   at sales_oldorderentry.saveOldEntryToSalesMaster(String customerid, String customername, String date, String oldinvoiceid, String netamout, String TotalBalanceAmount, String BranchId, String TimeZone, String userid, String SpecialNote) in f:\binu\change\deepika\lifelinebilling\web\sales\oldorderentry.aspx.cs:line 203
+
+-------------------------------
+Message:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '=cust_amt'4' where cust_id=1321' at line 1
+
+-------------------------------
+InnerException:
+
+-------------------------------
+Source:commonfunction
+
+-------------------------------
+
+=======================================================================================
+
+=======================================================================================
+2017-02-28 16:53:48:7569
+-------------------------------
+StackTrace:   at commonfunction.mySqlConnection.ExecuteQueryForTransaction(String strQuery) in f:\binu\change\deepika\lifelinebilling\commonfunction\mySqlConnection.cs:line 222
+   at sales_oldorderentry.saveOldEntryToSalesMaster(String customerid, String customername, String date, String oldinvoiceid, String netamout, String TotalBalanceAmount, String BranchId, String TimeZone, String userid, String SpecialNote) in f:\binu\change\deepika\lifelinebilling\web\sales\oldorderentry.aspx.cs:line 203
+
+-------------------------------
+Message:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '=cust_amt+'4' where cust_id=1321' at line 1
+
+-------------------------------
+InnerException:
+
+-------------------------------
+Source:commonfunction
+
+-------------------------------
+
+=======================================================================================
+
+=======================================================================================
+2017-02-28 16:56:07:6562
+-------------------------------
+StackTrace:   at commonfunction.mySqlConnection.ExecuteQueryForTransaction(String strQuery) in f:\binu\change\deepika\lifelinebilling\commonfunction\mySqlConnection.cs:line 222
+   at sales_oldorderentry.saveOldEntryToSalesMaster(String customerid, String customername, String date, String oldinvoiceid, String netamout, String TotalBalanceAmount, String BranchId, String TimeZone, String userid, String SpecialNote) in f:\binu\change\deepika\lifelinebilling\web\sales\oldorderentry.aspx.cs:line 203
+
+-------------------------------
+Message:Unknown column 'cust_amt' in 'field list'
+
+-------------------------------
+InnerException:
+
+-------------------------------
+Source:commonfunction
+
+-------------------------------
+
+=======================================================================================
+
+=======================================================================================
+2017-02-28 18:09:03:1331
+-------------------------------
+StackTrace:   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt64(String value, NumberStyles options, NumberFormatInfo numfmt)
+   at System.Convert.ToInt64(String value)
+   at sales_oldorderentry.saveOldEntryToSalesMaster(String customerid, String customername, String date, String oldinvoiceid, String netamout, String TotalBalanceAmount, String BranchId, String TimeZone, String userid, String SpecialNote) in f:\binu\change\deepika\lifelinebilling\web\sales\oldorderentry.aspx.cs:line 187
+
+-------------------------------
+Message:Input string was not in a correct format.
+
+-------------------------------
+InnerException:
+
+-------------------------------
+Source:mscorlib
+
+-------------------------------
+
+=======================================================================================
+
+=======================================================================================
+2017-02-28 18:59:08:3447
+-------------------------------
+StackTrace:   at commonfunction.mySqlConnection.ExecuteQueryForTransaction(String strQuery) in f:\binu\change\deepika\lifelinebilling\commonfunction\mySqlConnection.cs:line 222
+   at sales_oldorderentry.saveOldEntryToSalesMaster(String customerid, String customername, String date, String oldinvoiceid, String netamout, String TotalBalanceAmount, String BranchId, String userid, String SpecialNote) in f:\binu\change\deepika\lifelinebilling\web\sales\oldorderentry.aspx.cs:line 154
+
+-------------------------------
+Message:Table 'ggcrm.tbl_sales_master1' doesn't exist
+
+-------------------------------
+InnerException:
+
+-------------------------------
+Source:commonfunction
+
+-------------------------------
+
+=======================================================================================
+
+=======================================================================================
+2017-04-20 17:49:48:6899
+-------------------------------
+StackTrace:   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt64(String value, NumberStyles options, NumberFormatInfo numfmt)
+   at System.Convert.ToInt64(String value)
+   at sales_oldorderentry.saveOldEntryToSalesMaster(String customerid, String customername, String date, String oldinvoiceid, String netamout, String TotalBalanceAmount, String BranchId, String userid, String SpecialNote) in f:\binu\change\bootstrap\lifelinebilling\web\sales\oldorderentry.aspx.cs:line 164
+
+-------------------------------
+Message:Input string was not in a correct format.
+
+-------------------------------
+InnerException:
+
+-------------------------------
+Source:mscorlib
+
+-------------------------------
+
+=======================================================================================
+
+=======================================================================================
+2017-04-20 17:53:16:5944
+-------------------------------
+StackTrace:   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt64(String value, NumberStyles options, NumberFormatInfo numfmt)
+   at System.Convert.ToInt64(String value)
+   at sales_oldorderentry.saveOldEntryToSalesMaster(String customerid, String customername, String date, String oldinvoiceid, String netamout, String TotalBalanceAmount, String BranchId, String userid, String SpecialNote) in f:\binu\change\bootstrap\lifelinebilling\web\sales\oldorderentry.aspx.cs:line 164
+
+-------------------------------
+Message:Input string was not in a correct format.
+
+-------------------------------
+InnerException:
+
+-------------------------------
+Source:mscorlib
+
+-------------------------------
+
+=======================================================================================
+
+=======================================================================================
+2017-04-20 17:55:24:0672
+-------------------------------
+StackTrace:   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt64(String value, NumberStyles options, NumberFormatInfo numfmt)
+   at System.Convert.ToInt64(String value)
+   at sales_oldorderentry.saveOldEntryToSalesMaster(String customerid, String customername, String date, String oldinvoiceid, String netamout, String TotalBalanceAmount, String BranchId, String userid, String SpecialNote) in f:\binu\change\bootstrap\lifelinebilling\web\sales\oldorderentry.aspx.cs:line 164
+
+-------------------------------
+Message:Input string was not in a correct format.
+
+-------------------------------
+InnerException:
+
+-------------------------------
+Source:mscorlib
+
+-------------------------------
+
+=======================================================================================
+
+=======================================================================================
+2017-08-14 11:27:11:7570
+-------------------------------
+StackTrace:   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt64(String value, NumberStyles options, NumberFormatInfo numfmt)
+   at System.Convert.ToInt64(String value)
+   at sales_oldorderentry.saveOldEntryToSalesMaster(String customerid, String customername, String date, String oldinvoiceid, String netamout, String TotalBalanceAmount, String BranchId, String userid, String SpecialNote) in d:\deepika\lifelinebilling\web\sales\oldorderentry.aspx.cs:line 113
+
+-------------------------------
+Message:Input string was not in a correct format.
+
+-------------------------------
+InnerException:
+
+-------------------------------
+Source:mscorlib
+
+-------------------------------
+
+=======================================================================================
+
+=======================================================================================
+2017-08-14 11:32:06:4469
+-------------------------------
+StackTrace:   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt64(String value, NumberStyles options, NumberFormatInfo numfmt)
+   at System.Convert.ToInt64(String value)
+   at sales_oldorderentry.saveOldEntryToSalesMaster(String customerid, String customername, String date, String oldinvoiceid, String netamout, String TotalBalanceAmount, String BranchId, String userid, String SpecialNote) in d:\deepika\lifelinebilling\web\sales\oldorderentry.aspx.cs:line 113
+
+-------------------------------
+Message:Input string was not in a correct format.
+
+-------------------------------
+InnerException:
+
+-------------------------------
+Source:mscorlib
+
+-------------------------------
+
+=======================================================================================
+
+=======================================================================================
+2017-08-14 11:36:18:5313
+-------------------------------
+StackTrace:   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt64(String value, NumberStyles options, NumberFormatInfo numfmt)
+   at System.Convert.ToInt64(String value)
+   at sales_oldorderentry.saveOldEntryToSalesMaster(String customerid, String customername, String date, String oldinvoiceid, String netamout, String TotalBalanceAmount, String BranchId, String userid, String SpecialNote) in d:\deepika\lifelinebilling\web\sales\oldorderentry.aspx.cs:line 113
+
+-------------------------------
+Message:Input string was not in a correct format.
+
+-------------------------------
+InnerException:
+
+-------------------------------
+Source:mscorlib
+
+-------------------------------
+
+=======================================================================================
+
+=======================================================================================
+2017-09-06 10:41:30:0826
+-------------------------------
+StackTrace:   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt64(String value, NumberStyles options, NumberFormatInfo numfmt)
+   at System.Convert.ToInt64(String value)
+   at sales_oldorderentry.saveOldEntryToSalesMaster(String customerid, String customername, String date, String oldinvoiceid, String netamout, String TotalBalanceAmount, String BranchId, String userid, String SpecialNote) in d:\deepika\lifelinebilling\web\sales\oldorderentry.aspx.cs:line 113
+
+-------------------------------
+Message:Input string was not in a correct format.
+
+-------------------------------
+InnerException:
+
+-------------------------------
+Source:mscorlib
+
+-------------------------------
+
+=======================================================================================
+
+=======================================================================================
+2018-02-05 17:39:49:7950
+-------------------------------
+StackTrace:   at commonfunction.mySqlConnection.ExecuteQueryForTransaction(MySqlCommand cmd) in e:\Projects\dotnet\hn\commonfunction\mySqlConnection.cs:line 254
+   at sales_oldorderentry.saveOldEntryToSalesMaster(String customerid, String customername, String date, String oldinvoiceid, String netamout, String TotalBalanceAmount, String BranchId, String userid, String SpecialNote) in d:\deepika\projects\invoiceMe\changedHnTransaction\working\web\sales\oldorderentry.aspx.cs:line 196
+
+-------------------------------
+Message:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'from tbl_transactions where partner_id='207' and partner_type=1)' at line 1
+
+-------------------------------
+InnerException:
+
+-------------------------------
+Source:commonfunction
+
+-------------------------------
+
+=======================================================================================
+
+=======================================================================================
+2018-02-05 17:42:59:9728
+-------------------------------
+StackTrace:   at commonfunction.mySqlConnection.ExecuteQueryForTransaction(MySqlCommand cmd) in e:\Projects\dotnet\hn\commonfunction\mySqlConnection.cs:line 254
+   at sales_oldorderentry.saveOldEntryToSalesMaster(String customerid, String customername, String date, String oldinvoiceid, String netamout, String TotalBalanceAmount, String BranchId, String userid, String SpecialNote) in d:\deepika\projects\invoiceMe\changedHnTransaction\working\web\sales\oldorderentry.aspx.cs:line 196
+
+-------------------------------
+Message:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'from tbl_transactions where partner_id='207' and partner_type=1)' at line 1
+
+-------------------------------
+InnerException:
+
+-------------------------------
+Source:commonfunction
+
+-------------------------------
+
+=======================================================================================
+
+=======================================================================================
+2018-02-05 17:44:30:4790
+-------------------------------
+StackTrace:   at commonfunction.mySqlConnection.ExecuteQueryForTransaction(MySqlCommand cmd) in e:\Projects\dotnet\hn\commonfunction\mySqlConnection.cs:line 254
+   at sales_oldorderentry.saveOldEntryToSalesMaster(String customerid, String customername, String date, String oldinvoiceid, String netamout, String TotalBalanceAmount, String BranchId, String userid, String SpecialNote) in d:\deepika\projects\invoiceMe\changedHnTransaction\working\web\sales\oldorderentry.aspx.cs:line 196
+
+-------------------------------
+Message:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'from tbl_transactions where partner_id='207' and partner_type=1' at line 1
+
+-------------------------------
+InnerException:
+
+-------------------------------
+Source:commonfunction
+
+-------------------------------
+
+=======================================================================================
+
+=======================================================================================
+2018-07-12 14:23:56:2008
+-------------------------------
+StackTrace:   at commonfunction.mySqlConnection.SelectScalarForTransaction(String strQuery) in E:\Projects\dotnet\invoiceMe\PinkLine\working\commonfunction\mySqlConnection.cs:line 278
+   at sales_oldorderentry.saveOldEntryToSalesMaster(String customerid, String customername, String date, String oldinvoiceid, String netamout, String TotalBalanceAmount, String BranchId, String userid, String SpecialNote) in e:\Projects\dotnet\invoiceMe\InvoiceMeRebuild\working\web\sales\oldorderentry.aspx.cs:line 147
+
+-------------------------------
+Message:Unknown column 'cust_name' in 'field list'
+
+-------------------------------
+InnerException:
+
+-------------------------------
+Source:commonfunction
+
+-------------------------------
+
+=======================================================================================
+
+=======================================================================================
+2018-07-12 14:26:14:2167
+-------------------------------
+StackTrace:   at commonfunction.mySqlConnection.SelectScalarForTransaction(String strQuery) in E:\Projects\dotnet\invoiceMe\PinkLine\working\commonfunction\mySqlConnection.cs:line 278
+   at sales_oldorderentry.saveOldEntryToSalesMaster(String customerid, String customername, String date, String oldinvoiceid, String netamout, String TotalBalanceAmount, String BranchId, String userid, String SpecialNote) in e:\Projects\dotnet\invoiceMe\InvoiceMeRebuild\working\web\sales\oldorderentry.aspx.cs:line 147
+
+-------------------------------
+Message:Unknown column 'cust_name' in 'field list'
+
+-------------------------------
+InnerException:
+
+-------------------------------
+Source:commonfunction
+
+-------------------------------
+
+=======================================================================================
+
+=======================================================================================
+2018-07-12 14:26:30:1156
+-------------------------------
+StackTrace:   at commonfunction.mySqlConnection.SelectScalarForTransaction(String strQuery) in E:\Projects\dotnet\invoiceMe\PinkLine\working\commonfunction\mySqlConnection.cs:line 278
+   at sales_oldorderentry.saveOldEntryToSalesMaster(String customerid, String customername, String date, String oldinvoiceid, String netamout, String TotalBalanceAmount, String BranchId, String userid, String SpecialNote) in e:\Projects\dotnet\invoiceMe\InvoiceMeRebuild\working\web\sales\oldorderentry.aspx.cs:line 147
+
+-------------------------------
+Message:Unknown column 'sm_tax' in 'field list'
+
+-------------------------------
+InnerException:
+
+-------------------------------
+Source:commonfunction
+
+-------------------------------
+
+=======================================================================================
+
+=======================================================================================
+2018-07-12 14:28:20:4219
+-------------------------------
+StackTrace:   at commonfunction.mySqlConnection.SelectScalarForTransaction(String strQuery) in E:\Projects\dotnet\invoiceMe\PinkLine\working\commonfunction\mySqlConnection.cs:line 278
+   at sales_oldorderentry.saveOldEntryToSalesMaster(String customerid, String customername, String date, String oldinvoiceid, String netamout, String TotalBalanceAmount, String BranchId, String userid, String SpecialNote) in e:\Projects\dotnet\invoiceMe\InvoiceMeRebuild\working\web\sales\oldorderentry.aspx.cs:line 147
+
+-------------------------------
+Message:Unknown column 'sm_outstanding_billdate' in 'field list'
+
+-------------------------------
+InnerException:
+
+-------------------------------
+Source:commonfunction
+
+-------------------------------
+
+=======================================================================================
+
+=======================================================================================
+2018-07-12 14:29:00:9283
+-------------------------------
+StackTrace:   at commonfunction.mySqlConnection.SelectScalarForTransaction(String strQuery) in E:\Projects\dotnet\invoiceMe\PinkLine\working\commonfunction\mySqlConnection.cs:line 278
+   at sales_oldorderentry.saveOldEntryToSalesMaster(String customerid, String customername, String date, String oldinvoiceid, String netamout, String TotalBalanceAmount, String BranchId, String userid, String SpecialNote) in e:\Projects\dotnet\invoiceMe\InvoiceMeRebuild\working\web\sales\oldorderentry.aspx.cs:line 147
+
+-------------------------------
+Message:Unknown column 'sm_outstanding_billdate' in 'field list'
+
+-------------------------------
+InnerException:
+
+-------------------------------
+Source:commonfunction
+
+-------------------------------
+
+=======================================================================================
+
+=======================================================================================
+2018-07-12 14:29:22:3385
+-------------------------------
+StackTrace:   at commonfunction.mySqlConnection.SelectScalarForTransaction(String strQuery) in E:\Projects\dotnet\invoiceMe\PinkLine\working\commonfunction\mySqlConnection.cs:line 278
+   at sales_oldorderentry.saveOldEntryToSalesMaster(String customerid, String customername, String date, String oldinvoiceid, String netamout, String TotalBalanceAmount, String BranchId, String userid, String SpecialNote) in e:\Projects\dotnet\invoiceMe\InvoiceMeRebuild\working\web\sales\oldorderentry.aspx.cs:line 147
+
+-------------------------------
+Message:Unknown column 'sm_previous_amount' in 'field list'
+
+-------------------------------
+InnerException:
+
+-------------------------------
+Source:commonfunction
+
+-------------------------------
+
+=======================================================================================
+
+=======================================================================================
+2018-07-12 14:33:08:8604
+-------------------------------
+StackTrace:   at commonfunction.mySqlConnection.SelectScalarForTransaction(String strQuery) in E:\Projects\dotnet\invoiceMe\PinkLine\working\commonfunction\mySqlConnection.cs:line 278
+   at sales_oldorderentry.saveOldEntryToSalesMaster(String customerid, String customername, String date, String oldinvoiceid, String netamout, String TotalBalanceAmount, String BranchId, String userid, String SpecialNote) in e:\Projects\dotnet\invoiceMe\InvoiceMeRebuild\working\web\sales\oldorderentry.aspx.cs:line 147
+
+-------------------------------
+Message:Duplicate entry '2018-PL1--OO101' for key 'sm_invoice_no'
+
+-------------------------------
+InnerException:
+
+-------------------------------
+Source:commonfunction
+
+-------------------------------
+
+=======================================================================================

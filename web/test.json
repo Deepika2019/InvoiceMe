@@ -1,0 +1,291 @@
+{"order":[
+
+  {
+
+    "cust_id": 9,
+
+    "sm_id": 15,
+
+    "sm_refno": 15,
+
+    "cust_name": "Fathima Supermarket",
+
+    "staff_name": "sales1 sl",
+
+    "sm_date": "23-Jan-2017 10:21 AM",
+
+    "net_amount": 53.00,
+
+    "total_paid": 100.00,
+
+    "total_balance": -47.00,
+
+    "sm_userid": 2,
+
+    "branch_id": 1,
+
+    "outstanding_amt": 0.00,
+
+    "wallet_amt": 15.0
+
+  }
+
+],"branch":[
+
+  {
+
+    "branch_id": 1,
+
+    "branch_name": "Abu Dhabi",
+
+    "branch_countryid": 2,
+
+    "branch_bill_disclosure": "d",
+
+    "branch_bill_footer": "f"
+
+  }
+
+],"items":[
+
+  {
+
+    "itm_code": "psp1",
+
+    "itm_name": "Periyar sambar powder 100MG",
+
+    "qty": 1,
+
+    "price": 8.00,
+
+    "dis_rate": 0.00,
+
+    "dis_amount": 0.00,
+
+    "net_amount": 8.00,
+
+    "foc": 0
+
+  },
+
+  {
+
+    "itm_code": "tmpb",
+
+    "itm_name": "Taj Mahal- Premium Basmathy Rice",
+
+    "qty": 1,
+
+    "price": 6.00,
+
+    "dis_rate": 0.00,
+
+    "dis_amount": 0.00,
+
+    "net_amount": 6.00,
+
+    "foc": 0
+
+  },
+
+  {
+
+    "itm_code": "mr10",
+
+    "itm_name": "Mariyas Rice 10 KG",
+
+    "qty": 1,
+
+    "price": 6.00,
+
+    "dis_rate": 0.00,
+
+    "dis_amount": 0.00,
+
+    "net_amount": 6.00,
+
+    "foc": 0
+
+  },
+
+  {
+
+    "itm_code": "mcm1",
+
+    "itm_name": "Mariyas Chicken Masala 1KG",
+
+    "qty": 1,
+
+    "price": 6.00,
+
+    "dis_rate": 0.00,
+
+    "dis_amount": 0.00,
+
+    "net_amount": 6.00,
+
+    "foc": 0
+
+  },
+
+  {
+
+    "itm_code": "mckm",
+
+    "itm_name": "Mariyas Chicken Masala 500gm",
+
+    "qty": 1,
+
+    "price": 7.00,
+
+    "dis_rate": 0.00,
+
+    "dis_amount": 0.00,
+
+    "net_amount": 7.00,
+
+    "foc": 0
+
+  },
+
+  {
+
+    "itm_code": "mpp1",
+
+    "itm_name": "Mariyas Puttu Podi 1KG",
+
+    "qty": 1,
+
+    "price": 6.00,
+
+    "dis_rate": 0.00,
+
+    "dis_amount": 0.00,
+
+    "net_amount": 6.00,
+
+    "foc": 0
+
+  },
+
+  {
+
+    "itm_code": "tmr1",
+
+    "itm_name": "Taj Mahal Rice 10 KG",
+
+    "qty": 2,
+
+    "price": 7.00,
+
+    "dis_rate": 0.00,
+
+    "dis_amount": 0.00,
+
+    "net_amount": 14.00,
+
+    "foc": 0
+
+  }
+
+],"payment_details":[
+
+  {
+
+    "date": "23-Jan-2017",
+
+    "chk_amt": null,
+
+    "card_amt": null,
+
+    "cash_amt": null,
+
+    "wlt_amt": null,
+
+    "paid": 0.00,
+
+    "balance": 53.00
+
+  },
+
+  {
+
+    "date": "23-Jan-2017",
+
+    "chk_amt": null,
+
+    "card_amt": null,
+
+    "cash_amt": 100.00,
+
+    "wlt_amt": null,
+
+    "paid": 100.00,
+
+    "balance": -47.00
+
+  }
+
+],"return_details":[
+
+  {
+
+    "id": 1,
+
+    "date": "23-Jan-2017 10:34 AM",
+
+    "amount": 7.0,
+
+    "items": [
+
+      {
+
+        "itm_code": "tmr1",
+
+        "itm_name": "Taj Mahal Rice 10 KG",
+
+        "price": 7.0,
+
+        "qty": 1,
+
+        "discount": 0.00,
+
+        "total": 7.0
+
+      }
+
+    ]
+
+  },
+
+  {
+
+    "id": 2,
+
+    "date": "23-Jan-2017 10:55 AM",
+
+    "amount": 8.0,
+
+    "items": [
+
+      {
+
+        "itm_code": "psp1",
+
+        "itm_name": "Periyar sambar powder 100MG",
+
+        "price": 8.0,
+
+        "qty": 1,
+
+        "discount": 0.00,
+
+        "total": 8.0
+
+      }
+
+    ]
+
+  }
+
+]}

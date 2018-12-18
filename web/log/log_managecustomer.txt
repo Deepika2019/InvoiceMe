@@ -1,0 +1,323 @@
+
+=======================================================================================
+2017-09-19 15:10:45:4934
+-------------------------------
+StackTrace:   at commonfunction.mySqlConnection.ExecuteQueryForTransaction(String strQuery) in c:\Users\neo\Desktop\lifelinebilling\commonfunction\mySqlConnection.cs:line 223
+   at managecustomers.AddCustomer(String actionType, String CustomerId, String CustomerName, String CustomerType, String Address, String City, String State, String Phone, String PhoneOne, String Email, String country, String note, Int32 warehouse, Int32 creditamount, Int32 creditperiod, Int32 userid, Int32 status, Int32 userType, String regNo) in d:\deepika\lifelinebilling\web\managecustomers.aspx.cs:line 159
+
+-------------------------------
+Message:Unknown column 'custd_name' in 'field list'
+
+-------------------------------
+InnerException:
+
+-------------------------------
+Source:commonfunction
+
+-------------------------------
+
+=======================================================================================
+
+=======================================================================================
+2017-09-19 15:11:12:5190
+-------------------------------
+StackTrace:   at commonfunction.mySqlConnection.ExecuteQueryForTransaction(String strQuery) in c:\Users\neo\Desktop\lifelinebilling\commonfunction\mySqlConnection.cs:line 223
+   at managecustomers.AddCustomer(String actionType, String CustomerId, String CustomerName, String CustomerType, String Address, String City, String State, String Phone, String PhoneOne, String Email, String country, String note, Int32 warehouse, Int32 creditamount, Int32 creditperiod, Int32 userid, Int32 status, Int32 userType, String regNo) in d:\deepika\lifelinebilling\web\managecustomers.aspx.cs:line 159
+
+-------------------------------
+Message:Unknown column 'custd_name' in 'field list'
+
+-------------------------------
+InnerException:
+
+-------------------------------
+Source:commonfunction
+
+-------------------------------
+
+=======================================================================================
+
+=======================================================================================
+2017-10-25 17:18:53:3415
+-------------------------------
+StackTrace:   at commonfunction.mySqlConnection.ExecuteQueryForTransaction(String strQuery) in c:\Users\neo\Desktop\lifelinebilling\commonfunction\mySqlConnection.cs:line 223
+   at managecustomers.AddCustomer(String actionType, String CustomerId, String CustomerName, String CustomerType, String Address, String City, String State, String Phone, String PhoneOne, String Email, String country, String note, Int32 warehouse, Int32 creditamount, Int32 creditperiod, Int32 userid, Int32 status, Int32 userType, String regNo) in d:\deepika\Projects\Jupiter\working\web\managecustomers.aspx.cs:line 162
+
+-------------------------------
+Message:Unknown column 'Jupiter' in 'field list'
+
+-------------------------------
+InnerException:
+
+-------------------------------
+Source:commonfunction
+
+-------------------------------
+
+=======================================================================================
+
+=======================================================================================
+2017-10-25 17:18:57:9138
+-------------------------------
+StackTrace:   at commonfunction.mySqlConnection.ExecuteQueryForTransaction(String strQuery) in c:\Users\neo\Desktop\lifelinebilling\commonfunction\mySqlConnection.cs:line 223
+   at managecustomers.AddCustomer(String actionType, String CustomerId, String CustomerName, String CustomerType, String Address, String City, String State, String Phone, String PhoneOne, String Email, String country, String note, Int32 warehouse, Int32 creditamount, Int32 creditperiod, Int32 userid, Int32 status, Int32 userType, String regNo) in d:\deepika\Projects\Jupiter\working\web\managecustomers.aspx.cs:line 162
+
+-------------------------------
+Message:Unknown column 'Jupiter' in 'field list'
+
+-------------------------------
+InnerException:
+
+-------------------------------
+Source:commonfunction
+
+-------------------------------
+
+=======================================================================================
+
+=======================================================================================
+2017-10-25 17:20:42:1437
+-------------------------------
+StackTrace:   at commonfunction.mySqlConnection.ExecuteQueryForTransaction(String strQuery) in c:\Users\neo\Desktop\lifelinebilling\commonfunction\mySqlConnection.cs:line 223
+   at managecustomers.AddCustomer(String actionType, String CustomerId, String CustomerName, String CustomerType, String Address, String City, String State, String Phone, String PhoneOne, String Email, String country, String note, Int32 warehouse, Int32 creditamount, Int32 creditperiod, Int32 userid, Int32 status, Int32 userType, String regNo) in d:\deepika\Projects\Jupiter\working\web\managecustomers.aspx.cs:line 162
+
+-------------------------------
+Message:Unknown column 'Jupiter' in 'field list'
+
+-------------------------------
+InnerException:
+
+-------------------------------
+Source:commonfunction
+
+-------------------------------
+
+=======================================================================================
+
+=======================================================================================
+2017-10-25 17:21:07:0052
+-------------------------------
+StackTrace:   at commonfunction.mySqlConnection.ExecuteQueryForTransaction(String strQuery) in c:\Users\neo\Desktop\lifelinebilling\commonfunction\mySqlConnection.cs:line 223
+   at managecustomers.AddCustomer(String actionType, String CustomerId, String CustomerName, String CustomerType, String Address, String City, String State, String Phone, String PhoneOne, String Email, String country, String note, Int32 warehouse, Int32 creditamount, Int32 creditperiod, Int32 userid, Int32 status, Int32 userType, String regNo) in d:\deepika\Projects\Jupiter\working\web\managecustomers.aspx.cs:line 162
+
+-------------------------------
+Message:Unknown column 'Jupiter' in 'field list'
+
+-------------------------------
+InnerException:
+
+-------------------------------
+Source:commonfunction
+
+-------------------------------
+
+=======================================================================================
+
+=======================================================================================
+2017-10-25 17:24:04:0193
+-------------------------------
+StackTrace:   at commonfunction.mySqlConnection.ExecuteQueryForTransaction(String strQuery) in c:\Users\neo\Desktop\lifelinebilling\commonfunction\mySqlConnection.cs:line 223
+   at managecustomers.AddCustomer(String actionType, String CustomerId, String CustomerName, String CustomerType, String Address, String City, String State, String Phone, String PhoneOne, String Email, String country, String note, Int32 warehouse, Int32 creditamount, Int32 creditperiod, Int32 userid, Int32 status, Int32 userType, String regNo) in d:\deepika\Projects\Jupiter\working\web\managecustomers.aspx.cs:line 162
+
+-------------------------------
+Message:Unknown column 'Jupiter' in 'field list'
+
+-------------------------------
+InnerException:
+
+-------------------------------
+Source:commonfunction
+
+-------------------------------
+
+=======================================================================================
+
+=======================================================================================
+2017-10-25 17:27:23:3257
+-------------------------------
+StackTrace:   at commonfunction.mySqlConnection.ExecuteQueryForTransaction(String strQuery) in c:\Users\neo\Desktop\lifelinebilling\commonfunction\mySqlConnection.cs:line 223
+   at managecustomers.AddCustomer(String actionType, String CustomerId, String CustomerName, String CustomerType, String Address, String City, String State, String Phone, String PhoneOne, String Email, String country, String note, Int32 warehouse, Int32 creditamount, Int32 creditperiod, Int32 userid, Int32 status, Int32 userType, String regNo) in d:\deepika\Projects\Jupiter\working\web\managecustomers.aspx.cs:line 163
+
+-------------------------------
+Message:Deadlock found when trying to get lock; try restarting transaction
+
+-------------------------------
+InnerException:
+
+-------------------------------
+Source:commonfunction
+
+-------------------------------
+
+=======================================================================================
+
+=======================================================================================
+2017-10-25 17:32:12:8058
+-------------------------------
+StackTrace:   at commonfunction.mySqlConnection.ExecuteQueryForTransaction(String strQuery) in c:\Users\neo\Desktop\lifelinebilling\commonfunction\mySqlConnection.cs:line 223
+   at managecustomers.AddCustomer(String actionType, String CustomerId, String CustomerName, String CustomerType, String Address, String City, String State, String Phone, String PhoneOne, String Email, String country, String note, Int32 warehouse, Int32 creditamount, Int32 creditperiod, Int32 userid, Int32 status, Int32 userType, String regNo) in d:\deepika\Projects\Jupiter\working\web\managecustomers.aspx.cs:line 109
+
+-------------------------------
+Message:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '1,819) where cust_id=819' at line 1
+
+-------------------------------
+InnerException:
+
+-------------------------------
+Source:commonfunction
+
+-------------------------------
+
+=======================================================================================
+
+=======================================================================================
+2017-10-25 17:32:57:9503
+-------------------------------
+StackTrace:   at commonfunction.mySqlConnection.ExecuteQueryForTransaction(String strQuery) in c:\Users\neo\Desktop\lifelinebilling\commonfunction\mySqlConnection.cs:line 223
+   at managecustomers.AddCustomer(String actionType, String CustomerId, String CustomerName, String CustomerType, String Address, String City, String State, String Phone, String PhoneOne, String Email, String country, String note, Int32 warehouse, Int32 creditamount, Int32 creditperiod, Int32 userid, Int32 status, Int32 userType, String regNo) in d:\deepika\Projects\Jupiter\working\web\managecustomers.aspx.cs:line 109
+
+-------------------------------
+Message:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '1,820) where cust_id=820' at line 1
+
+-------------------------------
+InnerException:
+
+-------------------------------
+Source:commonfunction
+
+-------------------------------
+
+=======================================================================================
+
+=======================================================================================
+2017-10-26 10:32:06:1224
+-------------------------------
+StackTrace:   at commonfunction.mySqlConnection.CommitTransaction() in c:\Users\neo\Desktop\lifelinebilling\commonfunction\mySqlConnection.cs:line 183
+   at managecustomers.AddCustomer(String actionType, String CustomerId, String CustomerName, String CustomerType, String Address, String City, String State, String Phone, String PhoneOne, String Email, String country, String note, Int32 warehouse, Int32 creditamount, Int32 creditperiod, Int32 userid, Int32 status, Int32 userType, String regNo) in d:\deepika\Projects\Jupiter\working\web\managecustomers.aspx.cs:line 171
+
+-------------------------------
+Message:Object reference not set to an instance of an object.
+
+-------------------------------
+InnerException:
+
+-------------------------------
+Source:commonfunction
+
+-------------------------------
+
+=======================================================================================
+
+=======================================================================================
+2018-07-02 12:01:11:4273
+-------------------------------
+StackTrace:   at commonfunction.mySqlConnection.ExecuteQueryForTransaction(String strQuery) in E:\Projects\dotnet\invoiceMe\PinkLine\working\commonfunction\mySqlConnection.cs:line 223
+   at managecustomers.AddCustomer(String actionType, String CustomerId, String CustomerName, String CustomerType, String Address, String City, String State, String Phone, String PhoneOne, String Email, String country, String note, Int32 creditamount, Int32 creditperiod, Int32 userid, Int32 status, Int32 userType, String trnNo, String regId, String place, String category) in e:\Projects\dotnet\invoiceMe\InvoiceMeRebuild\working\web\managecustomers.aspx.cs:line 154
+
+-------------------------------
+Message:Unknown column 'cust_unique_id' in 'field list'
+
+-------------------------------
+InnerException:
+
+-------------------------------
+Source:commonfunction
+
+-------------------------------
+
+=======================================================================================
+
+=======================================================================================
+2018-07-02 12:01:25:3361
+-------------------------------
+StackTrace:   at commonfunction.mySqlConnection.ExecuteQueryForTransaction(String strQuery) in E:\Projects\dotnet\invoiceMe\PinkLine\working\commonfunction\mySqlConnection.cs:line 223
+   at managecustomers.AddCustomer(String actionType, String CustomerId, String CustomerName, String CustomerType, String Address, String City, String State, String Phone, String PhoneOne, String Email, String country, String note, Int32 creditamount, Int32 creditperiod, Int32 userid, Int32 status, Int32 userType, String trnNo, String regId, String place, String category) in e:\Projects\dotnet\invoiceMe\InvoiceMeRebuild\working\web\managecustomers.aspx.cs:line 154
+
+-------------------------------
+Message:Unknown column 'cust_unique_id' in 'field list'
+
+-------------------------------
+InnerException:
+
+-------------------------------
+Source:commonfunction
+
+-------------------------------
+
+=======================================================================================
+
+=======================================================================================
+2018-07-02 12:02:58:1644
+-------------------------------
+StackTrace:   at commonfunction.mySqlConnection.ExecuteQueryForTransaction(String strQuery) in E:\Projects\dotnet\invoiceMe\PinkLine\working\commonfunction\mySqlConnection.cs:line 223
+   at managecustomers.AddCustomer(String actionType, String CustomerId, String CustomerName, String CustomerType, String Address, String City, String State, String Phone, String PhoneOne, String Email, String country, String note, Int32 creditamount, Int32 creditperiod, Int32 userid, Int32 status, Int32 userType, String trnNo, String regId, String place, String category) in e:\Projects\dotnet\invoiceMe\InvoiceMeRebuild\working\web\managecustomers.aspx.cs:line 154
+
+-------------------------------
+Message:Unknown column 'cust_unique_id' in 'field list'
+
+-------------------------------
+InnerException:
+
+-------------------------------
+Source:commonfunction
+
+-------------------------------
+
+=======================================================================================
+
+=======================================================================================
+2018-07-02 12:45:27:9513
+-------------------------------
+StackTrace:   at commonfunction.mySqlConnection.ExecuteQueryForTransaction(String strQuery) in E:\Projects\dotnet\invoiceMe\PinkLine\working\commonfunction\mySqlConnection.cs:line 223
+   at managecustomers.AddCustomer(String actionType, String CustomerId, String CustomerName, String CustomerType, String Address, String City, String State, String Phone, String PhoneOne, String Email, String country, String note, Int32 creditamount, Int32 creditperiod, Int32 userid, Int32 status, Int32 userType, String trnNo, String regId, String place, String category) in e:\Projects\dotnet\invoiceMe\InvoiceMeRebuild\working\web\managecustomers.aspx.cs:line 136
+
+-------------------------------
+Message:Unknown column 'cust_jodate' in 'field list'
+
+-------------------------------
+InnerException:
+
+-------------------------------
+Source:commonfunction
+
+-------------------------------
+
+=======================================================================================
+
+=======================================================================================
+2018-07-02 12:45:40:5230
+-------------------------------
+StackTrace:   at commonfunction.mySqlConnection.ExecuteQueryForTransaction(String strQuery) in E:\Projects\dotnet\invoiceMe\PinkLine\working\commonfunction\mySqlConnection.cs:line 223
+   at managecustomers.AddCustomer(String actionType, String CustomerId, String CustomerName, String CustomerType, String Address, String City, String State, String Phone, String PhoneOne, String Email, String country, String note, Int32 creditamount, Int32 creditperiod, Int32 userid, Int32 status, Int32 userType, String trnNo, String regId, String place, String category) in e:\Projects\dotnet\invoiceMe\InvoiceMeRebuild\working\web\managecustomers.aspx.cs:line 136
+
+-------------------------------
+Message:Unknown column 'cust_jodate' in 'field list'
+
+-------------------------------
+InnerException:
+
+-------------------------------
+Source:commonfunction
+
+-------------------------------
+
+=======================================================================================
+
+=======================================================================================
+2018-07-02 12:48:24:6904
+-------------------------------
+StackTrace:   at commonfunction.mySqlConnection.ExecuteQueryForTransaction(String strQuery) in E:\Projects\dotnet\invoiceMe\PinkLine\working\commonfunction\mySqlConnection.cs:line 223
+   at managecustomers.AddCustomer(String actionType, String CustomerId, String CustomerName, String CustomerType, String Address, String City, String State, String Phone, String PhoneOne, String Email, String country, String note, Int32 creditamount, Int32 creditperiod, Int32 userid, Int32 status, Int32 userType, String trnNo, String regId, String place, String category) in e:\Projects\dotnet\invoiceMe\InvoiceMeRebuild\working\web\managecustomers.aspx.cs:line 136
+
+-------------------------------
+Message:Unknown column 'cust_jodate' in 'field list'
+
+-------------------------------
+InnerException:
+
+-------------------------------
+Source:commonfunction
+
+-------------------------------
+
+=======================================================================================

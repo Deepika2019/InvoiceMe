@@ -1,0 +1,95 @@
+
+=======================================================================================
+2018-10-24 09:51:38:3966
+-------------------------------
+StackTrace:   at commonfunction.mySqlConnection.ExecuteQueryForTransaction(String strQuery) in e:\Projects\dotnet\invoiceMe\InvoiceMeRebuild\working\commonfunction\mySqlConnection.cs:line 223
+   at purchase_editPurchase.cancelFunctn(Int32 userId, Int32 purchaseId) in e:\Projects\dotnet\invoiceMe\InvoiceMeRebuild\working\web\purchase\editPurchase.aspx.cs:line 622
+
+-------------------------------
+Message:Unknown column 'pm_cancelled_date' in 'field list'
+
+-------------------------------
+InnerException:
+
+-------------------------------
+Source:commonfunction
+
+-------------------------------
+
+=======================================================================================
+
+=======================================================================================
+2018-10-24 09:53:05:8916
+-------------------------------
+StackTrace:   at commonfunction.mySqlConnection.ExecuteQueryForTransaction(String strQuery) in e:\Projects\dotnet\invoiceMe\InvoiceMeRebuild\working\commonfunction\mySqlConnection.cs:line 223
+   at purchase_editPurchase.cancelFunctn(Int32 userId, Int32 purchaseId) in e:\Projects\dotnet\invoiceMe\InvoiceMeRebuild\working\web\purchase\editPurchase.aspx.cs:line 622
+
+-------------------------------
+Message:Unknown column 'pm_cancelled_date' in 'field list'
+
+-------------------------------
+InnerException:
+
+-------------------------------
+Source:commonfunction
+
+-------------------------------
+
+=======================================================================================
+
+=======================================================================================
+2018-10-24 09:55:57:1524
+-------------------------------
+StackTrace:   at commonfunction.mySqlConnection.ExecuteQueryForTransaction(String strQuery) in e:\Projects\dotnet\invoiceMe\InvoiceMeRebuild\working\commonfunction\mySqlConnection.cs:line 223
+   at purchase_editPurchase.cancelFunctn(Int32 userId, Int32 purchaseId) in e:\Projects\dotnet\invoiceMe\InvoiceMeRebuild\working\web\purchase\editPurchase.aspx.cs:line 622
+
+-------------------------------
+Message:Unknown column 'pm_cancelled_date' in 'field list'
+
+-------------------------------
+InnerException:
+
+-------------------------------
+Source:commonfunction
+
+-------------------------------
+
+=======================================================================================
+
+=======================================================================================
+2018-10-24 09:58:14:3942
+-------------------------------
+StackTrace:   at commonfunction.mySqlConnection.ExecuteQueryForTransaction(String strQuery) in e:\Projects\dotnet\invoiceMe\InvoiceMeRebuild\working\commonfunction\mySqlConnection.cs:line 223
+   at purchase_editPurchase.cancelFunctn(Int32 userId, Int32 purchaseId) in e:\Projects\dotnet\invoiceMe\InvoiceMeRebuild\working\web\purchase\editPurchase.aspx.cs:line 622
+
+-------------------------------
+Message:Unknown column 'pm_cancelled_date' in 'field list'
+
+-------------------------------
+InnerException:
+
+-------------------------------
+Source:commonfunction
+
+-------------------------------
+
+=======================================================================================
+
+=======================================================================================
+2018-10-24 09:59:59:5202
+-------------------------------
+StackTrace:   at commonfunction.mySqlConnection.ExecuteQueryForTransaction(String strQuery) in e:\Projects\dotnet\invoiceMe\InvoiceMeRebuild\working\commonfunction\mySqlConnection.cs:line 223
+   at purchase_editPurchase.cancelFunctn(Int32 userId, Int32 purchaseId) in e:\Projects\dotnet\invoiceMe\InvoiceMeRebuild\working\web\purchase\editPurchase.aspx.cs:line 622
+
+-------------------------------
+Message:Unknown column 'pm_cancelled_date' in 'field list'
+
+-------------------------------
+InnerException:
+
+-------------------------------
+Source:commonfunction
+
+-------------------------------
+
+=======================================================================================

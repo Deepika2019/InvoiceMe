@@ -1,0 +1,57 @@
+
+=======================================================================================
+2018-07-12 14:50:40:1946
+-------------------------------
+StackTrace:   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at sales_oldorderentry.saveOldEntryToSalesMaster(Dictionary`2 sl_mstr) in e:\Projects\dotnet\invoiceMe\InvoiceMeRebuild\working\web\sales\oldorderentry.aspx.cs:line 118
+
+-------------------------------
+Message:The given key was not present in the dictionary.
+
+-------------------------------
+InnerException:
+
+-------------------------------
+Source:mscorlib
+
+-------------------------------
+
+=======================================================================================
+
+=======================================================================================
+2018-07-12 15:47:10:4535
+-------------------------------
+StackTrace:   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at sales_oldorderentry.saveOldEntryToSalesMaster(Dictionary`2 sl_mstr) in e:\Projects\dotnet\invoiceMe\InvoiceMeRebuild\working\web\sales\oldorderentry.aspx.cs:line 118
+
+-------------------------------
+Message:The given key was not present in the dictionary.
+
+-------------------------------
+InnerException:
+
+-------------------------------
+Source:mscorlib
+
+-------------------------------
+
+=======================================================================================
+
+=======================================================================================
+2018-08-06 15:30:41:6970
+-------------------------------
+StackTrace:   at commonfunction.mySqlConnection.SelectScalarForTransaction(String strQuery) in E:\Projects\dotnet\invoiceMe\InvoiceMeRebuild\working\commonfunction\mySqlConnection.cs:line 278
+   at sales_oldorderentry.saveOldEntryToSalesMaster(Dictionary`2 sl_mstr) in e:\Projects\dotnet\invoiceMe\InvoiceMeRebuild\working\web\sales\oldorderentry.aspx.cs:line 174
+
+-------------------------------
+Message:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '/2018,concat(sm_prefix,sm_serialNo,sm_suffix),'201808061530281','2');Select last' at line 1
+
+-------------------------------
+InnerException:
+
+-------------------------------
+Source:commonfunction
+
+-------------------------------
+
+=======================================================================================

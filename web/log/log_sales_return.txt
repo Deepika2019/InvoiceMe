@@ -1,0 +1,57 @@
+
+=======================================================================================
+2018-07-07 13:17:52:4253
+-------------------------------
+StackTrace:   at commonfunction.mySqlConnection.SelectScalarForTransaction(String strQuery) in E:\Projects\dotnet\invoiceMe\PinkLine\working\commonfunction\mySqlConnection.cs:line 278
+   at appSalesman.sales_return(Dictionary`2 return_order) in e:\Projects\dotnet\invoiceMe\InvoiceMeRebuild\working\web\app_Salesman.aspx.cs:line 993
+
+-------------------------------
+Message:Unknown column 'srm_session_id' in 'field list'
+
+-------------------------------
+InnerException:
+
+-------------------------------
+Source:commonfunction
+
+-------------------------------
+
+=======================================================================================
+
+=======================================================================================
+2018-07-08 12:16:38:1931
+-------------------------------
+StackTrace:   at commonfunction.mySqlConnection.SelectScalarForTransaction(String strQuery) in E:\Projects\dotnet\invoiceMe\PinkLine\working\commonfunction\mySqlConnection.cs:line 278
+   at appSalesman.sales_return(Dictionary`2 return_order) in e:\Projects\dotnet\invoiceMe\InvoiceMeRebuild\working\web\app_Salesman.aspx.cs:line 993
+
+-------------------------------
+Message:Unknown column 'srm_session_id' in 'field list'
+
+-------------------------------
+InnerException:
+
+-------------------------------
+Source:commonfunction
+
+-------------------------------
+
+=======================================================================================
+
+=======================================================================================
+2018-07-30 17:45:44:0012
+-------------------------------
+StackTrace:   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at sales_salesreturn.sales_return(Dictionary`2 return_order) in e:\Projects\dotnet\invoiceMe\InvoiceMeRebuild\working\web\sales\salesreturn.aspx.cs:line 135
+
+-------------------------------
+Message:The given key was not present in the dictionary.
+
+-------------------------------
+InnerException:
+
+-------------------------------
+Source:mscorlib
+
+-------------------------------
+
+=======================================================================================

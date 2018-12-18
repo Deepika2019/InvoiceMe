@@ -1,0 +1,57 @@
+
+=======================================================================================
+2017-10-07 11:39:19:9431
+-------------------------------
+StackTrace:   at commonfunction.mySqlConnection.SelectQueryForTransaction(String strQuery) in c:\Users\neo\Desktop\lifelinebilling\commonfunction\mySqlConnection.cs:line 276
+   at sales_manageorders.saveToSalesMaster(String billno, String currentamount, String paidamount, String TotalBalanceAmount, String TotalPaidinFull, String BankName, String ChequeAmount, String ChequeDate, String ChequeNo, String CashAmount, String SpecialNote, String outstandingBillDate, String TimeZone, String previouspaid, String cust_id, String cust_name, String BranchId, String TotalPreviousPaidAmount, String UserId, String walletamt, String creditamount) in d:\deepika\lifelinebilling\web\sales\manageorders.aspx.cs:line 122
+
+-------------------------------
+Message:Unknown column 'branch_outPrefix' in 'field list'
+
+-------------------------------
+InnerException:
+
+-------------------------------
+Source:commonfunction
+
+-------------------------------
+
+=======================================================================================
+
+=======================================================================================
+2017-10-07 11:40:56:1786
+-------------------------------
+StackTrace:   at commonfunction.mySqlConnection.SelectQueryForTransaction(String strQuery) in c:\Users\neo\Desktop\lifelinebilling\commonfunction\mySqlConnection.cs:line 276
+   at sales_manageorders.saveToSalesMaster(String billno, String currentamount, String paidamount, String TotalBalanceAmount, String TotalPaidinFull, String BankName, String ChequeAmount, String ChequeDate, String ChequeNo, String CashAmount, String SpecialNote, String outstandingBillDate, String TimeZone, String previouspaid, String cust_id, String cust_name, String BranchId, String TotalPreviousPaidAmount, String UserId, String walletamt, String creditamount) in d:\deepika\lifelinebilling\web\sales\manageorders.aspx.cs:line 122
+
+-------------------------------
+Message:Unknown column 'branch_outPrefix' in 'field list'
+
+-------------------------------
+InnerException:
+
+-------------------------------
+Source:commonfunction
+
+-------------------------------
+
+=======================================================================================
+
+=======================================================================================
+2017-10-07 11:41:40:6302
+-------------------------------
+StackTrace:   at commonfunction.mySqlConnection.SelectScalarForTransaction(String strQuery) in c:\Users\neo\Desktop\lifelinebilling\commonfunction\mySqlConnection.cs:line 249
+   at sales_manageorders.saveToSalesMaster(String billno, String currentamount, String paidamount, String TotalBalanceAmount, String TotalPaidinFull, String BankName, String ChequeAmount, String ChequeDate, String ChequeNo, String CashAmount, String SpecialNote, String outstandingBillDate, String TimeZone, String previouspaid, String cust_id, String cust_name, String BranchId, String TotalPreviousPaidAmount, String UserId, String walletamt, String creditamount) in d:\deepika\lifelinebilling\web\sales\manageorders.aspx.cs:line 129
+
+-------------------------------
+Message:Unknown column 'O' in 'where clause'
+
+-------------------------------
+InnerException:
+
+-------------------------------
+Source:commonfunction
+
+-------------------------------
+
+=======================================================================================

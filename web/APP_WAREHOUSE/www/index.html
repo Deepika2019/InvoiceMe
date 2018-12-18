@@ -1,0 +1,1156 @@
+﻿<!doctype html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8" />
+	<link rel="apple-touch-icon" sizes="76x76" href="assets/img/apple-icon.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="assets/img/favicon.png">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+	<title>Invoice Me</title>
+
+	<meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
+	<meta name="viewport" content="width=device-width" />
+	<!-- Bootstrap core CSS -->
+	<link href="assets/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="assets/css/font-awesome.min.css" rel="stylesheet" />
+	<!-- Animation library for notifications   -->
+	<link href="assets/css/animate.min.css" rel="stylesheet" />
+	<!--  Paper Dashboard core CSS    -->
+	<link href="assets/css/paper-dashboard.css" rel="stylesheet" />
+	<!--  CSS for Demo Purpose, don't include it in your project     -->
+	<!--<link href="assets/css/demo.css" rel="stylesheet" />-->
+	<!--  Fonts and icons -->
+	<link href="assets/mobiscroll/css/mobiscroll-2.0rc3.full.min.css" rel="stylesheet">
+	<link href="assets/mobiscroll/dev/css/mobiscroll.android.css" rel="stylesheet">
+	<link href="assets/css/themify-icons.css" rel="stylesheet">
+
+	<style>
+
+     .deliveredcart {
+     
+      display:none;
+  }
+		body {
+			-webkit-user-select: none;
+			-moz-user-select: -moz-none;
+			-ms-user-select: none;
+			user-select: none;
+		}
+
+		.sticky {
+			position: fixed;
+			width: 100%;
+			left: 0;
+			top: 0;
+			z-index: 100;
+			border-top: 0;
+		}
+		/*new*/
+
+        .overview .panel-body {
+			padding: 1px;
+		}
+
+		.overview .panel-body>.table {
+			margin-bottom: 0px;
+		}
+
+		.overview .panel-body>.table td,
+		th {
+			padding: 5px;
+		}
+
+		.overview .panel-footer {
+			text-align: center;
+		}
+
+		.table>tbody>tr:first-child>td {
+			border: none;
+		}
+
+		.card .content {
+			padding: 5px;
+		}
+        
+		#divTotalOverview .panel-body {
+			padding: 5px;
+		}
+
+		#divTotalOverview .panel-body>.table {
+			margin-bottom: 0px;
+		}
+
+		#divTotalOverview .panel-body>.table td,
+		th {
+			padding: 5px;
+		}
+
+		#divTotalOverview .panel-footer {
+			text-align: center;
+		}
+	</style>
+
+</head>
+
+<body style="background-color:#fff">
+
+    <input type="hidden" id="ss_user_password" value="0" />
+    <input type="hidden" id="ss_user_deviceid" value="0" />
+    <!-- settings -->
+    <input type="hidden" id="ss_price_change" value="0" />
+    <input type="hidden" id="ss_discount_change" value="0" />
+    <input type="hidden" id="ss_foc_change" value="0" />
+    <input type="hidden" id="ss_class_change" value="0" />
+    <input type="hidden" id="ss_max_period_credit" value="0" />
+    <input type="hidden" id="ss_new_registration" value="0" />
+    <input type="hidden" id="ss_sales_return" value="0" />
+    <input type="hidden" id="ss_due_amount" value="0" />
+    <input type="hidden" id="ss_new_item" value="0" />
+    <input type="hidden" id="ss_location_on_order" value="0" />
+    <input type="hidden" id="ss_validation_email" value="0" />
+    <input type="hidden" id="ss_phone_email" value="0" />
+    <input type="hidden" id="ss_reg_id_required" value="0" />
+    <input type="hidden" id="ss_trn_gst_required" value="0" />
+    <input type="hidden" id="ss_currency" value="0" />
+    <input type="hidden" id="ss_decimal_accuracy" value="0" />
+    <input type="hidden" id="ss_multidevice_block" value="0" />
+    <input type="hidden" id="ss_default_time_zone" value="India Standard Time" />
+    <input type="hidden" id="ss_default_max_period" value="0" />
+    <input type="hidden" id="ss_default_max_credit" value="0" />
+    <input type="hidden" id="ss_payment_type" value="0" />
+    <input type="hidden" id="ss_direct_delivery" value="0" />
+
+    <input type="hidden" id="br_tax_method" value="0" />
+    <input type="hidden" id="br_time_zone" value="0" />
+    <input type="hidden" id="br_tax_inclusive" value="0" />
+    
+    <input type="hidden" id="hdnCurrentDiv" value="divlogin" />
+    <input type="hidden" id="appuserid" value="0" />
+    <input type="hidden" id="loginval" value="0" />
+    <input type="hidden" id="selected_branch_id" value="0" />
+    <input type="hidden" id="db_last_updated_date" value="0" />
+    <input type="hidden" id="customer_id" value="0" />
+    <input type="hidden" id="order_load_type" value="0" />
+    <input type="hidden" id="cust_class_for_order" value="0" />
+    <input type="hidden" id="cust_current_outstanding" value="0" />
+    <input type="hidden" id="cust_max_credit_allowed" value="0" />
+
+    <input type="hidden" id="item_cal_original_price" value="0" />
+    <input type="hidden" id="item_cal_tax_percent" value="0" />
+    <input type="hidden" id="item_cal_cess" value="0" />
+    <input type="hidden" id="item_cal_commision" value="0" />
+
+    <input type="hidden" id="itm_calc_real_total" value="0" />
+    <input type="hidden" id="itm_calc_net_total" value="0" />
+    <input type="hidden" id="itm_calc_dics_amount" value="0" />
+    <input type="hidden" id="itm_calc_tax_amount" value="0" />
+    <input type="hidden" id="itm_calc_commision_amount" value="0" />
+    <input type="hidden" id="itm_calc_cess_amount" value="0" />
+
+    <input type="hidden" id="order_total" value="0" />
+    <input type="hidden" id="order_balance" value="0" />
+    <input type="hidden" id="order_total_tax" value="0" />
+    <input type="hidden" id="order_is_to_be_confirm" value="0" />
+    <input type="hidden" id="sm_price_class" value="0" />
+
+    <input type="hidden" id="order_id" value="0" />
+    <input type="hidden" id="order_branch_id" value="0" />
+    <input type="hidden" id="order_current_status" value="0" />
+    <input type="hidden" id="order_packing_status" value="0" />
+    <input type="hidden" id="order_sel_person_for_delivery" value="0" />
+    <input type="hidden" id="order_is_company_vehicle" value="0" />
+    <input type="hidden" id="order_sel_vehicle_for_delivery" value="0" />
+    <input type="hidden" id="sel_seller_to_process" value="0" />
+    <input type="hidden" id="is_online_action" value="0" />
+    <input type="hidden" id="is_new_registration" value="0" />
+    <input type="hidden" id="current_sm_type" value="0" />
+    <input type="hidden" id="cust_wallet_amount" value="0" />
+    <input type="hidden" id="return_max_qty" value="0" />
+    <input type="hidden" id="total_outstanding_payment" value="0" />
+    <input type="hidden" id="cust_wallet_used_amount" value="0" />
+    <input type="hidden" id="id_seller" value="0" />
+
+    <div class="wrapper" style="background-color:#fff">
+
+        <div class="sidebar" data-background-color="white" data-active-color="info">
+
+            <!--
+                Tip 1: you can change the color of the sidebar's background using: data-background-color="white | black"
+                Tip 2: you can change the color of the active button using the data-active-color="primary | info | success | warning | danger"
+            -->
+
+            <div class="sidebar-wrapper">
+                <div class="logo">
+                    <a href="#" class="simple-text" style="color:#337ab7">
+                        Invoice Me
+                    </a>
+
+                    <div align="center">
+                        <img src="assets/img/gg.png" style="width:25%;margin-bottom:0px;" />
+                        <!--<h5 id="theSelle" style="color:#000;margin-top:0px;"><small style="color:#3091B2;font-size:large" id="Snamedisplay"></small><br /><small id="theSellerBranch"></small></h5>-->
+                    </div>
+                </div>
+
+                <ul class="nav">
+
+                  
+                    <li class="btnhandle" onclick="javascript:showpage('homepage');">
+                        <a href="#">
+                            <i class="ti-home"></i>
+                            <p style="color:#337ab7">Home</p>
+                        </a>
+                    </li>
+
+
+                    <li class="btnhandle" onclick="javascript:showMyOrders(1);">
+                        <a href="#">
+                            <i class="ti-eye"></i>
+                            <p style="color:#337ab7">View Orders</p>
+                        </a>
+                    </li>
+
+
+                    <li class="btnhandle" onclick="javascript:showSettings()">
+                        <a href="#">
+                            <i class="ti-settings"></i>
+                            <p style="color:#337ab7">Settings</p>
+                        </a>
+                    </li>
+
+                    
+
+                    <!--<li class="btnhandle" onclick="javascript:showdivMyNotes()">
+                        <a href="#">
+                            <i class="ti-pencil-alt"></i>
+                            <p style="color:#337ab7">My Notes</p>
+                        </a>
+                    </li>-->
+                    
+
+                    <li class="btnhandle">
+                        <a href="#">
+                            <i style="color: red" class="ti-close"></i>
+                            <p style="color: red">Close</p>
+                        </a>
+                    </li>
+
+                </ul>
+
+
+            </div>
+        </div>
+
+        <div class="main-panel" style="width:100%;height:100%;background-color:#fff">
+
+            <nav class="navbar navbar-default sticky">
+                <div class="container-fluid">
+                    <div class="navbar-header">
+
+                        <table align="center" style="width: 100%">
+                            <tr align="center">
+                                <td>
+                                    <button type="button" class="navbar-header" style="float: left; margin-left: 7px; background-color: transparent; border-color: transparent; outline: none;">
+
+                                        <img src="assets/img/back1.png" id="divBackButton" style="float: left; width: 22px; outline: none; opacity: 1" onclick="javascript:onBackKeyDown();" />
+
+                                    </button>
+                                </td>
+                                <td>
+                                    <div align="center">
+                                        <h5 align="center" style="margin-left: 20%; margin-right: 20%; font-size: 14px; margin-top: 0px; margin-bottom: 0px;" id="mainTitle">Invoice Me</h5>
+                                    </div>
+                                </td>
+                                <td>
+                                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse" style="float: right">
+                                        <span class="sr-only">Toggle navigation</span>
+                                        <span class="icon-bar"></span>
+                                        <span class="icon-bar"></span>
+                                        <span class="icon-bar"></span>
+                                    </button>
+                                </td>
+                            </tr>
+                        </table>
+
+                    </div>
+                    <div class="collapse navbar-collapse">
+                        <ul class="nav navbar-nav navbar-right"></ul>
+
+                    </div>
+                </div>
+            </nav>
+
+            <div id="homepage" class="col-lg-4 col-md-5" style="width:100%;margin-top:58px;display:none">
+                        
+
+                <div class="card" style="width:100%">
+
+                    <div class="content" style="width:100%">
+
+                        
+                        <div align="center">
+                            <img src="assets/img/gg.png" style="width:30%" />
+
+                            <h5 style="color:#337ab7;margin:0px;padding:0px;">Invoice Me <small>Warehouse</small></h5>
+                            <hr style="color:#337ab7" />
+                        </div>
+                        <ul class="list-unstyled team-members">
+
+                           
+                             <li onclick="javascript:show_salesman_list_page();">
+                                <div class="row">
+                                    <div class="col-xs-3">
+                                        <div class="avatar">
+                                            <img src="assets/img/processes.jpg" alt="Circle Image" class="img-circle img-no-padding img-responsive">
+                                        </div>
+                                    </div>
+                                    <div class="col-xs-9">
+                                        <h5 style="margin-bottom:1px;margin-top:1px;">Process Orders</h5>
+
+                                        <span class="text-info"><small>Process Orders & Assign for Delivery</small></span>
+                                    </div>
+
+
+                                </div>
+                            </li>
+
+                            <li style="background-color:#f9f9f9" onclick="javascript:showMyOrders(1);">
+                                <div class="row">
+                                    <div class="col-xs-3">
+                                        <div class="avatar">
+                                            <img src="assets/img/order.png" alt="Circle Image" class="img-circle img-no-padding img-responsive">
+                                        </div>
+                                    </div>
+                                    <div class="col-xs-9">
+                                        <h5 style="margin-bottom:1px;margin-top:1px;">View Orders</h5>
+
+                                        <span class="text-info"><small>Track all orders</small></span>
+                                    </div>
+
+
+                                </div>
+                            </li>
+                           
+
+                           
+
+                            <li style="background-color:#fff" onclick="javascript:showSalesReturnPage();">
+                                <div class="row">
+                                    <div class="col-xs-3">
+                                        <div class="avatar">
+                                            <img src="assets/img/pay_due.png" alt="Circle Image" class="img-circle img-no-padding img-responsive">
+                                        </div>
+                                    </div>
+                                    <div class="col-xs-9">
+                                        <h5 style="margin-bottom:1px;margin-top:1px;">Handle Returns</h5>
+
+                                        <span class="text-info"><small>Process returned items</small></span>
+                                    </div>
+
+
+                                </div>
+                            </li>
+
+                                                       
+
+                        </ul>
+
+                    </div>
+                </div>
+            </div>
+
+            <div id="divlogin" class="col-lg-4 col-md-5" style="width:100%;margin-top:58px;display:none">
+
+                <div class="card" style="width:100%">
+
+                    <div class="content" style="width:100%">
+                        <div align="center">
+                            <img src="assets/img/gg.png" style="width:35%" />
+
+                            <hr style="color:#337ab7" />
+                            <h5 style="color:#337ab7;margin:0px;padding:0px;">Invoice Me <small>Warehouse</small></h5>
+                        </div>
+
+                        <div class="content">
+
+                            <form>
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <div class="form-group">
+                                            <label style="color:#808080">Username</label>
+                                            <input type="text" id="txt_user_name" class="form-control border-input" placeholder="Enter the Username">
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <div class="form-group">
+                                            <label style="color:#808080">Password</label>
+                                            <input type="password" id="txt_user_password" class="form-control border-input" placeholder="Enter the Password">
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
+
+                            <div class="row" style="margin-bottom: 10px;">
+                                <div class="col-md-6">
+                                    <button onclick="javascript:login_user();" style="background-color: #337ab7; color: white; width: 100%; border-radius: 5px; font-size: 20px; border: none; height: 50px;" class="btn btn-info"><i class="ti-user"></i> Login </button>
+
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+                        
+            <div class="col-lg-4 col-md-5" id="divProducts" style="margin-bottom: 0px; margin-top: 62px;display:none">
+       
+                                                <select id="Selectitmtypes" class="form-control border-input" style="border:1px solid #337ab7" onchange="javascript:resetProductSearch();">
+                                                    <!--<option value="0">All Items</option>-->
+                                                    <option value="1">Normal Items</option>
+                                                    <option value="2">Services</option>
+                                                    <option value="3">Coupons</option>
+
+                                                </select>
+
+                <table style="width:100%;margin-top:5px">
+							<tr>
+								<td style="width:50%;">
+									<div>
+										<div class="form-group">
+											
+											<select  id="selectBrands" onchange="javascript:clrSearchBoxandSearch();" style="background-color:white;color:#000" class="form-control border-input" ><option value="x">Brand</option></select>
+										</div>
+									</div>
+								</td>
+								<td style="width:50%">
+									<div>
+										<div class="form-group">
+											
+											<select  id="selectCategory" onchange="javascript:list_items_for_sale(1);" style="background-color:white;color:#000" class="form-control border-input"><option value="x">Category</option></select>
+										</div>
+
+									</div>
+								</td>
+								<td style="width:50%">
+									<div>
+										<div class="form-group">
+											
+											<button onclick="javascript:resetProductSearch();" style="background-color:#337ab7;border-radius:0px" class="btn btn-info"><i class="ti-reload" style="color:#fff"></i></button>
+										</div>
+
+									</div>
+								</td>
+							</tr>
+						</table>
+
+                <div class="input-group input-group-sm" style="margin-bottom: 7px;margin-top:0px">
+					<input type="text" class="form-control" id="txtsearchProducts" onkeyup="javascript:list_items_for_sale(1);" placeholder="Search for Products" style="background-color: #fff; height: 40px; font-size: 17px;border:1px solid #337ab7">
+					<span class="input-group-btn">
+                                    <button type="button" style="height: 40px; font-size: 17px;" class="btn btn-info"><i class="ti-search"></i></button>
+                                </span>
+
+
+				</div>
+
+				<button type="button" style="color: #fff; font-size: 17px; width: 100%; border-radius: 5px; margin-bottom: 7px; margin-top: 0px; background-color: #337ab7; border: 0.5px medium #fff;" onclick="javascript:show_cart_page();" class="btn btn-info"><i class="ti-shopping-cart"></i>  View Cart </button>
+
+				<div class="header">
+
+						<h6 id="newitemheader" onclick="javascript:loadNewItemPopup();" align="right" style="color:#337ab7;font-size:15px;margin-top:1px;display:none"><i class="ti-plus"></i> <b>REQUEST NEW ITEM</b></h6>
+
+						<hr style="margin-top: 1px; margin-bottom: 1px;" /> 
+						<p id="nOfItems" style="color: #808080; font-size: 12px; float: right"></p>
+					</div>
+
+				<div class="card" style="background-color: #fff">
+					
+					<div class="content" style="margin-left: 5px; margin-right: 5px;">
+
+						<div id="dListProduct"></div>
+
+					</div>
+				</div>
+			</div>
+
+            <div class="col-lg-4 col-md-5" id="divProducts_for_add" style="margin-bottom: 0px; margin-top: 62px;display:none">
+       
+                                                <select id="Selectitmtypes_for_add" class="form-control border-input" style="border:1px solid #337ab7" onchange="javascript:resetProductSearch_for_add_product();">
+                                                    <!--<option value="0">All Items</option>-->
+                                                    <option value="1">Normal Items</option>
+                                                    <option value="2">Services</option>
+                                                    <option value="3">Coupons</option>
+
+                                                </select>
+
+                <table style="width:100%;margin-top:5px">
+							<tr>
+								<td style="width:50%;">
+									<div>
+										<div class="form-group">
+											
+											<select  id="selectBrands_for_add" onchange="javascript:clrSearchBoxandSearch_for_add_product();" style="background-color:white;color:#000" class="form-control border-input" ><option value="x">Brand</option></select>
+										</div>
+									</div>
+								</td>
+								<td style="width:50%">
+									<div>
+										<div class="form-group">
+											
+											<select  id="selectCategory_for_add" onchange="javascript:list_items_for_sale_for_add_product(1);" style="background-color:white;color:#000" class="form-control border-input"><option value="x">Category</option></select>
+										</div>
+
+									</div>
+								</td>
+								<td style="width:50%">
+									<div>
+										<div class="form-group">
+											
+											<button onclick="javascript:resetProductSearch_for_add_product();" style="background-color:#337ab7;border-radius:0px" class="btn btn-info"><i class="ti-reload" style="color:#fff"></i></button>
+										</div>
+
+									</div>
+								</td>
+							</tr>
+						</table>
+
+                <div class="input-group input-group-sm" style="margin-bottom: 7px;margin-top:0px">
+					<input type="text" class="form-control" id="txtsearchProducts_for_add" onkeyup="javascript:list_items_for_sale_for_add_product(1);" placeholder="Search for Products" style="background-color: #fff; height: 40px; font-size: 17px;border:1px solid #337ab7">
+					<span class="input-group-btn">
+                                    <button type="button" style="height: 40px; font-size: 17px;" class="btn btn-info"><i class="ti-search"></i></button>
+                                </span>
+
+
+				</div>
+
+				<button type="button" style="color: #fff; font-size: 17px; width: 100%; border-radius: 5px; margin-bottom: 7px; margin-top: 0px; background-color: #337ab7; border: 0.5px medium #fff;" onclick="javascript:show_editcart_with_reload();" class="btn btn-info"><i class="ti-shopping-cart"></i>  View Edit Cart </button>
+
+				<div class="header">
+
+						<h6 id="H18" onclick="javascript:loadNewItemPopup();" align="right" style="color:#337ab7;font-size:15px;margin-top:1px;display:none"><i class="ti-plus"></i> <b>REQUEST NEW ITEM</b></h6>
+
+						<hr style="margin-top: 1px; margin-bottom: 1px;" /> 
+						<p id="P4" style="color: #808080; font-size: 12px; float: right"></p>
+					</div>
+
+				<div class="card" style="background-color: #fff">
+					
+					<div class="content" style="margin-left: 5px; margin-right: 5px;">
+
+						<div id="dListProduct_for_add"></div>
+
+					</div>
+				</div>
+			</div>
+
+            <div id="div_common_sales_return" class="col-lg-12 col-md-12" style="margin-bottom: 0px; margin-top: 62px;display: none">
+
+
+				<div class="card card-user" style="padding-bottom:0px;margin-bottom:1px;">
+
+							<h5 class="title" id="H15" style="color:#337ab7;text-align:center">Handle Sales Return
+                                <small></small>
+
+                                  </h5>
+
+							
+						<table style="width:100%;margin-top:5px;background-color:#f9f9f9">
+							<tr>
+								<td style="width:50%;">
+									<div>
+										<div class="form-group">
+											<label>Select Item Returned User</label>
+											<select  id="select_return_user" onchange="javascript:get_returned_item(1);" style="background-color:white;color:#000" class="form-control border-input" ><option value="0">All Users</option></select>
+										</div>
+									</div>
+								</td>
+                                </tr>
+                            <tr>
+								<td style="width:50%">
+									<div>
+										<div class="form-group">
+											<label>Search Type</label>
+											<select onchange="javascript:get_returned_item(1);"  id="select_return_action" style="background-color:white;color:#000" class="form-control border-input">
+                                                <option value="0">To be Received</option>
+                                                <option value="1">Received (To be Approved)</option>
+                                                <option value="2">Approved</option>
+											</select>
+										</div>
+
+									</div>
+								</td>
+								
+							</tr>
+						</table>
+						
+
+
+				</div>
+
+                <div class="card">
+					
+					<div class="content" style="margin-left: 5px; margin-right: 5px;">
+                         <h6 style="color:#337ab7;text-align:center">Returned Items</h6>
+						<div id="div_searached_return_items"></div>
+                       
+					</div>
+				</div>
+
+
+			</div>
+
+            <div id="div_item_cart" class="col-lg-3 col-sm-12" style="margin-bottom: 0px; margin-top: 55px;display: none;" >
+
+
+				<div class="" style="margin-bottom: 4px;" >
+                    <div class="content">
+                            
+                     <div class="card" >
+                         <div class="content" style="padding:4%">
+                         <div class="row">
+                             <h5 style="text-align:center">ITEM CART <small id="lbl_cart_item_count" style="color:#337ab7"></small></h5>
+                                
+                        <button style="background-color: #337ab7; color: #fff; width: 100%; border-radius: 5px; font-size: 20px; border: none;margin-bottom:5px;height:50px;" class="btn btn-info" onclick="javascript:onBackKeyDown();"> Add more items </button>
+
+                             	
+                         </div>
+                         <div class="row" id="cart_serach_box">
+                             <div class="input-group input-group-sm ">
+                             <input type="text" class="form-control" id="txtsearch_in_cart"  placeholder="Search for items" onkeyup="javscript:list_items_Cart(1);" style="background-color: #fff;border:1px solid #337ab7; height: 40px; font-size: 17px;">
+						<span class="input-group-btn">
+                                    <button type="button" style="color: #fff;background-color:#337ab7; height: 40px; font-size: 17px;" onclick="javscript:list_items_Cart(1);" class="btn btn-info"><i class="ti-search"></i></button>
+                                </span>
+                         </div>
+                         </div>
+
+                             <div id="cartList"></div>
+
+                             <div style="text-align:center">
+                             <h5 style="color:#337ab7" id="lbl_total_values"></h5>
+                         </div>
+
+                             <div class="row">
+                              
+                        <button id="btn_continue_to_last_step" style="background-color: #25a21c; color: #fff; width: 100%; border-radius: 5px; font-size: 20px; border: none;margin-bottom:5px;height:50px;" class="btn btn-info" onclick="javascript:show_complete_orderpage();"> Continue </button>
+
+                             	
+                         </div>
+
+						 </div>
+                         
+                         </div>
+                        </div>
+
+					
+
+				</div>
+			</div>
+
+            <div id="divEditCart" class="col-lg-3 col-sm-12" style="margin-bottom: 0px; margin-top: 55px;display: none;" >
+
+
+				<div class="" style="margin-bottom: 4px;" >
+                    <div class="content">
+                            
+                     <div class="card" >
+                         <div class="content" style="padding:4%">
+                         <div class="row">
+                             <h5 style="text-align:center">EDIT CART <small id="lbl_total_editcart_values" style="color:#337ab7"></small></h5>
+                                
+                       <!-- <button style="background-color: #337ab7; color: #fff; width: 100%; border-radius: 5px; font-size: 20px; border: none;margin-bottom:5px;height:50px;" class="btn btn-info" onclick="javascript:show_product_list_page_for_add_product();"> Add more items </button>
+
+                        -->     	
+                         </div>
+                         <div class="row" id="div_edit_cart_search">
+                             <div class="input-group input-group-sm ">
+                             <input type="text" class="form-control" id="txtsearch_in_edit_cart"  placeholder="Search for items" onkeyup="javscript:list_Edit_cart(1);" style="background-color: #fff;border:1px solid #337ab7; height: 40px; font-size: 17px;">
+						<span class="input-group-btn">
+                                    <button type="button" style="color: #fff;background-color:#337ab7; height: 40px; font-size: 17px;" onclick="javscript:list_Edit_cart(1);" class="btn btn-info"><i class="ti-search"></i></button>
+                                </span>
+                         </div>
+                         </div>
+
+                             <div id="div_edited_cart_list"></div>
+
+                             <div style="text-align:center">
+                             <h5 style="color:#337ab7" id="lbl_edited_cart_amount"></h5>
+                         </div>
+
+                             <div class="row">
+                              
+                        <button id="Button6" style="background-color: #25a21c; color: #fff; width: 100%; border-radius: 5px; font-size: 20px; border: none;margin-bottom:5px;height:50px;" class="btn btn-info" onclick="javascript:complete_editing();"> Complete Editing </button>
+
+                             	
+                         </div>
+
+						 </div>
+                         
+                         </div>
+                        </div>
+
+					
+
+				</div>
+			</div>
+
+            <div id="div_return_cart" class="col-lg-3 col-sm-12" style="margin-bottom: 0px; margin-top: 55px;display: none;" >
+
+
+				<div class="" style="margin-bottom: 4px;" >
+                    <div class="content">
+                            
+                     <div class="card" >
+                         <div class="content" style="padding:4%">
+                         <div class="row">
+                             <h5 style="text-align:center">RETURN CART <small id="lbl_total_return_values" style="color:#337ab7"></small></h5>
+                                
+                        <button style="background-color: #337ab7; color: #fff; width: 100%; border-radius: 5px; font-size: 20px; border: none;margin-bottom:5px;height:50px;" class="btn btn-info" onclick="javascript:onBackKeyDown();"> Add more items </button>
+
+                             	
+                         </div>
+                         <div class="row" id="rt_cart_serach_box">
+                             <div class="input-group input-group-sm ">
+                             <input type="text" class="form-control" id="txtsearch_in_return_cart"  placeholder="Search for items" onkeyup="javscript:list_items_in_return_cart(1);" style="background-color: #fff;border:1px solid #337ab7; height: 40px; font-size: 17px;">
+						<span class="input-group-btn">
+                                    <button type="button" style="color: #fff;background-color:#337ab7; height: 40px; font-size: 17px;" onclick="javscript:list_items_in_return_cart(1);" class="btn btn-info"><i class="ti-search"></i></button>
+                                </span>
+                         </div>
+                         </div>
+
+                             <div id="return_cartList" ></div>
+
+                             <div style="text-align:center">
+                             <h6 style="color:#337ab7" id="lbl_return_amount"></h6>
+                         </div>
+
+                             <div class="row">
+                              
+                        <button id="btnrtn_continue_to_last_step" style="background-color: #25a21c; color: #fff; width: 100%; border-radius: 5px; font-size: 20px; border: none;margin-bottom:5px;height:50px;margin-top:7px" class="btn btn-info" onclick="javascript:complete_sales_return();"> Complete Return </button>
+
+                             	
+                         </div>
+
+						 </div>
+                         
+                         </div>
+                        </div>
+
+					
+
+				</div>
+			</div>
+
+            
+            <div id="divMyOrders" class="col-lg-4 col-md-12" style="margin-bottom: 0px; margin-top: 55px;display: none">
+
+                <div class="card" style="background-color: #f9f9f9">
+                    <div class="content">
+
+                        <label style="float:left;color:#337ab7">Warehouse:</label>
+                                                <select id="Select_branch_Orders" class="form-control border-input" onchange="get_Orders(1);">
+
+                                                    <option value="0" selected>ALL WAREHOUSE</option>
+                                                </select>
+
+                        <div id="div_online_order_part">
+                        <table style="width:100%">
+                            <tr>
+                                <td style="width:50%;">
+                                    <div>
+                                        <div class="form-group">
+                                            <label style="color:#337ab7">From</label>
+                                            <input type="text" id="txt_date_orders_from" style="background-color:white;color:#000" class="form-control border-input" placeholder="Start Date">
+                                        </div>
+                                    </div>
+                                </td>
+                                <td style="width:50%">
+                                    <div>
+                                        <div class="form-group">
+                                            <label style="color:#337ab7">To</label>
+                                            <input type="text" id="txt_date_orders_to" style="background-color:white;color:#000" class="form-control border-input" placeholder="End Date">
+                                        </div>
+
+                                    </div>
+                                </td>
+                            </tr>
+                        </table>
+
+                        <table style="width:100%">
+                            <tr>
+                                <td style="width:50%;">
+                                    <div>
+                                        <div class="form-group">
+                                            <label style="color:#337ab7">Order Status</label>
+                                            <select id="Select_Order_Status" style="background-color:white;color:#000" class="form-control border-input">
+                                                <option value="x">All Orders</option>
+                                                <option value="0">New Orders</option>
+                                                <option value="1">Processed Orders</option>
+                                                <option value="2">Delivered Orders</option>
+                                                <option value="4">Cancelled Orders</option>
+                                                <option value="6">Pending Orders</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td style="width:50%">
+                                    <div>
+                                        <div class="form-group">
+                                            <label style="color:#337ab7">Payment Status</label>
+                                            <select id="Select_Payment_Status" style="background-color:white;color:#000" class="form-control border-input">
+                                                <option value="x">All Orders</option>
+                                                <option value="1">Outstanding bills</option>
+                                                <option value="2">Fully paid</option>
+                                            </select>
+                                        </div>
+
+                                    </div>
+                                </td>
+
+                            </tr>
+                        </table>
+
+
+
+                        <div class="row" style="margin-bottom: 10px;">
+                            <div class="col-md-12">
+                                <button onclick="javascript:get_Orders(1);" style="background-color: #337ab7; color: #f8f8f8; width: 100%; border-radius: 5px; font-size: 20px; border: none; -webkit-box-shadow: 0 6px 10px -6px #222; -moz-box-shadow: 0 6px 10px -6px #222; box-shadow: 0 6px 10px -6px #222;"
+                                        class="btn btn-info">
+                                    <i class="ti-eye"></i> Get Orders
+                                </button>
+
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="card">
+                    <!--<div class="header">
+                    <h5 class="title" align="center" id="delspecific" style="color: #337ab7;">Orders</h5>
+                    <hr style="margin-top: 1px; margin-bottom: 1px;" />-->
+                    <p id="P1" style="color: #808080; font-size: 12px; float: right"></p>
+                    <!--</div>-->
+
+
+
+                    <div class="content" style="margin-left: 5px; margin-right: 5px;">
+
+                        <div id="div_List_Orders"></div>
+
+                    </div>
+                </div>
+            </div>
+
+            <div id="divListSalesforProcess" class="col-lg-4 col-md-12" style="margin-bottom: 0px; margin-top: 55px;display: none">
+
+                <div class="card" style="background-color: #f9f9f9">
+                    <div class="content">
+                        <h6 style="text-align:center;margin-top:10px;color:#337ab7">Choose a Salesman</h6>
+                    </div>
+                    <select id="Select_branch_for_process" class="form-control border-input" style="background-color: #fff; font-size: 17px; color: #808080;margin-bottom:1%;" onchange="changeOrderPaymentType()">
+                               <option value="0" selected>All Branches</option>                               
+                            </select>
+                </div>
+
+                  
+
+                <div class="card">
+                    <!--<div class="header">
+                    <h5 class="title" align="center" id="delspecific" style="color: #337ab7;">Orders</h5>
+                    <hr style="margin-top: 1px; margin-bottom: 1px;" />-->
+                    <p id="P2" style="color: #808080; font-size: 12px; float: right"></p>
+                    <!--</div>-->
+
+
+
+                    <div class="content" style="margin-left: 5px; margin-right: 5px;">
+
+                        <div id="div_sales_list"></div>
+
+                    </div>
+                </div>
+            </div>
+
+            <div id="divListSellerOrder" class="col-lg-4 col-md-12" style="margin-bottom: 0px; margin-top: 55px;display: none">
+
+                <div class="card" style="background-color: #f9f9f9">
+                    <div class="content">
+                        <h6 style="text-align:center;margin-top:10px;color:#337ab7">Orders</h6>
+                    </div>
+                    
+                </div>
+
+                 
+                <div class="card">
+                    <!--<div class="header">
+                    <h5 class="title" align="center" id="delspecific" style="color: #337ab7;">Orders</h5>
+                    <hr style="margin-top: 1px; margin-bottom: 1px;" />-->
+                    <p id="P3" style="color: #808080; font-size: 12px; float: right"></p>
+                    <!--</div>-->
+
+
+
+                    <div class="content" style="margin-left: 5px; margin-right: 5px;">
+
+                        <div id="div_list_seller_orders"></div>
+
+                    </div>
+                </div>
+            </div>
+                                  
+            <div id="div_order_transactions" class="col-lg-4 col-md-12" style="margin-bottom: 0px; margin-top: 55px;display: none">
+
+				<div class="card" style="background-color: #fff">
+					<div class="content">
+						<h5 style="text-align:center;color:#337ab7">Order Activities</h5>                                      
+						
+					</div>
+				</div>
+
+				<div class="card">
+					<div class="header"><h6 class="title" align="center" id="H24" style="color: #337ab7;"><b>Transaction List</b></h6></div>
+	
+					<div class="content" style="margin-left: 5px; margin-right: 5px;">
+
+						<div id="div_list_order_activities"></div>
+
+					</div>
+				</div>
+
+                <div class="row" style="margin-bottom: 10px;" onclick="javascript:onBackKeyDown();">
+									<div class="col-md-6">
+										<button style="background-color:transparent; color: black; width: 100%; border-radius: 5px; font-size: 20px; border: none; " class="btn btn-info"><i class="ti-back-left"></i> Go Back </button>
+
+									</div>
+								</div>
+			</div>
+
+          
+            <div id="div_Settings" class="col-lg-3 col-sm-6" style="margin-bottom: 0px; margin-top: 55px;display: none">
+
+				<div class="card" style="margin-bottom: 4px;">
+					<div class="content">
+						<div class="row">
+							<div class="col-md-6">
+								<div class="box">
+									<div class="box-header" align="center">
+									</div>
+									<div align="center">
+										<img src="assets/img/gg.png" style="width: 30%; margin-bottom: 5px;margin-top:25px" />
+                                        <h5 style="color:#337ab7">Invoice Me <small> Warehouse</small></h5>
+									</div>
+                                    
+									<!-- /.box-header -->
+									<div class="box-body no-padding" style="text-align:center">
+                                        <hr />
+                                        <p style="color:#25a21c;font-size:12px">Logged In as</p>
+                                        <h5 style="color:#337ab7" id="lbl_settings_name">Vishnudas A <br /><small> Warehouse</small></h5>
+									</div>
+
+									<div class="row" style="margin-bottom: 5px;margin-bottom: 5px;">
+										<div class="col-md-12">
+											<div class="form-group">
+												<label for="selPrintDevices">Choose printing device</label>
+												<select name="" id="selPrintDevices" class="form-control border-input col-xs-6 ">
+									        <option value="0">--select--</option>
+									      </select>
+												<button onclick="javascript:connectDevice();" style="margin-top:5px;background-color: #337ab7; color: #f8f8f8; width: 100%; border-radius: 5px; font-size: 20px; border: none; height: 50px; -webkit-box-shadow: 0 6px 10px -6px #222; -moz-box-shadow: 0 6px 10px -6px #222; box-shadow: 0 6px 10px -6px #222;"
+														class="btn btn-info"> Connect </button>
+											</div>
+										</div>
+									</div>
+									<div class="row" style="margin-bottom: 10px;">
+										<div class="col-md-12">
+											<button onclick="javascript:logout_user();" style="background-color: #337ab7; color: #f8f8f8; width: 100%; border-radius: 5px; font-size: 20px; border: none; height: 50px; -webkit-box-shadow: 0 6px 10px -6px #222; -moz-box-shadow: 0 6px 10px -6px #222; box-shadow: 0 6px 10px -6px #222;"
+											    class="btn btn-info"><i class="ti-lock"></i> Log Out </button>
+
+										</div>
+									</div>
+                                    <hr />
+                                    
+
+									<!-- /.box-body -->
+								</div>
+								<!-- /.box -->
+							</div>
+
+						</div>
+					</div>
+				</div>
+			</div>
+          
+            <div id="divOrderExpanded" class="col-lg-3 col-sm-12" style="margin-bottom: 0px; margin-top: 62px;display: none">
+
+				<div class="card" style="margin-bottom: 4px;">
+
+					
+
+								<div class="box-header" align="left">
+									<div style="display: inline-block;margin-bottom:2px;">
+										<div style="color: #337ab7;font-size:16px;" class="box-title" id="over_orderid"></div>
+										<span style="color:#909090" id="over_orderdate"></span><span style="color:#337ab7" id="spanordertype"></span>
+                                        <br /><span style="color:#337ab7" id="spanPayType"></span>
+                                        <span style="color:#b53131" id="spanPriceCLass"></span>
+									</div>
+
+                                    <select id="SelectspanPayType1" class="form-control border-input" style="background-color: #fff; font-size: 17px; color: #808080;margin-bottom:1%;display:none" onchange="changeOrderPaymentType()">
+                               <option value="0" selected>Choose order payment type</option>
+                               <option value="1" >Cash</option>
+                               <option value="2" >Credit</option>
+                               <option value="3" >Bill to bill</option>
+
+
+                            </select>
+
+
+									<div style="display: inline-block;float: right;">
+										<div id="over_image">
+
+										</div>
+									</div>
+								</div>
+
+								<div style="width:100%;border-bottom:1px solid #c1c0c0;"></div>
+
+								<!-- /.box-header -->
+								<div class="">
+									<div id="Div8">
+										<div align="left" style="margin-bottom:2px;margin-top:10px;">
+											<div>
+												<h5 class="title" id="over_storename" style="margin-top:1px;margin-bottom:1px;color:#337ab7"></h5></div>
+										</div>
+										<div id="divOrderHandlers">
+											
+										</div>
+										<div style="width:100%;border-bottom:1px solid #c1c0c0;"></div>
+										<div id="divBillHeader">
+											<div class="row">
+												<div class="col-xs-4">Bill Amount</div>
+												<div class="col-xs-8">: <span style="color:#337ab7;font-size:16px;font-weight:bold" id="over_billamt">0.00 </span></div>
+											</div>
+                                            <div class="row">
+												<div class="col-xs-4">Tax Amount</div>
+												<div class="col-xs-8">: <span style="color:#337ab7;font-size:16px;font-weight:bold" id="over_tax_amount">0.00 </span></div>
+											</div>
+											<div class="row">
+												<div class="col-xs-4">Balance</div>
+												<div class="col-xs-8">: <span style="color:red;font-size:16px;font-weight:bold" id="newbalanceafter">0.00 </span></div>
+											</div>
+										</div>
+
+
+									</div>
+								</div>
+
+
+								<!-- /.box-header -->
+								
+								<div class="content" style="padding:4%">
+                                    <p style="text-align:center">PARTICULARS</p>
+                                    <div class="row" id="Div2">
+                             <div class="input-group input-group-sm ">
+                             <input type="text" class="form-control" id="txt_order_item_cart_search"  placeholder="Search in order items" onkeyup="javscript:display_order_items(1);" style="background-color: #fff;border:1px solid #337ab7; height: 40px; font-size: 17px;">
+						<span class="input-group-btn">
+                                    <button type="button" style="color: #fff;background-color:#337ab7; height: 40px; font-size: 17px;" onclick="javscript:list_items_Cart(1);" class="btn btn-info"><i class="ti-search"></i></button>
+                                </span>
+                         </div>
+                         </div>
+
+                                    
+									<div id="items_in_the_order">
+									</div>
+								</div>
+
+                    <table style="width:100%;margin-bottom:1px;padding-bottom:1px;text-align:center;table-layout: fixed;">
+                    <p style="text-align:center;font-size:10px">CHOOSE AN ACTION</p>
+                                <tr style="padding-bottom:0px;margin-bottom:1px;width:100%">
+
+                                    <td id="id_process_order_btn" style="border:solid 4px #fff;width:33.33%;background-color:#337ab7;display:none" onclick="javascript:load_popup_for_status();">
+                                        <div class="col-md-4 col-md-offset-1">
+                                            <h6 id="H14" style="font-size:17px;margin-top:5px;margin-bottom:5px;"><i class="ti-truck" style="color:#fff"></i><br /><small style="color:#fff">PROCESS ORDER</small></h6>
+                                        </div>
+                                    </td>
+                                    <td id="id_activity_order_btn" style="border:solid 4px #fff;width:33.33%;background-color:#337ab7;display:none" onclick="show_order_activities();">
+                                        <div class="col-md-4 col-md-offset-1">
+                                            <h6 id="H22" style="font-size:17px;margin-top:5px;margin-bottom:5px;"><i class="ti-receipt" style="color:#fff"></i><br /><small style="color:#fff">VIEW ALL ACTIVITIES</small></h6>
+                                        </div>
+                                    </td>
+                                    <td style="border:solid 4px #fff;width:33.33%;background-color:#337ab7" onclick="load_print_options();">
+                                        <div class="col-md-4 col-md-offset-1">
+                                            <h6 id="H1" style="font-size:17px;margin-top:5px;margin-bottom:5px;"><i class="ti-printer" style="color:#fff"></i><br /><small style="color:#fff">PRINT ORDER</small></h6>
+                                        </div>
+                                    </td>
+                                    <td style="border:solid 4px #fff;width:33.33%;background-color:#337ab7" onclick="javascript:load_items_for_edit();">
+                                        <div class="col-md-4 col-md-offset-1">
+                                            <h6 id="H19" style="font-size:17px;margin-top:5px;margin-bottom:5px;"><i class="ti-pencil" style="color:#fff"></i><br /><small style="color:#fff">EDIT ORDER</small></h6>
+                                        </div>
+                                    </td>
+                                    
+                                </tr>
+
+                    
+
+                    
+
+                            </table>
+
+                  
+								
+								<div class="row" style="margin-bottom: 10px;" onclick="javascript:onBackKeyDown();">
+									<div class="col-md-6">
+										<button style="background-color:transparent; color: black; width: 100%; border-radius: 5px; font-size: 20px; border: none; " class="btn btn-info"><i class="ti-back-left"></i> Go Back </button>
+
+									</div>
+								</div>
+
+
+
+					
+
+				</div>
+			</div>
+
+            
+
+
+
+        </div>
+    </div>
+
+
+</body>
+
+<!--   Core JS Files   -->
+<script src="assets/js/jquery-1.10.2.js" type="text/javascript"></script>
+<script src="assets/js/bootstrap.min.js" type="text/javascript"></script>
+<!--  Checkbox, Radio & Switch Plugins -->
+<!--<script src="assets/js/bootstrap-checkbox-radio.js"></script>-->
+<!--  Charts Plugin -->
+<!--<script src="assets/js/chartist.min.js"></script>-->
+<!--  Notifications Plugin    -->
+<!--<script src="assets/js/bootstrap-notify.js"></script>-->
+<!--  Google Maps Plugin
+    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js"></script>    -->
+<!-- Paper Dashboard Core javascript and methods for Demo purpose -->
+<script src="assets/js/paper-dashboard.js"></script>
+
+<!-- Paper Dashboard DEMO methods, don't include it in your project! -->
+<script src="assets/js/bootbox.min.js"></script>
+<script src="assets/mobiscroll/js/mobiscroll-2.0rc3.full.min.js"></script>
+
+<script src="assets/js/warehouse.js"></script>
+<script type="text/javascript" src="cordova.js"></script>
+<script type="text/javascript">
+
+	$(document).ready(function() {
+
+		document.addEventListener("backbutton", onBackMove, false);
+		document.addEventListener("deviceready", onDeviceReady, false);
+	});
+
+</script>
+
+</html>

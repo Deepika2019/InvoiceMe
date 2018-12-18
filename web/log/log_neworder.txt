@@ -1,0 +1,3356 @@
+
+=======================================================================================
+2017-02-07 17:24:54:4719
+-------------------------------
+StackTrace:   at commonfunction.mySqlConnection.SelectQueryForTransaction(String strQuery) in f:\Test Project\lifelinebilling\commonfunction\mySqlConnection.cs:line 275
+   at sales_neworder.saveToSalesMaster(String MemberId, String MemberName, String TotalCost, String TotalDiscountRate, String TotalDiscountAmount, String Tax, String userid, String TotalAmount, String TotalCurrentAmount, String TotalBalanceAmount, String TotalPaidinFull, String BankName, String ChequeAmount, String ChequeDate, String ChequeNo, String CardAmount, String CardNo, String CardType, String CardBank, String CashAmount, String CountryId, String BranchId, String SpecialNote, String outstandingBillDate, String TimeZone, String tableString, Int32 rowCount, String PosCurrentPaidAmount, String PosBalanceAmount, String deliverstatus, String walletamt, String creditamount) in f:\Test Project\lifelinebilling\web\sales\neworder.aspx.cs:line 421
+
+-------------------------------
+Message:Table 'test_lifeline.tbl_itembranch_stock1' doesn't exist
+
+-------------------------------
+InnerException:
+
+-------------------------------
+Source:commonfunction
+
+-------------------------------
+
+=======================================================================================
+
+=======================================================================================
+2017-02-07 17:35:02:3817
+-------------------------------
+StackTrace:   at commonfunction.mySqlConnection.SelectQueryForTransaction(String strQuery) in f:\Test Project\lifelinebilling\commonfunction\mySqlConnection.cs:line 275
+   at sales_neworder.saveToSalesMaster(String MemberId, String MemberName, String TotalCost, String TotalDiscountRate, String TotalDiscountAmount, String Tax, String userid, String TotalAmount, String TotalCurrentAmount, String TotalBalanceAmount, String TotalPaidinFull, String BankName, String ChequeAmount, String ChequeDate, String ChequeNo, String CardAmount, String CardNo, String CardType, String CardBank, String CashAmount, String CountryId, String BranchId, String SpecialNote, String outstandingBillDate, String TimeZone, String tableString, Int32 rowCount, String PosCurrentPaidAmount, String PosBalanceAmount, String deliverstatus, String walletamt, String creditamount) in f:\Test Project\lifelinebilling\web\sales\neworder.aspx.cs:line 422
+
+-------------------------------
+Message:Table 'test_lifeline.tbl_itembranch_stock1' doesn't exist
+
+-------------------------------
+InnerException:
+
+-------------------------------
+Source:commonfunction
+
+-------------------------------
+
+=======================================================================================
+
+=======================================================================================
+2017-02-07 18:08:20:5687
+-------------------------------
+StackTrace:   at commonfunction.mySqlConnection.SelectQueryForTransaction(String strQuery) in f:\Test Project\lifelinebilling\commonfunction\mySqlConnection.cs:line 275
+   at sales_neworder.saveToSalesMaster(String MemberId, String MemberName, String TotalCost, String TotalDiscountRate, String TotalDiscountAmount, String Tax, String userid, String TotalAmount, String TotalCurrentAmount, String TotalBalanceAmount, String TotalPaidinFull, String BankName, String ChequeAmount, String ChequeDate, String ChequeNo, String CardAmount, String CardNo, String CardType, String CardBank, String CashAmount, String CountryId, String BranchId, String SpecialNote, String outstandingBillDate, String TimeZone, String tableString, Int32 rowCount, String PosCurrentPaidAmount, String PosBalanceAmount, String deliverstatus, String walletamt, String creditamount) in f:\binu\change\deepika\lifelinebilling\web\sales\neworder.aspx.cs:line 422
+
+-------------------------------
+Message:Table 'test_lifeline.tbl_itembranch_stock1' doesn't exist
+
+-------------------------------
+InnerException:
+
+-------------------------------
+Source:commonfunction
+
+-------------------------------
+
+=======================================================================================
+
+=======================================================================================
+2017-03-24 10:37:44:3888
+-------------------------------
+StackTrace:   at CallSite.Target(Closure , CallSite , Object )
+   at System.Dynamic.UpdateDelegates.UpdateAndExecute1[T0,TRet](CallSite site, T0 arg0)
+   at sales_neworder.saveToSalesMaster(String MemberId, String MemberName, String TotalCost, String TotalDiscountRate, String TotalDiscountAmount, String Tax, String userid, String TotalAmount, String TotalCurrentAmount, String TotalBalanceAmount, String TotalPaidinFull, String BankName, String ChequeAmount, String ChequeDate, String ChequeNo, String CardAmount, String CardNo, String CardType, String CardBank, String CashAmount, String CountryId, String BranchId, String SpecialNote, String outstandingBillDate, String TimeZone, Object tableString, Int32 rowCount, String PosCurrentPaidAmount, String PosBalanceAmount, String deliverstatus, String walletamt, String creditamount) in c:\Users\LPlus-02win10\Desktop\lifelinebilling\web\sales\neworder.aspx.cs:line 379
+
+-------------------------------
+Message:'Newtonsoft.Json.Linq.JValue' does not contain a definition for 'Trim'
+
+-------------------------------
+InnerException:
+
+-------------------------------
+Source:Anonymously Hosted DynamicMethods Assembly
+
+-------------------------------
+
+=======================================================================================
+
+=======================================================================================
+2017-03-24 10:43:24:1568
+-------------------------------
+StackTrace:   at CallSite.Target(Closure , CallSite , Object )
+   at System.Dynamic.UpdateDelegates.UpdateAndExecute1[T0,TRet](CallSite site, T0 arg0)
+   at sales_neworder.saveToSalesMaster(String MemberId, String MemberName, String TotalCost, String TotalDiscountRate, String TotalDiscountAmount, String Tax, String userid, String TotalAmount, String TotalCurrentAmount, String TotalBalanceAmount, String TotalPaidinFull, String BankName, String ChequeAmount, String ChequeDate, String ChequeNo, String CardAmount, String CardNo, String CardType, String CardBank, String CashAmount, String CountryId, String BranchId, String SpecialNote, String outstandingBillDate, String TimeZone, Object tableString, Int32 rowCount, String PosCurrentPaidAmount, String PosBalanceAmount, String deliverstatus, String walletamt, String creditamount) in c:\Users\LPlus-02win10\Desktop\lifelinebilling\web\sales\neworder.aspx.cs:line 481
+
+-------------------------------
+Message:'Newtonsoft.Json.Linq.JValue' does not contain a definition for 'Trim'
+
+-------------------------------
+InnerException:
+
+-------------------------------
+Source:Anonymously Hosted DynamicMethods Assembly
+
+-------------------------------
+
+=======================================================================================
+
+=======================================================================================
+2017-03-24 10:51:04:3654
+-------------------------------
+StackTrace:   at CallSite.Target(Closure , CallSite , Object )
+   at System.Dynamic.UpdateDelegates.UpdateAndExecute1[T0,TRet](CallSite site, T0 arg0)
+   at sales_neworder.saveToSalesMaster(String MemberId, String MemberName, String TotalCost, String TotalDiscountRate, String TotalDiscountAmount, String Tax, String userid, String TotalAmount, String TotalCurrentAmount, String TotalBalanceAmount, String TotalPaidinFull, String BankName, String ChequeAmount, String ChequeDate, String ChequeNo, String CardAmount, String CardNo, String CardType, String CardBank, String CashAmount, String CountryId, String BranchId, String SpecialNote, String outstandingBillDate, String TimeZone, Object tableString, Int32 rowCount, String PosCurrentPaidAmount, String PosBalanceAmount, String deliverstatus, String walletamt, String creditamount) in c:\Users\LPlus-02win10\Desktop\lifelinebilling\web\sales\neworder.aspx.cs:line 513
+
+-------------------------------
+Message:'Newtonsoft.Json.Linq.JValue' does not contain a definition for 'Trim'
+
+-------------------------------
+InnerException:
+
+-------------------------------
+Source:Anonymously Hosted DynamicMethods Assembly
+
+-------------------------------
+
+=======================================================================================
+
+=======================================================================================
+2017-03-24 10:54:19:1750
+-------------------------------
+StackTrace:   at CallSite.Target(Closure , CallSite , Object )
+   at sales_neworder.saveToSalesMaster(String MemberId, String MemberName, String TotalCost, String TotalDiscountRate, String TotalDiscountAmount, String Tax, String userid, String TotalAmount, String TotalCurrentAmount, String TotalBalanceAmount, String TotalPaidinFull, String BankName, String ChequeAmount, String ChequeDate, String ChequeNo, String CardAmount, String CardNo, String CardType, String CardBank, String CashAmount, String CountryId, String BranchId, String SpecialNote, String outstandingBillDate, String TimeZone, Object tableString, Int32 rowCount, String PosCurrentPaidAmount, String PosBalanceAmount, String deliverstatus, String walletamt, String creditamount) in c:\Users\LPlus-02win10\Desktop\lifelinebilling\web\sales\neworder.aspx.cs:line 513
+
+-------------------------------
+Message:'Newtonsoft.Json.Linq.JValue' does not contain a definition for 'Trim'
+
+-------------------------------
+InnerException:
+
+-------------------------------
+Source:Anonymously Hosted DynamicMethods Assembly
+
+-------------------------------
+
+=======================================================================================
+
+=======================================================================================
+2017-09-20 10:17:56:6019
+-------------------------------
+StackTrace:   at System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   at System.Data.DataRowCollection.get_Item(Int32 index)
+   at sales_salesreturn.sales_return(Dictionary`2 return_order) in d:\deepika\lifelinebilling\web\sales\salesreturn.aspx.cs:line 139
+
+-------------------------------
+Message:There is no row at position 0.
+
+-------------------------------
+InnerException:
+
+-------------------------------
+Source:System.Data
+
+-------------------------------
+
+=======================================================================================
+
+=======================================================================================
+2017-09-20 10:22:22:4161
+-------------------------------
+StackTrace:   at System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   at System.Data.DataRowCollection.get_Item(Int32 index)
+   at sales_salesreturn.sales_return(Dictionary`2 return_order) in d:\deepika\lifelinebilling\web\sales\salesreturn.aspx.cs:line 139
+
+-------------------------------
+Message:There is no row at position 0.
+
+-------------------------------
+InnerException:
+
+-------------------------------
+Source:System.Data
+
+-------------------------------
+
+=======================================================================================
+
+=======================================================================================
+2017-09-20 10:24:01:4418
+-------------------------------
+StackTrace:   at System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   at System.Data.DataRowCollection.get_Item(Int32 index)
+   at sales_salesreturn.sales_return(Dictionary`2 return_order) in d:\deepika\lifelinebilling\web\sales\salesreturn.aspx.cs:line 139
+
+-------------------------------
+Message:There is no row at position 0.
+
+-------------------------------
+InnerException:
+
+-------------------------------
+Source:System.Data
+
+-------------------------------
+
+=======================================================================================
+
+=======================================================================================
+2017-09-20 10:24:17:1667
+-------------------------------
+StackTrace:   at System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   at System.Data.DataRowCollection.get_Item(Int32 index)
+   at sales_salesreturn.sales_return(Dictionary`2 return_order) in d:\deepika\lifelinebilling\web\sales\salesreturn.aspx.cs:line 139
+
+-------------------------------
+Message:There is no row at position 0.
+
+-------------------------------
+InnerException:
+
+-------------------------------
+Source:System.Data
+
+-------------------------------
+
+=======================================================================================
+
+=======================================================================================
+2017-10-06 14:28:09:5758
+-------------------------------
+StackTrace:   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Convert.ToInt32(String value)
+   at sales_neworder.saveToSalesMaster(Dictionary`2 neworder) in d:\deepika\lifelinebilling\web\sales\neworder.aspx.cs:line 871
+
+-------------------------------
+Message:Input string was not in a correct format.
+
+-------------------------------
+InnerException:
+
+-------------------------------
+Source:mscorlib
+
+-------------------------------
+
+=======================================================================================
+
+=======================================================================================
+2017-10-06 14:31:46:0705
+-------------------------------
+StackTrace:   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Convert.ToInt32(String value)
+   at sales_neworder.saveToSalesMaster(Dictionary`2 neworder) in d:\deepika\lifelinebilling\web\sales\neworder.aspx.cs:line 872
+
+-------------------------------
+Message:Input string was not in a correct format.
+
+-------------------------------
+InnerException:
+
+-------------------------------
+Source:mscorlib
+
+-------------------------------
+
+=======================================================================================
+
+=======================================================================================
+2017-10-06 14:55:56:3445
+-------------------------------
+StackTrace:   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Convert.ToInt32(String value)
+   at sales_neworder.saveToSalesMaster(Dictionary`2 neworder) in d:\deepika\lifelinebilling\web\sales\neworder.aspx.cs:line 872
+
+-------------------------------
+Message:Input string was not in a correct format.
+
+-------------------------------
+InnerException:
+
+-------------------------------
+Source:mscorlib
+
+-------------------------------
+
+=======================================================================================
+
+=======================================================================================
+2017-10-06 14:56:33:8952
+-------------------------------
+StackTrace:   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Convert.ToInt32(String value)
+   at sales_neworder.saveToSalesMaster(Dictionary`2 neworder) in d:\deepika\lifelinebilling\web\sales\neworder.aspx.cs:line 872
+
+-------------------------------
+Message:Input string was not in a correct format.
+
+-------------------------------
+InnerException:
+
+-------------------------------
+Source:mscorlib
+
+-------------------------------
+
+=======================================================================================
+
+=======================================================================================
+2017-10-06 15:02:41:4933
+-------------------------------
+StackTrace:   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Convert.ToInt32(String value)
+   at sales_neworder.saveToSalesMaster(Dictionary`2 neworder) in d:\deepika\lifelinebilling\web\sales\neworder.aspx.cs:line 872
+
+-------------------------------
+Message:Input string was not in a correct format.
+
+-------------------------------
+InnerException:
+
+-------------------------------
+Source:mscorlib
+
+-------------------------------
+
+=======================================================================================
+
+=======================================================================================
+2017-10-06 15:27:19:1648
+-------------------------------
+StackTrace:   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Convert.ToInt32(String value)
+   at sales_neworder.saveToSalesMaster(Dictionary`2 neworder) in d:\deepika\lifelinebilling\web\sales\neworder.aspx.cs:line 874
+
+-------------------------------
+Message:Input string was not in a correct format.
+
+-------------------------------
+InnerException:
+
+-------------------------------
+Source:mscorlib
+
+-------------------------------
+
+=======================================================================================
+
+=======================================================================================
+2017-10-06 15:29:37:7010
+-------------------------------
+StackTrace:   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Convert.ToInt32(String value)
+   at sales_neworder.saveToSalesMaster(Dictionary`2 neworder) in d:\deepika\lifelinebilling\web\sales\neworder.aspx.cs:line 874
+
+-------------------------------
+Message:Input string was not in a correct format.
+
+-------------------------------
+InnerException:
+
+-------------------------------
+Source:mscorlib
+
+-------------------------------
+
+=======================================================================================
+
+=======================================================================================
+2017-10-06 18:25:38:3915
+-------------------------------
+StackTrace:   at commonfunction.mySqlConnection.ExecuteQueryForTransaction(String strQuery) in c:\Users\neo\Desktop\lifelinebilling\commonfunction\mySqlConnection.cs:line 223
+   at sales_neworder.saveToSalesMaster(Dictionary`2 neworder) in d:\deepika\lifelinebilling\web\sales\neworder.aspx.cs:line 1087
+
+-------------------------------
+Message:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+
+-------------------------------
+InnerException:
+
+-------------------------------
+Source:commonfunction
+
+-------------------------------
+
+=======================================================================================
+
+=======================================================================================
+2017-10-11 12:13:22:9056
+-------------------------------
+StackTrace:   at CallSite.Target(Closure , CallSite , List`1 , Object )
+   at System.Dynamic.UpdateDelegates.UpdateAndExecuteVoid2[T0,T1](CallSite site, T0 arg0, T1 arg1)
+   at sales_neworder.saveToSalesMaster(Dictionary`2 neworder) in d:\deepika\lifelinebilling\web\sales\neworder.aspx.cs:line 921
+
+-------------------------------
+Message:The best overloaded method match for 'System.Collections.Generic.List<string>.Add(string)' has some invalid arguments
+
+-------------------------------
+InnerException:
+
+-------------------------------
+Source:Anonymously Hosted DynamicMethods Assembly
+
+-------------------------------
+
+=======================================================================================
+
+=======================================================================================
+2017-10-11 12:15:45:9693
+-------------------------------
+StackTrace:   at CallSite.Target(Closure , CallSite , List`1 , Object )
+   at System.Dynamic.UpdateDelegates.UpdateAndExecuteVoid2[T0,T1](CallSite site, T0 arg0, T1 arg1)
+   at sales_neworder.saveToSalesMaster(Dictionary`2 neworder) in d:\deepika\lifelinebilling\web\sales\neworder.aspx.cs:line 921
+
+-------------------------------
+Message:The best overloaded method match for 'System.Collections.Generic.List<int>.Add(int)' has some invalid arguments
+
+-------------------------------
+InnerException:
+
+-------------------------------
+Source:Anonymously Hosted DynamicMethods Assembly
+
+-------------------------------
+
+=======================================================================================
+
+=======================================================================================
+2017-10-11 12:23:58:6830
+-------------------------------
+StackTrace:   at CallSite.Target(Closure , CallSite , Object )
+   at System.Dynamic.UpdateDelegates.UpdateAndExecute1[T0,TRet](CallSite site, T0 arg0)
+   at sales_neworder.saveToSalesMaster(Dictionary`2 neworder) in d:\deepika\lifelinebilling\web\sales\neworder.aspx.cs:line 921
+
+-------------------------------
+Message:Cannot implicitly convert type 'string' to 'System.Text.StringBuilder'
+
+-------------------------------
+InnerException:
+
+-------------------------------
+Source:Anonymously Hosted DynamicMethods Assembly
+
+-------------------------------
+
+=======================================================================================
+
+=======================================================================================
+2017-10-11 12:58:25:8586
+-------------------------------
+StackTrace:   at Newtonsoft.Json.Linq.JToken.op_Explicit(JToken value)
+   at CallSite.Target(Closure , CallSite , Object )
+   at System.Dynamic.UpdateDelegates.UpdateAndExecute1[T0,TRet](CallSite site, T0 arg0)
+   at sales_neworder.saveToSalesMaster(Dictionary`2 neworder) in d:\deepika\lifelinebilling\web\sales\neworder.aspx.cs:line 934
+
+-------------------------------
+Message:Can not convert Array to byte array.
+
+-------------------------------
+InnerException:
+
+-------------------------------
+Source:Newtonsoft.Json
+
+-------------------------------
+
+=======================================================================================
+
+=======================================================================================
+2017-10-11 13:04:30:3964
+-------------------------------
+StackTrace:   at CallSite.Target(Closure , CallSite , Object )
+   at System.Dynamic.UpdateDelegates.UpdateAndExecute1[T0,TRet](CallSite site, T0 arg0)
+   at sales_neworder.saveToSalesMaster(Dictionary`2 neworder) in d:\deepika\lifelinebilling\web\sales\neworder.aspx.cs:line 934
+
+-------------------------------
+Message:'Newtonsoft.Json.Linq.JArray' does not contain a definition for 'Length'
+
+-------------------------------
+InnerException:
+
+-------------------------------
+Source:Anonymously Hosted DynamicMethods Assembly
+
+-------------------------------
+
+=======================================================================================
+
+=======================================================================================
+2017-10-12 12:48:22:1187
+-------------------------------
+StackTrace:   at commonfunction.mySqlConnection.ExecuteQueryForTransaction(String strQuery) in c:\Users\neo\Desktop\lifelinebilling\commonfunction\mySqlConnection.cs:line 223
+   at sales_editorder.editOrder(Dictionary`2 editedorder) in d:\deepika\lifelinebilling\web\sales\editorder.aspx.cs:line 512
+
+-------------------------------
+Message:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '115,131)' at line 1
+
+-------------------------------
+InnerException:
+
+-------------------------------
+Source:commonfunction
+
+-------------------------------
+
+=======================================================================================
+
+=======================================================================================
+2017-10-19 15:16:36:8530
+-------------------------------
+StackTrace:   at System.Data.DataRow.GetDataColumn(String columnName)
+   at System.Data.DataRow.get_Item(String columnName)
+   at sales_neworder.saveToSalesMaster(Dictionary`2 neworder) in d:\deepika\Projects\Jupiter\working\web\sales\neworder.aspx.cs:line 937
+
+-------------------------------
+Message:Column 'itbs_id' does not belong to table .
+
+-------------------------------
+InnerException:
+
+-------------------------------
+Source:System.Data
+
+-------------------------------
+
+=======================================================================================
+
+=======================================================================================
+2017-10-19 15:36:15:8554
+-------------------------------
+StackTrace:   at CallSite.Target(Closure , CallSite , Object , String )
+   at System.Dynamic.UpdateDelegates.UpdateAndExecute2[T0,T1,TRet](CallSite site, T0 arg0, T1 arg1)
+   at sales_neworder.saveToSalesMaster(Dictionary`2 neworder) in d:\deepika\Projects\Jupiter\working\web\sales\neworder.aspx.cs:line 937
+
+-------------------------------
+Message:'Newtonsoft.Json.Linq.JArray' does not contain a definition for 'Select'
+
+-------------------------------
+InnerException:
+
+-------------------------------
+Source:Anonymously Hosted DynamicMethods Assembly
+
+-------------------------------
+
+=======================================================================================
+
+=======================================================================================
+2017-10-19 15:47:14:4411
+-------------------------------
+StackTrace:   at CallSite.Target(Closure , CallSite , Object , String )
+   at System.Dynamic.UpdateDelegates.UpdateAndExecute2[T0,T1,TRet](CallSite site, T0 arg0, T1 arg1)
+   at sales_neworder.saveToSalesMaster(Dictionary`2 neworder) in d:\deepika\Projects\Jupiter\working\web\sales\neworder.aspx.cs:line 937
+
+-------------------------------
+Message:'Newtonsoft.Json.Linq.JArray' does not contain a definition for 'Select'
+
+-------------------------------
+InnerException:
+
+-------------------------------
+Source:Anonymously Hosted DynamicMethods Assembly
+
+-------------------------------
+
+=======================================================================================
+
+=======================================================================================
+2017-10-19 15:50:11:9312
+-------------------------------
+StackTrace:   at CallSite.Target(Closure , CallSite , Object , String )
+   at System.Dynamic.UpdateDelegates.UpdateAndExecute2[T0,T1,TRet](CallSite site, T0 arg0, T1 arg1)
+   at sales_neworder.saveToSalesMaster(Dictionary`2 neworder) in d:\deepika\Projects\Jupiter\working\web\sales\neworder.aspx.cs:line 937
+
+-------------------------------
+Message:'Newtonsoft.Json.Linq.JArray' does not contain a definition for 'Select'
+
+-------------------------------
+InnerException:
+
+-------------------------------
+Source:Anonymously Hosted DynamicMethods Assembly
+
+-------------------------------
+
+=======================================================================================
+
+=======================================================================================
+2017-10-19 15:59:49:3453
+-------------------------------
+StackTrace:   at commonfunction.mySqlConnection.ExecuteQueryForTransaction(String strQuery) in c:\Users\neo\Desktop\lifelinebilling\commonfunction\mySqlConnection.cs:line 223
+   at sales_neworder.saveToSalesMaster(Dictionary`2 neworder) in d:\deepika\Projects\Jupiter\working\web\sales\neworder.aspx.cs:line 1097
+
+-------------------------------
+Message:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+
+-------------------------------
+InnerException:
+
+-------------------------------
+Source:commonfunction
+
+-------------------------------
+
+=======================================================================================
+
+=======================================================================================
+2017-10-19 17:23:37:4689
+-------------------------------
+StackTrace:   at System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   at System.Data.DataRowCollection.get_Item(Int32 index)
+   at sales_editorder.editOrder(Dictionary`2 editedorder) in d:\deepika\Projects\Jupiter\working\web\sales\editorder.aspx.cs:line 670
+
+-------------------------------
+Message:There is no row at position 4.
+
+-------------------------------
+InnerException:
+
+-------------------------------
+Source:System.Data
+
+-------------------------------
+
+=======================================================================================
+
+=======================================================================================
+2017-10-19 17:23:58:1540
+-------------------------------
+StackTrace:   at System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   at System.Data.DataRowCollection.get_Item(Int32 index)
+   at sales_editorder.editOrder(Dictionary`2 editedorder) in d:\deepika\Projects\Jupiter\working\web\sales\editorder.aspx.cs:line 670
+
+-------------------------------
+Message:There is no row at position 4.
+
+-------------------------------
+InnerException:
+
+-------------------------------
+Source:System.Data
+
+-------------------------------
+
+=======================================================================================
+
+=======================================================================================
+2017-10-19 17:26:21:2152
+-------------------------------
+StackTrace:   at System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   at System.Data.DataRowCollection.get_Item(Int32 index)
+   at sales_editorder.editOrder(Dictionary`2 editedorder) in d:\deepika\Projects\Jupiter\working\web\sales\editorder.aspx.cs:line 670
+
+-------------------------------
+Message:There is no row at position 4.
+
+-------------------------------
+InnerException:
+
+-------------------------------
+Source:System.Data
+
+-------------------------------
+
+=======================================================================================
+
+=======================================================================================
+2017-10-19 17:29:55:5535
+-------------------------------
+StackTrace:   at System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   at System.Data.DataRowCollection.get_Item(Int32 index)
+   at sales_editorder.editOrder(Dictionary`2 editedorder) in d:\deepika\Projects\Jupiter\working\web\sales\editorder.aspx.cs:line 670
+
+-------------------------------
+Message:There is no row at position 4.
+
+-------------------------------
+InnerException:
+
+-------------------------------
+Source:System.Data
+
+-------------------------------
+
+=======================================================================================
+
+=======================================================================================
+2017-10-19 17:30:59:8392
+-------------------------------
+StackTrace:   at System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   at System.Data.DataRowCollection.get_Item(Int32 index)
+   at sales_editorder.editOrder(Dictionary`2 editedorder) in d:\deepika\Projects\Jupiter\working\web\sales\editorder.aspx.cs:line 670
+
+-------------------------------
+Message:There is no row at position 4.
+
+-------------------------------
+InnerException:
+
+-------------------------------
+Source:System.Data
+
+-------------------------------
+
+=======================================================================================
+
+=======================================================================================
+2017-10-19 17:31:25:9847
+-------------------------------
+StackTrace:   at System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   at System.Data.DataRowCollection.get_Item(Int32 index)
+   at sales_editorder.editOrder(Dictionary`2 editedorder) in d:\deepika\Projects\Jupiter\working\web\sales\editorder.aspx.cs:line 670
+
+-------------------------------
+Message:There is no row at position 4.
+
+-------------------------------
+InnerException:
+
+-------------------------------
+Source:System.Data
+
+-------------------------------
+
+=======================================================================================
+
+=======================================================================================
+2017-10-19 17:31:50:3591
+-------------------------------
+StackTrace:   at System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   at System.Data.DataRowCollection.get_Item(Int32 index)
+   at sales_editorder.editOrder(Dictionary`2 editedorder) in d:\deepika\Projects\Jupiter\working\web\sales\editorder.aspx.cs:line 670
+
+-------------------------------
+Message:There is no row at position 4.
+
+-------------------------------
+InnerException:
+
+-------------------------------
+Source:System.Data
+
+-------------------------------
+
+=======================================================================================
+
+=======================================================================================
+2017-10-19 17:32:44:7542
+-------------------------------
+StackTrace:   at System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   at System.Data.DataRowCollection.get_Item(Int32 index)
+   at sales_editorder.editOrder(Dictionary`2 editedorder) in d:\deepika\Projects\Jupiter\working\web\sales\editorder.aspx.cs:line 670
+
+-------------------------------
+Message:There is no row at position 4.
+
+-------------------------------
+InnerException:
+
+-------------------------------
+Source:System.Data
+
+-------------------------------
+
+=======================================================================================
+
+=======================================================================================
+2017-10-25 11:26:44:7986
+-------------------------------
+StackTrace:   at commonfunction.mySqlConnection.SelectQueryForTransaction(String strQuery) in c:\Users\neo\Desktop\lifelinebilling\commonfunction\mySqlConnection.cs:line 276
+   at sales_neworder.saveToSalesMaster(Dictionary`2 neworder) in d:\deepika\Projects\Jupiter\working\web\sales\neworder.aspx.cs:line 856
+
+-------------------------------
+Message:Unknown column 'branch_orderStart' in 'field list'
+
+-------------------------------
+InnerException:
+
+-------------------------------
+Source:commonfunction
+
+-------------------------------
+
+=======================================================================================
+
+=======================================================================================
+2017-10-25 11:39:08:5672
+-------------------------------
+StackTrace:   at System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   at System.Data.DataRowCollection.get_Item(Int32 index)
+   at sales_neworder.saveToSalesMaster(Dictionary`2 neworder) in d:\deepika\Projects\Jupiter\working\web\sales\neworder.aspx.cs:line 964
+
+-------------------------------
+Message:There is no row at position -1.
+
+-------------------------------
+InnerException:
+
+-------------------------------
+Source:System.Data
+
+-------------------------------
+
+=======================================================================================
+
+=======================================================================================
+2017-10-25 11:49:30:7808
+-------------------------------
+StackTrace:   at commonfunction.mySqlConnection.SelectQueryForTransaction(String strQuery) in c:\Users\neo\Desktop\lifelinebilling\commonfunction\mySqlConnection.cs:line 276
+   at sales_neworder.saveToSalesMaster(Dictionary`2 neworder) in d:\deepika\Projects\Jupiter\working\web\sales\neworder.aspx.cs:line 933
+
+-------------------------------
+Message:Incorrect parameter count in the call to native function 'instr'
+
+-------------------------------
+InnerException:
+
+-------------------------------
+Source:commonfunction
+
+-------------------------------
+
+=======================================================================================
+
+=======================================================================================
+2017-10-25 11:49:54:7921
+-------------------------------
+StackTrace:   at commonfunction.mySqlConnection.SelectQueryForTransaction(String strQuery) in c:\Users\neo\Desktop\lifelinebilling\commonfunction\mySqlConnection.cs:line 276
+   at sales_neworder.saveToSalesMaster(Dictionary`2 neworder) in d:\deepika\Projects\Jupiter\working\web\sales\neworder.aspx.cs:line 933
+
+-------------------------------
+Message:Incorrect parameter count in the call to native function 'instr'
+
+-------------------------------
+InnerException:
+
+-------------------------------
+Source:commonfunction
+
+-------------------------------
+
+=======================================================================================
+
+=======================================================================================
+2017-10-25 12:18:53:8306
+-------------------------------
+StackTrace:   at commonfunction.mySqlConnection.SelectQueryForTransaction(String strQuery) in c:\Users\neo\Desktop\lifelinebilling\commonfunction\mySqlConnection.cs:line 276
+   at appSalesman.createNewOrder(Dictionary`2 neworder) in d:\deepika\Projects\Jupiter\working\web\appSalesman.aspx.cs:line 4293
+
+-------------------------------
+Message:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')  ORDER BY instr('', itb.itbs_id)' at line 1
+
+-------------------------------
+InnerException:
+
+-------------------------------
+Source:commonfunction
+
+-------------------------------
+
+=======================================================================================
+
+=======================================================================================
+2017-10-25 15:04:48:9738
+-------------------------------
+StackTrace:   at System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   at System.Data.DataRowCollection.get_Item(Int32 index)
+   at appSalesman.createNewOrder(Dictionary`2 neworder) in d:\deepika\Projects\Jupiter\working\web\appSalesman.aspx.cs:line 4317
+
+-------------------------------
+Message:There is no row at position 1.
+
+-------------------------------
+InnerException:
+
+-------------------------------
+Source:System.Data
+
+-------------------------------
+
+=======================================================================================
+
+=======================================================================================
+2017-10-25 15:07:12:5310
+-------------------------------
+StackTrace:   at System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   at System.Data.DataRowCollection.get_Item(Int32 index)
+   at appSalesman.createNewOrder(Dictionary`2 neworder) in d:\deepika\Projects\Jupiter\working\web\appSalesman.aspx.cs:line 4317
+
+-------------------------------
+Message:There is no row at position 1.
+
+-------------------------------
+InnerException:
+
+-------------------------------
+Source:System.Data
+
+-------------------------------
+
+=======================================================================================
+
+=======================================================================================
+2017-10-25 15:12:12:5798
+-------------------------------
+StackTrace:   at System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at Newtonsoft.Json.Linq.JContainer.GetItem(Int32 index)
+   at Newtonsoft.Json.Linq.JArray.get_Item(Int32 index)
+   at CallSite.Target(Closure , CallSite , Object , Int32 )
+   at System.Dynamic.UpdateDelegates.UpdateAndExecute2[T0,T1,TRet](CallSite site, T0 arg0, T1 arg1)
+   at appSalesman.createNewOrder(Dictionary`2 neworder) in d:\deepika\Projects\Jupiter\working\web\appSalesman.aspx.cs:line 4431
+
+-------------------------------
+Message:Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+
+-------------------------------
+InnerException:
+
+-------------------------------
+Source:mscorlib
+
+-------------------------------
+
+=======================================================================================
+
+=======================================================================================
+2017-10-25 15:14:28:9662
+-------------------------------
+StackTrace:   at System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at Newtonsoft.Json.Linq.JContainer.GetItem(Int32 index)
+   at Newtonsoft.Json.Linq.JArray.get_Item(Int32 index)
+   at CallSite.Target(Closure , CallSite , Object , Int32 )
+   at appSalesman.createNewOrder(Dictionary`2 neworder) in d:\deepika\Projects\Jupiter\working\web\appSalesman.aspx.cs:line 4434
+
+-------------------------------
+Message:Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+
+-------------------------------
+InnerException:
+
+-------------------------------
+Source:mscorlib
+
+-------------------------------
+
+=======================================================================================
+
+=======================================================================================
+2017-10-25 15:15:38:2171
+-------------------------------
+StackTrace:   at System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at Newtonsoft.Json.Linq.JContainer.GetItem(Int32 index)
+   at Newtonsoft.Json.Linq.JArray.get_Item(Int32 index)
+   at CallSite.Target(Closure , CallSite , Object , Int32 )
+   at System.Dynamic.UpdateDelegates.UpdateAndExecute2[T0,T1,TRet](CallSite site, T0 arg0, T1 arg1)
+   at appSalesman.createNewOrder(Dictionary`2 neworder) in d:\deepika\Projects\Jupiter\working\web\appSalesman.aspx.cs:line 4434
+
+-------------------------------
+Message:Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+
+-------------------------------
+InnerException:
+
+-------------------------------
+Source:mscorlib
+
+-------------------------------
+
+=======================================================================================
+
+=======================================================================================
+2017-10-25 15:16:00:6254
+-------------------------------
+StackTrace:   at System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at Newtonsoft.Json.Linq.JContainer.GetItem(Int32 index)
+   at Newtonsoft.Json.Linq.JArray.get_Item(Int32 index)
+   at CallSite.Target(Closure , CallSite , Object , Int32 )
+   at appSalesman.createNewOrder(Dictionary`2 neworder) in d:\deepika\Projects\Jupiter\working\web\appSalesman.aspx.cs:line 4434
+
+-------------------------------
+Message:Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+
+-------------------------------
+InnerException:
+
+-------------------------------
+Source:mscorlib
+
+-------------------------------
+
+=======================================================================================
+
+=======================================================================================
+2017-10-25 15:19:31:0905
+-------------------------------
+StackTrace:   at System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at Newtonsoft.Json.Linq.JContainer.GetItem(Int32 index)
+   at Newtonsoft.Json.Linq.JArray.get_Item(Int32 index)
+   at CallSite.Target(Closure , CallSite , Object , Int32 )
+   at System.Dynamic.UpdateDelegates.UpdateAndExecute2[T0,T1,TRet](CallSite site, T0 arg0, T1 arg1)
+   at appSalesman.createNewOrder(Dictionary`2 neworder) in d:\deepika\Projects\Jupiter\working\web\appSalesman.aspx.cs:line 4434
+
+-------------------------------
+Message:Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+
+-------------------------------
+InnerException:
+
+-------------------------------
+Source:mscorlib
+
+-------------------------------
+
+=======================================================================================
+
+=======================================================================================
+2017-10-25 15:19:40:1260
+-------------------------------
+StackTrace:   at System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at Newtonsoft.Json.Linq.JContainer.GetItem(Int32 index)
+   at Newtonsoft.Json.Linq.JArray.get_Item(Int32 index)
+   at CallSite.Target(Closure , CallSite , Object , Int32 )
+   at System.Dynamic.UpdateDelegates.UpdateAndExecute2[T0,T1,TRet](CallSite site, T0 arg0, T1 arg1)
+   at appSalesman.createNewOrder(Dictionary`2 neworder) in d:\deepika\Projects\Jupiter\working\web\appSalesman.aspx.cs:line 4435
+
+-------------------------------
+Message:Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+
+-------------------------------
+InnerException:
+
+-------------------------------
+Source:mscorlib
+
+-------------------------------
+
+=======================================================================================
+
+=======================================================================================
+2017-10-25 15:20:34:6651
+-------------------------------
+StackTrace:   at System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at Newtonsoft.Json.Linq.JContainer.GetItem(Int32 index)
+   at Newtonsoft.Json.Linq.JArray.get_Item(Int32 index)
+   at CallSite.Target(Closure , CallSite , Object , Int32 )
+   at System.Dynamic.UpdateDelegates.UpdateAndExecute2[T0,T1,TRet](CallSite site, T0 arg0, T1 arg1)
+   at appSalesman.createNewOrder(Dictionary`2 neworder) in d:\deepika\Projects\Jupiter\working\web\appSalesman.aspx.cs:line 4435
+
+-------------------------------
+Message:Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+
+-------------------------------
+InnerException:
+
+-------------------------------
+Source:mscorlib
+
+-------------------------------
+
+=======================================================================================
+
+=======================================================================================
+2017-10-25 15:27:08:2697
+-------------------------------
+StackTrace:   at System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   at System.Data.DataRowCollection.get_Item(Int32 index)
+   at appSalesman.createNewOrder(Dictionary`2 neworder) in d:\deepika\Projects\Jupiter\working\web\appSalesman.aspx.cs:line 4317
+
+-------------------------------
+Message:There is no row at position 1.
+
+-------------------------------
+InnerException:
+
+-------------------------------
+Source:System.Data
+
+-------------------------------
+
+=======================================================================================
+
+=======================================================================================
+2017-10-25 15:30:51:3185
+-------------------------------
+StackTrace:   at System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   at System.Data.DataRowCollection.get_Item(Int32 index)
+   at appSalesman.createNewOrder(Dictionary`2 neworder) in d:\deepika\Projects\Jupiter\working\web\appSalesman.aspx.cs:line 4317
+
+-------------------------------
+Message:There is no row at position 1.
+
+-------------------------------
+InnerException:
+
+-------------------------------
+Source:System.Data
+
+-------------------------------
+
+=======================================================================================
+
+=======================================================================================
+2017-10-25 15:53:31:2312
+-------------------------------
+StackTrace:   at Newtonsoft.Json.JsonTextReader.ParseProperty()
+   at Newtonsoft.Json.JsonTextReader.ParseObject()
+   at Newtonsoft.Json.JsonTextReader.Read()
+   at Newtonsoft.Json.JsonReader.ReadAndAssert()
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateObject(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateValueInternal(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.PopulateList(IList list, JsonReader reader, JsonArrayContract contract, JsonProperty containerProperty, String id)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateList(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, Object existingValue, String id)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateValueInternal(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   at Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonSerializer.Deserialize(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value)
+   at appSalesman.createNewOrder(Dictionary`2 neworder) in d:\deepika\Projects\Jupiter\working\web\appSalesman.aspx.cs:line 4184
+
+-------------------------------
+Message:Invalid character after parsing property name. Expected ':' but got: i. Path '[0]', line 1, position 10.
+
+-------------------------------
+InnerException:
+
+-------------------------------
+Source:Newtonsoft.Json
+
+-------------------------------
+
+=======================================================================================
+
+=======================================================================================
+2017-10-25 15:56:42:5021
+-------------------------------
+StackTrace:   at Newtonsoft.Json.JsonTextReader.ParseProperty()
+   at Newtonsoft.Json.JsonTextReader.ParseObject()
+   at Newtonsoft.Json.JsonTextReader.Read()
+   at Newtonsoft.Json.JsonReader.ReadAndAssert()
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateObject(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateValueInternal(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.PopulateList(IList list, JsonReader reader, JsonArrayContract contract, JsonProperty containerProperty, String id)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateList(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, Object existingValue, String id)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateValueInternal(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   at Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonSerializer.Deserialize(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value)
+   at appSalesman.createNewOrder(Dictionary`2 neworder) in d:\deepika\Projects\Jupiter\working\web\appSalesman.aspx.cs:line 4184
+
+-------------------------------
+Message:Invalid character after parsing property name. Expected ':' but got: i. Path '[0]', line 1, position 10.
+
+-------------------------------
+InnerException:
+
+-------------------------------
+Source:Newtonsoft.Json
+
+-------------------------------
+
+=======================================================================================
+
+=======================================================================================
+2017-10-25 16:01:10:5142
+-------------------------------
+StackTrace:   at Newtonsoft.Json.JsonTextReader.ParsePostValue()
+   at Newtonsoft.Json.JsonTextReader.Read()
+   at Newtonsoft.Json.JsonReader.ReadAndMoveToContent()
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.ReadForType(JsonReader reader, JsonContract contract, Boolean hasConverter)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.PopulateList(IList list, JsonReader reader, JsonArrayContract contract, JsonProperty containerProperty, String id)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateList(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, Object existingValue, String id)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateValueInternal(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   at Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonSerializer.Deserialize(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value)
+   at appSalesman.createNewOrder(Dictionary`2 neworder) in d:\deepika\Projects\Jupiter\working\web\appSalesman.aspx.cs:line 4184
+
+-------------------------------
+Message:After parsing a value an unexpected character was encountered: [. Path '[0]', line 1, position 204.
+
+-------------------------------
+InnerException:
+
+-------------------------------
+Source:Newtonsoft.Json
+
+-------------------------------
+
+=======================================================================================
+
+=======================================================================================
+2017-10-26 10:15:02:1346
+-------------------------------
+StackTrace:   at System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   at System.Data.DataRowCollection.get_Item(Int32 index)
+   at appSalesman.createNewOrder(Dictionary`2 neworder) in d:\deepika\Projects\Jupiter\working\web\appSalesman.aspx.cs:line 4317
+
+-------------------------------
+Message:There is no row at position 1.
+
+-------------------------------
+InnerException:
+
+-------------------------------
+Source:System.Data
+
+-------------------------------
+
+=======================================================================================
+
+=======================================================================================
+2017-10-30 14:36:45:7422
+-------------------------------
+StackTrace:   at commonfunction.mySqlConnection.SelectQueryForTransaction(String strQuery) in c:\Users\neo\Desktop\lifelinebilling\commonfunction\mySqlConnection.cs:line 276
+   at sales_neworder.saveToSalesMaster(Dictionary`2 neworder) in d:\deepika\Projects\GGBillcrm\working\web\sales\neworder.aspx.cs:line 856
+
+-------------------------------
+Message:Unknown column 'branch_orderStart' in 'field list'
+
+-------------------------------
+InnerException:
+
+-------------------------------
+Source:commonfunction
+
+-------------------------------
+
+=======================================================================================
+
+=======================================================================================
+2017-10-30 15:11:15:5966
+-------------------------------
+StackTrace:   at commonfunction.mySqlConnection.SelectQueryForTransaction(String strQuery) in c:\Users\neo\Desktop\lifelinebilling\commonfunction\mySqlConnection.cs:line 276
+   at sales_neworder.saveToSalesMaster(Dictionary`2 neworder) in d:\deepika\Projects\GGBillcrm\working\web\sales\neworder.aspx.cs:line 856
+
+-------------------------------
+Message:Unknown column 'branch_orderStart' in 'field list'
+
+-------------------------------
+InnerException:
+
+-------------------------------
+Source:commonfunction
+
+-------------------------------
+
+=======================================================================================
+
+=======================================================================================
+2017-11-06 11:19:14:6246
+-------------------------------
+StackTrace:   at System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   at System.Data.DataRowCollection.get_Item(Int32 index)
+   at sales_editorder.editOrder(Dictionary`2 editedorder) in d:\deepika\Projects\GGBillcrm\working\web\sales\editorder.aspx.cs:line 679
+
+-------------------------------
+Message:There is no row at position 2.
+
+-------------------------------
+InnerException:
+
+-------------------------------
+Source:System.Data
+
+-------------------------------
+
+=======================================================================================
+
+=======================================================================================
+2017-11-06 11:27:38:8424
+-------------------------------
+StackTrace:   at System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   at System.Data.DataRowCollection.get_Item(Int32 index)
+   at sales_editorder.editOrder(Dictionary`2 editedorder) in d:\deepika\Projects\GGBillcrm\working\web\sales\editorder.aspx.cs:line 679
+
+-------------------------------
+Message:There is no row at position 2.
+
+-------------------------------
+InnerException:
+
+-------------------------------
+Source:System.Data
+
+-------------------------------
+
+=======================================================================================
+
+=======================================================================================
+2017-11-06 11:27:49:7991
+-------------------------------
+StackTrace:   at System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   at System.Data.DataRowCollection.get_Item(Int32 index)
+   at sales_editorder.editOrder(Dictionary`2 editedorder) in d:\deepika\Projects\GGBillcrm\working\web\sales\editorder.aspx.cs:line 679
+
+-------------------------------
+Message:There is no row at position 2.
+
+-------------------------------
+InnerException:
+
+-------------------------------
+Source:System.Data
+
+-------------------------------
+
+=======================================================================================
+
+=======================================================================================
+2017-11-08 09:53:44:2640
+-------------------------------
+StackTrace:   at System.TimeZoneInfo.FindSystemTimeZoneById(String id)
+   at sales_neworder.saveToSalesMaster(Dictionary`2 neworder) in d:\deepika\Projects\hnbilling\working\web\sales\neworder.aspx.cs:line 902
+
+-------------------------------
+Message:The time zone ID 'Nigeria Standard Time' was not found on the local computer.
+
+-------------------------------
+InnerException:
+
+-------------------------------
+Source:mscorlib
+
+-------------------------------
+
+=======================================================================================
+
+=======================================================================================
+2017-11-30 14:39:33:0101
+-------------------------------
+StackTrace:   at CallSite.Target(Closure , CallSite , Object , Object )
+   at System.Dynamic.UpdateDelegates.UpdateAndExecute2[T0,T1,TRet](CallSite site, T0 arg0, T1 arg1)
+   at sales_neworder.saveToSalesMaster(Dictionary`2 neworder) in d:\deepika\projects\invoiceMe\hnbilling\working\web\sales\neworder.aspx.cs:line 1158
+
+-------------------------------
+Message:Operator '&&' cannot be applied to operands of type 'bool' and 'Newtonsoft.Json.Linq.JValue'
+
+-------------------------------
+InnerException:
+
+-------------------------------
+Source:Anonymously Hosted DynamicMethods Assembly
+
+-------------------------------
+
+=======================================================================================
+
+=======================================================================================
+2017-11-30 14:40:50:5133
+-------------------------------
+StackTrace:   at CallSite.Target(Closure , CallSite , Object , Object )
+   at sales_neworder.saveToSalesMaster(Dictionary`2 neworder) in d:\deepika\projects\invoiceMe\hnbilling\working\web\sales\neworder.aspx.cs:line 1158
+
+-------------------------------
+Message:Operator '&&' cannot be applied to operands of type 'bool' and 'Newtonsoft.Json.Linq.JValue'
+
+-------------------------------
+InnerException:
+
+-------------------------------
+Source:Anonymously Hosted DynamicMethods Assembly
+
+-------------------------------
+
+=======================================================================================
+
+=======================================================================================
+2017-11-30 14:41:36:6131
+-------------------------------
+StackTrace:   at CallSite.Target(Closure , CallSite , Object , Object )
+   at System.Dynamic.UpdateDelegates.UpdateAndExecute2[T0,T1,TRet](CallSite site, T0 arg0, T1 arg1)
+   at sales_neworder.saveToSalesMaster(Dictionary`2 neworder) in d:\deepika\projects\invoiceMe\hnbilling\working\web\sales\neworder.aspx.cs:line 1159
+
+-------------------------------
+Message:Operator '&&' cannot be applied to operands of type 'bool' and 'Newtonsoft.Json.Linq.JValue'
+
+-------------------------------
+InnerException:
+
+-------------------------------
+Source:Anonymously Hosted DynamicMethods Assembly
+
+-------------------------------
+
+=======================================================================================
+
+=======================================================================================
+2017-11-30 14:44:28:3961
+-------------------------------
+StackTrace:   at commonfunction.mySqlConnection.ExecuteQueryForTransaction(String strQuery) in d:\deepika\projects\invoiceMe\hnbilling\working\commonfunction\mySqlConnection.cs:line 223
+   at sales_neworder.saveToSalesMaster(Dictionary`2 neworder) in d:\deepika\projects\invoiceMe\hnbilling\working\web\sales\neworder.aspx.cs:line 1183
+
+-------------------------------
+Message:Column count doesn't match value count at row 1
+
+-------------------------------
+InnerException:
+
+-------------------------------
+Source:commonfunction
+
+-------------------------------
+
+=======================================================================================
+
+=======================================================================================
+2017-11-30 14:48:01:0498
+-------------------------------
+StackTrace:   at commonfunction.mySqlConnection.ExecuteQueryForTransaction(String strQuery) in d:\deepika\projects\invoiceMe\hnbilling\working\commonfunction\mySqlConnection.cs:line 223
+   at sales_neworder.saveToSalesMaster(Dictionary`2 neworder) in d:\deepika\projects\invoiceMe\hnbilling\working\web\sales\neworder.aspx.cs:line 1183
+
+-------------------------------
+Message:Column count doesn't match value count at row 1
+
+-------------------------------
+InnerException:
+
+-------------------------------
+Source:commonfunction
+
+-------------------------------
+
+=======================================================================================
+
+=======================================================================================
+2017-12-12 09:43:11:5001
+-------------------------------
+StackTrace:   at commonfunction.mySqlConnection.ExecuteQueryForTransaction(String strQuery) in d:\deepika\projects\invoiceMe\hnbilling\working\commonfunction\mySqlConnection.cs:line 223
+   at sales_neworder.saveToSalesMaster(Dictionary`2 neworder) in d:\deepika\projects\invoiceMe\hnbilling\working\web\sales\neworder.aspx.cs:line 1138
+
+-------------------------------
+Message:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'sm_total='600',sm_discount_rate='0',sm_discount_amount='0',sm_netamount='600',sm' at line 1
+
+-------------------------------
+InnerException:
+
+-------------------------------
+Source:commonfunction
+
+-------------------------------
+
+=======================================================================================
+
+=======================================================================================
+2017-12-12 09:45:46:4739
+-------------------------------
+StackTrace:   at commonfunction.mySqlConnection.ExecuteQueryForTransaction(String strQuery) in d:\deepika\projects\invoiceMe\hnbilling\working\commonfunction\mySqlConnection.cs:line 223
+   at sales_neworder.saveToSalesMaster(Dictionary`2 neworder) in d:\deepika\projects\invoiceMe\hnbilling\working\web\sales\neworder.aspx.cs:line 1138
+
+-------------------------------
+Message:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'sm_total='600',sm_discount_rate='0',sm_discount_amount='0',sm_netamount='600',sm' at line 1
+
+-------------------------------
+InnerException:
+
+-------------------------------
+Source:commonfunction
+
+-------------------------------
+
+=======================================================================================
+
+=======================================================================================
+2017-12-12 09:47:24:3615
+-------------------------------
+StackTrace:   at commonfunction.mySqlConnection.ExecuteQueryForTransaction(String strQuery) in d:\deepika\projects\invoiceMe\hnbilling\working\commonfunction\mySqlConnection.cs:line 223
+   at sales_neworder.saveToSalesMaster(Dictionary`2 neworder) in d:\deepika\projects\invoiceMe\hnbilling\working\web\sales\neworder.aspx.cs:line 1138
+
+-------------------------------
+Message:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'sm_total='600',sm_discount_rate='0',sm_discount_amount='0',sm_netamount='600',sm' at line 1
+
+-------------------------------
+InnerException:
+
+-------------------------------
+Source:commonfunction
+
+-------------------------------
+
+=======================================================================================
+
+=======================================================================================
+2018-01-25 14:54:23:3105
+-------------------------------
+StackTrace:   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.StreamWriter.CreateFile(String path, Boolean append, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding)
+   at System.IO.File.InternalAppendAllText(String path, String contents, Encoding encoding)
+   at System.IO.File.AppendAllText(String path, String contents)
+   at LogClass..ctor(String pageName) in d:\deepika\projects\invoiceMe\changedHnTransaction\working\web\App_Code\LogClass.cs:line 21
+   at sales_neworder.mailSending(String email, Int32 count) in d:\deepika\projects\invoiceMe\changedHnTransaction\working\web\sales\neworder.aspx.cs:line 853
+   at sales_neworder.saveToSalesMaster(Dictionary`2 neworder) in d:\deepika\projects\invoiceMe\changedHnTransaction\working\web\sales\neworder.aspx.cs:line 789
+
+-------------------------------
+Message:The given path's format is not supported.
+
+-------------------------------
+InnerException:
+
+-------------------------------
+Source:mscorlib
+
+-------------------------------
+
+=======================================================================================
+
+=======================================================================================
+2018-01-30 10:45:41:3945
+-------------------------------
+StackTrace:   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.StreamWriter.CreateFile(String path, Boolean append, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding)
+   at System.IO.File.InternalAppendAllText(String path, String contents, Encoding encoding)
+   at System.IO.File.AppendAllText(String path, String contents)
+   at LogClass..ctor(String pageName) in d:\deepika\projects\invoiceMe\changedHnTransaction\working\web\App_Code\LogClass.cs:line 21
+   at sales_neworder.mailSending(String email, Int32 count) in d:\deepika\projects\invoiceMe\changedHnTransaction\working\web\sales\neworder.aspx.cs:line 853
+   at sales_neworder.saveToSalesMaster(Dictionary`2 neworder) in d:\deepika\projects\invoiceMe\changedHnTransaction\working\web\sales\neworder.aspx.cs:line 789
+
+-------------------------------
+Message:The given path's format is not supported.
+
+-------------------------------
+InnerException:
+
+-------------------------------
+Source:mscorlib
+
+-------------------------------
+
+=======================================================================================
+
+=======================================================================================
+2018-01-30 15:35:09:1561
+-------------------------------
+StackTrace:   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.StreamWriter.CreateFile(String path, Boolean append, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding)
+   at System.IO.File.InternalAppendAllText(String path, String contents, Encoding encoding)
+   at System.IO.File.AppendAllText(String path, String contents)
+   at LogClass..ctor(String pageName) in d:\deepika\projects\invoiceMe\changedHnTransaction\working\web\App_Code\LogClass.cs:line 21
+   at sales_editorder.mailSending(String email, String invoiceNo, String customer, String edited_date) in d:\deepika\projects\invoiceMe\changedHnTransaction\working\web\sales\editorder.aspx.cs:line 1082
+   at sales_editorder.editOrder(Dictionary`2 editedorder) in d:\deepika\projects\invoiceMe\changedHnTransaction\working\web\sales\editorder.aspx.cs:line 1016
+
+-------------------------------
+Message:The given path's format is not supported.
+
+-------------------------------
+InnerException:
+
+-------------------------------
+Source:mscorlib
+
+-------------------------------
+
+=======================================================================================
+
+=======================================================================================
+2018-02-01 16:08:45:5439
+-------------------------------
+StackTrace:   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.StreamWriter.CreateFile(String path, Boolean append, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding)
+   at System.IO.File.InternalAppendAllText(String path, String contents, Encoding encoding)
+   at System.IO.File.AppendAllText(String path, String contents)
+   at LogClass..ctor(String pageName) in d:\deepika\projects\invoiceMe\changedHnTransaction\working\web\App_Code\LogClass.cs:line 21
+   at sales_neworder.mailSending(String email, Int32 count) in d:\deepika\projects\invoiceMe\changedHnTransaction\working\web\sales\neworder.aspx.cs:line 905
+   at sales_neworder.saveToSalesMaster(Dictionary`2 neworder) in d:\deepika\projects\invoiceMe\changedHnTransaction\working\web\sales\neworder.aspx.cs:line 841
+
+-------------------------------
+Message:The given path's format is not supported.
+
+-------------------------------
+InnerException:
+
+-------------------------------
+Source:mscorlib
+
+-------------------------------
+
+=======================================================================================
+
+=======================================================================================
+2018-02-05 18:13:35:2371
+-------------------------------
+StackTrace:   at commonfunction.mySqlConnection.ExecuteQueryForTransaction(String strQuery) in e:\Projects\dotnet\hn\commonfunction\mySqlConnection.cs:line 223
+   at sales_manageorders.updateOrderStatus(String userid, String ordid, String status, String TimeZone, String assignId, String sm_delivery_vehicle_id, String sm_vehicle_no, String ownVehicleUsed, Object approveObject, String custid) in d:\deepika\projects\invoiceMe\changedHnTransaction\working\web\sales\manageorders.aspx.cs:line 299
+
+-------------------------------
+Message:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ELSE itbs_stock END  WHERE itbs_id IN ()' at line 1
+
+-------------------------------
+InnerException:
+
+-------------------------------
+Source:commonfunction
+
+-------------------------------
+
+=======================================================================================
+
+=======================================================================================
+2018-02-05 18:45:19:4114
+-------------------------------
+StackTrace:   at commonfunction.mySqlConnection.ExecuteQueryForTransaction(String strQuery) in e:\Projects\dotnet\hn\commonfunction\mySqlConnection.cs:line 223
+   at sales_manageorders.updateOrderStatus(String userid, String ordid, String status, String TimeZone, String assignId, String sm_delivery_vehicle_id, String sm_vehicle_no, String ownVehicleUsed, Object approveObject, String custid) in d:\deepika\projects\invoiceMe\changedHnTransaction\working\web\sales\manageorders.aspx.cs:line 299
+
+-------------------------------
+Message:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ELSE itbs_stock END  WHERE itbs_id IN ()' at line 1
+
+-------------------------------
+InnerException:
+
+-------------------------------
+Source:commonfunction
+
+-------------------------------
+
+=======================================================================================
+
+=======================================================================================
+2018-02-06 09:41:43:5738
+-------------------------------
+StackTrace:   at commonfunction.mySqlConnection.ExecuteQueryForTransaction(String strQuery) in e:\Projects\dotnet\hn\commonfunction\mySqlConnection.cs:line 223
+   at sales_manageorders.updateOrderStatus(String userid, String ordid, String status, String TimeZone, String assignId, String sm_delivery_vehicle_id, String sm_vehicle_no, String ownVehicleUsed, Object approveObject, String custid) in d:\deepika\projects\invoiceMe\changedHnTransaction\working\web\sales\manageorders.aspx.cs:line 299
+
+-------------------------------
+Message:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ELSE itbs_stock END  WHERE itbs_id IN ()' at line 1
+
+-------------------------------
+InnerException:
+
+-------------------------------
+Source:commonfunction
+
+-------------------------------
+
+=======================================================================================
+
+=======================================================================================
+2018-02-06 09:43:12:2928
+-------------------------------
+StackTrace:   at commonfunction.mySqlConnection.ExecuteQueryForTransaction(String strQuery) in e:\Projects\dotnet\hn\commonfunction\mySqlConnection.cs:line 223
+   at sales_manageorders.updateOrderStatus(String userid, String ordid, String status, String TimeZone, String assignId, String sm_delivery_vehicle_id, String sm_vehicle_no, String ownVehicleUsed, Object approveObject, String custid) in d:\deepika\projects\invoiceMe\changedHnTransaction\working\web\sales\manageorders.aspx.cs:line 299
+
+-------------------------------
+Message:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ELSE itbs_stock END  WHERE itbs_id IN ()' at line 1
+
+-------------------------------
+InnerException:
+
+-------------------------------
+Source:commonfunction
+
+-------------------------------
+
+=======================================================================================
+
+=======================================================================================
+2018-02-06 09:47:50:6018
+-------------------------------
+StackTrace:   at commonfunction.mySqlConnection.ExecuteQueryForTransaction(String strQuery) in e:\Projects\dotnet\hn\commonfunction\mySqlConnection.cs:line 223
+   at sales_manageorders.updateOrderStatus(String userid, String ordid, String status, String TimeZone, String assignId, String sm_delivery_vehicle_id, String sm_vehicle_no, String ownVehicleUsed, Object approveObject, String custid) in d:\deepika\projects\invoiceMe\changedHnTransaction\working\web\sales\manageorders.aspx.cs:line 299
+
+-------------------------------
+Message:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ELSE itbs_stock END  WHERE itbs_id IN ()' at line 1
+
+-------------------------------
+InnerException:
+
+-------------------------------
+Source:commonfunction
+
+-------------------------------
+
+=======================================================================================
+
+=======================================================================================
+2018-02-07 15:55:57:7109
+-------------------------------
+StackTrace:   at commonfunction.mySqlConnection.SelectScalarForTransaction(String strQuery) in e:\Projects\dotnet\hn\commonfunction\mySqlConnection.cs:line 278
+   at sales_neworder.saveToSalesMaster(Dictionary`2 neworder) in f:\Projects\dotnet\hnWorking\web\sales\neworder.aspx.cs:line 468
+
+-------------------------------
+Message:Field 'sm_mandatory_date' doesn't have a default value
+
+-------------------------------
+InnerException:
+
+-------------------------------
+Source:commonfunction
+
+-------------------------------
+
+=======================================================================================
+
+=======================================================================================
+2018-02-07 15:57:24:2450
+-------------------------------
+StackTrace:   at commonfunction.mySqlConnection.ExecuteQueryForTransaction(String strQuery) in e:\Projects\dotnet\hn\commonfunction\mySqlConnection.cs:line 223
+   at sales_neworder.saveToSalesMaster(Dictionary`2 neworder) in f:\Projects\dotnet\hnWorking\web\sales\neworder.aspx.cs:line 672
+
+-------------------------------
+Message:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '11:27:23),('101','1','151','16','Sold 3 2kg Container Desiccant Bag 10bags in or' at line 1
+
+-------------------------------
+InnerException:
+
+-------------------------------
+Source:commonfunction
+
+-------------------------------
+
+=======================================================================================
+
+=======================================================================================
+2018-02-07 15:59:52:7979
+-------------------------------
+StackTrace:   at commonfunction.mySqlConnection.ExecuteQueryForTransaction(String strQuery) in e:\Projects\dotnet\hn\commonfunction\mySqlConnection.cs:line 223
+   at sales_neworder.saveToSalesMaster(Dictionary`2 neworder) in f:\Projects\dotnet\hnWorking\web\sales\neworder.aspx.cs:line 672
+
+-------------------------------
+Message:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '11:28:06),('101','1','152','16','Sold 3 2kg Container Desiccant Bag 10bags in or' at line 1
+
+-------------------------------
+InnerException:
+
+-------------------------------
+Source:commonfunction
+
+-------------------------------
+
+=======================================================================================
+
+=======================================================================================
+2018-02-07 16:01:13:7886
+-------------------------------
+StackTrace:   at commonfunction.mySqlConnection.ExecuteQueryForTransaction(String strQuery) in e:\Projects\dotnet\hn\commonfunction\mySqlConnection.cs:line 223
+   at sales_neworder.saveToSalesMaster(Dictionary`2 neworder) in f:\Projects\dotnet\hnWorking\web\sales\neworder.aspx.cs:line 672
+
+-------------------------------
+Message:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '11:29:58),('101','1','153','16','Sold 3 2kg Container Desiccant Bag 10bags in or' at line 1
+
+-------------------------------
+InnerException:
+
+-------------------------------
+Source:commonfunction
+
+-------------------------------
+
+=======================================================================================
+
+=======================================================================================
+2018-02-07 16:02:05:9836
+-------------------------------
+StackTrace:   at commonfunction.mySqlConnection.ExecuteQueryForTransaction(String strQuery) in e:\Projects\dotnet\hn\commonfunction\mySqlConnection.cs:line 223
+   at sales_neworder.saveToSalesMaster(Dictionary`2 neworder) in f:\Projects\dotnet\hnWorking\web\sales\neworder.aspx.cs:line 803
+
+-------------------------------
+Message:Field 'oa_sales_date' doesn't have a default value
+
+-------------------------------
+InnerException:
+
+-------------------------------
+Source:commonfunction
+
+-------------------------------
+
+=======================================================================================
+
+=======================================================================================
+2018-02-07 16:03:19:7364
+-------------------------------
+StackTrace:   at commonfunction.mySqlConnection.ExecuteQueryForTransaction(String strQuery) in e:\Projects\dotnet\hn\commonfunction\mySqlConnection.cs:line 223
+   at sales_neworder.saveToSalesMaster(Dictionary`2 neworder) in f:\Projects\dotnet\hnWorking\web\sales\neworder.aspx.cs:line 803
+
+-------------------------------
+Message:Field 'oa_sales_date' doesn't have a default value
+
+-------------------------------
+InnerException:
+
+-------------------------------
+Source:commonfunction
+
+-------------------------------
+
+=======================================================================================
+
+=======================================================================================
+2018-02-07 16:07:38:2617
+-------------------------------
+StackTrace:   at System.Security.Permissions.FileIOPermission.EmulateFileIOPermissionChecks(String fullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.StreamWriter.CreateFile(String path, Boolean append, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding)
+   at System.IO.File.InternalAppendAllText(String path, String contents, Encoding encoding)
+   at System.IO.File.AppendAllText(String path, String contents)
+   at LogClass..ctor(String pageName) in f:\Projects\dotnet\hnWorking\web\App_Code\LogClass.cs:line 21
+   at sales_neworder.mailSending(String email, Int32 count) in f:\Projects\dotnet\hnWorking\web\sales\neworder.aspx.cs:line 917
+   at sales_neworder.saveToSalesMaster(Dictionary`2 neworder) in f:\Projects\dotnet\hnWorking\web\sales\neworder.aspx.cs:line 853
+
+-------------------------------
+Message:The given path's format is not supported.
+
+-------------------------------
+InnerException:
+
+-------------------------------
+Source:mscorlib
+
+-------------------------------
+
+=======================================================================================
+
+=======================================================================================
+2018-02-08 14:38:45:4494
+-------------------------------
+StackTrace:   at System.Security.Permissions.FileIOPermission.EmulateFileIOPermissionChecks(String fullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.StreamWriter.CreateFile(String path, Boolean append, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding)
+   at System.IO.File.InternalAppendAllText(String path, String contents, Encoding encoding)
+   at System.IO.File.AppendAllText(String path, String contents)
+   at LogClass..ctor(String pageName) in f:\Projects\dotnet\hnWorking\web\App_Code\LogClass.cs:line 21
+   at sales_editorder.mailSending(String email, String invoiceNo, String customer, String edited_date) in f:\Projects\dotnet\hnWorking\web\sales\editorder.aspx.cs:line 1108
+   at sales_editorder.editOrder(Dictionary`2 editedorder) in f:\Projects\dotnet\hnWorking\web\sales\editorder.aspx.cs:line 1042
+
+-------------------------------
+Message:The given path's format is not supported.
+
+-------------------------------
+InnerException:
+
+-------------------------------
+Source:mscorlib
+
+-------------------------------
+
+=======================================================================================
+
+=======================================================================================
+2018-02-08 14:43:58:4028
+-------------------------------
+StackTrace:   at System.Security.Permissions.FileIOPermission.EmulateFileIOPermissionChecks(String fullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.StreamWriter.CreateFile(String path, Boolean append, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding)
+   at System.IO.File.InternalAppendAllText(String path, String contents, Encoding encoding)
+   at System.IO.File.AppendAllText(String path, String contents)
+   at LogClass..ctor(String pageName) in f:\Projects\dotnet\hnWorking\web\App_Code\LogClass.cs:line 21
+   at sales_editorder.mailSending(String email, String invoiceNo, String customer, String edited_date) in f:\Projects\dotnet\hnWorking\web\sales\editorder.aspx.cs:line 1108
+   at sales_editorder.editOrder(Dictionary`2 editedorder) in f:\Projects\dotnet\hnWorking\web\sales\editorder.aspx.cs:line 1042
+
+-------------------------------
+Message:The given path's format is not supported.
+
+-------------------------------
+InnerException:
+
+-------------------------------
+Source:mscorlib
+
+-------------------------------
+
+=======================================================================================
+
+=======================================================================================
+2018-02-08 14:50:29:3399
+-------------------------------
+StackTrace:   at commonfunction.mySqlConnection.ExecuteQueryForTransaction(String strQuery) in e:\Projects\dotnet\hn\commonfunction\mySqlConnection.cs:line 223
+   at sales_editorder.editOrder(Dictionary`2 editedorder) in f:\Projects\dotnet\hnWorking\web\sales\editorder.aspx.cs:line 700
+
+-------------------------------
+Message:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+
+-------------------------------
+InnerException:
+
+-------------------------------
+Source:commonfunction
+
+-------------------------------
+
+=======================================================================================
+
+=======================================================================================
+2018-02-08 14:52:26:1464
+-------------------------------
+StackTrace:   at commonfunction.mySqlConnection.ExecuteQueryForTransaction(String strQuery) in e:\Projects\dotnet\hn\commonfunction\mySqlConnection.cs:line 223
+   at sales_editorder.editOrder(Dictionary`2 editedorder) in f:\Projects\dotnet\hnWorking\web\sales\editorder.aspx.cs:line 700
+
+-------------------------------
+Message:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+
+-------------------------------
+InnerException:
+
+-------------------------------
+Source:commonfunction
+
+-------------------------------
+
+=======================================================================================
+
+=======================================================================================
+2018-02-08 15:22:58:7209
+-------------------------------
+StackTrace:   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at sales_editorder.editOrder(Dictionary`2 editedorder) in f:\Projects\dotnet\hnWorking\web\sales\editorder.aspx.cs:line 965
+
+-------------------------------
+Message:The given key was not present in the dictionary.
+
+-------------------------------
+InnerException:
+
+-------------------------------
+Source:mscorlib
+
+-------------------------------
+
+=======================================================================================
+
+=======================================================================================
+2018-02-08 15:24:16:7797
+-------------------------------
+StackTrace:   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at sales_editorder.editOrder(Dictionary`2 editedorder) in f:\Projects\dotnet\hnWorking\web\sales\editorder.aspx.cs:line 965
+
+-------------------------------
+Message:The given key was not present in the dictionary.
+
+-------------------------------
+InnerException:
+
+-------------------------------
+Source:mscorlib
+
+-------------------------------
+
+=======================================================================================
+
+=======================================================================================
+2018-02-08 15:26:23:6254
+-------------------------------
+StackTrace:   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at sales_editorder.editOrder(Dictionary`2 editedorder) in f:\Projects\dotnet\hnWorking\web\sales\editorder.aspx.cs:line 965
+
+-------------------------------
+Message:The given key was not present in the dictionary.
+
+-------------------------------
+InnerException:
+
+-------------------------------
+Source:mscorlib
+
+-------------------------------
+
+=======================================================================================
+
+=======================================================================================
+2018-02-08 17:44:34:2817
+-------------------------------
+StackTrace:   at CallSite.Target(Closure , CallSite , Int32 , Object )
+   at System.Dynamic.UpdateDelegates.UpdateAndExecute2[T0,T1,TRet](CallSite site, T0 arg0, T1 arg1)
+   at sales_editorder.<>c__DisplayClassbe.<>c__DisplayClassc0.<editOrder>b__bc(DataRow b) in f:\Projects\dotnet\hnWorking\web\sales\editorder.aspx.cs:line 1011
+   at System.Linq.Enumerable.Any[TSource](IEnumerable`1 source, Func`2 predicate)
+   at sales_editorder.<>c__DisplayClassbe.<editOrder>b__bb(Object a) in f:\Projects\dotnet\hnWorking\web\sales\editorder.aspx.cs:line 1010
+   at System.Linq.Enumerable.WhereEnumerableIterator`1.MoveNext()
+   at sales_editorder.editOrder(Dictionary`2 editedorder) in f:\Projects\dotnet\hnWorking\web\sales\editorder.aspx.cs:line 1013
+
+-------------------------------
+Message:Operator '==' cannot be applied to operands of type 'int' and 'Newtonsoft.Json.Linq.JValue'
+
+-------------------------------
+InnerException:
+
+-------------------------------
+Source:Anonymously Hosted DynamicMethods Assembly
+
+-------------------------------
+
+=======================================================================================
+
+=======================================================================================
+2018-02-08 17:50:44:6643
+-------------------------------
+StackTrace:   at CallSite.Target(Closure , CallSite , Int32 , Object )
+   at sales_editorder.<>c__DisplayClassc2.<>c__DisplayClassc4.<editOrder>b__c0(DataRow b) in f:\Projects\dotnet\hnWorking\web\sales\editorder.aspx.cs:line 1011
+   at System.Linq.Enumerable.Any[TSource](IEnumerable`1 source, Func`2 predicate)
+   at sales_editorder.<>c__DisplayClassc2.<editOrder>b__bf(Object a) in f:\Projects\dotnet\hnWorking\web\sales\editorder.aspx.cs:line 1010
+   at System.Linq.Enumerable.WhereEnumerableIterator`1.MoveNext()
+   at sales_editorder.editOrder(Dictionary`2 editedorder) in f:\Projects\dotnet\hnWorking\web\sales\editorder.aspx.cs:line 1013
+
+-------------------------------
+Message:Operator '==' cannot be applied to operands of type 'int' and 'Newtonsoft.Json.Linq.JValue'
+
+-------------------------------
+InnerException:
+
+-------------------------------
+Source:Anonymously Hosted DynamicMethods Assembly
+
+-------------------------------
+
+=======================================================================================
+
+=======================================================================================
+2018-02-08 17:52:01:6643
+-------------------------------
+StackTrace:   at CallSite.Target(Closure , CallSite , Int32 , Object )
+   at System.Dynamic.UpdateDelegates.UpdateAndExecute2[T0,T1,TRet](CallSite site, T0 arg0, T1 arg1)
+   at sales_editorder.<>c__DisplayClassc2.<>c__DisplayClassc4.<editOrder>b__c0(DataRow b) in f:\Projects\dotnet\hnWorking\web\sales\editorder.aspx.cs:line 1011
+   at System.Linq.Enumerable.Any[TSource](IEnumerable`1 source, Func`2 predicate)
+   at sales_editorder.<>c__DisplayClassc2.<editOrder>b__bf(Object a) in f:\Projects\dotnet\hnWorking\web\sales\editorder.aspx.cs:line 1010
+   at System.Linq.Enumerable.WhereEnumerableIterator`1.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at sales_editorder.editOrder(Dictionary`2 editedorder) in f:\Projects\dotnet\hnWorking\web\sales\editorder.aspx.cs:line 1008
+
+-------------------------------
+Message:Operator '==' cannot be applied to operands of type 'int' and 'Newtonsoft.Json.Linq.JValue'
+
+-------------------------------
+InnerException:
+
+-------------------------------
+Source:Anonymously Hosted DynamicMethods Assembly
+
+-------------------------------
+
+=======================================================================================
+
+=======================================================================================
+2018-03-14 11:45:09:9891
+-------------------------------
+StackTrace:   at System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   at System.Data.DataRowCollection.get_Item(Int32 index)
+   at sales_neworder.saveToSalesMaster(Dictionary`2 neworder) in e:\Projects\dotnet\invoiceMe\PinkLine\working\web\sales\neworder.aspx.cs:line 677
+
+-------------------------------
+Message:There is no row at position 0.
+
+-------------------------------
+InnerException:
+
+-------------------------------
+Source:System.Data
+
+-------------------------------
+
+=======================================================================================
+
+=======================================================================================
+2018-03-14 11:45:55:3127
+-------------------------------
+StackTrace:   at System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   at System.Data.DataRowCollection.get_Item(Int32 index)
+   at sales_neworder.saveToSalesMaster(Dictionary`2 neworder) in e:\Projects\dotnet\invoiceMe\PinkLine\working\web\sales\neworder.aspx.cs:line 677
+
+-------------------------------
+Message:There is no row at position 0.
+
+-------------------------------
+InnerException:
+
+-------------------------------
+Source:System.Data
+
+-------------------------------
+
+=======================================================================================
+
+=======================================================================================
+2018-03-14 12:55:41:6681
+-------------------------------
+StackTrace:   at commonfunction.mySqlConnection.ExecuteQueryForTransaction(String strQuery) in E:\Projects\dotnet\invoiceMe\PinkLine\working\commonfunction\mySqlConnection.cs:line 223
+   at CallSite.Target(Closure , CallSite , mySqlConnection , Object )
+   at System.Dynamic.UpdateDelegates.UpdateAndExecuteVoid2[T0,T1](CallSite site, T0 arg0, T1 arg1)
+   at sales_neworder.saveToSalesMaster(Dictionary`2 neworder) in e:\Projects\dotnet\invoiceMe\PinkLine\working\web\sales\neworder.aspx.cs:line 678
+
+-------------------------------
+Message:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '11:25:41)' at line 1
+
+-------------------------------
+InnerException:
+
+-------------------------------
+Source:commonfunction
+
+-------------------------------
+
+=======================================================================================
+
+=======================================================================================
+2018-03-14 12:56:17:1312
+-------------------------------
+StackTrace:   at commonfunction.mySqlConnection.ExecuteQueryForTransaction(String strQuery) in E:\Projects\dotnet\invoiceMe\PinkLine\working\commonfunction\mySqlConnection.cs:line 223
+   at CallSite.Target(Closure , CallSite , mySqlConnection , Object )
+   at sales_neworder.saveToSalesMaster(Dictionary`2 neworder) in e:\Projects\dotnet\invoiceMe\PinkLine\working\web\sales\neworder.aspx.cs:line 678
+
+-------------------------------
+Message:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '11:25:50)' at line 1
+
+-------------------------------
+InnerException:
+
+-------------------------------
+Source:commonfunction
+
+-------------------------------
+
+=======================================================================================
+
+=======================================================================================
+2018-03-16 14:58:04:8467
+-------------------------------
+StackTrace:   at commonfunction.mySqlConnection.SelectQueryForTransaction(String strQuery) in E:\Projects\dotnet\invoiceMe\PinkLine\working\commonfunction\mySqlConnection.cs:line 334
+   at sales_editorder.editOrder(Dictionary`2 editedorder) in e:\Projects\dotnet\invoiceMe\PinkLine\working\web\sales\editorder.aspx.cs:line 812
+
+-------------------------------
+Message:Unknown column 'itm_type' in 'field list'
+
+-------------------------------
+InnerException:
+
+-------------------------------
+Source:commonfunction
+
+-------------------------------
+
+=======================================================================================
+
+=======================================================================================
+2018-03-16 15:02:09:3177
+-------------------------------
+StackTrace:   at commonfunction.mySqlConnection.SelectQueryForTransaction(String strQuery) in E:\Projects\dotnet\invoiceMe\PinkLine\working\commonfunction\mySqlConnection.cs:line 334
+   at sales_editorder.editOrder(Dictionary`2 editedorder) in e:\Projects\dotnet\invoiceMe\PinkLine\working\web\sales\editorder.aspx.cs:line 812
+
+-------------------------------
+Message:Unknown column 'itm_type' in 'field list'
+
+-------------------------------
+InnerException:
+
+-------------------------------
+Source:commonfunction
+
+-------------------------------
+
+=======================================================================================
+
+=======================================================================================
+2018-03-16 15:20:34:2019
+-------------------------------
+StackTrace:   at commonfunction.mySqlConnection.ExecuteQueryForTransaction(String strQuery) in E:\Projects\dotnet\invoiceMe\PinkLine\working\commonfunction\mySqlConnection.cs:line 223
+   at sales_editorder.editOrder(Dictionary`2 editedorder) in e:\Projects\dotnet\invoiceMe\PinkLine\working\web\sales\editorder.aspx.cs:line 1051
+
+-------------------------------
+Message:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+
+-------------------------------
+InnerException:
+
+-------------------------------
+Source:commonfunction
+
+-------------------------------
+
+=======================================================================================
+
+=======================================================================================
+2018-03-16 15:20:48:3767
+-------------------------------
+StackTrace:   at commonfunction.mySqlConnection.ExecuteQueryForTransaction(String strQuery) in E:\Projects\dotnet\invoiceMe\PinkLine\working\commonfunction\mySqlConnection.cs:line 223
+   at sales_editorder.editOrder(Dictionary`2 editedorder) in e:\Projects\dotnet\invoiceMe\PinkLine\working\web\sales\editorder.aspx.cs:line 1051
+
+-------------------------------
+Message:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+
+-------------------------------
+InnerException:
+
+-------------------------------
+Source:commonfunction
+
+-------------------------------
+
+=======================================================================================
+
+=======================================================================================
+2018-03-16 15:22:45:5334
+-------------------------------
+StackTrace:   at commonfunction.mySqlConnection.ExecuteQueryForTransaction(String strQuery) in E:\Projects\dotnet\invoiceMe\PinkLine\working\commonfunction\mySqlConnection.cs:line 223
+   at sales_editorder.editOrder(Dictionary`2 editedorder) in e:\Projects\dotnet\invoiceMe\PinkLine\working\web\sales\editorder.aspx.cs:line 1051
+
+-------------------------------
+Message:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+
+-------------------------------
+InnerException:
+
+-------------------------------
+Source:commonfunction
+
+-------------------------------
+
+=======================================================================================
+
+=======================================================================================
+2018-03-16 15:23:56:6825
+-------------------------------
+StackTrace:   at commonfunction.mySqlConnection.ExecuteQueryForTransaction(String strQuery) in E:\Projects\dotnet\invoiceMe\PinkLine\working\commonfunction\mySqlConnection.cs:line 223
+   at sales_editorder.editOrder(Dictionary`2 editedorder) in e:\Projects\dotnet\invoiceMe\PinkLine\working\web\sales\editorder.aspx.cs:line 1051
+
+-------------------------------
+Message:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+
+-------------------------------
+InnerException:
+
+-------------------------------
+Source:commonfunction
+
+-------------------------------
+
+=======================================================================================
+
+=======================================================================================
+2018-03-16 15:24:03:7159
+-------------------------------
+StackTrace:   at commonfunction.mySqlConnection.ExecuteQueryForTransaction(String strQuery) in E:\Projects\dotnet\invoiceMe\PinkLine\working\commonfunction\mySqlConnection.cs:line 223
+   at sales_editorder.editOrder(Dictionary`2 editedorder) in e:\Projects\dotnet\invoiceMe\PinkLine\working\web\sales\editorder.aspx.cs:line 1051
+
+-------------------------------
+Message:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+
+-------------------------------
+InnerException:
+
+-------------------------------
+Source:commonfunction
+
+-------------------------------
+
+=======================================================================================
+
+=======================================================================================
+2018-03-16 15:25:35:4861
+-------------------------------
+StackTrace:   at commonfunction.mySqlConnection.ExecuteQueryForTransaction(String strQuery) in E:\Projects\dotnet\invoiceMe\PinkLine\working\commonfunction\mySqlConnection.cs:line 223
+   at sales_editorder.editOrder(Dictionary`2 editedorder) in e:\Projects\dotnet\invoiceMe\PinkLine\working\web\sales\editorder.aspx.cs:line 1051
+
+-------------------------------
+Message:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+
+-------------------------------
+InnerException:
+
+-------------------------------
+Source:commonfunction
+
+-------------------------------
+
+=======================================================================================
+
+=======================================================================================
+2018-07-02 17:01:09:9712
+-------------------------------
+StackTrace:   at commonfunction.mySqlConnection.SelectScalarForTransaction(String strQuery) in E:\Projects\dotnet\invoiceMe\PinkLine\working\commonfunction\mySqlConnection.cs:line 278
+   at sales_neworder.saveToSalesMaster(Dictionary`2 neworder) in e:\Projects\dotnet\invoiceMe\InvoiceMeRebuild\working\web\sales\neworder.aspx.cs:line 474
+
+-------------------------------
+Message:Unknown column 'cust_name' in 'field list'
+
+-------------------------------
+InnerException:
+
+-------------------------------
+Source:commonfunction
+
+-------------------------------
+
+=======================================================================================
+
+=======================================================================================
+2018-07-02 17:01:40:2709
+-------------------------------
+StackTrace:   at commonfunction.mySqlConnection.SelectScalarForTransaction(String strQuery) in E:\Projects\dotnet\invoiceMe\PinkLine\working\commonfunction\mySqlConnection.cs:line 278
+   at sales_neworder.saveToSalesMaster(Dictionary`2 neworder) in e:\Projects\dotnet\invoiceMe\InvoiceMeRebuild\working\web\sales\neworder.aspx.cs:line 474
+
+-------------------------------
+Message:Unknown column 'cust_name' in 'field list'
+
+-------------------------------
+InnerException:
+
+-------------------------------
+Source:commonfunction
+
+-------------------------------
+
+=======================================================================================
+
+=======================================================================================
+2018-07-02 17:06:50:2347
+-------------------------------
+StackTrace:   at commonfunction.mySqlConnection.SelectScalarForTransaction(String strQuery) in E:\Projects\dotnet\invoiceMe\PinkLine\working\commonfunction\mySqlConnection.cs:line 278
+   at sales_neworder.saveToSalesMaster(Dictionary`2 neworder) in e:\Projects\dotnet\invoiceMe\InvoiceMeRebuild\working\web\sales\neworder.aspx.cs:line 474
+
+-------------------------------
+Message:Unknown column 'cust_name' in 'field list'
+
+-------------------------------
+InnerException:
+
+-------------------------------
+Source:commonfunction
+
+-------------------------------
+
+=======================================================================================
+
+=======================================================================================
+2018-07-02 17:17:17:5705
+-------------------------------
+StackTrace:   at commonfunction.mySqlConnection.ExecuteQueryForTransaction(String strQuery) in E:\Projects\dotnet\invoiceMe\PinkLine\working\commonfunction\mySqlConnection.cs:line 223
+   at sales_neworder.saveToSalesMaster(Dictionary`2 neworder) in e:\Projects\dotnet\invoiceMe\InvoiceMeRebuild\working\web\sales\neworder.aspx.cs:line 733
+
+-------------------------------
+Message:Unknown column 'sm_previous_amount' in 'field list'
+
+-------------------------------
+InnerException:
+
+-------------------------------
+Source:commonfunction
+
+-------------------------------
+
+=======================================================================================
+
+=======================================================================================
+2018-07-02 17:28:44:5338
+-------------------------------
+StackTrace:   at commonfunction.mySqlConnection.ExecuteQueryForTransaction(String strQuery) in E:\Projects\dotnet\invoiceMe\PinkLine\working\commonfunction\mySqlConnection.cs:line 223
+   at sales_neworder.saveToSalesMaster(Dictionary`2 neworder) in e:\Projects\dotnet\invoiceMe\InvoiceMeRebuild\working\web\sales\neworder.aspx.cs:line 733
+
+-------------------------------
+Message:Unknown column 'sm_currenttotal' in 'field list'
+
+-------------------------------
+InnerException:
+
+-------------------------------
+Source:commonfunction
+
+-------------------------------
+
+=======================================================================================
+
+=======================================================================================
+2018-07-07 10:11:38:1436
+-------------------------------
+StackTrace:   at commonfunction.mySqlConnection.SelectQueryForTransaction(String strQuery) in E:\Projects\dotnet\invoiceMe\PinkLine\working\commonfunction\mySqlConnection.cs:line 334
+   at sales_editorder.editOrder(Dictionary`2 editedorder) in e:\Projects\dotnet\invoiceMe\InvoiceMeRebuild\working\web\sales\editorder.aspx.cs:line 661
+
+-------------------------------
+Message:Unknown column 'sm.cust_name' in 'field list'
+
+-------------------------------
+InnerException:
+
+-------------------------------
+Source:commonfunction
+
+-------------------------------
+
+=======================================================================================
+
+=======================================================================================
+2018-07-07 10:13:18:4973
+-------------------------------
+StackTrace:   at commonfunction.mySqlConnection.SelectQueryForTransaction(String strQuery) in E:\Projects\dotnet\invoiceMe\PinkLine\working\commonfunction\mySqlConnection.cs:line 334
+   at sales_editorder.editOrder(Dictionary`2 editedorder) in e:\Projects\dotnet\invoiceMe\InvoiceMeRebuild\working\web\sales\editorder.aspx.cs:line 661
+
+-------------------------------
+Message:Unknown column 'sm.cust_name' in 'field list'
+
+-------------------------------
+InnerException:
+
+-------------------------------
+Source:commonfunction
+
+-------------------------------
+
+=======================================================================================
+
+=======================================================================================
+2018-07-07 10:14:35:5407
+-------------------------------
+StackTrace:   at commonfunction.mySqlConnection.ExecuteQueryForTransaction(String strQuery) in E:\Projects\dotnet\invoiceMe\PinkLine\working\commonfunction\mySqlConnection.cs:line 223
+   at sales_editorder.editOrder(Dictionary`2 editedorder) in e:\Projects\dotnet\invoiceMe\InvoiceMeRebuild\working\web\sales\editorder.aspx.cs:line 1067
+
+-------------------------------
+Message:Unknown column 'sm_previous_amount' in 'field list'
+
+-------------------------------
+InnerException:
+
+-------------------------------
+Source:commonfunction
+
+-------------------------------
+
+=======================================================================================
+
+=======================================================================================
+2018-07-07 10:17:25:8215
+-------------------------------
+StackTrace:   at commonfunction.mySqlConnection.ExecuteQueryForTransaction(String strQuery) in E:\Projects\dotnet\invoiceMe\PinkLine\working\commonfunction\mySqlConnection.cs:line 223
+   at sales_editorder.editOrder(Dictionary`2 editedorder) in e:\Projects\dotnet\invoiceMe\InvoiceMeRebuild\working\web\sales\editorder.aspx.cs:line 1067
+
+-------------------------------
+Message:Unknown column 'sm_previous_amount' in 'field list'
+
+-------------------------------
+InnerException:
+
+-------------------------------
+Source:commonfunction
+
+-------------------------------
+
+=======================================================================================
+
+=======================================================================================
+2018-07-07 10:17:54:4831
+-------------------------------
+StackTrace:   at commonfunction.mySqlConnection.ExecuteQueryForTransaction(String strQuery) in E:\Projects\dotnet\invoiceMe\PinkLine\working\commonfunction\mySqlConnection.cs:line 223
+   at sales_editorder.editOrder(Dictionary`2 editedorder) in e:\Projects\dotnet\invoiceMe\InvoiceMeRebuild\working\web\sales\editorder.aspx.cs:line 1067
+
+-------------------------------
+Message:Unknown column 'sm_currenttotal' in 'field list'
+
+-------------------------------
+InnerException:
+
+-------------------------------
+Source:commonfunction
+
+-------------------------------
+
+=======================================================================================
+
+=======================================================================================
+2018-07-10 11:53:04:4293
+-------------------------------
+StackTrace:   at System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   at System.Data.DataRowCollection.get_Item(Int32 index)
+   at sales_neworder.saveToSalesMaster(Dictionary`2 neworder) in e:\Projects\dotnet\invoiceMe\InvoiceMeRebuild\working\web\sales\neworder.aspx.cs:line 690
+
+-------------------------------
+Message:There is no row at position 0.
+
+-------------------------------
+InnerException:
+
+-------------------------------
+Source:System.Data
+
+-------------------------------
+
+=======================================================================================
+
+=======================================================================================
+2018-07-10 11:53:15:3459
+-------------------------------
+StackTrace:   at System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   at System.Data.DataRowCollection.get_Item(Int32 index)
+   at sales_neworder.saveToSalesMaster(Dictionary`2 neworder) in e:\Projects\dotnet\invoiceMe\InvoiceMeRebuild\working\web\sales\neworder.aspx.cs:line 690
+
+-------------------------------
+Message:There is no row at position 0.
+
+-------------------------------
+InnerException:
+
+-------------------------------
+Source:System.Data
+
+-------------------------------
+
+=======================================================================================
+
+=======================================================================================
+2018-07-10 11:57:17:7588
+-------------------------------
+StackTrace:   at System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   at System.Data.DataRowCollection.get_Item(Int32 index)
+   at sales_neworder.saveToSalesMaster(Dictionary`2 neworder) in e:\Projects\dotnet\invoiceMe\InvoiceMeRebuild\working\web\sales\neworder.aspx.cs:line 690
+
+-------------------------------
+Message:There is no row at position 0.
+
+-------------------------------
+InnerException:
+
+-------------------------------
+Source:System.Data
+
+-------------------------------
+
+=======================================================================================
+
+=======================================================================================
+2018-07-10 11:58:59:8246
+-------------------------------
+StackTrace:   at System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   at System.Data.DataRowCollection.get_Item(Int32 index)
+   at sales_neworder.saveToSalesMaster(Dictionary`2 neworder) in e:\Projects\dotnet\invoiceMe\InvoiceMeRebuild\working\web\sales\neworder.aspx.cs:line 690
+
+-------------------------------
+Message:There is no row at position 0.
+
+-------------------------------
+InnerException:
+
+-------------------------------
+Source:System.Data
+
+-------------------------------
+
+=======================================================================================
+
+=======================================================================================
+2018-07-10 12:03:16:7953
+-------------------------------
+StackTrace:   at System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   at System.Data.DataRowCollection.get_Item(Int32 index)
+   at sales_neworder.saveToSalesMaster(Dictionary`2 neworder) in e:\Projects\dotnet\invoiceMe\InvoiceMeRebuild\working\web\sales\neworder.aspx.cs:line 690
+
+-------------------------------
+Message:There is no row at position 0.
+
+-------------------------------
+InnerException:
+
+-------------------------------
+Source:System.Data
+
+-------------------------------
+
+=======================================================================================
+
+=======================================================================================
+2018-07-10 12:08:54:6471
+-------------------------------
+StackTrace:   at System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   at System.Data.DataRowCollection.get_Item(Int32 index)
+   at sales_editorder.editOrder(Dictionary`2 editedorder) in e:\Projects\dotnet\invoiceMe\InvoiceMeRebuild\working\web\sales\editorder.aspx.cs:line 985
+
+-------------------------------
+Message:There is no row at position 0.
+
+-------------------------------
+InnerException:
+
+-------------------------------
+Source:System.Data
+
+-------------------------------
+
+=======================================================================================
+
+=======================================================================================
+2018-07-10 12:19:47:5044
+-------------------------------
+StackTrace:   at System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   at System.Data.DataRowCollection.get_Item(Int32 index)
+   at sales_editorder.editOrder(Dictionary`2 editedorder) in e:\Projects\dotnet\invoiceMe\InvoiceMeRebuild\working\web\sales\editorder.aspx.cs:line 985
+
+-------------------------------
+Message:There is no row at position 0.
+
+-------------------------------
+InnerException:
+
+-------------------------------
+Source:System.Data
+
+-------------------------------
+
+=======================================================================================
+
+=======================================================================================
+2018-07-12 13:02:24:9801
+-------------------------------
+StackTrace:   at commonfunction.mySqlConnection.ExecuteQueryForTransaction(String strQuery) in E:\Projects\dotnet\invoiceMe\PinkLine\working\commonfunction\mySqlConnection.cs:line 223
+   at sales_editorder.editOrder(Dictionary`2 editedorder) in e:\Projects\dotnet\invoiceMe\InvoiceMeRebuild\working\web\sales\editorder.aspx.cs:line 1062
+
+-------------------------------
+Message:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+
+-------------------------------
+InnerException:
+
+-------------------------------
+Source:commonfunction
+
+-------------------------------
+
+=======================================================================================
+
+=======================================================================================
+2018-07-12 13:02:59:1150
+-------------------------------
+StackTrace:   at commonfunction.mySqlConnection.ExecuteQueryForTransaction(String strQuery) in E:\Projects\dotnet\invoiceMe\PinkLine\working\commonfunction\mySqlConnection.cs:line 223
+   at sales_editorder.editOrder(Dictionary`2 editedorder) in e:\Projects\dotnet\invoiceMe\InvoiceMeRebuild\working\web\sales\editorder.aspx.cs:line 1062
+
+-------------------------------
+Message:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+
+-------------------------------
+InnerException:
+
+-------------------------------
+Source:commonfunction
+
+-------------------------------
+
+=======================================================================================
+
+=======================================================================================
+2018-07-12 14:00:55:5949
+-------------------------------
+StackTrace:   at commonfunction.mySqlConnection.ExecuteQueryForTransaction(String strQuery) in E:\Projects\dotnet\invoiceMe\PinkLine\working\commonfunction\mySqlConnection.cs:line 223
+   at sales_editorder.editOrder(Dictionary`2 editedorder) in e:\Projects\dotnet\invoiceMe\InvoiceMeRebuild\working\web\sales\editorder.aspx.cs:line 1062
+
+-------------------------------
+Message:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+
+-------------------------------
+InnerException:
+
+-------------------------------
+Source:commonfunction
+
+-------------------------------
+
+=======================================================================================
+
+=======================================================================================
+2018-07-12 14:01:53:2172
+-------------------------------
+StackTrace:   at commonfunction.mySqlConnection.ExecuteQueryForTransaction(String strQuery) in E:\Projects\dotnet\invoiceMe\PinkLine\working\commonfunction\mySqlConnection.cs:line 223
+   at sales_editorder.editOrder(Dictionary`2 editedorder) in e:\Projects\dotnet\invoiceMe\InvoiceMeRebuild\working\web\sales\editorder.aspx.cs:line 1062
+
+-------------------------------
+Message:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+
+-------------------------------
+InnerException:
+
+-------------------------------
+Source:commonfunction
+
+-------------------------------
+
+=======================================================================================
+
+=======================================================================================
+2018-07-12 14:08:26:8707
+-------------------------------
+StackTrace:   at CallSite.Target(Closure , CallSite , Object )
+   at System.Dynamic.UpdateDelegates.UpdateAndExecute1[T0,TRet](CallSite site, T0 arg0)
+   at sales_editorder.editOrder(Dictionary`2 editedorder) in e:\Projects\dotnet\invoiceMe\InvoiceMeRebuild\working\web\sales\editorder.aspx.cs:line 1062
+
+-------------------------------
+Message:Non-invocable member 'System.Collections.Generic.List<object>.Count' cannot be used like a method.
+
+-------------------------------
+InnerException:
+
+-------------------------------
+Source:Anonymously Hosted DynamicMethods Assembly
+
+-------------------------------
+
+=======================================================================================
+
+=======================================================================================
+2018-07-12 14:08:38:9444
+-------------------------------
+StackTrace:   at CallSite.Target(Closure , CallSite , Object )
+   at sales_editorder.editOrder(Dictionary`2 editedorder) in e:\Projects\dotnet\invoiceMe\InvoiceMeRebuild\working\web\sales\editorder.aspx.cs:line 1062
+
+-------------------------------
+Message:Non-invocable member 'System.Collections.Generic.List<object>.Count' cannot be used like a method.
+
+-------------------------------
+InnerException:
+
+-------------------------------
+Source:Anonymously Hosted DynamicMethods Assembly
+
+-------------------------------
+
+=======================================================================================
+
+=======================================================================================
+2018-07-12 14:09:55:3677
+-------------------------------
+StackTrace:   at CallSite.Target(Closure , CallSite , Object )
+   at sales_editorder.editOrder(Dictionary`2 editedorder) in e:\Projects\dotnet\invoiceMe\InvoiceMeRebuild\working\web\sales\editorder.aspx.cs:line 1062
+
+-------------------------------
+Message:Non-invocable member 'System.Collections.Generic.List<object>.Count' cannot be used like a method.
+
+-------------------------------
+InnerException:
+
+-------------------------------
+Source:Anonymously Hosted DynamicMethods Assembly
+
+-------------------------------
+
+=======================================================================================
+
+=======================================================================================
+2018-07-12 14:11:34:5924
+-------------------------------
+StackTrace:   at CallSite.Target(Closure , CallSite , Object )
+   at System.Dynamic.UpdateDelegates.UpdateAndExecute1[T0,TRet](CallSite site, T0 arg0)
+   at sales_editorder.editOrder(Dictionary`2 editedorder) in e:\Projects\dotnet\invoiceMe\InvoiceMeRebuild\working\web\sales\editorder.aspx.cs:line 1062
+
+-------------------------------
+Message:'System.Collections.Generic.List<object>' does not contain a definition for 'Any'
+
+-------------------------------
+InnerException:
+
+-------------------------------
+Source:Anonymously Hosted DynamicMethods Assembly
+
+-------------------------------
+
+=======================================================================================
+
+=======================================================================================
+2018-07-12 14:12:36:2859
+-------------------------------
+StackTrace:   at CallSite.Target(Closure , CallSite , Object )
+   at System.Dynamic.UpdateDelegates.UpdateAndExecute1[T0,TRet](CallSite site, T0 arg0)
+   at sales_editorder.editOrder(Dictionary`2 editedorder) in e:\Projects\dotnet\invoiceMe\InvoiceMeRebuild\working\web\sales\editorder.aspx.cs:line 1062
+
+-------------------------------
+Message:'System.Collections.Generic.List<object>' does not contain a definition for 'Any'
+
+-------------------------------
+InnerException:
+
+-------------------------------
+Source:Anonymously Hosted DynamicMethods Assembly
+
+-------------------------------
+
+=======================================================================================
+
+=======================================================================================
+2018-07-31 11:26:07:6871
+-------------------------------
+StackTrace:   at CallSite.Target(Closure , CallSite , Object )
+   at System.Dynamic.UpdateDelegates.UpdateAndExecute1[T0,TRet](CallSite site, T0 arg0)
+   at sales_neworder.saveToSalesMaster(Dictionary`2 neworder) in e:\Projects\dotnet\invoiceMe\InvoiceMeRebuild\working\web\sales\neworder.aspx.cs:line 673
+
+-------------------------------
+Message:'Newtonsoft.Json.Linq.JArray' does not contain a definition for 'Rows'
+
+-------------------------------
+InnerException:
+
+-------------------------------
+Source:Anonymously Hosted DynamicMethods Assembly
+
+-------------------------------
+
+=======================================================================================
+
+=======================================================================================
+2018-07-31 11:28:25:3000
+-------------------------------
+StackTrace:   at CallSite.Target(Closure , CallSite , Object )
+   at sales_neworder.saveToSalesMaster(Dictionary`2 neworder) in e:\Projects\dotnet\invoiceMe\InvoiceMeRebuild\working\web\sales\neworder.aspx.cs:line 673
+
+-------------------------------
+Message:'Newtonsoft.Json.Linq.JArray' does not contain a definition for 'Rows'
+
+-------------------------------
+InnerException:
+
+-------------------------------
+Source:Anonymously Hosted DynamicMethods Assembly
+
+-------------------------------
+
+=======================================================================================
+
+=======================================================================================
+2018-07-31 11:31:08:8723
+-------------------------------
+StackTrace:   at commonfunction.mySqlConnection.ExecuteQueryForTransaction(String strQuery) in E:\Projects\dotnet\invoiceMe\InvoiceMeRebuild\working\commonfunction\mySqlConnection.cs:line 223
+   at sales_neworder.saveToSalesMaster(Dictionary`2 neworder) in e:\Projects\dotnet\invoiceMe\InvoiceMeRebuild\working\web\sales\neworder.aspx.cs:line 692
+
+-------------------------------
+Message:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+
+-------------------------------
+InnerException:
+
+-------------------------------
+Source:commonfunction
+
+-------------------------------
+
+=======================================================================================
+
+=======================================================================================
+2018-07-31 11:34:15:1336
+-------------------------------
+StackTrace:   at commonfunction.mySqlConnection.ExecuteQueryForTransaction(String strQuery) in E:\Projects\dotnet\invoiceMe\InvoiceMeRebuild\working\commonfunction\mySqlConnection.cs:line 223
+   at sales_neworder.saveToSalesMaster(Dictionary`2 neworder) in e:\Projects\dotnet\invoiceMe\InvoiceMeRebuild\working\web\sales\neworder.aspx.cs:line 692
+
+-------------------------------
+Message:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+
+-------------------------------
+InnerException:
+
+-------------------------------
+Source:commonfunction
+
+-------------------------------
+
+=======================================================================================
+
+=======================================================================================
+2018-07-31 11:39:39:8952
+-------------------------------
+StackTrace:   at commonfunction.mySqlConnection.ExecuteQueryForTransaction(String strQuery) in E:\Projects\dotnet\invoiceMe\InvoiceMeRebuild\working\commonfunction\mySqlConnection.cs:line 223
+   at sales_neworder.saveToSalesMaster(Dictionary`2 neworder) in e:\Projects\dotnet\invoiceMe\InvoiceMeRebuild\working\web\sales\neworder.aspx.cs:line 692
+
+-------------------------------
+Message:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+
+-------------------------------
+InnerException:
+
+-------------------------------
+Source:commonfunction
+
+-------------------------------
+
+=======================================================================================
+
+=======================================================================================
+2018-07-31 11:44:07:6875
+-------------------------------
+StackTrace:   at commonfunction.mySqlConnection.ExecuteQueryForTransaction(String strQuery) in E:\Projects\dotnet\invoiceMe\InvoiceMeRebuild\working\commonfunction\mySqlConnection.cs:line 223
+   at sales_neworder.saveToSalesMaster(Dictionary`2 neworder) in e:\Projects\dotnet\invoiceMe\InvoiceMeRebuild\working\web\sales\neworder.aspx.cs:line 692
+
+-------------------------------
+Message:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+
+-------------------------------
+InnerException:
+
+-------------------------------
+Source:commonfunction
+
+-------------------------------
+
+=======================================================================================
+
+=======================================================================================
+2018-07-31 11:45:51:6985
+-------------------------------
+StackTrace:   at commonfunction.mySqlConnection.ExecuteQueryForTransaction(String strQuery) in E:\Projects\dotnet\invoiceMe\InvoiceMeRebuild\working\commonfunction\mySqlConnection.cs:line 223
+   at sales_neworder.saveToSalesMaster(Dictionary`2 neworder) in e:\Projects\dotnet\invoiceMe\InvoiceMeRebuild\working\web\sales\neworder.aspx.cs:line 692
+
+-------------------------------
+Message:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+
+-------------------------------
+InnerException:
+
+-------------------------------
+Source:commonfunction
+
+-------------------------------
+
+=======================================================================================
+
+=======================================================================================
+2018-07-31 12:19:57:2489
+-------------------------------
+StackTrace:   at commonfunction.mySqlConnection.ExecuteQueryForTransaction(String strQuery) in E:\Projects\dotnet\invoiceMe\InvoiceMeRebuild\working\commonfunction\mySqlConnection.cs:line 223
+   at sales_editorder.editOrder(Dictionary`2 editedorder) in e:\Projects\dotnet\invoiceMe\InvoiceMeRebuild\working\web\sales\editorder.aspx.cs:line 1023
+
+-------------------------------
+Message:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+
+-------------------------------
+InnerException:
+
+-------------------------------
+Source:commonfunction
+
+-------------------------------
+
+=======================================================================================
+
+=======================================================================================
+2018-07-31 12:30:42:7949
+-------------------------------
+StackTrace:   at commonfunction.mySqlConnection.ExecuteQueryForTransaction(String strQuery) in E:\Projects\dotnet\invoiceMe\InvoiceMeRebuild\working\commonfunction\mySqlConnection.cs:line 223
+   at sales_editorder.editOrder(Dictionary`2 editedorder) in e:\Projects\dotnet\invoiceMe\InvoiceMeRebuild\working\web\sales\editorder.aspx.cs:line 1025
+
+-------------------------------
+Message:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+
+-------------------------------
+InnerException:
+
+-------------------------------
+Source:commonfunction
+
+-------------------------------
+
+=======================================================================================
+
+=======================================================================================
+2018-07-31 12:31:34:5068
+-------------------------------
+StackTrace:   at commonfunction.mySqlConnection.ExecuteQueryForTransaction(String strQuery) in E:\Projects\dotnet\invoiceMe\InvoiceMeRebuild\working\commonfunction\mySqlConnection.cs:line 223
+   at sales_editorder.editOrder(Dictionary`2 editedorder) in e:\Projects\dotnet\invoiceMe\InvoiceMeRebuild\working\web\sales\editorder.aspx.cs:line 1025
+
+-------------------------------
+Message:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+
+-------------------------------
+InnerException:
+
+-------------------------------
+Source:commonfunction
+
+-------------------------------
+
+=======================================================================================
+
+=======================================================================================
+2018-08-01 11:07:18:9574
+-------------------------------
+StackTrace:   at Newtonsoft.Json.JsonTextReader.ParsePostValue()
+   at Newtonsoft.Json.JsonTextReader.Read()
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.PopulateDictionary(IDictionary dictionary, JsonReader reader, JsonDictionaryContract contract, JsonProperty containerProperty, String id)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateObject(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateValueInternal(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.PopulateList(IList list, JsonReader reader, JsonArrayContract contract, JsonProperty containerProperty, String id)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateList(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, Object existingValue, String id)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateValueInternal(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   at Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonSerializer.Deserialize(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value)
+   at sales_editorder.editOrder(Dictionary`2 editedorder) in e:\Projects\dotnet\invoiceMe\InvoiceMeRebuild\working\web\sales\editorder.aspx.cs:line 606
+
+-------------------------------
+Message:After parsing a value an unexpected character was encountered: '. Path '[0].si_approval_status', line 1, position 151.
+
+-------------------------------
+InnerException:
+
+-------------------------------
+Source:Newtonsoft.Json
+
+-------------------------------
+
+=======================================================================================
+
+=======================================================================================
+2018-08-01 11:07:28:0659
+-------------------------------
+StackTrace:   at Newtonsoft.Json.JsonTextReader.ParsePostValue()
+   at Newtonsoft.Json.JsonTextReader.Read()
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.PopulateDictionary(IDictionary dictionary, JsonReader reader, JsonDictionaryContract contract, JsonProperty containerProperty, String id)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateObject(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateValueInternal(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.PopulateList(IList list, JsonReader reader, JsonArrayContract contract, JsonProperty containerProperty, String id)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateList(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, Object existingValue, String id)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateValueInternal(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   at Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonSerializer.Deserialize(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value)
+   at sales_editorder.editOrder(Dictionary`2 editedorder) in e:\Projects\dotnet\invoiceMe\InvoiceMeRebuild\working\web\sales\editorder.aspx.cs:line 606
+
+-------------------------------
+Message:After parsing a value an unexpected character was encountered: '. Path '[0].si_approval_status', line 1, position 151.
+
+-------------------------------
+InnerException:
+
+-------------------------------
+Source:Newtonsoft.Json
+
+-------------------------------
+
+=======================================================================================
+
+=======================================================================================
+2018-08-01 11:27:02:6401
+-------------------------------
+StackTrace:   at Newtonsoft.Json.JsonTextReader.ParsePostValue()
+   at Newtonsoft.Json.JsonTextReader.Read()
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.PopulateDictionary(IDictionary dictionary, JsonReader reader, JsonDictionaryContract contract, JsonProperty containerProperty, String id)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateObject(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateValueInternal(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.PopulateList(IList list, JsonReader reader, JsonArrayContract contract, JsonProperty containerProperty, String id)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateList(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, Object existingValue, String id)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateValueInternal(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   at Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonSerializer.Deserialize(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value)
+   at sales_editorder.editOrder(Dictionary`2 editedorder) in e:\Projects\dotnet\invoiceMe\InvoiceMeRebuild\working\web\sales\editorder.aspx.cs:line 606
+
+-------------------------------
+Message:After parsing a value an unexpected character was encountered: '. Path '[0].si_approval_status', line 1, position 151.
+
+-------------------------------
+InnerException:
+
+-------------------------------
+Source:Newtonsoft.Json
+
+-------------------------------
+
+=======================================================================================
+
+=======================================================================================
+2018-08-01 11:31:22:6939
+-------------------------------
+StackTrace:   at Newtonsoft.Json.JsonTextReader.ParsePostValue()
+   at Newtonsoft.Json.JsonTextReader.Read()
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.PopulateDictionary(IDictionary dictionary, JsonReader reader, JsonDictionaryContract contract, JsonProperty containerProperty, String id)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateObject(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateValueInternal(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.PopulateList(IList list, JsonReader reader, JsonArrayContract contract, JsonProperty containerProperty, String id)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateList(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, Object existingValue, String id)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateValueInternal(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   at Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonSerializer.Deserialize(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value)
+   at sales_editorder.editOrder(Dictionary`2 editedorder) in e:\Projects\dotnet\invoiceMe\InvoiceMeRebuild\working\web\sales\editorder.aspx.cs:line 606
+
+-------------------------------
+Message:After parsing a value an unexpected character was encountered: '. Path '[0].si_approval_status', line 1, position 149.
+
+-------------------------------
+InnerException:
+
+-------------------------------
+Source:Newtonsoft.Json
+
+-------------------------------
+
+=======================================================================================
+
+=======================================================================================
+2018-08-01 11:33:23:1188
+-------------------------------
+StackTrace:   at Newtonsoft.Json.JsonTextReader.ParsePostValue()
+   at Newtonsoft.Json.JsonTextReader.Read()
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.PopulateDictionary(IDictionary dictionary, JsonReader reader, JsonDictionaryContract contract, JsonProperty containerProperty, String id)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateObject(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateValueInternal(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.PopulateList(IList list, JsonReader reader, JsonArrayContract contract, JsonProperty containerProperty, String id)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateList(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, Object existingValue, String id)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateValueInternal(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   at Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonSerializer.Deserialize(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value)
+   at sales_editorder.editOrder(Dictionary`2 editedorder) in e:\Projects\dotnet\invoiceMe\InvoiceMeRebuild\working\web\sales\editorder.aspx.cs:line 606
+
+-------------------------------
+Message:After parsing a value an unexpected character was encountered: '. Path '[0].si_approval_status', line 1, position 149.
+
+-------------------------------
+InnerException:
+
+-------------------------------
+Source:Newtonsoft.Json
+
+-------------------------------
+
+=======================================================================================
+
+=======================================================================================
+2018-08-01 11:34:03:4371
+-------------------------------
+StackTrace:   at Newtonsoft.Json.JsonTextReader.ParsePostValue()
+   at Newtonsoft.Json.JsonTextReader.Read()
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.PopulateDictionary(IDictionary dictionary, JsonReader reader, JsonDictionaryContract contract, JsonProperty containerProperty, String id)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateObject(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateValueInternal(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.PopulateList(IList list, JsonReader reader, JsonArrayContract contract, JsonProperty containerProperty, String id)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateList(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, Object existingValue, String id)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateValueInternal(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   at Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonSerializer.Deserialize(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value)
+   at sales_editorder.editOrder(Dictionary`2 editedorder) in e:\Projects\dotnet\invoiceMe\InvoiceMeRebuild\working\web\sales\editorder.aspx.cs:line 606
+
+-------------------------------
+Message:After parsing a value an unexpected character was encountered: '. Path '[0].si_approval_status', line 1, position 149.
+
+-------------------------------
+InnerException:
+
+-------------------------------
+Source:Newtonsoft.Json
+
+-------------------------------
+
+=======================================================================================
+
+=======================================================================================
+2018-08-01 11:34:47:6157
+-------------------------------
+StackTrace:   at Newtonsoft.Json.JsonTextReader.ParsePostValue()
+   at Newtonsoft.Json.JsonTextReader.Read()
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.PopulateDictionary(IDictionary dictionary, JsonReader reader, JsonDictionaryContract contract, JsonProperty containerProperty, String id)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateObject(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateValueInternal(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.PopulateList(IList list, JsonReader reader, JsonArrayContract contract, JsonProperty containerProperty, String id)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateList(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, Object existingValue, String id)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateValueInternal(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   at Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonSerializer.Deserialize(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value)
+   at sales_editorder.editOrder(Dictionary`2 editedorder) in e:\Projects\dotnet\invoiceMe\InvoiceMeRebuild\working\web\sales\editorder.aspx.cs:line 606
+
+-------------------------------
+Message:After parsing a value an unexpected character was encountered: '. Path '[0].si_approval_status', line 1, position 149.
+
+-------------------------------
+InnerException:
+
+-------------------------------
+Source:Newtonsoft.Json
+
+-------------------------------
+
+=======================================================================================
+
+=======================================================================================
+2018-08-01 11:41:09:7175
+-------------------------------
+StackTrace:   at System.Text.StringBuilder.set_Length(Int32 value)
+   at sales_editorder.editOrder(Dictionary`2 editedorder) in e:\Projects\dotnet\invoiceMe\InvoiceMeRebuild\working\web\sales\editorder.aspx.cs:line 946
+
+-------------------------------
+Message:Length cannot be less than zero.
+Parameter name: value
+
+-------------------------------
+InnerException:
+
+-------------------------------
+Source:mscorlib
+
+-------------------------------
+
+=======================================================================================
+
+=======================================================================================
+2018-08-01 11:42:10:5460
+-------------------------------
+StackTrace:   at System.Text.StringBuilder.set_Length(Int32 value)
+   at sales_editorder.editOrder(Dictionary`2 editedorder) in e:\Projects\dotnet\invoiceMe\InvoiceMeRebuild\working\web\sales\editorder.aspx.cs:line 955
+
+-------------------------------
+Message:Length cannot be less than zero.
+Parameter name: value
+
+-------------------------------
+InnerException:
+
+-------------------------------
+Source:mscorlib
+
+-------------------------------
+
+=======================================================================================
+
+=======================================================================================
+2018-08-06 15:17:20:1001
+-------------------------------
+StackTrace:   at commonfunction.mySqlConnection.SelectScalarForTransaction(String strQuery) in E:\Projects\dotnet\invoiceMe\InvoiceMeRebuild\working\commonfunction\mySqlConnection.cs:line 278
+   at sales_neworder.saveToSalesMaster(Dictionary`2 neworder) in e:\Projects\dotnet\invoiceMe\InvoiceMeRebuild\working\web\sales\neworder.aspx.cs:line 409
+
+-------------------------------
+Message:Column count doesn't match value count at row 1
+
+-------------------------------
+InnerException:
+
+-------------------------------
+Source:commonfunction
+
+-------------------------------
+
+=======================================================================================
+
+=======================================================================================
+2018-08-06 15:19:11:8285
+-------------------------------
+StackTrace:   at commonfunction.mySqlConnection.SelectScalarForTransaction(String strQuery) in E:\Projects\dotnet\invoiceMe\InvoiceMeRebuild\working\commonfunction\mySqlConnection.cs:line 278
+   at sales_neworder.saveToSalesMaster(Dictionary`2 neworder) in e:\Projects\dotnet\invoiceMe\InvoiceMeRebuild\working\web\sales\neworder.aspx.cs:line 409
+
+-------------------------------
+Message:Column count doesn't match value count at row 1
+
+-------------------------------
+InnerException:
+
+-------------------------------
+Source:commonfunction
+
+-------------------------------
+
+=======================================================================================
+
+=======================================================================================
+2018-09-12 12:50:30:3171
+-------------------------------
+StackTrace:   at commonfunction.mySqlConnection.SelectScalarForTransaction(String strQuery) in E:\Projects\dotnet\invoiceMe\InvoiceMeRebuild\working\commonfunction\mySqlConnection.cs:line 278
+   at sales_neworder.saveToSalesMaster(Dictionary`2 neworder) in e:\Projects\dotnet\invoiceMe\InvoiceMeRebuild\working\web\sales\neworder.aspx.cs:line 409
+
+-------------------------------
+Message:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''2018-09-12 12:50:30');Select last_insert_id()' at line 1
+
+-------------------------------
+InnerException:
+
+-------------------------------
+Source:commonfunction
+
+-------------------------------
+
+=======================================================================================
+
+=======================================================================================
+2018-12-05 09:39:41:2860
+-------------------------------
+StackTrace:   at System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   at System.Data.DataRowCollection.get_Item(Int32 index)
+   at sales_neworder.saveToSalesMaster(Dictionary`2 neworder) in e:\Projects\dotnet\invoiceMe\InvoiceMeRebuild\working\web\sales\neworder.aspx.cs:line 448
+
+-------------------------------
+Message:There is no row at position 3.
+
+-------------------------------
+InnerException:
+
+-------------------------------
+Source:System.Data
+
+-------------------------------
+
+=======================================================================================
+
+=======================================================================================
+2018-12-05 09:40:11:6757
+-------------------------------
+StackTrace:   at System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   at System.Data.DataRowCollection.get_Item(Int32 index)
+   at sales_neworder.saveToSalesMaster(Dictionary`2 neworder) in e:\Projects\dotnet\invoiceMe\InvoiceMeRebuild\working\web\sales\neworder.aspx.cs:line 448
+
+-------------------------------
+Message:There is no row at position 3.
+
+-------------------------------
+InnerException:
+
+-------------------------------
+Source:System.Data
+
+-------------------------------
+
+=======================================================================================
